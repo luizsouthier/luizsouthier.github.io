@@ -1,0 +1,1031 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Converter</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<h4 align="center" style="margin:30px">Converter from State-parameterized models to Event-parameterized models</h4>
+		<div class="col-12" style="margin-top: 20px; text-align: right">
+			<p>Student Luiz Fernando Puttow Southier<br>
+			Advisors Prof. Dr. Marcelo Teixeira and Prof. Dr. Marco Antônio de Castro Barbosa<br><br>
+			Master's Degree Dissertation<br>
+			"<em>Explorando Parâmetros na Modelagem, Síntese e Implementação<br>de Controladores para Sistemas a Eventos Discretos</em>"<br>
+			"<em>Exploring Parameters on Modeling, Synthesis and Implementation<br>of Controller for Discrete Event Systems</em>"<br>
+			<br>
+			Gradution Program in Electrical Engineering<br>
+			Federal University of Technology - Paraná<br>
+			Campus Pato Branco - Brazil - 2019
+			</p>
+		</div>
+		<div class="col-12" style="margin-top: 50px">
+			<p>
+				<small>
+					How to use:<br>
+					<ol>
+					  <li>Create the plant and specification models with variables using <a href="https://www.cs.waikato.ac.nz/~robi/download_waters/" target="_blank">Supremica</a></li>
+					  <ul>
+						<li>Domain of variables must be integer and numeric. Ex: <i>0..7</i></li>
+						<li>Initial value of variables must be numeric. Ex: <i>X==1</i></li>
+						<li>Plant models must have only updates and specification models only tests</li>
+					  </ul>
+					  <li>Save the file (extension .wmod)</li>
+					  <li>Select the file and click on 'Begin conversion'</li>
+					  <li>Once converted, the Event-parameterized model will be downloaded automatically</li>
+					</ol>
+				</small>
+			</p>
+		</div>
+		<div class="jumbotron alert-info"  style="text-align: center">
+			<input type="file" name="wmod_file"  id="wmod_file" style="margin-right: 200px">
+			<button type="button" class="btn btn-dark" onClick="converter()">Begin conversion</button>
+		</div>
+		<div class="row" style="margin-bottom: 20px">
+			<div id="alphabetC" class="col-6" style="text-align: center"></div>
+			<div id="alphabetU" class="col-6" style="text-align: center"></div>
+		</div>
+		<table class="table table-hover table-striped" id="models"></table>
+	</div>
+<p id="demo"></p>
+<script>
+	var fileChooser = document.getElementById('wmod_file');
+
+	var events_name = [];
+	var events_control = [];
+
+	var variables_name = [];
+	var variables_initial = [];
+	var variables_dom1 = [];
+	var variables_dom2 = [];
+
+	var model_type = [];
+	var model_name = [];
+
+	var states_name = [];
+	var states_initial = [];
+	var states_marked = [];
+
+	var trans_start = [];
+	var trans_end = [];
+	var trans_event = [];
+	var trans_formulas_a = [];
+	var trans_formulas_t = [];
+	var trans_delta_valid = [];
+	var trans_delta_blocked = [];
+
+	var delta = [];
+	var V = [];
+	var V_bar = [];
+	
+	var output_model = '';
+	var name_project = '';
+	
+	var PointGeometry = [];
+	var LabelGeometry = [];
+	var SplineGeometry = [];
+	
+	var filter_name = [];
+	var filter_states_name = [];
+	var filter_states_initial = [];
+	var filter_trans_start = [];
+	var filter_trans_end = [];
+	var filter_trans_event = [];
+
+		
+//gets information from .wmod file and set it on the global variables
+function parseTextAsXml(text) {
+    var parser = new DOMParser(),
+        xmlDom = parser.parseFromString(text, "text/xml");
+	
+		events_name = [];
+		events_control = [];
+
+		variables_name = [];
+		variables_initial = [];
+		variables_dom1 = [];
+		variables_dom2 = [];
+
+		model_type = [];
+		model_name = [];
+
+		states_name = [];
+		states_initial = [];
+		states_marked = [];
+
+		trans_start = [];
+		trans_end = [];
+		trans_event = [];
+		trans_formulas_a = [];
+		trans_formulas_t = [];
+		trans_delta_valid = [];
+		trans_delta_blocked = [];
+	
+	 	output_model = '';
+	
+	//get model information
+	var Module = xmlDom.getElementsByTagName("Module");
+	name_project = Module[0].attributes['Name'].nodeValue;
+	
+	//get events
+	var EventDecl = xmlDom.getElementsByTagName("EventDecl");
+	for(var i=0;i<EventDecl.length;i++){
+		if(!EventDecl[i].attributes['Name'].nodeValue.includes(":")){
+			events_name.push(EventDecl[i].attributes['Name'].nodeValue);
+			events_control.push(EventDecl[i].attributes['Kind'].nodeValue);
+		}
+	}
+	
+	//get variables
+	var VariableComponent = xmlDom.getElementsByTagName("VariableComponent");
+	for(var i=0;i<VariableComponent.length;i++){
+		variables_name[i] = VariableComponent[i].attributes['Name'].nodeValue;
+		var VariableRange = VariableComponent[i].getElementsByTagName("VariableRange");
+		var VariableInitial = VariableComponent[i].getElementsByTagName("VariableInitial");
+		var valor = VariableInitial[0].getElementsByTagName("IntConstant");
+		var valores = VariableRange[0].getElementsByTagName("IntConstant");
+		variables_initial[i] = valor[0].attributes['Value'].nodeValue;
+		variables_dom1[i] = valores[0].attributes['Value'].nodeValue;
+		variables_dom2[i] = valores[1].attributes['Value'].nodeValue;
+	}
+	
+	//get models
+	var SimpleComponent = xmlDom.getElementsByTagName("SimpleComponent");
+	for(var i=0;i<SimpleComponent.length;i++){
+		model_name[i] = SimpleComponent[i].attributes['Name'].nodeValue;
+		model_type[i] = SimpleComponent[i].attributes['Kind'].nodeValue;
+		
+		var Graph = SimpleComponent[i].getElementsByTagName("Graph");
+		var NodeList = Graph[0].getElementsByTagName("NodeList");
+		var EdgeList = Graph[0].getElementsByTagName("EdgeList");
+		
+		//get states
+		var SimpleNode = NodeList[0].getElementsByTagName("SimpleNode");
+		states_initial[i]=Array(SimpleNode.length);
+		states_marked[i]=Array(SimpleNode.length);
+		states_name[i]=Array(SimpleNode.length);
+		
+		PointGeometry[i] = Array(SimpleNode.length);
+		LabelGeometry[i] = Array(SimpleNode.length);
+		for(var j=0;j<SimpleNode.length;j++){
+			states_initial[i][j] = SimpleNode[j].hasAttribute('Initial');
+			states_name[i][j] = SimpleNode[j].attributes['Name'].nodeValue;
+			if(SimpleNode[j].getElementsByTagName("EventList").length>0) states_marked[i][j]=true;
+			else  states_marked[i][j]=false;
+			PointGeometry[i][j] = SimpleNode[j].getElementsByTagName("PointGeometry")[0];
+			LabelGeometry[i][j] = SimpleNode[j].getElementsByTagName("LabelGeometry")[0];
+		}
+		
+		//get transitions
+		var Edge = EdgeList[0].getElementsByTagName("Edge");
+		trans_start[i]=Array(Edge.length);
+		trans_end[i]=Array(Edge.length);
+		trans_event[i]=Array(Edge.length);
+		trans_formulas_a[i]=Array(Edge.length);
+		trans_formulas_t[i]=Array(Edge.length);
+		trans_delta_valid[i]=Array(Edge.length);
+		SplineGeometry[i] = Array(Edge.length);
+		
+		for(var j=0;j<Edge.length;j++){
+			trans_start[i][j] = Edge[j].attributes['Source'].nodeValue;
+			trans_end[i][j] = Edge[j].attributes['Target'].nodeValue;
+			
+			SplineGeometry[i][j] = Edge[j].getElementsByTagName("SplineGeometry")[0];
+			
+			//get events on transitions
+			var LabelBlock = Edge[j].getElementsByTagName("LabelBlock");
+			var SimpleIdentifier = LabelBlock[0].getElementsByTagName("SimpleIdentifier");
+			
+			trans_event[i][j]=Array(SimpleIdentifier.length);
+			trans_delta_valid[i][j]=Array(SimpleIdentifier.length);
+
+			for(var k=0;k<SimpleIdentifier.length;k++){
+				trans_event[i][j][k] = SimpleIdentifier[k].attributes['Name'].nodeValue;
+			}
+
+			//get formulas on transitions
+			if(Edge[j].getElementsByTagName("GuardActionBlock").length>0){
+				var GuardActionBlock = Edge[j].getElementsByTagName("GuardActionBlock");
+				
+				if(GuardActionBlock[0].getElementsByTagName('Guards').length>0){
+					var Guards = GuardActionBlock[0].getElementsByTagName("Guards");
+					var BinaryExpression = Guards[0].children;
+					trans_formulas_t[i][j]=Array(BinaryExpression.length);
+					for(var k=0;k<BinaryExpression.length;k++)trans_formulas_t[i][j][k] = createBE(BinaryExpression[k]);
+				}
+				if(GuardActionBlock[0].getElementsByTagName('Actions').length>0){
+					var Actions = GuardActionBlock[0].getElementsByTagName("Actions");
+					var BinaryExpression = Actions[0].children;
+					trans_formulas_a[i][j]=Array(BinaryExpression.length);
+					for(var k=0;k<BinaryExpression.length;k++)trans_formulas_a[i][j][k] = createBE(BinaryExpression[k]);
+				}
+			}
+		}
+	}
+	//show information that have been got
+	showInformation();
+}
+
+//creates Binary Expression
+function createBE(BinaryExpression){
+	
+	var be=[];
+	be[1] = BinaryExpression.attributes['Operator'].nodeValue;
+	
+	var son0 = BinaryExpression.children[0];
+	var son1 = BinaryExpression.children[1];
+	
+	if(son0.tagName=="SimpleIdentifier") be[0] = son0.attributes["Name"].value;
+	if(son0.tagName=="IntConstant") be[0] = son0.attributes["Value"].value;
+	if(son0.tagName=="BinaryExpression") be[0] = createBE(son0);
+	
+	if(son1.tagName=="SimpleIdentifier") be[2] = son1.attributes["Name"].value;
+	if(son1.tagName=="IntConstant") be[2] = son1.attributes["Value"].value;
+	if(son1.tagName=="BinaryExpression") be[2] = createBE(son1);
+
+	return be;
+}
+	
+function waitForTextReadComplete(reader) {
+    reader.onloadend = function(event) {
+        var text = event.target.result;
+
+        parseTextAsXml(text);
+    }
+}
+
+function handleFileSelection() {
+    var file = fileChooser.files[0],
+        reader = new FileReader();
+
+    waitForTextReadComplete(reader);
+    reader.readAsText(file);
+}
+
+//show information that have been got
+function showInformation(){
+	
+	//show alphabets
+	alphabetC = document.getElementById("alphabetC");
+	var t = "<strong>&Sigma;<sub>c</sub> = {";
+	for(var i=0; i<events_name.length;i++) if(events_control[i]=='CONTROLLABLE') 	t += " "+events_name[i];
+	t += " }</strong>";
+	alphabetC.innerHTML=t;
+	
+	alphabetU = document.getElementById("alphabetU");
+	var t = "<strong>&Sigma;<sub>u</sub> = {";
+	for(var i=0; i<events_name.length;i++) if(events_control[i]=='UNCONTROLLABLE') 	t += " "+events_name[i];
+	t += " }</strong>";
+	alphabetU.innerHTML=t;
+	
+	//create table of model information
+	table = document.getElementById("models");
+	table.innerHTML = '<thead><tr><th scope="col">Model</th><th scope="col">States</th><th scope="col">Transitions</th>    </tr></thead><tbody id="table_body"></tbody>';
+	table_body = document.getElementById("table_body");
+	
+	var text = '';
+	
+	//show lines of table for models
+	for(var i=0; i<model_name.length;i++){
+		text += "<tr>";
+		text +='<th scope="col"><strong>'+model_name[i]+'</strong>  <small><em>'+model_type[i]+'</em></small></td>';
+		text +=showStates(i);
+		text +=showTransitions(i);
+		text +="</tr>";
+	}
+	
+	//adjust variables domains and show lines of table for variables
+
+	for(var i=0; i<variables_name.length;i++){
+		
+		if(variables_dom1[i]>variables_dom2[i]){
+			aux = variables_dom2[i];
+			variables_dom2[i] = variables_dom1[i];
+			variables_dom1[i] = aux;
+		}
+		
+		text += "<tr>";
+		text +='<th scope="col" colspan="3"><strong>'+variables_name[i]+'</strong> <small><em>VAR</em> ';
+		text += 'Dom = {'+variables_dom1[i]+', ... ,'+variables_dom2[i]+'} v<sup>o</sup> = '+variables_initial[i]+'</small></td>';
+		text +="</tr>";
+	}
+	table_body.innerHTML = text;
+}
+
+//creates html to show states
+function showStates(model){
+	
+	var text = '<td>';
+
+	for(var i=0; i<states_name[model].length;i++){
+		text +='<strong>'+states_name[model][i]+'</strong>';
+		if(states_initial[model][i]) 	text +=' <small><em>initial</em></small> ';
+		if(states_marked[model][i]) 	text +=' <small><em>marked</em></small> ';
+		text += '<br>';
+	}
+	text +="</td>";
+	
+	return text;
+}
+
+//creates html to show transitions
+function showTransitions(model){
+
+	var text = '<td>';
+
+	for(var i=0; i<trans_start[model].length;i++){
+		text +='<strong>'+trans_start[model][i]+'</strong> — ';
+
+		for(var j=0; j<trans_event[model][i].length;j++) text +=trans_event[model][i][j]+' ';
+	
+		text +=' &rarr; <strong>'+trans_end[model][i]+'</strong>';
+		
+		if(typeof trans_formulas_a[model][i] != 'undefined') for(var j=0; j<trans_formulas_a[model][i].length;j++){
+			text +=" <small>("+showFormula(trans_formulas_a[model][i][j])+")</small> ";
+		}
+		if(typeof trans_formulas_t[model][i] != 'undefined') for(var j=0; j<trans_formulas_t[model][i].length;j++){
+			text +=" <small>("+showFormula(trans_formulas_t[model][i][j])+")</small> ";
+		}
+		
+		text += '<br>';
+	}
+	text +="</td>";
+	return text;
+}
+
+//creates html to show formulas
+function showFormula(trans_formula){
+	
+	var text;
+	
+	if(trans_formula[0].constructor === Array) text = showFormula(trans_formula[0])
+	else text = " "+trans_formula[0];
+	text += " "+trans_formula[1];
+	if(trans_formula[2].constructor === Array) text += showFormula(trans_formula[2])
+	else text += " "+trans_formula[2];
+	
+	return text;
+}
+
+//call algorithms from conversion method
+function converter(){
+	
+	algorithm1();
+	
+	// algorithms 2 is implemented on the xml creation
+	
+	algorithm3_4();
+
+	algorithm5();
+	create_xml();
+}
+	
+//creates xml output file
+function create_xml(){
+	
+	//creates xml file
+	var xmltext = "<?xml version=\"1.0\" encoding=\"windows-1252\" standalone=\"yes\"?><Module xmlns=\"http://waters.sourceforge.net/xsd/module\" xmlns:ns2=\"http://waters.sourceforge.net/xsd/base\" xmlns:ns3=\"http://waters.sourceforge.net/xsd/des\"></Module>";
+	var parser = new DOMParser();
+	var xmlDoc = parser.parseFromString(xmltext, "text/xml");
+	
+	var module = xmlDoc.getElementsByTagName("Module");
+	module[0].setAttribute("Name",name_project+"_converted");
+	
+	//creates event list
+	var EventDeclList = xmlDoc.createElement("EventDeclList");
+	for(var i=0; i<delta.length; i++){
+		for(var j=0; j<delta[i][1].length; j++){
+			var EventDecl = xmlDoc.createElement("EventDecl");
+			EventDecl.setAttribute("Kind",events_control[i]);
+			EventDecl.setAttribute("Name",delta[i][1][j]);
+			EventDeclList.appendChild(EventDecl);
+		}
+		if(delta[i][1].length==0){
+			var EventDecl = xmlDoc.createElement("EventDecl");
+			EventDecl.setAttribute("Kind",events_control[i]);
+			EventDecl.setAttribute("Name",events_name[i]);
+			EventDeclList.appendChild(EventDecl);
+		}
+	}
+	var EventDecl = xmlDoc.createElement("EventDecl");
+	EventDecl.setAttribute("Kind","PROPOSITION");
+	EventDecl.setAttribute("Name",":accepting");
+	EventDeclList.appendChild(EventDecl);
+	module[0].appendChild(EventDeclList);
+	
+	//creates models
+	var ComponentList = xmlDoc.createElement("ComponentList");
+	for(var i=0; i<model_name.length; i++){
+		var SimpleComponent = xmlDoc.createElement("SimpleComponent");
+		SimpleComponent.setAttribute("Kind",model_type[i]);
+		SimpleComponent.setAttribute("Name",model_name[i]);
+
+		var Graph = xmlDoc.createElement("Graph");
+		
+		//verifies if there exist blocked events
+		var blocked = false;
+		for(var j=0;j<events_name.length;j++){
+			if(typeof trans_delta_blocked[i] != 'undefined') for(var k=0;k<delta[j][1].length;k++){
+				if(typeof trans_delta_blocked[i][j] != 'undefined') if(!trans_delta_blocked[i][j][k]) var blocked = true;
+			}
+		}
+		//creates blocked events
+		if(blocked){
+			var LabelBlock = xmlDoc.createElement("LabelBlock");
+				for(var j=0;j<events_name.length;j++){
+					if(typeof trans_delta_blocked[i] != 'undefined') for(var k=0;k<delta[j][1].length;k++){
+						if(typeof trans_delta_blocked[i][j] != 'undefined') if(!trans_delta_blocked[i][j][k]){
+							var SimpleIdentifier = xmlDoc.createElement("SimpleIdentifier");
+							SimpleIdentifier.setAttribute("Name",delta[j][1][k]);
+							LabelBlock.appendChild(SimpleIdentifier);
+						}
+					}
+				}
+			Graph.appendChild(LabelBlock);
+		}
+		
+		
+		//creates states
+		var NodeList = xmlDoc.createElement("NodeList");
+		for(var j=0; j<states_name[i].length; j++){
+			var SimpleNode = xmlDoc.createElement("SimpleNode");
+			
+			// set initial states
+			if(states_initial[i][j]) SimpleNode.setAttribute("Initial","true");
+			SimpleNode.setAttribute("Name",states_name[i][j]);
+			
+			//set marked states
+			if(states_marked[i][j]){
+				var EventList = xmlDoc.createElement("EventList");
+				var SimpleIdentifier = xmlDoc.createElement("SimpleIdentifier");
+				SimpleIdentifier.setAttribute("Name",":accepting");
+				EventList.appendChild(SimpleIdentifier);
+				SimpleNode.appendChild(EventList);
+			}
+			
+			//set states positions as the same as in the state parameterized models
+			if(typeof PointGeometry[i][j] != 'undefined')SimpleNode.innerHTML += PointGeometry[i][j].outerHTML;
+			if(typeof LabelGeometry[i][j] != 'undefined')SimpleNode.innerHTML += LabelGeometry[i][j].outerHTML;
+			NodeList.appendChild(SimpleNode);
+		}
+		Graph.appendChild(NodeList);
+		
+		//creates edges
+		var EdgeList = xmlDoc.createElement("EdgeList");
+		for(var j=0; j<trans_start[i].length; j++){
+			var Edge = xmlDoc.createElement("Edge");
+			Edge.setAttribute("Source",trans_start[i][j]);
+			Edge.setAttribute("Target",trans_end[i][j]);
+			EdgeList.appendChild(Edge);
+			var LabelBlock = xmlDoc.createElement("LabelBlock");
+			for(var k=0;k<trans_event[i][j].length;k++){
+				for(var l=0;l<events_name.length;l++){
+					if(events_name[l]==trans_event[i][j][k]){
+						
+						// creates parameterized edges
+						for(var m=0;m<delta[l][1].length;m++){
+							
+							//verify if parameterized event is true for specification
+							if(model_type[i]=='SPEC'&&trans_delta_valid[i][j][k][m]){
+								var SimpleIdentifier = xmlDoc.createElement("SimpleIdentifier");
+								SimpleIdentifier.setAttribute("Name",delta[l][1][m]);
+								LabelBlock.appendChild(SimpleIdentifier);
+							}
+							
+							//verify if parameterized event is true for specification
+							if(model_type[i]=='PLANT'){
+								var SimpleIdentifier = xmlDoc.createElement("SimpleIdentifier");
+								SimpleIdentifier.setAttribute("Name",delta[l][1][m]);
+								LabelBlock.appendChild(SimpleIdentifier);
+							}
+						}
+							
+						//creates regular edges
+						if(delta[l][1].length==0){
+							var SimpleIdentifier = xmlDoc.createElement("SimpleIdentifier");
+							SimpleIdentifier.setAttribute("Name",events_name[l]);
+							LabelBlock.appendChild(SimpleIdentifier);
+						}
+						
+					}
+				}
+			}
+			Edge.appendChild(LabelBlock);
+			if(typeof SplineGeometry[i][j] != 'undefined')Edge.innerHTML += SplineGeometry[i][j].outerHTML;
+		}
+		Graph.appendChild(EdgeList);
+
+		SimpleComponent.appendChild(Graph);
+		ComponentList.appendChild(SimpleComponent);
+	}
+	
+	//creates filter models
+	for(var v=0; v<variables_name.length; v++){
+		for(var i=0; i<filter_name[v].length; i++){
+			var SimpleComponent = xmlDoc.createElement("SimpleComponent");
+			SimpleComponent.setAttribute("Kind","PLANT");
+			SimpleComponent.setAttribute("Name",filter_name[v][i]);
+
+			var Graph = xmlDoc.createElement("Graph");	
+
+			//creates unitary state
+			var NodeList = xmlDoc.createElement("NodeList");
+			var SimpleNode = xmlDoc.createElement("SimpleNode");
+			SimpleNode.setAttribute("Name",filter_states_name[v][i][0]);
+
+			// set initial state
+			if(filter_states_initial[v][i]==0) SimpleNode.setAttribute("Initial","true");
+
+			//unitary state is marked
+			var EventList = xmlDoc.createElement("EventList");
+			var SimpleIdentifier = xmlDoc.createElement("SimpleIdentifier");
+			SimpleIdentifier.setAttribute("Name",":accepting");
+			EventList.appendChild(SimpleIdentifier);
+			SimpleNode.appendChild(EventList);
+			NodeList.appendChild(SimpleNode);
+
+			//creates superstate
+			var SimpleNode = xmlDoc.createElement("SimpleNode");
+			SimpleNode.setAttribute("Name",filter_states_name[v][i][1]);
+
+			// set initial state
+			if(filter_states_initial[v][i]==1) SimpleNode.setAttribute("Initial","true");
+
+			//state 2 is marked
+			var EventList = xmlDoc.createElement("EventList");
+			var SimpleIdentifier = xmlDoc.createElement("SimpleIdentifier");
+			SimpleIdentifier.setAttribute("Name",":accepting");
+			EventList.appendChild(SimpleIdentifier);
+			SimpleNode.appendChild(EventList);
+			NodeList.appendChild(SimpleNode);
+			Graph.appendChild(NodeList);
+
+			//creates edges
+			var EdgeList = xmlDoc.createElement("EdgeList");
+			
+			//verifies which edges have to be created
+			flagUU=false;
+			flagUS=false;
+			flagSU=false;
+			flagSS=false;
+			for(var j=0; j<filter_trans_start[v][i].length; j++){
+				
+				//from unitary state to unitary state
+				if(filter_states_name[v][i][0]==filter_trans_start[v][i][j]&&filter_states_name[v][i][0]==filter_trans_end[v][i][j]) flagUU = true;
+				//from unitary state to superstate
+				if(filter_states_name[v][i][0]==filter_trans_start[v][i][j]&&filter_states_name[v][i][1]==filter_trans_end[v][i][j]) flagUS = true;
+				//from superstate to unitary state
+				if(filter_states_name[v][i][1]==filter_trans_start[v][i][j]&&filter_states_name[v][i][0]==filter_trans_end[v][i][j]) flagSU = true;
+				//from superstate to superstate
+				if(filter_states_name[v][i][1]==filter_trans_start[v][i][j]&&filter_states_name[v][i][1]==filter_trans_end[v][i][j]) flagSS = true;
+				
+			}
+											
+			if(flagUU){
+				var EdgeUU = xmlDoc.createElement("Edge");
+				EdgeUU.setAttribute("Source",filter_states_name[v][i][0]);
+				EdgeUU.setAttribute("Target",filter_states_name[v][i][0]);
+				var LabelBlockUU = xmlDoc.createElement("LabelBlock");
+
+				for(var j=0; j<filter_trans_start[v][i].length; j++) if(filter_states_name[v][i][0]==filter_trans_start[v][i][j]&&filter_states_name[v][i][0]==filter_trans_end[v][i][j]){
+					var SimpleIdentifier = xmlDoc.createElement("SimpleIdentifier");
+					SimpleIdentifier.setAttribute("Name",filter_trans_event[v][i][j]);
+					LabelBlockUU.appendChild(SimpleIdentifier);
+				}
+				EdgeUU.appendChild(LabelBlockUU);
+				EdgeList.appendChild(EdgeUU);
+			}
+			if(flagUS){
+				var EdgeUS = xmlDoc.createElement("Edge");
+				EdgeUS.setAttribute("Source",filter_states_name[v][i][0]);
+				EdgeUS.setAttribute("Target",filter_states_name[v][i][1]);
+				var LabelBlockUS = xmlDoc.createElement("LabelBlock");
+
+				for(var j=0; j<filter_trans_start[v][i].length; j++) if(filter_states_name[v][i][0]==filter_trans_start[v][i][j]&&filter_states_name[v][i][1]==filter_trans_end[v][i][j]){
+					var SimpleIdentifier = xmlDoc.createElement("SimpleIdentifier");
+					SimpleIdentifier.setAttribute("Name",filter_trans_event[v][i][j]);
+					LabelBlockUS.appendChild(SimpleIdentifier);
+				}
+				EdgeUS.appendChild(LabelBlockUS);
+				EdgeList.appendChild(EdgeUS);
+			}
+			if(flagSU){
+				var EdgeSU = xmlDoc.createElement("Edge");
+				EdgeSU.setAttribute("Source",filter_states_name[v][i][1]);
+				EdgeSU.setAttribute("Target",filter_states_name[v][i][0]);
+				var LabelBlockSU = xmlDoc.createElement("LabelBlock");
+
+				for(var j=0; j<filter_trans_start[v][i].length; j++) if(filter_states_name[v][i][1]==filter_trans_start[v][i][j]&&filter_states_name[v][i][0]==filter_trans_end[v][i][j]){
+					var SimpleIdentifier = xmlDoc.createElement("SimpleIdentifier");
+					SimpleIdentifier.setAttribute("Name",filter_trans_event[v][i][j]);
+					LabelBlockSU.appendChild(SimpleIdentifier);
+				}
+				EdgeSU.appendChild(LabelBlockSU);
+				EdgeList.appendChild(EdgeSU);
+			}
+			if(flagSS){
+				var EdgeSS = xmlDoc.createElement("Edge");
+				EdgeSS.setAttribute("Source",filter_states_name[v][i][1]);
+				EdgeSS.setAttribute("Target",filter_states_name[v][i][1]);
+				var LabelBlockSS = xmlDoc.createElement("LabelBlock");
+
+				for(var j=0; j<filter_trans_start[v][i].length; j++) if(filter_states_name[v][i][1]==filter_trans_start[v][i][j]&&filter_states_name[v][i][1]==filter_trans_end[v][i][j]){
+					var SimpleIdentifier = xmlDoc.createElement("SimpleIdentifier");
+					SimpleIdentifier.setAttribute("Name",filter_trans_event[v][i][j]);
+					LabelBlockSS.appendChild(SimpleIdentifier);
+				}
+				EdgeSS.appendChild(LabelBlockSS);
+				EdgeList.appendChild(EdgeSS);
+			}
+							
+			Graph.appendChild(EdgeList);
+			SimpleComponent.appendChild(Graph);
+			ComponentList.appendChild(SimpleComponent);
+		}
+	}
+	module[0].appendChild(ComponentList);
+	
+	//creates wmod file
+	var serializer = new XMLSerializer();
+	var xmltext = serializer.serializeToString(xmlDoc);
+	xmltext = xmltext.replace(/xmlns=\"\"/g,'');
+	var pom = document.createElement('a');
+	var filename = name_project+"_converted.wmod";
+	var pom = document.createElement('a');
+	var bb = new Blob([xmltext], {type: 'text/plain'});
+	
+	//downloads wmod file
+	pom.setAttribute('href', window.URL.createObjectURL(bb));
+	pom.setAttribute('download', filename);
+	pom.dataset.downloadurl = ['text/plain', pom.download, pom.href].join(':');
+	pom.draggable = true; 
+	pom.classList.add('dragout');
+	pom.click();
+}
+
+//implements algorithm 1
+function algorithm1(){
+	delta = [];
+	V = [];
+	V_bar = [];
+	//for each event
+	for(var i=0;i<events_name.length;i++){
+		delta[i] = Array(4);
+		delta[i][0] = events_name[i];
+		delta[i][1] = [];
+		delta[i][2] = [];
+		delta[i][3] = [];
+		
+		V[i] = [];
+		V_bar[i] = [];
+		
+		//for each plant or specification
+		for(var j=0; j<model_name.length;j++){
+			for(var k=0; k<trans_start[j].length;k++){
+				for(var l=0; l<trans_event[j][k].length;l++){
+					if(trans_event[j][k][l]==events_name[i]){
+						var_a = [];
+						if(typeof trans_formulas_a[j][k] != 'undefined') for(var m=0; m<trans_formulas_a[j][k].length;m++) var_a = union_arrays(extract_var(trans_formulas_a[j][k][m]),var_a);
+						
+						var_t = [];
+						if(typeof trans_formulas_t[j][k] != 'undefined') for(var m=0; m<trans_formulas_t[j][k].length;m++) var_t = union_arrays(extract_var(trans_formulas_t[j][k][m]),var_t);
+						
+						//V is the set of all variables of formulas in transitions labeled i
+						V[i] = union_arrays(V[i],union_arrays(var_a,var_t));
+					}
+				}
+			}
+		}
+		var dom = []
+
+		for(var j=0; j<V[i].length;j++) if(V[i][j].length>0){
+			dom[j] = generate_domain(V[i][j]);
+		}
+		
+		//V_bar[i] = Dom(V[i])
+		V_bar[i] = cross_product(dom);
+		for(var j=0; j<V_bar[i].length;j++) {
+			if(V_bar[i][j].length>0){
+				for(var k=0; k<model_name.length;k++){
+					for(var l=0; l<trans_start[k].length;l++){
+						for(var m=0; m<trans_event[k][l].length;m++){
+							if(trans_event[k][l][m]==events_name[i]){
+								if(typeof trans_formulas_a[k][l] != 'undefined') {
+									var count_formulas = 0;
+									var count_valid = 0
+									for(var n=0; n<trans_formulas_a[k][l].length;n++){
+										count_formulas++;
+										if(is_valid(trans_formulas_a[k][l][n],V_bar[i][j],V[i])){
+											count_valid++;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				//if the valuation is valid to respect to all formulas, the event is parameterized
+				if(count_formulas==count_valid){
+					delta[i][1].push((events_name[i]+'_'+V[i].join('')+'_'+V_bar[i][j].toString('')).replace(/,/g,''));
+					delta[i][2].push(V[i]);
+					delta[i][3].push(V_bar[i][j]);
+				}
+			}
+		}
+	}
+}
+
+//implements algorithm 3 and 4
+function algorithm3_4(){
+
+	
+	dom = []
+	combination = []
+	filter_name = []
+	filter_states_name = []
+	filter_states_initial = []
+	
+	filter_trans_start = [];
+	filter_trans_end = [];
+	filter_trans_event = [];
+	
+	// for each variable
+	for(var v=0;v<variables_name.length;v++){
+		dom[v] = generate_domain(variables_name[v]);
+
+		// generating combinations for each domain
+		if(dom[v].length>1) combination[v] = generate_combination(dom[v]);
+		else continue;
+		
+		filter_name[v] = Array(combination[v].length);
+		filter_trans_start[v] = Array(combination[v].length);
+		filter_trans_end[v] = Array(combination[v].length);
+		filter_trans_event[v] = Array(combination[v].length);
+		filter_states_name[v] = Array(combination[v].length);
+		filter_states_initial[v] = Array(combination[v].length);
+		
+		
+		// creating combination of an unitary state and a superstate
+		for(var j=0;j<combination[v].length;j++){
+			
+			filter_trans_start[v][j] = [];
+			filter_trans_end[v][j] = [];
+			filter_trans_event[v][j] = [];
+			
+			//creating filter name and state set
+			filter_name[v][j]=variables_name[v]+"_"+combination[v][j][0]+"_"+combination[v][j][1].toString().replace(/,/g,'');
+			filter_states_name[v][j] = ["S"+combination[v][j][0],"S"+combination[v][j][1].toString().replace(/,/g,'')];
+			
+			//setting initial state
+			if(variables_initial[v]==combination[v][j][0]) filter_states_initial[v][j] = 0;
+			else  filter_states_initial[v][j] = 1;
+
+		}
+	
+		//get transitions of plant models and creates transitions on filters
+		for(var i=0;i<model_name.length;i++)if(model_type[i]=="PLANT"){
+			for(var j=0; j<trans_start[i].length; j++){
+				for(var k=0;k<trans_event[i][j].length;k++){
+					for(var l=0;l<events_name.length;l++){
+						if(events_name[l]==trans_event[i][j][k]){
+							if(V[l].includes(variables_name[v])){
+								for(var m=0;m<delta[l][1].length;m++){
+									if(typeof trans_formulas_a[i][j]!= 'undefined'){
+										numberOfFormulas = 0;
+										for(var n=0;n<trans_formulas_a[i][j].length;n++){
+											if(trans_formulas_a[i][j][n][0]==variables_name[v]){
+												
+												//for transitions with the variable i
+												index = delta[l][2][m].indexOf(variables_name[v]);
+												current = delta[l][3][m][index];
+												next = next_state_valuation(trans_formulas_a[i][j][n],delta[l][3][m],delta[l][2][m]);
+												if(delta[l][1][m]=='fR_b1r_11') console.log(current,next,delta[l][1][m],trans_formulas_a[i][j][n],delta[l][3][m],delta[l][2][m]);
+												create_filter_transition(current,next,delta[l][1][m],v);
+												numberOfFormulas++;
+											}
+										}
+										if(numberOfFormulas==0){
+												index = delta[l][2][m].indexOf(variables_name[v]);
+												current = delta[l][3][m][index];
+												create_filter_transition(current,current,delta[l][1][m],v);
+												if(delta[l][1][m]=='fR_b1r_11') console.log(current,current,delta[l][1][m],delta[l][3][m],delta[l][2][m]);
+										}
+									}else{
+										
+										//for transitions without formulas
+										index = delta[l][2][m].indexOf(variables_name[v]);
+										current = delta[l][3][m][index];
+										create_filter_transition(current,current,delta[l][1][m],v);
+										if(delta[l][1][m]=='fR_b1r_11') console.log(current,current,delta[l][1][m],delta[l][3][m],delta[l][2][m]);
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+	
+//implements algorithm 5
+function algorithm5(){
+	
+	//for each specification
+	for(var i=0;i<model_name.length;i++)if(model_type[i]=="SPEC"){
+		
+		trans_delta_blocked[i] = Array(events_name.length);
+		//selects each transitions
+		for(var j=0; j<trans_start[i].length; j++){
+			for(var k=0;k<trans_event[i][j].length;k++){
+				for(var l=0;l<events_name.length;l++){
+					if(events_name[l]==trans_event[i][j][k]){
+						trans_delta_valid[i][j][k] = Array(delta[l][1].length);
+						trans_delta_blocked[i][l] = Array(delta[l][1].length);
+						
+						
+						//verifies if a parameterized event is true for all test formulas in the transition
+						for(var m=0;m<delta[l][1].length;m++){
+							trans_delta_blocked[i][l][m] = false;
+							trans_delta_valid[i][j][k][m] = true;
+							if(typeof trans_formulas_t[i][j]!= 'undefined')for(var n=0;n<trans_formulas_t[i][j].length;n++){
+								trans_delta_valid[i][j][k][m] &= is_true(trans_formulas_t[i][j][n],delta[l][2][m],delta[l][3][m],delta[l][1][m]);
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		//verifies the events that are blocked
+		for(var j=0; j<trans_start[i].length; j++){
+			for(var k=0;k<trans_event[i][j].length;k++){
+				for(var l=0;l<events_name.length;l++){
+					if(events_name[l]==trans_event[i][j][k]){
+						for(var m=0;m<delta[l][1].length;m++){
+							trans_delta_blocked[i][l][m] |= trans_delta_valid[i][j][k][m];
+						}
+					}
+				}
+			}
+		}
+	}
+}
+	
+//verifies if a valuation is valid with respect to some update formula
+function is_valid(formula,valuation,variables){
+		
+	var next_variable = formula[0];
+	
+	var expression = '';
+	if(formula[2].constructor === Array) expression += showFormula(formula[2])
+	else expression += " "+formula[2];
+	
+	for(var i=0;i<variables.length;i++){
+		expression = expression.replace(variables[i].toString(),valuation[i].toString());
+	}
+	var result=eval(expression);
+	
+	for(var i=0;i<variables_name.length;i++){
+		if(variables_name[i]==next_variable){
+			if(result>variables_dom2[i]) return false;
+			if(result<variables_dom1[i]) return false;
+			return true;
+		}
+	}
+}
+	
+//calculates the next state valuation
+function next_state_valuation(formula,valuation,variables){
+			
+	var expression = '';
+	if(formula[2].constructor === Array) expression += showFormula(formula[2])
+	else expression += " "+formula[2];
+	for(var i=0;i<variables.length;i++){
+		expression = expression.replace(variables[i].toString(),valuation[i].toString());
+	}
+	var result=eval(expression);
+	return result;
+	
+}
+	
+//creates the transitions on the filter
+function create_filter_transition(current,next,event,v){
+		
+	for(var j=0;j<combination[v].length;j++){
+		
+		if(current==combination[v][j][0]) filter_trans_start[v][j].push(filter_states_name[v][j][0]);
+		else filter_trans_start[v][j].push(filter_states_name[v][j][1]);
+		
+		if(next==combination[v][j][0]) filter_trans_end[v][j].push(filter_states_name[v][j][0]);
+		else filter_trans_end[v][j].push(filter_states_name[v][j][1]);
+		
+		filter_trans_event[v][j].push(event);
+	}	
+}
+
+//verifies if a valuation is true with respect to some test formula
+function is_true(formula,variables,valuation){
+	
+	var expression = showFormula(formula);
+	
+	for(var i=0;i<variables.length;i++){
+		expression = expression.replace(variables[i].toString(),valuation[i].toString());
+	}
+	
+	for(var i=0;i<variables.length;i++){
+		expression = expression.replace(variables[i].toString(),valuation[i].toString());
+	}
+	var result=eval(expression);	
+	return result;
+}
+	
+//extracts variables from formulas
+function extract_var(trans_formulas){
+
+	trans_formulas = trans_formulas.flatten();
+/*	trans_formulas = trans_formulas.filter(function(item, pos) {
+    return trans_formulas.indexOf(item) == pos;
+})*/
+	t =[];
+	for(var i=0;i<trans_formulas.length;i++){
+		if(trans_formulas[i].charAt(0).match(/[a-z]/i)) t.push(trans_formulas[i]);
+	}
+	return t;
+}
+	
+//calculates the cross product of domains of variables
+function cross_product(array) {
+  var results = [[]];
+	for (var i = 0; i < array.length; i++) {
+		var currentSubArray = array[i];
+		var temp = [];
+		for (var j = 0; j < results.length; j++) {
+		  for (var k = 0; k < currentSubArray.length; k++) {
+			temp.push(results[j].concat(currentSubArray[k]));
+		  }
+		}
+		results = temp;
+	  }
+	  return results;
+}
+
+//generates domain of a variable
+function generate_domain(variable){
+	var t=[];
+	for(var i=0;i<variables_name.length;i++) if(variables_name[i]==variable){
+		
+		for(var j=variables_dom1[i];j<=variables_dom2[i];j++) t.push(j);
+	}
+	return t;
+}
+	
+//generates combination of state U and superstate S from a domain of variable
+function generate_combination(dom){
+	var combination = []
+	for(var u =0; u<dom.length;u++){
+		s=[];
+		for(var j =0; j<dom.length;j++){
+			if(dom[u]!=dom[j]) s.push(dom[j]);
+		}
+		combination.push([u,s]);
+	}
+	return combination;
+}
+
+//flattens arrays
+Array.prototype.flatten = function() {
+  return this.reduce(function(prev, cur) {
+    var more = [].concat(cur).some(Array.isArray);
+    return prev.concat(more ? cur.flatten() : cur);
+  },[]);
+};
+
+//unites arrays
+function union_arrays (x, y) {
+  var obj = {};
+  for (var i = x.length-1; i >= 0; -- i)
+     obj[x[i]] = x[i];
+  for (var i = y.length-1; i >= 0; -- i)
+     obj[y[i]] = y[i];
+  var res = []
+  for (var k in obj) {
+    if (obj.hasOwnProperty(k))  // <-- optional
+      res.push(obj[k]);
+  }
+  return res;
+}
+	
+fileChooser.addEventListener('change', handleFileSelection, false);
+	
+</script>
+</body>
+</html>
