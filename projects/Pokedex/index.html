@@ -692,12 +692,11 @@ function createPokemon(list) {
             if (args[0] == "") {
                 help = 1;
             }
-			console.log(args);
             for (i = 1; i < args.length; i++) {
                 var pokemon = args[i].split("=");
                 pokemon[0] = $.trim(pokemon[0]);
                 pokemon[1] = $.trim(pokemon[1]);
-				console.log(args[i]);
+
                 var pokemonName = "";
                 var letters = Array.from(pokemon[0]);
                 if ((letters[letters.length - 1] == "S" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "F" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "M" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "P" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "R" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "X" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "H" && letters[letters.length - 2] != " ") ) {
@@ -707,9 +706,7 @@ function createPokemon(list) {
                 } else {
                     pokemonName = pokemon[0];
                 }
-				console.log(pokemonName);
-				console.log(pokemon);
-				console.log(letters);
+
                 var caught = "unknown";
                 var shiny = "";
                 var female = "";
@@ -814,9 +811,6 @@ function createPokemon(list) {
                     classesArray[pokemonName] += readyclass;
                 }
             }
-			
-			console.log(classesArray);
-			console.log(readyclass);
 
 			for (let elem in classesArray) {  
 				let el = document.getElementById(elem);
