@@ -1,0 +1,1016 @@
+﻿region;name;gender;shiny;shadow;shadowshiny
+Kanto;Bulbasaur;both;TRUE;TRUE;FALSE
+Kanto;Ivysaur;both;TRUE;TRUE;FALSE
+Kanto;Venusaur;difference;TRUE;TRUE;FALSE
+Kanto;Charmander;both;TRUE;TRUE;FALSE
+Kanto;Charmeleon;both;TRUE;TRUE;FALSE
+Kanto;Charizard;both;TRUE;TRUE;FALSE
+Kanto;Squirtle;both;TRUE;TRUE;FALSE
+Kanto;Wartortle;both;TRUE;TRUE;FALSE
+Kanto;Blastoise;both;TRUE;TRUE;FALSE
+Kanto;Caterpie;both;TRUE;FALSE;FALSE
+Kanto;Metapod;both;TRUE;FALSE;FALSE
+Kanto;Butterfree;difference;TRUE;FALSE;FALSE
+Kanto;Weedle;both;TRUE;TRUE;FALSE
+Kanto;Kakuna;both;TRUE;TRUE;FALSE
+Kanto;Beedrill;both;TRUE;TRUE;FALSE
+Kanto;Pidgey;both;TRUE;FALSE;FALSE
+Kanto;Pidgeotto;both;TRUE;FALSE;FALSE
+Kanto;Pidgeot;both;TRUE;FALSE;FALSE
+Kanto;Rattata;difference;TRUE;TRUE;FALSE
+Kanto;Raticate;difference;TRUE;TRUE;FALSE
+Kanto;Spearow;both;TRUE;FALSE;FALSE
+Kanto;Fearow;both;TRUE;FALSE;FALSE
+Kanto;Ekans;both;TRUE;TRUE;TRUE
+Kanto;Arbok;both;TRUE;TRUE;TRUE
+Kanto;Pikachu;difference;TRUE;FALSE;FALSE
+Kanto;Raichu;difference;TRUE;FALSE;FALSE
+Kanto;Sandshrew;both;TRUE;TRUE;FALSE
+Kanto;Sandslash;both;TRUE;TRUE;FALSE
+Kanto;Nidoran♀;female;TRUE;TRUE;FALSE
+Kanto;Nidorina;female;TRUE;TRUE;FALSE
+Kanto;Nidoqueen;female;TRUE;TRUE;FALSE
+Kanto;Nidoran♂;male;TRUE;TRUE;FALSE
+Kanto;Nidorino;male;TRUE;TRUE;FALSE
+Kanto;Nidoking;male;TRUE;TRUE;FALSE
+Kanto;Clefairy;both;TRUE;FALSE;FALSE
+Kanto;Clefable;both;TRUE;FALSE;FALSE
+Kanto;Vulpix;both;TRUE;TRUE;FALSE
+Kanto;Ninetales;both;TRUE;TRUE;FALSE
+Kanto;Jigglypuff;both;TRUE;FALSE;FALSE
+Kanto;Wigglytuff;both;TRUE;FALSE;FALSE
+Kanto;Zubat;difference;TRUE;TRUE;FALSE
+Kanto;Golbat;difference;TRUE;TRUE;FALSE
+Kanto;Oddish;both;TRUE;TRUE;FALSE
+Kanto;Gloom;difference;TRUE;TRUE;FALSE
+Kanto;Vileplume;difference;TRUE;TRUE;FALSE
+Kanto;Paras;both;TRUE;FALSE;FALSE
+Kanto;Parasect;both;TRUE;FALSE;FALSE
+Kanto;Venonat;both;TRUE;TRUE;TRUE
+Kanto;Venomoth;both;TRUE;TRUE;TRUE
+Kanto;Diglett;both;TRUE;TRUE;FALSE
+Kanto;Dugtrio;both;TRUE;TRUE;FALSE
+Kanto;Meowth;both;TRUE;TRUE;TRUE
+Kanto;Persian;both;TRUE;TRUE;TRUE
+Kanto;Psyduck;both;TRUE;TRUE;FALSE
+Kanto;Golduck;both;TRUE;TRUE;FALSE
+Kanto;Mankey;both;TRUE;FALSE;FALSE
+Kanto;Primeape;both;TRUE;FALSE;FALSE
+Kanto;Growlithe;both;TRUE;TRUE;TRUE
+Kanto;Arcanine;both;TRUE;TRUE;TRUE
+Kanto;Poliwag;both;TRUE;TRUE;FALSE
+Kanto;Poliwhirl;both;TRUE;TRUE;FALSE
+Kanto;Poliwrath;both;TRUE;TRUE;FALSE
+Kanto;Abra;both;TRUE;TRUE;FALSE
+Kanto;Kadabra;difference;TRUE;TRUE;FALSE
+Kanto;Alakazam;difference;TRUE;TRUE;FALSE
+Kanto;Machop;both;TRUE;TRUE;FALSE
+Kanto;Machoke;both;TRUE;TRUE;FALSE
+Kanto;Machamp;both;TRUE;TRUE;FALSE
+Kanto;Bellsprout;both;TRUE;TRUE;FALSE
+Kanto;Weepinbell;both;TRUE;TRUE;FALSE
+Kanto;Victreebel;both;TRUE;TRUE;FALSE
+Kanto;Tentacool;both;TRUE;FALSE;FALSE
+Kanto;Tentacruel;both;TRUE;FALSE;FALSE
+Kanto;Geodude;both;TRUE;FALSE;FALSE
+Kanto;Graveler;both;TRUE;FALSE;FALSE
+Kanto;Golem;both;TRUE;FALSE;FALSE
+Kanto;Ponyta;both;TRUE;FALSE;FALSE
+Kanto;Rapidash;both;TRUE;FALSE;FALSE
+Kanto;Slowpoke;both;TRUE;TRUE;FALSE
+Kanto;Slowbro;both;TRUE;TRUE;FALSE
+Kanto;Magnemite;genderless;TRUE;TRUE;FALSE
+Kanto;Magneton;genderless;TRUE;TRUE;FALSE
+Kanto;Farfetch'd;both;TRUE;FALSE;FALSE
+Kanto;Doduo;difference;TRUE;FALSE;FALSE
+Kanto;Dodrio;difference;TRUE;FALSE;FALSE
+Kanto;Seel;both;TRUE;FALSE;FALSE
+Kanto;Dewgong;both;TRUE;FALSE;FALSE
+Kanto;Grimer;both;TRUE;TRUE;TRUE
+Kanto;Muk;both;TRUE;TRUE;TRUE
+Kanto;Shellder;both;TRUE;TRUE;FALSE
+Kanto;Cloyster;both;TRUE;TRUE;FALSE
+Kanto;Gastly;both;TRUE;FALSE;FALSE
+Kanto;Haunter;both;TRUE;FALSE;FALSE
+Kanto;Gengar;both;TRUE;FALSE;FALSE
+Kanto;Onix;both;TRUE;FALSE;FALSE
+Kanto;Drowzee;both;TRUE;TRUE;TRUE
+Kanto;Hypno;difference;TRUE;TRUE;TRUE
+Kanto;Krabby;both;TRUE;FALSE;FALSE
+Kanto;Kingler;both;TRUE;FALSE;FALSE
+Kanto;Voltorb;genderless;TRUE;FALSE;FALSE
+Kanto;Electrode;genderless;TRUE;FALSE;FALSE
+Kanto;Exeggcute;both;TRUE;TRUE;FALSE
+Kanto;Exeggutor;both;TRUE;TRUE;FALSE
+Kanto;Cubone;both;TRUE;TRUE;FALSE
+Kanto;Marowak;both;TRUE;TRUE;FALSE
+Kanto;Hitmonlee;male;TRUE;TRUE;FALSE
+Kanto;Hitmonchan;male;TRUE;TRUE;FALSE
+Kanto;Lickitung;both;TRUE;FALSE;FALSE
+Kanto;Koffing;both;TRUE;TRUE;TRUE
+Kanto;Weezing;both;TRUE;TRUE;TRUE
+Kanto;Rhyhorn;difference;TRUE;FALSE;FALSE
+Kanto;Rhydon;difference;TRUE;FALSE;FALSE
+Kanto;Chansey;female;TRUE;FALSE;FALSE
+Kanto;Tangela;both;TRUE;TRUE;FALSE
+Kanto;Kangaskhan;female;TRUE;FALSE;FALSE
+Kanto;Horsea;both;TRUE;TRUE;FALSE
+Kanto;Seadra;both;TRUE;TRUE;FALSE
+Kanto;Goldeen;difference;TRUE;FALSE;FALSE
+Kanto;Seaking;difference;TRUE;FALSE;FALSE
+Kanto;Staryu;genderless;TRUE;FALSE;FALSE
+Kanto;Starmie;genderless;TRUE;FALSE;FALSE
+Kanto;Mr. Mime;both;TRUE;FALSE;FALSE
+Kanto;Scyther;difference;TRUE;TRUE;TRUE
+Kanto;Jynx;female;TRUE;FALSE;FALSE
+Kanto;Electabuzz;both;TRUE;TRUE;FALSE
+Kanto;Magmar;both;TRUE;TRUE;FALSE
+Kanto;Pinsir;both;TRUE;TRUE;TRUE
+Kanto;Tauros;male;TRUE;FALSE;FALSE
+Kanto;Magikarp;difference;TRUE;TRUE;FALSE
+Kanto;Gyarados;difference;TRUE;TRUE;FALSE
+Kanto;Lapras;both;TRUE;TRUE;TRUE
+Kanto;Ditto;genderless;TRUE;FALSE;FALSE
+Kanto;Eevee;difference;TRUE;FALSE;FALSE
+Kanto;Vaporeon;both;TRUE;FALSE;FALSE
+Kanto;Jolteon;both;TRUE;FALSE;FALSE
+Kanto;Flareon;both;TRUE;FALSE;FALSE
+Kanto;Porygon;genderless;TRUE;TRUE;FALSE
+Kanto;Omanyte;both;TRUE;TRUE;TRUE
+Kanto;Omastar;both;TRUE;TRUE;TRUE
+Kanto;Kabuto;both;TRUE;FALSE;FALSE
+Kanto;Kabutops;both;TRUE;FALSE;FALSE
+Kanto;Aerodactyl;both;TRUE;TRUE;TRUE
+Kanto;Snorlax;both;TRUE;TRUE;FALSE
+Kanto;Articuno;genderless;TRUE;TRUE;FALSE
+Kanto;Zapdos;genderless;TRUE;TRUE;FALSE
+Kanto;Moltres;genderless;TRUE;TRUE;FALSE
+Kanto;Dratini;both;TRUE;TRUE;FALSE
+Kanto;Dragonair;both;TRUE;TRUE;FALSE
+Kanto;Dragonite;both;TRUE;TRUE;FALSE
+Kanto;Mewtwo;genderless;TRUE;TRUE;FALSE
+Kanto;Mew;genderless;TRUE;FALSE;FALSE
+Johto;Chikorita;both;TRUE;FALSE;FALSE
+Johto;Bayleef;both;TRUE;FALSE;FALSE
+Johto;Meganium;difference;TRUE;FALSE;FALSE
+Johto;Cyndaquil;both;TRUE;FALSE;FALSE
+Johto;Quilava;both;TRUE;FALSE;FALSE
+Johto;Typhlosion;both;TRUE;FALSE;FALSE
+Johto;Totodile;both;TRUE;FALSE;FALSE
+Johto;Croconaw;both;TRUE;FALSE;FALSE
+Johto;Feraligatr;both;TRUE;FALSE;FALSE
+Johto;Sentret;both;TRUE;FALSE;FALSE
+Johto;Furret;both;TRUE;FALSE;FALSE
+Johto;Hoothoot;both;FALSE;FALSE;FALSE
+Johto;Noctowl;both;FALSE;FALSE;FALSE
+Johto;Ledyba;difference;TRUE;FALSE;FALSE
+Johto;Ledian;difference;TRUE;FALSE;FALSE
+Johto;Spinarak;both;FALSE;FALSE;FALSE
+Johto;Ariados;both;FALSE;FALSE;FALSE
+Johto;Crobat;both;TRUE;TRUE;FALSE
+Johto;Chinchou;both;TRUE;FALSE;FALSE
+Johto;Lanturn;both;TRUE;FALSE;FALSE
+Johto;Pichu;both;TRUE;FALSE;FALSE
+Johto;Cleffa;both;TRUE;FALSE;FALSE
+Johto;Igglybuff;both;TRUE;FALSE;FALSE
+Johto;Togepi;both;TRUE;FALSE;FALSE
+Johto;Togetic;both;TRUE;FALSE;FALSE
+Johto;Natu;both;TRUE;FALSE;FALSE
+Johto;Xatu;difference;TRUE;FALSE;FALSE
+Johto;Mareep;both;TRUE;TRUE;FALSE
+Johto;Flaaffy;both;TRUE;TRUE;FALSE
+Johto;Ampharos;both;TRUE;TRUE;FALSE
+Johto;Bellossom;both;TRUE;TRUE;FALSE
+Johto;Marill;both;TRUE;FALSE;FALSE
+Johto;Azumarill;both;TRUE;FALSE;FALSE
+Johto;Sudowoodo;difference;TRUE;FALSE;FALSE
+Johto;Politoed;difference;TRUE;TRUE;FALSE
+Johto;Hoppip;both;FALSE;TRUE;FALSE
+Johto;Skiploom;both;FALSE;TRUE;FALSE
+Johto;Jumpluff;both;FALSE;TRUE;FALSE
+Johto;Aipom;difference;TRUE;TRUE;FALSE
+Johto;Sunkern;both;TRUE;FALSE;FALSE
+Johto;Sunflora;both;TRUE;FALSE;FALSE
+Johto;Yanma;both;TRUE;FALSE;FALSE
+Johto;Wooper;difference;TRUE;TRUE;FALSE
+Johto;Quagsire;difference;TRUE;TRUE;FALSE
+Johto;Espeon;both;TRUE;FALSE;FALSE
+Johto;Umbreon;both;TRUE;FALSE;FALSE
+Johto;Murkrow;difference;TRUE;TRUE;FALSE
+Johto;Slowking;both;TRUE;TRUE;FALSE
+Johto;Misdreavus;both;TRUE;TRUE;FALSE
+Johto;Unown;genderless;TRUE;FALSE;FALSE
+Johto;Wobbuffet;difference;TRUE;TRUE;FALSE
+Johto;Girafarig;difference;FALSE;FALSE;FALSE
+Johto;Pineco;both;TRUE;TRUE;TRUE
+Johto;Forretress;both;TRUE;TRUE;TRUE
+Johto;Dunsparce;both;TRUE;FALSE;FALSE
+Johto;Gligar;difference;TRUE;TRUE;FALSE
+Johto;Steelix;difference;TRUE;FALSE;FALSE
+Johto;Snubbull;both;TRUE;TRUE;FALSE
+Johto;Granbull;both;TRUE;TRUE;FALSE
+Johto;Qwilfish;both;TRUE;FALSE;FALSE
+Johto;Scizor;difference;TRUE;TRUE;TRUE
+Johto;Shuckle;both;TRUE;TRUE;FALSE
+Johto;Heracross;difference;FALSE;FALSE;FALSE
+Johto;Sneasel;difference;TRUE;TRUE;TRUE
+Johto;Teddiursa;both;TRUE;TRUE;FALSE
+Johto;Ursaring;difference;TRUE;TRUE;FALSE
+Johto;Slugma;both;FALSE;FALSE;FALSE
+Johto;Magcargo;both;FALSE;FALSE;FALSE
+Johto;Swinub;both;TRUE;TRUE;FALSE
+Johto;Piloswine;difference;TRUE;TRUE;FALSE
+Johto;Corsola;both;FALSE;FALSE;FALSE
+Johto;Remoraid;both;FALSE;FALSE;FALSE
+Johto;Octillery;difference;FALSE;FALSE;FALSE
+Johto;Delibird;both;TRUE;TRUE;FALSE
+Johto;Mantine;both;FALSE;FALSE;FALSE
+Johto;Skarmory;both;TRUE;TRUE;FALSE
+Johto;Houndour;both;TRUE;TRUE;FALSE
+Johto;Houndoom;difference;TRUE;TRUE;FALSE
+Johto;Kingdra;both;TRUE;TRUE;FALSE
+Johto;Phanpy;both;FALSE;FALSE;FALSE
+Johto;Donphan;difference;FALSE;FALSE;FALSE
+Johto;Porygon2;genderless;TRUE;TRUE;FALSE
+Johto;Stantler;both;TRUE;TRUE;TRUE
+Johto;Smeargle;both;TRUE;FALSE;FALSE
+Johto;Tyrogue;male;FALSE;FALSE;FALSE
+Johto;Hitmontop;male;FALSE;FALSE;FALSE
+Johto;Smoochum;female;TRUE;FALSE;FALSE
+Johto;Elekid;both;TRUE;FALSE;FALSE
+Johto;Magby;both;TRUE;FALSE;FALSE
+Johto;Miltank;female;TRUE;FALSE;FALSE
+Johto;Blissey;female;TRUE;FALSE;FALSE
+Johto;Raikou;genderless;TRUE;TRUE;FALSE
+Johto;Entei;genderless;TRUE;TRUE;FALSE
+Johto;Suicune;genderless;TRUE;TRUE;FALSE
+Johto;Larvitar;both;TRUE;TRUE;FALSE
+Johto;Pupitar;both;TRUE;TRUE;FALSE
+Johto;Tyranitar;both;TRUE;TRUE;FALSE
+Johto;Lugia;genderless;TRUE;FALSE;FALSE
+Johto;Ho-Oh;genderless;TRUE;TRUE;FALSE
+Johto;Celebi;genderless;TRUE;FALSE;FALSE
+Hoenn;Treecko;both;TRUE;FALSE;FALSE
+Hoenn;Grovyle;both;TRUE;FALSE;FALSE
+Hoenn;Sceptile;both;TRUE;FALSE;FALSE
+Hoenn;Torchic;difference;TRUE;FALSE;FALSE
+Hoenn;Combusken;difference;TRUE;FALSE;FALSE
+Hoenn;Blaziken;difference;TRUE;FALSE;FALSE
+Hoenn;Mudkip;both;TRUE;TRUE;FALSE
+Hoenn;Marshtomp;both;TRUE;TRUE;FALSE
+Hoenn;Swampert;both;TRUE;TRUE;FALSE
+Hoenn;Poochyena;both;TRUE;TRUE;FALSE
+Hoenn;Mightyena;both;TRUE;TRUE;FALSE
+Hoenn;Zigzagoon;both;TRUE;FALSE;FALSE
+Hoenn;Linoone;both;TRUE;FALSE;FALSE
+Hoenn;Wurmple;both;TRUE;FALSE;FALSE
+Hoenn;Silcoon;both;TRUE;FALSE;FALSE
+Hoenn;Beautifly;difference;TRUE;FALSE;FALSE
+Hoenn;Cascoon;both;TRUE;FALSE;FALSE
+Hoenn;Dustox;difference;TRUE;FALSE;FALSE
+Hoenn;Lotad;both;TRUE;FALSE;FALSE
+Hoenn;Lombre;both;TRUE;FALSE;FALSE
+Hoenn;Ludicolo;difference;TRUE;FALSE;FALSE
+Hoenn;Seedot;both;TRUE;TRUE;TRUE
+Hoenn;Nuzleaf;difference;TRUE;TRUE;TRUE
+Hoenn;Shiftry;difference;TRUE;TRUE;TRUE
+Hoenn;Taillow;both;TRUE;FALSE;FALSE
+Hoenn;Swellow;both;TRUE;FALSE;FALSE
+Hoenn;Wingull;both;TRUE;FALSE;FALSE
+Hoenn;Pelipper;both;TRUE;FALSE;FALSE
+Hoenn;Ralts;both;TRUE;TRUE;FALSE
+Hoenn;Kirlia;both;TRUE;TRUE;FALSE
+Hoenn;Gardevoir;female;TRUE;TRUE;FALSE
+Hoenn;Surskit;both;FALSE;FALSE;FALSE
+Hoenn;Masquerain;both;FALSE;FALSE;FALSE
+Hoenn;Shroomish;both;FALSE;FALSE;FALSE
+Hoenn;Breloom;both;FALSE;FALSE;FALSE
+Hoenn;Slakoth;both;TRUE;FALSE;FALSE
+Hoenn;Vigoroth;both;TRUE;FALSE;FALSE
+Hoenn;Slaking;both;TRUE;FALSE;FALSE
+Hoenn;Nincada;both;TRUE;FALSE;FALSE
+Hoenn;Ninjask;both;TRUE;FALSE;FALSE
+Hoenn;Shedinja;genderless;FALSE;FALSE;FALSE
+Hoenn;Whismur;both;FALSE;FALSE;FALSE
+Hoenn;Loudred;both;FALSE;FALSE;FALSE
+Hoenn;Exploud;both;FALSE;FALSE;FALSE
+Hoenn;Makuhita;both;TRUE;TRUE;FALSE
+Hoenn;Hariyama;both;TRUE;TRUE;FALSE
+Hoenn;Azurill;both;TRUE;FALSE;FALSE
+Hoenn;Nosepass;both;TRUE;TRUE;FALSE
+Hoenn;Skitty;both;TRUE;FALSE;FALSE
+Hoenn;Delcatty;both;TRUE;FALSE;FALSE
+Hoenn;Sableye;both;TRUE;TRUE;FALSE
+Hoenn;Mawile;both;TRUE;TRUE;TRUE
+Hoenn;Aron;both;TRUE;TRUE;FALSE
+Hoenn;Lairon;both;TRUE;TRUE;FALSE
+Hoenn;Aggron;both;TRUE;TRUE;FALSE
+Hoenn;Meditite;difference;TRUE;FALSE;FALSE
+Hoenn;Medicham;difference;TRUE;FALSE;FALSE
+Hoenn;Electrike;both;TRUE;TRUE;FALSE
+Hoenn;Manectric;both;TRUE;TRUE;FALSE
+Hoenn;Plusle;both;TRUE;FALSE;FALSE
+Hoenn;Minun;both;TRUE;FALSE;FALSE
+Hoenn;Volbeat;male;TRUE;FALSE;FALSE
+Hoenn;Illumise;female;TRUE;FALSE;FALSE
+Hoenn;Roselia;difference;TRUE;FALSE;FALSE
+Hoenn;Gulpin;difference;FALSE;FALSE;FALSE
+Hoenn;Swalot;difference;FALSE;FALSE;FALSE
+Hoenn;Carvanha;both;TRUE;TRUE;TRUE
+Hoenn;Sharpedo;both;TRUE;TRUE;TRUE
+Hoenn;Wailmer;both;TRUE;FALSE;FALSE
+Hoenn;Wailord;both;TRUE;FALSE;FALSE
+Hoenn;Numel;difference;FALSE;FALSE;FALSE
+Hoenn;Camerupt;difference;FALSE;FALSE;FALSE
+Hoenn;Torkoal;both;FALSE;FALSE;FALSE
+Hoenn;Spoink;both;TRUE;FALSE;FALSE
+Hoenn;Grumpig;both;TRUE;FALSE;FALSE
+Hoenn;Spinda;both;TRUE;FALSE;FALSE
+Hoenn;Trapinch;both;TRUE;TRUE;FALSE
+Hoenn;Vibrava;both;TRUE;TRUE;FALSE
+Hoenn;Flygon;both;TRUE;TRUE;FALSE
+Hoenn;Cacnea;both;FALSE;FALSE;FALSE
+Hoenn;Cacturne;difference;FALSE;TRUE;FALSE
+Hoenn;Swablu;both;TRUE;TRUE;FALSE
+Hoenn;Altaria;both;TRUE;FALSE;FALSE
+Hoenn;Zangoose;both;TRUE;FALSE;FALSE
+Hoenn;Seviper;both;TRUE;FALSE;FALSE
+Hoenn;Lunatone;genderless;TRUE;FALSE;FALSE
+Hoenn;Solrock;genderless;TRUE;FALSE;FALSE
+Hoenn;Barboach;both;TRUE;FALSE;FALSE
+Hoenn;Whiscash;both;TRUE;FALSE;FALSE
+Hoenn;Corphish;both;FALSE;FALSE;FALSE
+Hoenn;Crawdaunt;both;FALSE;FALSE;FALSE
+Hoenn;Baltoy;genderless;TRUE;FALSE;FALSE
+Hoenn;Claydol;genderless;TRUE;FALSE;FALSE
+Hoenn;Lileep;both;TRUE;TRUE;FALSE
+Hoenn;Cradily;both;TRUE;TRUE;FALSE
+Hoenn;Anorith;both;TRUE;TRUE;FALSE
+Hoenn;Armaldo;both;TRUE;TRUE;FALSE
+Hoenn;Feebas;both;TRUE;FALSE;FALSE
+Hoenn;Milotic;difference;TRUE;FALSE;FALSE
+Hoenn;Castform;both;TRUE;FALSE;FALSE
+Hoenn;Kecleon;both;FALSE;FALSE;FALSE
+Hoenn;Shuppet;both;TRUE;TRUE;FALSE
+Hoenn;Banette;both;TRUE;TRUE;FALSE
+Hoenn;Duskull;both;TRUE;TRUE;FALSE
+Hoenn;Dusclops;both;TRUE;TRUE;FALSE
+Hoenn;Tropius;both;FALSE;FALSE;FALSE
+Hoenn;Chimecho;both;FALSE;FALSE;FALSE
+Hoenn;Absol;both;TRUE;TRUE;TRUE
+Hoenn;Wynaut;both;TRUE;FALSE;FALSE
+Hoenn;Snorunt;both;TRUE;FALSE;FALSE
+Hoenn;Glalie;both;TRUE;FALSE;FALSE
+Hoenn;Spheal;both;FALSE;TRUE;FALSE
+Hoenn;Sealeo;both;FALSE;TRUE;FALSE
+Hoenn;Walrein;both;FALSE;TRUE;FALSE
+Hoenn;Clamperl;both;TRUE;FALSE;FALSE
+Hoenn;Huntail;both;TRUE;FALSE;FALSE
+Hoenn;Gorebyss;both;TRUE;FALSE;FALSE
+Hoenn;Relicanth;difference;FALSE;FALSE;FALSE
+Hoenn;Luvdisc;both;TRUE;FALSE;FALSE
+Hoenn;Bagon;both;TRUE;TRUE;TRUE
+Hoenn;Shelgon;both;TRUE;TRUE;TRUE
+Hoenn;Salamence;both;TRUE;TRUE;TRUE
+Hoenn;Beldum;genderless;TRUE;TRUE;TRUE
+Hoenn;Metang;genderless;TRUE;TRUE;TRUE
+Hoenn;Metagross;genderless;TRUE;TRUE;TRUE
+Hoenn;Regirock;genderless;TRUE;FALSE;FALSE
+Hoenn;Regice;genderless;TRUE;FALSE;FALSE
+Hoenn;Registeel;genderless;TRUE;FALSE;FALSE
+Hoenn;Latias;female;TRUE;FALSE;FALSE
+Hoenn;Latios;male;TRUE;FALSE;FALSE
+Hoenn;Kyogre;genderless;TRUE;FALSE;FALSE
+Hoenn;Groudon;genderless;TRUE;FALSE;FALSE
+Hoenn;Rayquaza;genderless;TRUE;FALSE;FALSE
+Hoenn;Jirachi;genderless;FALSE;FALSE;FALSE
+Hoenn;Deoxys;genderless;TRUE;FALSE;FALSE
+Sinnoh;Turtwig;both;TRUE;TRUE;FALSE
+Sinnoh;Grotle;both;TRUE;TRUE;FALSE
+Sinnoh;Torterra;both;TRUE;TRUE;FALSE
+Sinnoh;Chimchar;both;TRUE;FALSE;FALSE
+Sinnoh;Monferno;both;TRUE;FALSE;FALSE
+Sinnoh;Infernape;both;TRUE;FALSE;FALSE
+Sinnoh;Piplup;both;TRUE;FALSE;FALSE
+Sinnoh;Prinplup;both;TRUE;FALSE;FALSE
+Sinnoh;Empoleon;both;TRUE;FALSE;FALSE
+Sinnoh;Starly;difference;FALSE;TRUE;FALSE
+Sinnoh;Staravia;difference;FALSE;TRUE;FALSE
+Sinnoh;Staraptor;difference;FALSE;TRUE;FALSE
+Sinnoh;Bidoof;difference;FALSE;TRUE;FALSE
+Sinnoh;Bibarel;difference;FALSE;TRUE;FALSE
+Sinnoh;Kricketot;difference;TRUE;FALSE;FALSE
+Sinnoh;Kricketune;difference;TRUE;FALSE;FALSE
+Sinnoh;Shinx;difference;TRUE;FALSE;FALSE
+Sinnoh;Luxio;difference;TRUE;FALSE;FALSE
+Sinnoh;Luxray;difference;TRUE;FALSE;FALSE
+Sinnoh;Budew;both;TRUE;FALSE;FALSE
+Sinnoh;Roserade;difference;TRUE;FALSE;FALSE
+Sinnoh;Cranidos;both;FALSE;FALSE;FALSE
+Sinnoh;Rampardos;both;FALSE;FALSE;FALSE
+Sinnoh;Shieldon;both;FALSE;FALSE;FALSE
+Sinnoh;Bastiodon;both;FALSE;FALSE;FALSE
+Sinnoh;Burmy;both;TRUE;FALSE;FALSE
+Sinnoh;Wormadam;female;TRUE;FALSE;FALSE
+Sinnoh;Mothim;male;TRUE;FALSE;FALSE
+Sinnoh;Combee;difference;FALSE;FALSE;FALSE
+Sinnoh;Vespiquen;female;FALSE;FALSE;FALSE
+Sinnoh;Pachirisu;difference;FALSE;FALSE;FALSE
+Sinnoh;Buizel;difference;TRUE;FALSE;FALSE
+Sinnoh;Floatzel;difference;TRUE;FALSE;FALSE
+Sinnoh;Cherubi;both;FALSE;FALSE;FALSE
+Sinnoh;Cherrim;both;FALSE;FALSE;FALSE
+Sinnoh;Shellos;both;FALSE;FALSE;FALSE
+Sinnoh;Gastrodon;both;FALSE;FALSE;FALSE
+Sinnoh;Ambipom;difference;TRUE;TRUE;FALSE
+Sinnoh;Drifloon;both;TRUE;FALSE;FALSE
+Sinnoh;Drifblim;both;TRUE;FALSE;FALSE
+Sinnoh;Buneary;both;TRUE;FALSE;FALSE
+Sinnoh;Lopunny;both;TRUE;FALSE;FALSE
+Sinnoh;Mismagius;both;TRUE;FALSE;FALSE
+Sinnoh;Honchkrow;both;TRUE;TRUE;FALSE
+Sinnoh;Glameow;both;TRUE;FALSE;FALSE
+Sinnoh;Purugly;both;TRUE;FALSE;FALSE
+Sinnoh;Chingling;both;FALSE;FALSE;FALSE
+Sinnoh;Stunky;both;FALSE;TRUE;FALSE
+Sinnoh;Skuntank;both;FALSE;TRUE;FALSE
+Sinnoh;Bronzor;genderless;TRUE;FALSE;FALSE
+Sinnoh;Bronzong;genderless;TRUE;FALSE;FALSE
+Sinnoh;Bonsly;both;TRUE;FALSE;FALSE
+Sinnoh;Mime Jr.;both;TRUE;FALSE;FALSE
+Sinnoh;Happiny;female;TRUE;FALSE;FALSE
+Sinnoh;Chatot;both;FALSE;FALSE;FALSE
+Sinnoh;Spiritomb;both;TRUE;FALSE;FALSE
+Sinnoh;Gible;difference;TRUE;FALSE;FALSE
+Sinnoh;Gabite;difference;TRUE;FALSE;FALSE
+Sinnoh;Garchomp;difference;TRUE;FALSE;FALSE
+Sinnoh;Munchlax;both;FALSE;FALSE;FALSE
+Sinnoh;Riolu;both;TRUE;FALSE;FALSE
+Sinnoh;Lucario;both;TRUE;FALSE;FALSE
+Sinnoh;Hippopotas;difference;TRUE;FALSE;FALSE
+Sinnoh;Hippowdon;difference;TRUE;FALSE;FALSE
+Sinnoh;Skorupi;both;TRUE;TRUE;FALSE
+Sinnoh;Drapion;both;TRUE;TRUE;FALSE
+Sinnoh;Croagunk;difference;TRUE;FALSE;FALSE
+Sinnoh;Toxicroak;difference;TRUE;FALSE;FALSE
+Sinnoh;Carnivine;both;FALSE;FALSE;FALSE
+Sinnoh;Finneon;difference;FALSE;FALSE;FALSE
+Sinnoh;Lumineon;difference;FALSE;FALSE;FALSE
+Sinnoh;Mantyke;both;FALSE;FALSE;FALSE
+Sinnoh;Snover;difference;TRUE;TRUE;FALSE
+Sinnoh;Abomasnow;difference;TRUE;TRUE;FALSE
+Sinnoh;Weavile;difference;TRUE;TRUE;TRUE
+Sinnoh;Magnezone;genderless;TRUE;TRUE;FALSE
+Sinnoh;Lickilicky;both;TRUE;FALSE;FALSE
+Sinnoh;Rhyperior;difference;TRUE;FALSE;FALSE
+Sinnoh;Tangrowth;difference;TRUE;TRUE;FALSE
+Sinnoh;Electivire;both;TRUE;TRUE;FALSE
+Sinnoh;Magmortar;both;TRUE;TRUE;FALSE
+Sinnoh;Togekiss;both;TRUE;FALSE;FALSE
+Sinnoh;Yanmega;both;TRUE;FALSE;FALSE
+Sinnoh;Leafeon;both;TRUE;FALSE;FALSE
+Sinnoh;Glaceon;both;TRUE;FALSE;FALSE
+Sinnoh;Gliscor;both;TRUE;TRUE;FALSE
+Sinnoh;Mamoswine;difference;TRUE;TRUE;FALSE
+Sinnoh;Porygon-Z;genderless;TRUE;TRUE;FALSE
+Sinnoh;Gallade;male;TRUE;TRUE;FALSE
+Sinnoh;Probopass;both;TRUE;TRUE;FALSE
+Sinnoh;Dusknoir;both;TRUE;TRUE;FALSE
+Sinnoh;Froslass;female;TRUE;FALSE;FALSE
+Sinnoh;Rotom;genderless;FALSE;FALSE;FALSE
+Sinnoh;Uxie;genderless;FALSE;FALSE;FALSE
+Sinnoh;Mesprit;genderless;FALSE;FALSE;FALSE
+Sinnoh;Azelf;genderless;FALSE;FALSE;FALSE
+Sinnoh;Dialga;genderless;FALSE;FALSE;FALSE
+Sinnoh;Palkia;genderless;FALSE;FALSE;FALSE
+Sinnoh;Heatran;both;TRUE;FALSE;FALSE
+Sinnoh;Regigigas;genderless;FALSE;FALSE;FALSE
+Sinnoh;Giratina;genderless;TRUE;FALSE;FALSE
+Sinnoh;Cresselia;female;TRUE;FALSE;FALSE
+Sinnoh;Phione;genderless;FALSE;FALSE;FALSE
+Sinnoh;Manaphy;genderless;FALSE;FALSE;FALSE
+Sinnoh;Darkrai;genderless;TRUE;FALSE;FALSE
+Sinnoh;Shaymin;genderless;FALSE;FALSE;FALSE
+Sinnoh;Arceus;genderless;FALSE;FALSE;FALSE
+Unova;Victini;genderless;FALSE;FALSE;FALSE
+Unova;Snivy;both;TRUE;FALSE;FALSE
+Unova;Servine;both;TRUE;FALSE;FALSE
+Unova;Serperior;both;TRUE;FALSE;FALSE
+Unova;Tepig;both;FALSE;FALSE;FALSE
+Unova;Pignite;both;FALSE;FALSE;FALSE
+Unova;Emboar;both;FALSE;FALSE;FALSE
+Unova;Oshawott;both;FALSE;FALSE;FALSE
+Unova;Dewott;both;FALSE;FALSE;FALSE
+Unova;Samurott;both;FALSE;FALSE;FALSE
+Unova;Patrat;both;TRUE;FALSE;FALSE
+Unova;Watchog;both;TRUE;FALSE;FALSE
+Unova;Lillipup;both;TRUE;FALSE;FALSE
+Unova;Herdier;both;TRUE;FALSE;FALSE
+Unova;Stoutland;both;TRUE;FALSE;FALSE
+Unova;Purrloin;both;FALSE;FALSE;FALSE
+Unova;Liepard;both;FALSE;FALSE;FALSE
+Unova;Pansage;both;FALSE;FALSE;FALSE
+Unova;Simisage;both;FALSE;FALSE;FALSE
+Unova;Pansear;both;FALSE;FALSE;FALSE
+Unova;Simisear;both;FALSE;FALSE;FALSE
+Unova;Panpour;both;FALSE;FALSE;FALSE
+Unova;Simipour;both;FALSE;FALSE;FALSE
+Unova;Munna;both;FALSE;FALSE;FALSE
+Unova;Musharna;both;FALSE;FALSE;FALSE
+Unova;Pidove;both;TRUE;FALSE;FALSE
+Unova;Tranquill;both;TRUE;FALSE;FALSE
+Unova;Unfezant;difference;TRUE;FALSE;FALSE
+Unova;Blitzle;both;FALSE;FALSE;FALSE
+Unova;Zebstrika;both;FALSE;FALSE;FALSE
+Unova;Roggenrola;both;TRUE;FALSE;FALSE
+Unova;Boldore;both;TRUE;FALSE;FALSE
+Unova;Gigalith;both;TRUE;FALSE;FALSE
+Unova;Woobat;both;TRUE;FALSE;FALSE
+Unova;Swoobat;both;TRUE;FALSE;FALSE
+Unova;Drilbur;both;FALSE;FALSE;FALSE
+Unova;Excadrill;both;FALSE;FALSE;FALSE
+Unova;Audino;both;FALSE;FALSE;FALSE
+Unova;Timburr;both;TRUE;FALSE;FALSE
+Unova;Gurdurr;both;TRUE;FALSE;FALSE
+Unova;Conkeldurr;both;TRUE;FALSE;FALSE
+Unova;Tympole;both;FALSE;FALSE;FALSE
+Unova;Palpitoad;both;FALSE;FALSE;FALSE
+Unova;Seismitoad;both;FALSE;FALSE;FALSE
+Unova;Throh;male;FALSE;FALSE;FALSE
+Unova;Sawk;male;FALSE;FALSE;FALSE
+Unova;Sewaddle;both;FALSE;FALSE;FALSE
+Unova;Swadloon;both;FALSE;FALSE;FALSE
+Unova;Leavanny;both;FALSE;FALSE;FALSE
+Unova;Venipede;both;FALSE;FALSE;FALSE
+Unova;Whirlipede;both;FALSE;FALSE;FALSE
+Unova;Scolipede;both;FALSE;FALSE;FALSE
+Unova;Cottonee;both;FALSE;FALSE;FALSE
+Unova;Whimsicott;both;FALSE;FALSE;FALSE
+Unova;Petilil;female;FALSE;FALSE;FALSE
+Unova;Lilligant;female;FALSE;FALSE;FALSE
+Unova;Basculin;both;FALSE;FALSE;FALSE
+Unova;Sandile;both;FALSE;FALSE;FALSE
+Unova;Krokorok;both;FALSE;FALSE;FALSE
+Unova;Krookodile;both;FALSE;FALSE;FALSE
+Unova;Darumaka;both;FALSE;FALSE;FALSE
+Unova;Darmanitan;both;FALSE;FALSE;FALSE
+Unova;Maractus;both;FALSE;FALSE;FALSE
+Unova;Dwebble;both;TRUE;FALSE;FALSE
+Unova;Crustle;both;TRUE;FALSE;FALSE
+Unova;Scraggy;both;FALSE;FALSE;FALSE
+Unova;Scrafty;both;FALSE;FALSE;FALSE
+Unova;Sigilyph;both;FALSE;FALSE;FALSE
+Unova;Yamask;both;TRUE;FALSE;FALSE
+Unova;Cofagrigus;both;TRUE;FALSE;FALSE
+Unova;Tirtouga;both;FALSE;FALSE;FALSE
+Unova;Carracosta;both;FALSE;FALSE;FALSE
+Unova;Archen;both;FALSE;FALSE;FALSE
+Unova;Archeops;both;FALSE;FALSE;FALSE
+Unova;Trubbish;both;TRUE;FALSE;FALSE
+Unova;Garbodor;both;TRUE;FALSE;FALSE
+Unova;Zorua;both;FALSE;FALSE;FALSE
+Unova;Zoroark;both;FALSE;FALSE;FALSE
+Unova;Minccino;both;TRUE;FALSE;FALSE
+Unova;Cinccino;both;TRUE;FALSE;FALSE
+Unova;Gothita;both;FALSE;FALSE;FALSE
+Unova;Gothorita;both;FALSE;FALSE;FALSE
+Unova;Gothitelle;both;FALSE;FALSE;FALSE
+Unova;Solosis;both;FALSE;FALSE;FALSE
+Unova;Duosion;both;FALSE;FALSE;FALSE
+Unova;Reuniclus;both;FALSE;FALSE;FALSE
+Unova;Ducklett;both;FALSE;FALSE;FALSE
+Unova;Swanna;both;FALSE;FALSE;FALSE
+Unova;Vanillite;both;FALSE;FALSE;FALSE
+Unova;Vanillish;both;FALSE;FALSE;FALSE
+Unova;Vanilluxe;both;FALSE;FALSE;FALSE
+Unova;Deerling;both;FALSE;FALSE;FALSE
+Unova;Sawsbuck;both;FALSE;FALSE;FALSE
+Unova;Emolga;both;FALSE;FALSE;FALSE
+Unova;Karrablast;both;FALSE;FALSE;FALSE
+Unova;Escavalier;both;FALSE;FALSE;FALSE
+Unova;Foongus;both;FALSE;FALSE;FALSE
+Unova;Amoonguss;both;FALSE;FALSE;FALSE
+Unova;Frillish;difference;FALSE;FALSE;FALSE
+Unova;Jellicent;difference;FALSE;FALSE;FALSE
+Unova;Alomomola;both;TRUE;FALSE;FALSE
+Unova;Joltik;both;FALSE;FALSE;FALSE
+Unova;Galvantula;both;FALSE;FALSE;FALSE
+Unova;Ferroseed;both;TRUE;FALSE;FALSE
+Unova;Ferrothorn;both;TRUE;FALSE;FALSE
+Unova;Klink;genderless;TRUE;FALSE;FALSE
+Unova;Klang;genderless;TRUE;FALSE;FALSE
+Unova;Klinklang;genderless;TRUE;FALSE;FALSE
+Unova;Tynamo;both;FALSE;FALSE;FALSE
+Unova;Eelektrik;both;FALSE;FALSE;FALSE
+Unova;Eelektross;both;FALSE;FALSE;FALSE
+Unova;Elgyem;both;FALSE;FALSE;FALSE
+Unova;Beheeyem;both;FALSE;FALSE;FALSE
+Unova;Litwick;both;FALSE;FALSE;FALSE
+Unova;Lampent;both;FALSE;FALSE;FALSE
+Unova;Chandelure;both;FALSE;FALSE;FALSE
+Unova;Axew;both;FALSE;FALSE;FALSE
+Unova;Fraxure;both;FALSE;FALSE;FALSE
+Unova;Haxorus;both;FALSE;FALSE;FALSE
+Unova;Cubchoo;both;TRUE;FALSE;FALSE
+Unova;Beartic;both;TRUE;FALSE;FALSE
+Unova;Cryogonal;genderless;FALSE;FALSE;FALSE
+Unova;Shelmet;both;FALSE;FALSE;FALSE
+Unova;Accelgor;both;FALSE;FALSE;FALSE
+Unova;Stunfisk;both;FALSE;FALSE;FALSE
+Unova;Mienfoo;both;FALSE;FALSE;FALSE
+Unova;Mienshao;both;FALSE;FALSE;FALSE
+Unova;Druddigon;both;FALSE;FALSE;FALSE
+Unova;Golett;genderless;FALSE;FALSE;FALSE
+Unova;Golurk;genderless;FALSE;FALSE;FALSE
+Unova;Pawniard;both;FALSE;FALSE;FALSE
+Unova;Bisharp;both;FALSE;FALSE;FALSE
+Unova;Bouffalant;both;FALSE;FALSE;FALSE
+Unova;Rufflet;male;TRUE;FALSE;FALSE
+Unova;Braviary;male;TRUE;FALSE;FALSE
+Unova;Vullaby;female;FALSE;FALSE;FALSE
+Unova;Mandibuzz;female;FALSE;FALSE;FALSE
+Unova;Heatmor;both;TRUE;FALSE;FALSE
+Unova;Durant;both;TRUE;FALSE;FALSE
+Unova;Deino;both;TRUE;FALSE;FALSE
+Unova;Zweilous;both;TRUE;FALSE;FALSE
+Unova;Hydreigon;both;TRUE;FALSE;FALSE
+Unova;Larvesta;both;FALSE;FALSE;FALSE
+Unova;Volcarona;both;FALSE;FALSE;FALSE
+Unova;Cobalion;genderless;TRUE;FALSE;FALSE
+Unova;Terrakion;genderless;TRUE;FALSE;FALSE
+Unova;Virizion;genderless;TRUE;FALSE;FALSE
+Unova;Tornadus;male;TRUE;FALSE;FALSE
+Unova;Thundurus;male;TRUE;FALSE;FALSE
+Unova;Reshiram;genderless;FALSE;FALSE;FALSE
+Unova;Zekrom;genderless;FALSE;FALSE;FALSE
+Unova;Landorus;male;TRUE;FALSE;FALSE
+Unova;Kyurem;genderless;FALSE;FALSE;FALSE
+Unova;Keldeo;genderless;FALSE;FALSE;FALSE
+Unova;Meloetta;genderless;FALSE;FALSE;FALSE
+Unova;Genesect;genderless;TRUE;FALSE;FALSE
+Kalos;Chespin;both;FALSE;FALSE;FALSE
+Kalos;Quilladin;both;FALSE;FALSE;FALSE
+Kalos;Chesnaught;both;FALSE;FALSE;FALSE
+Kalos;Fennekin;both;FALSE;FALSE;FALSE
+Kalos;Braixen;both;FALSE;FALSE;FALSE
+Kalos;Delphox;both;FALSE;FALSE;FALSE
+Kalos;Froakie;both;FALSE;FALSE;FALSE
+Kalos;Frogadier;both;FALSE;FALSE;FALSE
+Kalos;Greninja;both;FALSE;FALSE;FALSE
+Kalos;Bunnelby;both;TRUE;FALSE;FALSE
+Kalos;Diggersby;both;TRUE;FALSE;FALSE
+Kalos;Fletchling;both;TRUE;FALSE;FALSE
+Kalos;Fletchinder;both;TRUE;FALSE;FALSE
+Kalos;Talonflame;both;TRUE;FALSE;FALSE
+Kalos;Scatterbug;both;FALSE;FALSE;FALSE
+Kalos;Spewpa;both;FALSE;FALSE;FALSE
+Kalos;Vivillon;both;FALSE;FALSE;FALSE
+Kalos;Litleo;both;FALSE;FALSE;FALSE
+Kalos;Pyroar;difference;FALSE;FALSE;FALSE
+Kalos;Flabébé;female;FALSE;FALSE;FALSE
+Kalos;Floette;female;FALSE;FALSE;FALSE
+Kalos;Florges;female;FALSE;FALSE;FALSE
+Kalos;Skiddo;both;FALSE;FALSE;FALSE
+Kalos;Gogoat;both;FALSE;FALSE;FALSE
+Kalos;Pancham;both;FALSE;FALSE;FALSE
+Kalos;Pangoro;both;FALSE;FALSE;FALSE
+Kalos;Furfrou;both;FALSE;FALSE;FALSE
+Kalos;Espurr;both;FALSE;FALSE;FALSE
+Kalos;Meowstic;difference;FALSE;FALSE;FALSE
+Kalos;Honedge;both;FALSE;FALSE;FALSE
+Kalos;Doublade;both;FALSE;FALSE;FALSE
+Kalos;Aegislash;both;FALSE;FALSE;FALSE
+Kalos;Spritzee;both;FALSE;FALSE;FALSE
+Kalos;Aromatisse;both;FALSE;FALSE;FALSE
+Kalos;Swirlix;both;FALSE;FALSE;FALSE
+Kalos;Slurpuff;both;FALSE;FALSE;FALSE
+Kalos;Inkay;both;FALSE;FALSE;FALSE
+Kalos;Malamar;both;FALSE;FALSE;FALSE
+Kalos;Binacle;both;FALSE;FALSE;FALSE
+Kalos;Barbaracle;both;FALSE;FALSE;FALSE
+Kalos;Skrelp;both;FALSE;FALSE;FALSE
+Kalos;Dragalge;both;FALSE;FALSE;FALSE
+Kalos;Clauncher;both;FALSE;FALSE;FALSE
+Kalos;Clawitzer;both;FALSE;FALSE;FALSE
+Kalos;Helioptile;both;FALSE;FALSE;FALSE
+Kalos;Heliolisk;both;FALSE;FALSE;FALSE
+Kalos;Tyrunt;both;FALSE;FALSE;FALSE
+Kalos;Tyrantrum;both;FALSE;FALSE;FALSE
+Kalos;Amaura;both;FALSE;FALSE;FALSE
+Kalos;Aurorus;both;FALSE;FALSE;FALSE
+Kalos;Sylveon;both;TRUE;FALSE;FALSE
+Kalos;Hawlucha;both;FALSE;FALSE;FALSE
+Kalos;Dedenne;both;FALSE;FALSE;FALSE
+Kalos;Carbink;genderless;FALSE;FALSE;FALSE
+Kalos;Goomy;both;FALSE;FALSE;FALSE
+Kalos;Sliggoo;both;FALSE;FALSE;FALSE
+Kalos;Goodra;both;FALSE;FALSE;FALSE
+Kalos;Klefki;both;FALSE;FALSE;FALSE
+Kalos;Phantump;both;FALSE;FALSE;FALSE
+Kalos;Trevenant;both;FALSE;FALSE;FALSE
+Kalos;Pumpkaboo;both;FALSE;FALSE;FALSE
+Kalos;Gourgeist;both;FALSE;FALSE;FALSE
+Kalos;Bergmite;both;FALSE;FALSE;FALSE
+Kalos;Avalugg;both;FALSE;FALSE;FALSE
+Kalos;Noibat;both;FALSE;FALSE;FALSE
+Kalos;Noivern;both;FALSE;FALSE;FALSE
+Kalos;Xerneas;genderless;FALSE;FALSE;FALSE
+Kalos;Yveltal;genderless;FALSE;FALSE;FALSE
+Kalos;Zygarde;genderless;FALSE;FALSE;FALSE
+Kalos;Diancie;genderless;FALSE;FALSE;FALSE
+Kalos;Hoopa;genderless;FALSE;FALSE;FALSE
+Kalos;Volcanion;genderless;FALSE;FALSE;FALSE
+Unknown;Meltan;genderless;TRUE;FALSE;FALSE
+Unknown;Melmetal;genderless;TRUE;FALSE;FALSE
+Galar;Obstagoon;both;TRUE;FALSE;FALSE
+Galar;Perrserker;both;FALSE;FALSE;FALSE
+Galar;Sirfetch'd;both;FALSE;FALSE;FALSE
+Galar;Mr. Rime;both;FALSE;FALSE;FALSE
+Galar;Runerigus;both;FALSE;FALSE;FALSE
+Forms;Rattata alolan;both;TRUE;FALSE;FALSE
+Forms;Raticate alolan;both;TRUE;FALSE;FALSE
+Forms;Raichu alolan;both;TRUE;FALSE;FALSE
+Forms;Sandshrew alolan;both;TRUE;FALSE;FALSE
+Forms;Sandslash alolan;both;TRUE;FALSE;FALSE
+Forms;Vulpix alolan;both;TRUE;FALSE;FALSE
+Forms;Ninetales alolan;both;TRUE;FALSE;FALSE
+Forms;Diglett alolan;both;TRUE;FALSE;FALSE
+Forms;Dugtrio alolan;both;TRUE;FALSE;FALSE
+Forms;Meowth alolan;both;TRUE;FALSE;FALSE
+Forms;Persian alolan;both;TRUE;FALSE;FALSE
+Forms;Geodude alolan;both;TRUE;FALSE;FALSE
+Forms;Graveler alolan;both;TRUE;FALSE;FALSE
+Forms;Golem alolan;both;TRUE;FALSE;FALSE
+Forms;Grimer alolan;both;TRUE;FALSE;FALSE
+Forms;Muk alolan;both;TRUE;FALSE;FALSE
+Forms;Exeggutor alolan;both;TRUE;FALSE;FALSE
+Forms;Marowak alolan;both;TRUE;FALSE;FALSE
+Forms;Meowth galarian;both;FALSE;FALSE;FALSE
+Forms;Ponyta galarian;both;TRUE;FALSE;FALSE
+Forms;Rapidash galarian;both;TRUE;FALSE;FALSE
+Forms;Slowpoke galarian;both;FALSE;FALSE;FALSE
+Forms;Slowbro galarian;both;FALSE;FALSE;FALSE
+Forms;Farfetch'd galarian;both;FALSE;FALSE;FALSE
+Forms;Weezing galarian;both;FALSE;FALSE;FALSE
+Forms;Slowking galarian;both;FALSE;FALSE;FALSE
+Forms;Zigzagoon galarian;both;TRUE;FALSE;FALSE
+Forms;Linoone galarian;both;TRUE;FALSE;FALSE
+Forms;Darumaka galarian;both;FALSE;FALSE;FALSE
+Forms;Darmanitan galarian;both;FALSE;FALSE;FALSE
+Forms;Darmanitan zen galarian;both;FALSE;FALSE;FALSE
+Forms;Yamask galarian;both;FALSE;FALSE;FALSE
+Forms;Stunfisk galarian;both;FALSE;FALSE;FALSE
+Forms;Mr. Mime galarian;both;FALSE;FALSE;FALSE
+Forms;Unown A;genderless;TRUE;FALSE;FALSE
+Forms;Unown B;genderless;FALSE;FALSE;FALSE
+Forms;Unown C;genderless;TRUE;FALSE;FALSE
+Forms;Unown D;genderless;FALSE;FALSE;FALSE
+Forms;Unown E;genderless;FALSE;FALSE;FALSE
+Forms;Unown F;genderless;FALSE;FALSE;FALSE
+Forms;Unown G;genderless;TRUE;FALSE;FALSE
+Forms;Unown H;genderless;FALSE;FALSE;FALSE
+Forms;Unown I;genderless;FALSE;FALSE;FALSE
+Forms;Unown J;genderless;FALSE;FALSE;FALSE
+Forms;Unown K;genderless;FALSE;FALSE;FALSE
+Forms;Unown L;genderless;TRUE;FALSE;FALSE
+Forms;Unown M;genderless;FALSE;FALSE;FALSE
+Forms;Unown N;genderless;FALSE;FALSE;FALSE
+Forms;Unown O;genderless;TRUE;FALSE;FALSE
+Forms;Unown P;genderless;FALSE;FALSE;FALSE
+Forms;Unown Q;genderless;FALSE;FALSE;FALSE
+Forms;Unown R;genderless;TRUE;FALSE;FALSE
+Forms;Unown S;genderless;FALSE;FALSE;FALSE
+Forms;Unown T;genderless;TRUE;FALSE;FALSE
+Forms;Unown U;genderless;TRUE;FALSE;FALSE
+Forms;Unown V;genderless;FALSE;FALSE;FALSE
+Forms;Unown W;genderless;FALSE;FALSE;FALSE
+Forms;Unown X;genderless;FALSE;FALSE;FALSE
+Forms;Unown Y;genderless;FALSE;FALSE;FALSE
+Forms;Unown Z;genderless;FALSE;FALSE;FALSE
+Forms;Unown !;genderless;FALSE;FALSE;FALSE
+Forms;Unown ?;genderless;FALSE;FALSE;FALSE
+Forms;Spinda 1;both;TRUE;FALSE;FALSE
+Forms;Spinda 2;both;TRUE;FALSE;FALSE
+Forms;Spinda 3;both;TRUE;FALSE;FALSE
+Forms;Spinda 4;both;TRUE;FALSE;FALSE
+Forms;Spinda 5;both;TRUE;FALSE;FALSE
+Forms;Spinda 6;both;TRUE;FALSE;FALSE
+Forms;Spinda 7;both;TRUE;FALSE;FALSE
+Forms;Spinda 8;both;TRUE;FALSE;FALSE
+Forms;Spinda 9;both;TRUE;FALSE;FALSE
+Forms;Castform Normal;both;TRUE;FALSE;FALSE
+Forms;Castform Sunny;both;FALSE;FALSE;FALSE
+Forms;Castform Rainy;both;TRUE;FALSE;FALSE
+Forms;Castform Snowy;both;FALSE;FALSE;FALSE
+Forms;Deoxys Normal;genderless;TRUE;FALSE;FALSE
+Forms;Deoxys Attack;genderless;FALSE;FALSE;FALSE
+Forms;Deoxys Defense;genderless;FALSE;FALSE;FALSE
+Forms;Deoxys Speed;genderless;FALSE;FALSE;FALSE
+Forms;Burmy plant;both;TRUE;FALSE;FALSE
+Forms;Burmy sandy;both;TRUE;FALSE;FALSE
+Forms;Burmy trash;both;TRUE;FALSE;FALSE
+Forms;Wormadam plant;female;TRUE;FALSE;FALSE
+Forms;Wormadam sandy;female;TRUE;FALSE;FALSE
+Forms;Wormadam trash;female;TRUE;FALSE;FALSE
+Forms;Cherrim overcast;both;FALSE;FALSE;FALSE
+Forms;Cherrim sunshine;both;FALSE;FALSE;FALSE
+Forms;Shellos west;both;FALSE;FALSE;FALSE
+Forms;Shellos east;both;FALSE;FALSE;FALSE
+Forms;Gastrodon west;both;FALSE;FALSE;FALSE
+Forms;Gastrodon east;both;FALSE;FALSE;FALSE
+Forms;Rotom regular;genderless;FALSE;FALSE;FALSE
+Forms;Rotom heat;genderless;FALSE;FALSE;FALSE
+Forms;Rotom wash;genderless;FALSE;FALSE;FALSE
+Forms;Rotom fan;genderless;FALSE;FALSE;FALSE
+Forms;Rotom frost;genderless;FALSE;FALSE;FALSE
+Forms;Rotom mow;genderless;FALSE;FALSE;FALSE
+Forms;Giratina altered;genderless;TRUE;FALSE;FALSE
+Forms;Giratina origin;genderless;TRUE;FALSE;FALSE
+Forms;Shaymin land;genderless;FALSE;FALSE;FALSE
+Forms;Shaymin sky;genderless;FALSE;FALSE;FALSE
+Forms;Arceus normal;genderless;FALSE;FALSE;FALSE
+Forms;Arceus bug;genderless;FALSE;FALSE;FALSE
+Forms;Arceus dark;genderless;FALSE;FALSE;FALSE
+Forms;Arceus dragon;genderless;FALSE;FALSE;FALSE
+Forms;Arceus electric;genderless;FALSE;FALSE;FALSE
+Forms;Arceus fairy;genderless;FALSE;FALSE;FALSE
+Forms;Arceus fighting;genderless;FALSE;FALSE;FALSE
+Forms;Arceus fire;genderless;FALSE;FALSE;FALSE
+Forms;Arceus flying;genderless;FALSE;FALSE;FALSE
+Forms;Arceus ghost;genderless;FALSE;FALSE;FALSE
+Forms;Arceus grass;genderless;FALSE;FALSE;FALSE
+Forms;Arceus ground;genderless;FALSE;FALSE;FALSE
+Forms;Arceus ice;genderless;FALSE;FALSE;FALSE
+Forms;Arceus poison;genderless;FALSE;FALSE;FALSE
+Forms;Arceus psychic;genderless;FALSE;FALSE;FALSE
+Forms;Arceus rock;genderless;FALSE;FALSE;FALSE
+Forms;Arceus steel;genderless;FALSE;FALSE;FALSE
+Forms;Arceus water;genderless;FALSE;FALSE;FALSE
+Forms;Basculin red-striped;both;FALSE;FALSE;FALSE
+Forms;Basculin blue-striped;both;FALSE;FALSE;FALSE
+Forms;Darmanitan standard;both;FALSE;FALSE;FALSE
+Forms;Darmanitan zen;both;FALSE;FALSE;FALSE
+Forms;Deerling spring;both;FALSE;FALSE;FALSE
+Forms;Deerling summer;both;FALSE;FALSE;FALSE
+Forms;Deerling autumn;both;FALSE;FALSE;FALSE
+Forms;Deerling winter;both;FALSE;FALSE;FALSE
+Forms;Sawsbuck spring;both;FALSE;FALSE;FALSE
+Forms;Sawsbuck summer;both;FALSE;FALSE;FALSE
+Forms;Sawsbuck autumn;both;FALSE;FALSE;FALSE
+Forms;Sawsbuck winter;both;FALSE;FALSE;FALSE
+Forms;Tornadus incarnate;male;TRUE;FALSE;FALSE
+Forms;Tornadus therian;male;FALSE;FALSE;FALSE
+Forms;Thundurus incarnate;male;TRUE;FALSE;FALSE
+Forms;Thundurus therian;male;FALSE;FALSE;FALSE
+Forms;Landorus incarnate;male;TRUE;FALSE;FALSE
+Forms;Landorus therian;male;FALSE;FALSE;FALSE
+Forms;Kyurem regular;genderless;FALSE;FALSE;FALSE
+Forms;Kyurem white;genderless;FALSE;FALSE;FALSE
+Forms;Kyurem black;genderless;FALSE;FALSE;FALSE
+Forms;Keldeo ordinary;genderless;FALSE;FALSE;FALSE
+Forms;Keldeo resolute;genderless;FALSE;FALSE;FALSE
+Forms;Meloetta aria;genderless;FALSE;FALSE;FALSE
+Forms;Meloetta pirouette;genderless;FALSE;FALSE;FALSE
+Forms;Genesect regular;genderless;TRUE;FALSE;FALSE
+Forms;Genesect shock;genderless;FALSE;FALSE;FALSE
+Forms;Genesect burn;genderless;FALSE;FALSE;FALSE
+Forms;Genesect chill;genderless;FALSE;FALSE;FALSE
+Forms;Genesect douse;genderless;FALSE;FALSE;FALSE
+Mega;Venusaur mega;both;TRUE;FALSE;FALSE
+Mega;Charizard x mega;both;TRUE;FALSE;FALSE
+Mega;Charizard y mega;both;TRUE;FALSE;FALSE
+Mega;Blastoise mega;both;TRUE;FALSE;FALSE
+Mega;Beedrill mega;both;TRUE;FALSE;FALSE
+Mega;Pidgeot mega;both;TRUE;FALSE;FALSE
+Mega;Houndoom mega;both;TRUE;FALSE;FALSE
+Mega;Gengar mega;both;TRUE;FALSE;FALSE
+Mega;Abomasnow mega;both;TRUE;FALSE;FALSE
+Mega;Alakazam mega;both;TRUE;FALSE;FALSE
+Mega;Slowbro mega;both;TRUE;FALSE;FALSE
+Mega;Kangaskhan mega;female;TRUE;FALSE;FALSE
+Mega;Pinsir mega;both;TRUE;FALSE;FALSE
+Mega;Gyarados mega;both;TRUE;FALSE;FALSE
+Mega;Aerodactyl mega;both;TRUE;FALSE;FALSE
+Mega;Mewtwo x mega;both;TRUE;FALSE;FALSE
+Mega;Mewtwo y mega;both;TRUE;FALSE;FALSE
+Mega;Ampharos mega;both;TRUE;FALSE;FALSE
+Mega;Steelix mega;both;TRUE;FALSE;FALSE
+Mega;Scizor mega;both;TRUE;FALSE;FALSE
+Mega;Heracross mega;both;TRUE;FALSE;FALSE
+Mega;Tyranitar mega;both;TRUE;FALSE;FALSE
+Mega;Sceptile mega;both;TRUE;FALSE;FALSE
+Mega;Blaziken mega;both;TRUE;FALSE;FALSE
+Mega;Swampert mega;both;TRUE;FALSE;FALSE
+Mega;Gardevoir mega;female;TRUE;FALSE;FALSE
+Mega;Sableye mega;both;TRUE;FALSE;FALSE
+Mega;Mawile mega;both;TRUE;FALSE;FALSE
+Mega;Aggron mega;both;TRUE;FALSE;FALSE
+Mega;Medicham mega;both;TRUE;FALSE;FALSE
+Mega;Manectric mega;both;TRUE;FALSE;FALSE
+Mega;Sharpedo mega;both;TRUE;FALSE;FALSE
+Mega;Camerupt mega;both;TRUE;FALSE;FALSE
+Mega;Altaria mega;both;TRUE;FALSE;FALSE
+Mega;Banette mega;both;TRUE;FALSE;FALSE
+Mega;Absol mega;both;TRUE;FALSE;FALSE
+Mega;Glalie mega;both;TRUE;FALSE;FALSE
+Mega;Salamence mega;both;TRUE;FALSE;FALSE
+Mega;Metagross mega;both;TRUE;FALSE;FALSE
+Mega;Latias mega;female;TRUE;FALSE;FALSE
+Mega;Latios mega;male;TRUE;FALSE;FALSE
+Mega;Rayquaza mega;both;TRUE;FALSE;FALSE
+Mega;Lopunny mega;both;TRUE;FALSE;FALSE
+Mega;Garchomp mega;both;TRUE;FALSE;FALSE
+Mega;Lucario mega;both;TRUE;FALSE;FALSE
+Mega;Gallade mega;male;TRUE;FALSE;FALSE
+Mega;Audino mega;both;TRUE;FALSE;FALSE
+Event;Bulbasaur fall;both;TRUE;FALSE;FALSE
+Event;Bulbasaur party hat;both;TRUE;FALSE;FALSE
+Event;Bulbasaur visor;both;TRUE;FALSE;FALSE
+Event;Venusaur clone;difference;FALSE;FALSE;FALSE
+Event;Charmander fall;both;TRUE;FALSE;FALSE
+Event;Charmander party hat;both;TRUE;FALSE;FALSE
+Event;Charmander visor;both;TRUE;FALSE;FALSE
+Event;Charizard clone;both;FALSE;FALSE;FALSE
+Event;Squirtle sunglasses;both;TRUE;FALSE;FALSE
+Event;Squirtle fall;both;TRUE;FALSE;FALSE
+Event;Squirtle party hat;both;TRUE;FALSE;FALSE
+Event;Squirtle visor;both;TRUE;FALSE;FALSE
+Event;Wartortle sunglasses;both;TRUE;FALSE;FALSE
+Event;Blastoise sunglasses;both;TRUE;FALSE;FALSE
+Event;Blastoise clone;both;FALSE;FALSE;FALSE
+Event;Raticate party;difference;TRUE;FALSE;FALSE
+Event;Pikachu festive;difference;TRUE;FALSE;FALSE
+Event;Pikachu ash;difference;TRUE;FALSE;FALSE
+Event;Pikachu party;difference;TRUE;FALSE;FALSE
+Event;Pikachu witch;difference;TRUE;FALSE;FALSE
+Event;Pikachu summer;difference;TRUE;FALSE;FALSE
+Event;Pikachu fragment;difference;TRUE;FALSE;FALSE
+Event;Pikachu winter;difference;TRUE;FALSE;FALSE
+Event;Pikachu flower;difference;TRUE;FALSE;FALSE
+Event;Pikachu detective;difference;TRUE;FALSE;FALSE
+Event;Pikachu worldcap;difference;TRUE;FALSE;FALSE
+Event;Pikachu straw hat;difference;TRUE;FALSE;FALSE
+Event;Pikachu fall;difference;TRUE;FALSE;FALSE
+Event;Pikachu party hat;difference;TRUE;FALSE;FALSE
+Event;Pikachu clone;difference;FALSE;FALSE;FALSE
+Event;Pikachu libre;female;TRUE;FALSE;FALSE
+Event;Pikachu spring;difference;TRUE;FALSE;FALSE
+Event;Pikachu safari;difference;TRUE;FALSE;FALSE
+Event;Pikachu charizard;difference;TRUE;FALSE;FALSE
+Event;Pikachu umbreon;difference;TRUE;FALSE;FALSE
+Event;Pikachu rayquaza;difference;TRUE;FALSE;FALSE
+Event;Pikachu lucario;difference;TRUE;FALSE;FALSE
+Event;Pikachu fly;difference;TRUE;FALSE;FALSE
+Event;Pikachu explorer;difference;TRUE;FALSE;FALSE
+Event;Pikachu holiday;difference;TRUE;FALSE;FALSE
+Event;Pikachu new year;difference;TRUE;FALSE;FALSE
+Event;Raichu festive;difference;TRUE;FALSE;FALSE
+Event;Raichu ash;difference;TRUE;FALSE;FALSE
+Event;Raichu party;difference;TRUE;FALSE;FALSE
+Event;Raichu witch;difference;TRUE;FALSE;FALSE
+Event;Raichu summer;difference;TRUE;FALSE;FALSE
+Event;Raichu fragment;difference;TRUE;FALSE;FALSE
+Event;Raichu winter;difference;TRUE;FALSE;FALSE
+Event;Raichu flower;difference;TRUE;FALSE;FALSE
+Event;Raichu detective;difference;TRUE;FALSE;FALSE
+Event;Raichu worldcap;difference;TRUE;FALSE;FALSE
+Event;Raichu new year;difference;TRUE;FALSE;FALSE
+Event;Slowpoke new year;both;TRUE;FALSE;FALSE
+Event;Slowbro new year;both;TRUE;FALSE;FALSE
+Event;Nidorino party hat;both;TRUE;FALSE;FALSE
+Event;Gengar party hat;both;TRUE;FALSE;FALSE
+Event;Gengar halloween;both;TRUE;FALSE;FALSE
+Event;Chansey flower;female;TRUE;FALSE;FALSE
+Event;Eevee flower;difference;TRUE;FALSE;FALSE
+Event;Eevee party hat;difference;TRUE;FALSE;FALSE
+Event;Vaporeon flower;both;TRUE;FALSE;FALSE
+Event;Jolteon flower;both;TRUE;FALSE;FALSE
+Event;Flareon flower;both;TRUE;FALSE;FALSE
+Event;Mewtwo armored;genderless;FALSE;FALSE;FALSE
+Event;Pichu festive;both;TRUE;FALSE;FALSE
+Event;Pichu ash;both;TRUE;FALSE;FALSE
+Event;Pichu party;both;TRUE;FALSE;FALSE
+Event;Pichu witch;both;TRUE;FALSE;FALSE
+Event;Pichu summer;both;TRUE;FALSE;FALSE
+Event;Pichu winter;both;TRUE;FALSE;FALSE
+Event;Pichu flower;both;TRUE;FALSE;FALSE
+Event;Pichu new year;both;TRUE;FALSE;FALSE
+Event;Togepi flower;both;TRUE;FALSE;FALSE
+Event;Espeon flower;both;TRUE;FALSE;FALSE
+Event;Umbreon flower;both;TRUE;FALSE;FALSE
+Event;Wobbuffet party;difference;TRUE;FALSE;FALSE
+Event;Delibird holiday;both;TRUE;FALSE;FALSE
+Event;Stantler holiday;both;TRUE;FALSE;FALSE
+Event;Blissey flower;female;TRUE;FALSE;FALSE
+Event;Smoochum bow;female;TRUE;FALSE;FALSE
+Event;Wurmple party;both;TRUE;FALSE;FALSE
+Event;Kirlia hat;both;FALSE;FALSE;FALSE
+Event;Sableye halloween;both;TRUE;FALSE;FALSE
+Event;Shinx hat;difference;TRUE;FALSE;FALSE
+Event;Buneary flower;both;TRUE;FALSE;FALSE
+Event;Happiny flower;female;TRUE;FALSE;FALSE
+Event;Croagunk cap;difference;TRUE;FALSE;FALSE
+Event;Leafeon flower;both;TRUE;FALSE;FALSE
+Event;Glaceon flower;both;TRUE;FALSE;FALSE
+Event;Cubchoo holiday;both;TRUE;FALSE;FALSE
+Event;Sylveon flower;both;TRUE;FALSE;FALSE

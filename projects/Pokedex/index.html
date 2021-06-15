@@ -1,0 +1,829 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>User Pokédex Generator</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="jquery.csv.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <style>
+body {
+	font-family: Roboto !important;
+}
+h1 {
+  margin: auto;
+  font-weight: 300;
+  color: #7758ec;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 5px solid #7758ec;
+  width: 100%;
+  font-size: 30pt;
+  line-height: 26pt;
+}
+
+#pokemon-form {
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+#top {
+  width: 100%;
+  position: fixed; top: 0px; left: 0px; 
+}
+
+#data {
+  width: 100%;
+}
+
+#pokemon-form textarea {
+  text-align: left;
+  padding: 10px;
+  margin: 10px auto;
+  width: 99%;
+  border: 0px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#pokemon-form textarea:focus {
+  outline: none !important;
+  border: 0px solid #98a4ef;
+}
+
+#pokemon-form button {
+  display: inline-block;
+  margin: 10px auto;
+  background: #cabcff;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-weight: 300;
+  font-size: 12pt;
+  padding: 10px;
+  trasition: 0.5s;
+}
+
+#pokemon-form button:hover {
+  cursor: pointer;
+}
+
+#pokemon-form button:focus {
+  outline: none !important;
+  background: #755bd8;
+  trasition: 0.5s;
+}
+
+.user-pokedex {
+  background: #cabcff;
+  text-align: center;
+  border-radius: 50px;
+  width: 120px;
+  height: 220px !important;
+  color: white;
+  font-weight: 300;
+  padding: 10px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.user-pokedex .name {
+	font-size: 125%;
+	margin: 5px auto;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 119px;
+}
+
+.user-pokedex .image-regular,
+.user-pokedex .image-shiny {
+  height: 102px;
+  max-height: 102px;
+  text-align: center;
+}
+
+.user-pokedex img {
+  margin: auto;
+}
+
+.user-pokedex .image-shiny {
+  display: none;
+}
+
+.user-pokedex.shiny .image-regular {
+  display: none;
+}
+
+.user-pokedex.shiny .image-shiny {
+  display: block;
+}
+
+.user-pokedex .caught-switch div {
+  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/f/fc/Pok%C3%A9dex_Genderless_Caught.png/revision/latest?cb=20171208105037);
+  background-size: 20px 20px;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 14px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.user-pokedex.seen .seen-btn {
+  font-weight: bold;
+  color: blue;
+  background: white;
+  border-radius: 30px;
+}
+
+.user-pokedex.caught .caught-btn {
+  font-weight: bold;
+  color: blue;
+  background: white;
+  border-radius: 30px;
+}
+
+.user-pokedex.lucky .lucky-btn {
+  font-weight: bold;
+  color: blue;
+  background: white;
+  border-radius: 30px;
+}
+
+.user-pokedex .shiny-switch {
+  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/3/31/Shiny_Pok%C3%A9mon.png/revision/latest?cb=20171026223519);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.shiny .shiny-switch {
+  filter: grayscale(0%);
+}
+
+.user-pokedex .shadow-switch {
+  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/7/76/Icon_Shadow_Pokémon.png/revision/latest/?cb=20190715225723);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.shadow .shadow-switch {
+  filter: grayscale(0%);
+}
+
+.user-pokedex .purified-switch {
+  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/5/52/Icon_Purified_Pokémon.png/revision/latest/?cb=20190715225729);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.purified .purified-switch {
+  filter: grayscale(0%);
+}
+
+.user-pokedex .perfect-switch {
+  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/6/6a/Appraisal_Rating_4.png/revision/latest?cb=20190716115838);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.perfect .perfect-switch {
+  filter: grayscale(0%);
+}
+
+.user-pokedex .shinyShadow-switch {
+  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/f/fb/Appraisal_Star.png/revision/latest?cb=20190715230114);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.shinyShadow .shinyShadow-switch {
+  filter: grayscale(0%);
+}
+
+.user-pokedex .female-switch {
+  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/a/ad/Pok%C3%A9dex_Female_Seen.png/revision/latest?cb=20171208105036);
+  background-size: 30px 30px;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.user-pokedex .male-switch {
+  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/b/ba/Pok%C3%A9dex_Male_Seen.png/revision/latest?cb=20171208105039);
+  background-size: 30px 30px;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.female-caught .female-switch {
+  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/1/1d/Pok%C3%A9dex_Female_Caught.png/revision/latest?cb=20171208105035);
+}
+
+.user-pokedex.male-caught .male-switch {
+  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/c/c2/Pok%C3%A9dex_Male_Caught.png/revision/latest?cb=20171208105039);
+}
+
+.optional-switch {
+  min-height: 30px;
+}
+
+
+.user-pokedex.seen .female-switch,
+.user-pokedex.seen .male-switch,
+.user-pokedex.seen .shiny-switch,
+.user-pokedex.seen .shadow-switch,
+.user-pokedex.seen .purified-switch,
+.user-pokedex.seen .shinyShadow-switch,
+.user-pokedex.seen .perfect-switch {
+  opacity: 0;
+  cursor: default;
+}
+
+.user-pokedex.seen .image-regular {
+  filter: brightness(0.15) !important;
+  opacity: 0.35 !important;
+}
+
+.user-pokedex.lucky {
+  background: #403a96 !important;
+}
+
+.user-pokedex.lucky .image-regular,
+.user-pokedex.lucky .image-shiny {
+  background: url(https://vignette.wikia.nocookie.net/pokemongo/images/1/13/Lucky_Pok%C3%A9mon_sprite_bg.png/revision/latest?cb=20180811004911) center 0 !important;
+}
+
+.user-pokedex.female-only .female-switch {
+  display: none;
+}
+
+.user-pokedex.female-only .male-switch {
+  background: url(https://vignette.wikia.nocookie.net/pokemongo/images/1/1d/Pok%C3%A9dex_Female_Caught.png/revision/latest?cb=20171208105035);
+  background-size: 30px 30px;
+}
+
+.user-pokedex.male-only .female-switch {
+  display: none;
+}
+
+.user-pokedex.male-only .male-switch {
+  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/c/c2/Pok%C3%A9dex_Male_Caught.png/revision/latest?cb=20171208105039);
+  background-size: 30px 30px;
+}
+
+.user-pokedex.genderless .female-switch {
+  display: none;
+}
+
+.user-pokedex.genderless .male-switch {
+  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/f/fc/Pok%C3%A9dex_Genderless_Caught.png/revision/latest?cb=20171208105037);
+  background-size: 30px 30px;
+}
+</style>
+</head>
+<body>
+	<div id="top">
+    <h1>Form</h1>
+    <form id="pokemon-form" action="" onsubmit="return false;">
+        <textarea id="code" rows="10"></textarea><br/>
+        <button id="import-code">Import code</button>
+		<button id="export-code">Export code</button><br><br><br>
+ 
+		<button id="show-all">Clear filters</button><br>
+		
+		Show only:
+		<button id="show-difference">Gender difference</button>
+        <button id="show-shiny">Shiny</button>
+		<button id="show-shadow">Shadow</button>
+		<button id="show-shinyShadow">Shiny shadow</button><br>
+		My missing: 
+		<button id="missing-all">All</button>
+		<button id="missing-lucky">Lucky</button>
+		<button id="missing-shiny">Shiny</button>
+		<button id="missing-shadow">Shadow</button>
+		<button id="missing-purified">Purified</button>
+		<button id="missing-shinyShadow">Shiny shadow</button>
+		<button id="missing-perfect">Perfect</button><br>
+		<i>The filters are used in addition. Clear one filter if you want to filter only by another</i>
+    </form>
+	</div>
+	<div id="data">
+    <h1>Kanto</h1>
+    <div id="Kanto" style="text-align: center; margin: auto;"></div>
+    <h1>Johto</h1>
+    <div id="Johto" style="text-align: center; margin: auto;"></div>
+	<h1>Hoenn</h1>
+    <div id="Hoenn" style="text-align: center; margin: auto;"></div>
+	<h1>Sinnoh</h1>
+    <div id="Sinnoh" style="text-align: center; margin: auto;"></div>
+	<h1>Unova</h1>
+    <div id="Unova" style="text-align: center; margin: auto;"></div>
+	<h1>Kalos</h1>
+    <div id="Kalos" style="text-align: center; margin: auto;"></div>
+	<h1>Unknown</h1>
+    <div id="Unknown" style="text-align: center; margin: auto;"></div>
+	<h1>Galar</h1>
+    <div id="Galar" style="text-align: center; margin: auto;"></div>
+	<h1>Forms</h1>
+    <div id="Forms" style="text-align: center; margin: auto;"></div>
+	<h1>Event</h1>
+    <div id="Event" style="text-align: center; margin: auto;"></div>
+	<h1>Mega</h1>
+    <div id="Mega" style="text-align: center; margin: auto;"></div>
+	</div>	
+	<script>
+	getPokemon();
+
+$('#data').css('margin-top', function() {
+    return $('#top').height();
+});
+
+function getPokemon() {
+
+	$.get("data.csv", function(csvString) {
+			var data = $.csv.toArrays(csvString);
+		console.log(data);
+		createPokemon(data);
+	});
+}
+
+function getImageUrl(name) {
+
+	if(name == "Unown F") name = "Unown";
+	if(name == "Castform Normal") name = "Castform";
+    if(name == "Deoxys normal") name = "Deoxys";
+	if(name == "Burmy plant") name = "Burmy";
+	if(name == "Wormadam plant") name = "Wormadam";
+	if(name == "Cherrim overcast") name = "Cherrim";
+	if(name == "Shellos west") name = "Shellos";
+	if(name == "Gastrodon west") name = "Gastrodon";
+	if(name == "Rotom regular") name = "Rotom";
+	if(name == "Shaymin land") name = "Shaymin";
+	if(name == "Arceus normal") name = "Arceus";
+	if(name == "Giratina altered") name = "Giratina";
+	if(name == "Basculin red-striped") name = "Basculin";
+	if(name == "Darmanitan standard") name = "Darmanitan";
+	if(name == "Deerling spring") name = "Deerling";
+	if(name == "Sawsbuck spring") name = "Sawsbuck";
+	if(name == "Tornadus incarnate") name = "Tornadus";
+	if(name == "Thundurus incarnate") name = "Thundurus";
+	if(name == "Landorus incarnate") name = "Landorus";
+	if(name == "Kyurem regular") name = "Kyurem";
+	if(name == "Keldeo ordinary") name = "Keldeo";
+	if(name == "Meloetta aria") name = "Meloetta";
+	if(name == "Genesect regular") name = "Genesect";
+	if(name == "Pikachu libre") name = "Pikachu female libre";
+
+	if(name == "Unown F shiny") name = "Unown shiny";
+	if(name == "Castform Normal shiny") name = "Castform shiny";
+    if(name == "Deoxys normal shiny") name = "Deoxys shiny";
+	if(name == "Burmy plant shiny") name = "Burmy shiny";
+	if(name == "Wormadam plant shiny") name = "Wormadam shiny";
+	if(name == "Cherrim overcast shiny") name = "Cherrim shiny";
+	if(name == "Shellos west shiny") name = "Shellos shiny";
+	if(name == "Gastrodon west shiny") name = "Gastrodon shiny";
+	if(name == "Rotom regular shiny") name = "Rotom shiny";
+	if(name == "Shaymin land shiny") name = "Shaymin shiny";
+	if(name == "Arceus normal shiny") name = "Arceus shiny";
+	if(name == "Giratina altered shiny") name = "Giratina shiny";
+	if(name == "Basculin red-striped shiny") name = "Basculin shiny";
+	if(name == "Darmanitan standard shiny") name = "Darmanitan shiny";
+	if(name == "Deerling spring shiny") name = "Deerling shiny";
+	if(name == "Sawsbuck spring shiny") name = "Sawsbuck shiny";
+	if(name == "Tornadus incarnate shiny") name = "Tornadus shiny";
+	if(name == "Thundurus incarnate shiny") name = "Thundurus shiny";
+	if(name == "Landorus incarnate shiny") name = "Landorus shiny";
+	if(name == "Kyurem regular shiny") name = "Kyurem shiny";
+	if(name == "Keldeo ordinary shiny") name = "Keldeo shiny";
+	if(name == "Meloetta aria shiny") name = "Meloetta shiny";
+	if(name == "Genesect regular shiny") name = "Genesect shiny";
+	if(name == "Pikachu libre shiny") name = "Pikachu female libre shiny";
+	
+	if(name == "Spinda 1") name = "Spinda";
+	if(name == "Spinda 2") name = "Spinda pattern 2";
+	if(name == "Spinda 3") name = "Spinda pattern 3";
+	if(name == "Spinda 4") name = "Spinda pattern 4";
+	if(name == "Spinda 5") name = "Spinda pattern 5";
+	if(name == "Spinda 6") name = "Spinda pattern 6";
+	if(name == "Spinda 7") name = "Spinda pattern 7";
+	if(name == "Spinda 8") name = "Spinda pattern 8";
+	if(name == "Spinda 9") name = "Spinda pattern 9";
+
+	if(name == "Spinda 1 shiny") name = "Spinda shiny";
+	if(name == "Spinda 2 shiny") name = "Spinda pattern 2 shiny";
+	if(name == "Spinda 3 shiny") name = "Spinda pattern 3 shiny";
+	if(name == "Spinda 4 shiny") name = "Spinda pattern 4 shiny";
+	if(name == "Spinda 5 shiny") name = "Spinda pattern 5 shiny";
+	if(name == "Spinda 6 shiny") name = "Spinda pattern 6 shiny";
+	if(name == "Spinda 7 shiny") name = "Spinda pattern 7 shiny";
+	if(name == "Spinda 8 shiny") name = "Spinda pattern 8 shiny";
+	if(name == "Spinda 9 shiny") name = "Spinda pattern 9 shiny";
+
+	
+    let baseUrl = 'https://vignette.wikia.nocookie.net/pokemongo/images',
+        filename = `${name}.png`.replace(/ /g, '_'),
+        digest = md5(filename),
+        filepath = `${digest[0]}/${digest[0]}${digest[1]}/${encodeURIComponent(filename)}`;
+    return `${baseUrl}/${filepath}`;
+}
+
+function createPokemon(list) {
+	var region = ["Kanto", "Johto", "Hoenn", "Sinnoh", "Unova", "Kalos", "Unknown", "Galar", "Forms", "Event", "Mega"];
+	for(j = 0; j < region.length; j++) {
+		var tekst = "";
+		var el = document.getElementById(region[j]);
+		for (i = 0; i < list.length; i++) {
+			if(list[i]['region'] == region[j]) {
+				tekst += '<div id="' + list[i]['name'] + '" class="user-pokedex seen';
+				if(list[i]['gender']=="female") tekst += " female-only";
+				if(list[i]['gender']=="male") tekst += " male-only";
+				if(list[i]['gender']=="genderless") tekst += " genderless";
+				if(list[i]['gender']=="difference") tekst += " difference";
+				if(list[i]['shiny']=="FALSE") tekst += " not-shiny";
+				if(list[i]['shadow']=="FALSE") tekst += " not-shadow";
+				if(list[i]['shadowshiny']=="FALSE") tekst += " not-shinyShadow";
+				tekst += '"><div class="image-regular"><img src="' + getImageUrl(list[i]['name']) + '" width="100" height="100"></div><div class="image-shiny"><img src="' + getImageUrl(list[i]['name'] + " shiny") + '" width="100" height="100"></div><div class="name">' + list[i]['name'] + '</div><div class="caught-switch"><div class="seen-btn">S</div>&nbsp;<div class="caught-btn">T</div>&nbsp;<div class="lucky-btn">L</div></div><div class="optional-switch"><div class="perfect-switch"></div>';
+				if(list[i]['shiny']=="TRUE") tekst += '<div class="shiny-switch"></div>';
+				if(list[i]['shadow']=="TRUE") tekst += '<div class="shadow-switch"></div><div class="purified-switch"></div>';
+				if(list[i]['shadowshiny']=="TRUE") tekst += '<div class="shinyShadow-switch"></div>';
+				tekst += '</div><div class="optional-switch"><div class="male-switch"></div><div class="female-switch"></div></div></div>';
+			}
+		}
+		el.innerHTML = tekst;
+	}
+
+    $(document).ready(function () {
+        $('.shiny-switch').click(function () {
+            $(this).parent().parent(".caught").toggleClass('shiny');
+            $(this).parent().parent(".lucky").toggleClass('shiny');
+        });
+    });
+
+
+    $(document).ready(function () {
+        $('.shadow-switch').click(function () {
+            $(this).parent().parent(".caught").toggleClass('shadow');
+            $(this).parent().parent(".lucky").toggleClass('shadow');
+        });
+    });
+	
+    $(document).ready(function () {
+        $('.shinyShadow-switch').click(function () {
+            $(this).parent().parent(".caught").toggleClass('shinyShadow');
+            $(this).parent().parent(".lucky").toggleClass('shinyShadow');
+        });
+    });
+	
+    $(document).ready(function () {
+        $('.perfect-switch').click(function () {
+            $(this).parent().parent(".caught").toggleClass('perfect');
+            $(this).parent().parent(".lucky").toggleClass('perfect');
+        });
+    });
+	
+    $(document).ready(function () {
+        $('.purified-switch').click(function () {
+            $(this).parent().parent(".caught").toggleClass('purified');
+            $(this).parent().parent(".lucky").toggleClass('purified');
+        });
+    });
+
+    $(document).ready(function () {
+        $(".female-switch").click(function () {
+            $(this).parent().parent(".caught").toggleClass("female-caught");
+            $(this).parent().parent(".lucky").toggleClass("female-caught");
+        });
+        $(".male-switch").click(function () {
+            if ($(this).parent().parent().hasClass("female-only") || $(this).parent().parent().hasClass("male-only") || $(this).parent().parent().hasClass("genderless")) {
+                null
+            } else {
+                $(this).parent().parent(".caught").toggleClass("male-caught")
+                $(this).parent().parent(".lucky").toggleClass("male-caught")
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $(".seen-btn").click(function () {
+            $(this).parent().parent().removeClass("caught").removeClass("lucky").addClass("seen").removeClass("female-caught").removeClass("male-caught").removeClass("shiny").removeClass("shadow").removeClass("shinyShadow").removeClass("purified").removeClass("perfect");
+        });
+        $(".caught-btn").click(function () {
+            $(this).parent().parent().removeClass("seen").removeClass("lucky").addClass("caught");
+        });
+        $(".lucky-btn").click(function () {
+            $(this).parent().parent().removeClass("caught").removeClass("seen").addClass("lucky");
+        });
+    });
+	
+	$(document).ready(function () {
+        $("#show-all").click(function () {
+			$(".user-pokedex").show();
+		
+		});
+    });
+	
+	$(document).ready(function () {
+        $("#show-difference").click(function () {
+			$(".user-pokedex:not('.difference')").hide();
+		
+		});
+    });
+	
+	$(document).ready(function () {
+        $("#show-shiny").click(function () {
+			$(".user-pokedex.not-shiny").hide();
+		
+		});
+    });
+	
+	$(document).ready(function () {
+        $("#show-shadow").click(function () {
+			$(".user-pokedex.not-shadow").hide();
+		
+		});
+    });
+	
+	$(document).ready(function () {
+        $("#show-shinyShadow").click(function () {
+			$(".user-pokedex.not-shinyShadow").hide();
+		
+		});
+    });
+	
+	$(document).ready(function () {
+        $("#missing-all").click(function () {
+			$(".user-pokedex:not('.seen')").hide();
+		
+		});
+    });
+	
+	$(document).ready(function () {
+        $("#missing-lucky").click(function () {
+			$(".user-pokedex.lucky").hide();
+		
+		});
+    });
+	
+	$(document).ready(function () {
+        $("#missing-shiny").click(function () {
+			$(".user-pokedex.shiny").hide();
+			$(".user-pokedex.not-shiny").hide();
+		});
+    });
+	
+	$(document).ready(function () {
+        $("#missing-shiny").click(function () {
+			$(".user-pokedex.shadow").hide();
+			$(".user-pokedex.not-shadow").hide();
+		});
+    });
+	
+	$(document).ready(function () {
+        $("#missing-purified").click(function () {
+			$(".user-pokedex.purified").hide();
+			$(".user-pokedex.not-shadow").hide();
+		});
+    });
+		
+	$(document).ready(function () {
+        $("#missing-shinyShadow").click(function () {
+			$(".user-pokedex.shinyShadow").hide();
+			$(".user-pokedex.not-shinyShadow").hide();
+		});
+    });
+		
+	$(document).ready(function () {
+        $("#missing-perfect").click(function () {
+			$(".user-pokedex.perfect").hide();
+		});
+    });
+
+    $(document).ready(function () {
+        $("#export-code").click(function () {
+		
+		    var code = document.getElementById("code");
+			var tekst = "";
+		
+			for (i = 0; i < list.length; i++) {
+				pokemon = document.getElementById(list[i]['name']);
+				if (pokemon.classList.contains('seen')) tekst +='| ' + list[i]['name']+' = ';
+				else if (pokemon.classList.contains('caught')) tekst +='| ' + list[i]['name']+' = t';
+				else if (pokemon.classList.contains('lucky')) tekst +='| ' + list[i]['name']+' = l';
+				if(list[i]['gender']=='both'||list[i]['gender']=='difference'){
+						if (pokemon.classList.contains('male-caught')) tekst +='| ' + list[i]['name']+'M = t';
+						if (pokemon.classList.contains('female-caught')) tekst +='| ' + list[i]['name']+'F = t';
+				}
+				if (pokemon.classList.contains('perfect')) tekst +='| ' + list[i]['name']+'P = t';
+				if (pokemon.classList.contains('shiny')) tekst +='| ' + list[i]['name']+'S = t';
+				else if (!pokemon.classList.contains('not-shiny')) tekst +='| ' + list[i]['name']+'S = ';
+				
+				if (pokemon.classList.contains('shadow')) tekst +='| ' + list[i]['name']+'H = t';
+				else if (!pokemon.classList.contains('not-shadow')) tekst +='| ' + list[i]['name']+'H = ';
+				
+				if (pokemon.classList.contains('shinyShadow')) tekst +='| ' + list[i]['name']+'X = t';
+				else if (!pokemon.classList.contains('not-shinyShadow')) tekst +='| ' + list[i]['name']+'X = ';
+				
+				if (pokemon.classList.contains('purified')) tekst +='| ' + list[i]['name']+'R = t';
+				else if (!pokemon.classList.contains('not-shadow')) tekst +='| ' + list[i]['name']+'R = ';
+			
+			tekst += "\n";
+			}
+            code.value = tekst;
+        });
+    });
+
+    $(document).ready(function () {
+        $("#import-code").click(function () {
+            var code = document.getElementById("code");
+            var args = code.value.split("|");
+            var classesArray = [];
+			
+			var femaleOnly = $('.female-only').map(function(_, x) { return x.id; }).get();
+			var maleOnly = $('.male-only').map(function(_, x) { return x.id; }).get();
+			var genderless = $('.genderless').map(function(_, x) { return x.id; }).get();
+			var notshinyShadow = $('.not-shinyShadow').map(function(_, x) { return x.id; }).get();
+			var notshiny = $('.not-shiny').map(function(_, x) { return x.id; }).get();
+			var notshadow = $('.not-shadow').map(function(_, x) { return x.id; }).get();
+			var difference = $('.difference').map(function(_, x) { return x.id; }).get();	
+			
+			
+			console.log(femaleOnly,maleOnly,genderless,notshinyShadow,notshiny,notshadow)
+
+            var help = 0;
+            if (args[0] == "") {
+                help = 1;
+            }
+            for (i = 1; i < args.length; i++) {
+                var pokemon = args[i].split("=");
+                pokemon[0] = $.trim(pokemon[0]);
+                pokemon[1] = $.trim(pokemon[1]);
+				
+                var pokemonName = "";
+                var letters = Array.from(pokemon[0]);
+                if ((letters[letters.length - 1] == "S" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "F" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "M" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "P" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "R" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "X" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "H" && letters[letters.length - 2] != " ") ) {
+                    for (j = 0; j < letters.length - 1; j++) {
+                        pokemonName += letters[j];
+                    }
+                } else {
+                    pokemonName = pokemon[0];
+                }
+                var caught = "unknown";
+                var shiny = "";
+                var female = "";
+                var male = "";
+				var shadow = "";
+				var purified = "";
+				var shinyShadow = "";
+				var perfect = "";
+
+				if(letters[letters.length - 2] != " "){
+				    switch (letters[letters.length - 1]) {
+						case "S":
+							{
+								shiny = pokemon[1];
+								break;
+							}
+						case "F":
+							{
+								female = pokemon[1];
+								break;
+							}
+						case "M":
+							{
+								male = pokemon[1];
+								break;
+							}
+						case "H":
+							{
+								shadow = pokemon[1];
+								break;
+							}
+						case "P":
+							{
+								perfect = pokemon[1];
+								break;
+							}
+						case "R":
+							{
+								purified = pokemon[1];
+								break;
+							}
+						case "X":
+							{
+								shinyShadow = pokemon[1];
+								break;
+							}
+						default:
+							{
+								caught = pokemon[1];
+								break;
+							}
+					}
+				}else{
+					caught = pokemon[1];
+					break;
+				}
+
+                var readyclass = "";
+
+                switch (caught) {
+                    case "":
+                        {
+                            readyclass += "seen ";
+                            break;
+                        }
+                    case "t":
+                        {
+                            readyclass += "caught ";
+                            break;
+                        }
+                    case "l":
+                        {
+                            readyclass += "lucky ";
+                            break;
+                        }
+                }
+
+                if (shiny == "t") {
+                    readyclass += "shiny ";
+                }
+                if (female == "t") {
+                    readyclass += "female-caught ";
+                }
+                if (male == "t") {
+                    readyclass += "male-caught ";
+                }
+                if (shadow == "t") {
+                    readyclass += "shadow ";
+                }
+                if (purified == "t") {
+                    readyclass += "purified ";
+                }
+                if (shinyShadow == "t") {
+                    readyclass += "shinyShadow ";
+                }
+                if (perfect == "t") {
+                    readyclass += "perfect ";
+                }			
+
+                if (typeof classesArray[pokemonName] === 'undefined') {
+                    classesArray[pokemonName] = readyclass;
+                } else {
+                    classesArray[pokemonName] += readyclass;
+                }
+				
+				for (let elem in classesArray) {  
+					let el = document.getElementById(elem);
+					el.className = "user-pokedex " + classesArray[elem];
+				}
+            }
+			
+			for (var i = 0; i < femaleOnly.length; i++) document.getElementById(femaleOnly[i]).className += " female-only";
+			console.log(femaleOnly)
+			for (var i = 0; i < maleOnly.length; i++) document.getElementById(maleOnly[i]).className += " male-only";
+			for (var i = 0; i < genderless.length; i++) document.getElementById(genderless[i]).className += " genderless";
+			for (var i = 0; i < notshinyShadow.length; i++) document.getElementById(notshinyShadow[i]).className += " not-shinyShadow";
+			for (var i = 0; i < notshiny.length; i++) document.getElementById(notshiny[i]).className += " not-shiny";
+			for (var i = 0; i < notshadow.length; i++) document.getElementById(notshadow[i]).className += " not-shadow";
+			for (var i = 0; i < difference.length; i++) document.getElementById(difference[i]).className += " difference";
+
+        });
+    });
+}
+</script>
+	
+</body>
+</html>
