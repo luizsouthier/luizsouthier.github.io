@@ -374,7 +374,7 @@ $('#data').css('margin-top', function() {
 function getPokemon() {
 
 	$.get("data.csv", function(csvString) {
-			var data = $.csv.toArrays(csvString);
+			var data = $.csv.toObjects(csvString);
 		console.log(data);
 		createPokemon(data);
 	});
