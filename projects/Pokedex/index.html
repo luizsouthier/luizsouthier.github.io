@@ -681,9 +681,6 @@ function createPokemon(list) {
 			var notshadow = $('.not-shadow').map(function(_, x) { return x.id; }).get();
 			var difference = $('.difference').map(function(_, x) { return x.id; }).get();	
 			
-			
-			console.log(femaleOnly,maleOnly,genderless,notshinyShadow,notshiny,notshadow)
-
             var help = 0;
             if (args[0] == "") {
                 help = 1;
@@ -808,16 +805,15 @@ function createPokemon(list) {
                 } else {
                     classesArray[pokemonName] += readyclass;
                 }
-				
-				console.log(classesArray);
-				for (let elem in classesArray) {  
-					let el = document.getElementById(elem);
-					el.className = "user-pokedex " + classesArray[elem];
-				}
             }
 			
+			console.log(classesArray,readyclass);
+			for (let elem in classesArray) {  
+				let el = document.getElementById(elem);
+				el.className = "user-pokedex " + classesArray[elem];
+			}
+			
 			for (var i = 0; i < femaleOnly.length; i++) document.getElementById(femaleOnly[i]).className += " female-only";
-			console.log(femaleOnly)
 			for (var i = 0; i < maleOnly.length; i++) document.getElementById(maleOnly[i]).className += " male-only";
 			for (var i = 0; i < genderless.length; i++) document.getElementById(genderless[i]).className += " genderless";
 			for (var i = 0; i < notshinyShadow.length; i++) document.getElementById(notshinyShadow[i]).className += " not-shinyShadow";
