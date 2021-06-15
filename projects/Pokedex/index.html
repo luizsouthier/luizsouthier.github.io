@@ -701,6 +701,7 @@ function createPokemon(list) {
                 }
 				console.log(pokemonName);
 				console.log(pokemon);
+				console.log(letters);
                 var caught = "unknown";
                 var shiny = "";
                 var female = "";
@@ -807,7 +808,9 @@ function createPokemon(list) {
                 }
             }
 			
-			console.log(classesArray,readyclass);
+			console.log(classesArray);
+			console.log(readyclass);
+
 			for (let elem in classesArray) {  
 				let el = document.getElementById(elem);
 				el.className = "user-pokedex " + classesArray[elem];
