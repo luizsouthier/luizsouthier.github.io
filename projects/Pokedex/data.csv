@@ -802,10 +802,10 @@ Forms,Castform Normal,both,TRUE,FALSE,FALSE
 Forms,Castform Sunny,both,FALSE,FALSE,FALSE
 Forms,Castform Rainy,both,TRUE,FALSE,FALSE
 Forms,Castform Snowy,both,FALSE,FALSE,FALSE
-Forms,Deoxys normal,genderless,TRUE,FALSE,FALSE
-Forms,Deoxys attack,genderless,FALSE,FALSE,FALSE
-Forms,Deoxys defense,genderless,FALSE,FALSE,FALSE
-Forms,Deoxys speed,genderless,FALSE,FALSE,FALSE
+Forms,Deoxys Normal,genderless,TRUE,FALSE,FALSE
+Forms,Deoxys Attack,genderless,FALSE,FALSE,FALSE
+Forms,Deoxys Defense,genderless,FALSE,FALSE,FALSE
+Forms,Deoxys Speed,genderless,FALSE,FALSE,FALSE
 Forms,Burmy plant,both,TRUE,FALSE,FALSE
 Forms,Burmy sandy,both,TRUE,FALSE,FALSE
 Forms,Burmy trash,both,TRUE,FALSE,FALSE

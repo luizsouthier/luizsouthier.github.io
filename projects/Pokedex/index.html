@@ -460,6 +460,14 @@ function getImageUrl(name) {
 	if(name == "Spinda 7 shiny") name = "Spinda pattern 7 shiny";
 	if(name == "Spinda 8 shiny") name = "Spinda pattern 8 shiny";
 	if(name == "Spinda 9 shiny") name = "Spinda pattern 9 shiny";
+	
+	    if(name == "Deoxys Attack") name = "Deoxys attack";
+	    if(name == "Deoxys Defense") name = "Deoxys defense";
+	    if(name == "Deoxys Speed") name = "Deoxys speed";
+		
+		if(name == "Deoxys Attack") name = "Deoxys attack shiny";
+	    if(name == "Deoxys Defense") name = "Deoxys defense shiny";
+	    if(name == "Deoxys Speed") name = "Deoxys speed shiny";
 
 	
     let baseUrl = 'https://vignette.wikia.nocookie.net/pokemongo/images',
@@ -614,7 +622,7 @@ function createPokemon(list) {
     });
 	
 	$(document).ready(function () {
-        $("#missing-shiny").click(function () {
+        $("#missing-shadow").click(function () {
 			$(".user-pokedex.shadow").hide();
 			$(".user-pokedex.not-shadow").hide();
 		});
