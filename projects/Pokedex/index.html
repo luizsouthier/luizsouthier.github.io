@@ -381,7 +381,7 @@ $('#data').css('margin-top', function() {
 function getPokemon() {
 
 	$.get("data.csv", function(csvString) {
-		var data = $.csv.toObjects(csvString);
+		var data = $.csv.toObjects(csvString,{separator: ';'});
 		createPokemon(data);
 	});
 	
@@ -678,7 +678,7 @@ function createPokemon(list) {
 			
 			tekst += "\n";
 			}
-            code.value = tekst;
+            code.value = "{{User Dex\n"+tekst+"}}";
         });
     });
 
