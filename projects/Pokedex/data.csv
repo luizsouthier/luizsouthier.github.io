@@ -1015,11 +1015,10 @@ Event;Glaceon flower;both;TRUE;FALSE;FALSE
 Event;Cubchoo holiday;both;TRUE;FALSE;FALSE
 Event;Sylveon flower;both;TRUE;FALSE;FALSE
 Event;Pikachu 5th;both;TRUE;FALSE;FALSE
-Event;Pikachu 5th;both;TRUE;FALSE;FALSE
 Event;Pikachu meloetta;both;TRUE;FALSE;FALSE
-Event;Pikachu pop;female;TRUE;FALSE;FALSE
-Event;Pikachu rock;female;TRUE;FALSE;FALSE
+Event;Pikachu pop;female;FALSE;FALSE;FALSE
+Event;Pikachu rock;female;FALSE;FALSE;FALSE
 Event;Ponyta galarian meloetta;both;TRUE;FALSE;FALSE
 Event;Zigzagoon galarian meloetta;both;TRUE;FALSE;FALSE
-Event;Gardevoir meloetta;both;TRUE;FALSE;FALSE
-Event;Flygon meloetta;both;TRUE;FALSE;FALSE
+Event;Gardevoir meloetta;both;FALSE;FALSE;FALSE
+Event;Flygon meloetta;both;FALSE;FALSE;FALSE
