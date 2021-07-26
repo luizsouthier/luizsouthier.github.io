@@ -291,9 +291,9 @@ Hoenn;Slaking;both;TRUE;FALSE;FALSE
 Hoenn;Nincada;both;TRUE;FALSE;FALSE
 Hoenn;Ninjask;both;TRUE;FALSE;FALSE
 Hoenn;Shedinja;genderless;FALSE;FALSE;FALSE
-Hoenn;Whismur;both;FALSE;FALSE;FALSE
-Hoenn;Loudred;both;FALSE;FALSE;FALSE
-Hoenn;Exploud;both;FALSE;FALSE;FALSE
+Hoenn;Whismur;both;TRUE;FALSE;FALSE
+Hoenn;Loudred;both;TRUE;FALSE;FALSE
+Hoenn;Exploud;both;TRUE;FALSE;FALSE
 Hoenn;Makuhita;both;TRUE;TRUE;FALSE
 Hoenn;Hariyama;both;TRUE;TRUE;FALSE
 Hoenn;Azurill;both;TRUE;FALSE;FALSE
@@ -356,7 +356,7 @@ Hoenn;Banette;both;TRUE;TRUE;FALSE
 Hoenn;Duskull;both;TRUE;TRUE;FALSE
 Hoenn;Dusclops;both;TRUE;TRUE;FALSE
 Hoenn;Tropius;both;FALSE;FALSE;FALSE
-Hoenn;Chimecho;both;FALSE;FALSE;FALSE
+Hoenn;Chimecho;both;TRUE;FALSE;FALSE
 Hoenn;Absol;both;TRUE;TRUE;TRUE
 Hoenn;Wynaut;both;TRUE;FALSE;FALSE
 Hoenn;Snorunt;both;TRUE;FALSE;FALSE
@@ -406,10 +406,10 @@ Sinnoh;Luxio;difference;TRUE;FALSE;FALSE
 Sinnoh;Luxray;difference;TRUE;FALSE;FALSE
 Sinnoh;Budew;both;TRUE;FALSE;FALSE
 Sinnoh;Roserade;difference;TRUE;FALSE;FALSE
-Sinnoh;Cranidos;both;FALSE;FALSE;FALSE
-Sinnoh;Rampardos;both;FALSE;FALSE;FALSE
-Sinnoh;Shieldon;both;FALSE;FALSE;FALSE
-Sinnoh;Bastiodon;both;FALSE;FALSE;FALSE
+Sinnoh;Cranidos;both;TRUE;FALSE;FALSE
+Sinnoh;Rampardos;both;TRUE;FALSE;FALSE
+Sinnoh;Shieldon;both;TRUE;FALSE;FALSE
+Sinnoh;Bastiodon;both;TRUE;FALSE;FALSE
 Sinnoh;Burmy;both;TRUE;FALSE;FALSE
 Sinnoh;Wormadam;female;TRUE;FALSE;FALSE
 Sinnoh;Mothim;male;TRUE;FALSE;FALSE
@@ -427,7 +427,7 @@ Sinnoh;Drifloon;both;TRUE;FALSE;FALSE
 Sinnoh;Drifblim;both;TRUE;FALSE;FALSE
 Sinnoh;Buneary;both;TRUE;FALSE;FALSE
 Sinnoh;Lopunny;both;TRUE;FALSE;FALSE
-Sinnoh;Mismagius;both;TRUE;FALSE;FALSE
+Sinnoh;Mismagius;both;TRUE;TRUE;FALSE
 Sinnoh;Honchkrow;both;TRUE;TRUE;FALSE
 Sinnoh;Glameow;both;TRUE;FALSE;FALSE
 Sinnoh;Purugly;both;TRUE;FALSE;FALSE
@@ -481,7 +481,7 @@ Sinnoh;Rotom;genderless;FALSE;FALSE;FALSE
 Sinnoh;Uxie;genderless;FALSE;FALSE;FALSE
 Sinnoh;Mesprit;genderless;FALSE;FALSE;FALSE
 Sinnoh;Azelf;genderless;FALSE;FALSE;FALSE
-Sinnoh;Dialga;genderless;FALSE;FALSE;FALSE
+Sinnoh;Dialga;genderless;TRUE;FALSE;FALSE
 Sinnoh;Palkia;genderless;FALSE;FALSE;FALSE
 Sinnoh;Heatran;both;TRUE;FALSE;FALSE
 Sinnoh;Regigigas;genderless;TRUE;FALSE;FALSE
@@ -496,9 +496,9 @@ Unova;Victini;genderless;FALSE;FALSE;FALSE
 Unova;Snivy;both;TRUE;FALSE;FALSE
 Unova;Servine;both;TRUE;FALSE;FALSE
 Unova;Serperior;both;TRUE;FALSE;FALSE
-Unova;Tepig;both;FALSE;FALSE;FALSE
-Unova;Pignite;both;FALSE;FALSE;FALSE
-Unova;Emboar;both;FALSE;FALSE;FALSE
+Unova;Tepig;both;TRUE;FALSE;FALSE
+Unova;Pignite;both;TRUE;FALSE;FALSE
+Unova;Emboar;both;TRUE;FALSE;FALSE
 Unova;Oshawott;both;FALSE;FALSE;FALSE
 Unova;Dewott;both;FALSE;FALSE;FALSE
 Unova;Samurott;both;FALSE;FALSE;FALSE
@@ -529,15 +529,15 @@ Unova;Woobat;both;TRUE;FALSE;FALSE
 Unova;Swoobat;both;TRUE;FALSE;FALSE
 Unova;Drilbur;both;FALSE;FALSE;FALSE
 Unova;Excadrill;both;FALSE;FALSE;FALSE
-Unova;Audino;both;FALSE;FALSE;FALSE
+Unova;Audino;both;TRUE;FALSE;FALSE
 Unova;Timburr;both;TRUE;FALSE;FALSE
 Unova;Gurdurr;both;TRUE;FALSE;FALSE
 Unova;Conkeldurr;both;TRUE;FALSE;FALSE
-Unova;Tympole;both;FALSE;FALSE;FALSE
-Unova;Palpitoad;both;FALSE;FALSE;FALSE
-Unova;Seismitoad;both;FALSE;FALSE;FALSE
-Unova;Throh;male;FALSE;FALSE;FALSE
-Unova;Sawk;male;FALSE;FALSE;FALSE
+Unova;Tympole;both;TRUE;FALSE;FALSE
+Unova;Palpitoad;both;TRUE;FALSE;FALSE
+Unova;Seismitoad;both;TRUE;FALSE;FALSE
+Unova;Throh;male;TRUE;FALSE;FALSE
+Unova;Sawk;male;TRUE;FALSE;FALSE
 Unova;Sewaddle;both;FALSE;FALSE;FALSE
 Unova;Swadloon;both;FALSE;FALSE;FALSE
 Unova;Leavanny;both;FALSE;FALSE;FALSE
@@ -552,8 +552,8 @@ Unova;Basculin;both;FALSE;FALSE;FALSE
 Unova;Sandile;both;FALSE;FALSE;FALSE
 Unova;Krokorok;both;FALSE;FALSE;FALSE
 Unova;Krookodile;both;FALSE;FALSE;FALSE
-Unova;Darumaka;both;FALSE;FALSE;FALSE
-Unova;Darmanitan;both;FALSE;FALSE;FALSE
+Unova;Darumaka;both;TRUE;FALSE;FALSE
+Unova;Darmanitan;both;TRUE;FALSE;FALSE
 Unova;Maractus;both;FALSE;FALSE;FALSE
 Unova;Dwebble;both;TRUE;FALSE;FALSE
 Unova;Crustle;both;TRUE;FALSE;FALSE
@@ -766,7 +766,7 @@ Forms;Unown B;genderless;FALSE;FALSE;FALSE
 Forms;Unown C;genderless;TRUE;FALSE;FALSE
 Forms;Unown D;genderless;FALSE;FALSE;FALSE
 Forms;Unown E;genderless;FALSE;FALSE;FALSE
-Forms;Unown F;genderless;FALSE;FALSE;FALSE
+Forms;Unown F;genderless;TRUE;FALSE;FALSE
 Forms;Unown G;genderless;TRUE;FALSE;FALSE
 Forms;Unown H;genderless;FALSE;FALSE;FALSE
 Forms;Unown I;genderless;FALSE;FALSE;FALSE
@@ -1014,3 +1014,12 @@ Event;Leafeon flower;both;TRUE;FALSE;FALSE
 Event;Glaceon flower;both;TRUE;FALSE;FALSE
 Event;Cubchoo holiday;both;TRUE;FALSE;FALSE
 Event;Sylveon flower;both;TRUE;FALSE;FALSE
+Event;Pikachu 5th;both;TRUE;FALSE;FALSE
+Event;Pikachu 5th;both;TRUE;FALSE;FALSE
+Event;Pikachu meloetta;both;TRUE;FALSE;FALSE
+Event;Pikachu pop;female;TRUE;FALSE;FALSE
+Event;Pikachu rock;female;TRUE;FALSE;FALSE
+Event;Ponyta galarian meloetta;both;TRUE;FALSE;FALSE
+Event;Zigzagoon galarian meloetta;both;TRUE;FALSE;FALSE
+Event;Gardevoir meloetta;both;TRUE;FALSE;FALSE
+Event;Flygon meloetta;both;TRUE;FALSE;FALSE
