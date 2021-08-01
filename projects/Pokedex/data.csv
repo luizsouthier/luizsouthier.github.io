@@ -947,12 +947,12 @@ Event;Pikachu summer;difference;TRUE;FALSE;FALSE
 Event;Pikachu fragment;difference;TRUE;FALSE;FALSE
 Event;Pikachu winter;difference;TRUE;FALSE;FALSE
 Event;Pikachu flower;difference;TRUE;FALSE;FALSE
-Event;Pikachu detective;difference;TRUE;FALSE;FALSE
+Event;Pikachu detective;male;TRUE;FALSE;FALSE
 Event;Pikachu worldcap;difference;TRUE;FALSE;FALSE
 Event;Pikachu straw hat;difference;TRUE;FALSE;FALSE
-Event;Pikachu fall;difference;TRUE;FALSE;FALSE
+Event;Pikachu fall;male;TRUE;FALSE;FALSE
 Event;Pikachu party hat;difference;TRUE;FALSE;FALSE
-Event;Pikachu clone;difference;FALSE;FALSE;FALSE
+Event;Pikachu clone;male;FALSE;FALSE;FALSE
 Event;Pikachu libre;female;TRUE;FALSE;FALSE
 Event;Pikachu spring;difference;TRUE;FALSE;FALSE
 Event;Pikachu safari;difference;TRUE;FALSE;FALSE
@@ -972,7 +972,7 @@ Event;Raichu summer;difference;TRUE;FALSE;FALSE
 Event;Raichu fragment;difference;TRUE;FALSE;FALSE
 Event;Raichu winter;difference;TRUE;FALSE;FALSE
 Event;Raichu flower;difference;TRUE;FALSE;FALSE
-Event;Raichu detective;difference;TRUE;FALSE;FALSE
+Event;Raichu detective;male;TRUE;FALSE;FALSE
 Event;Raichu worldcap;difference;TRUE;FALSE;FALSE
 Event;Raichu new year;difference;TRUE;FALSE;FALSE
 Event;Slowpoke new year;both;TRUE;FALSE;FALSE
