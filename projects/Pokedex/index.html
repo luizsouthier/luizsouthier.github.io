@@ -489,7 +489,7 @@ function getImageUrl(name) {
 }
 
 function loading(code){
-			var args = code.value.split("|");
+			var args = code.split("|");
             var classesArray = [];
 			
 			var femaleOnly = $('.female-only').map(function(_, x) { return x.id; }).get();
@@ -870,7 +870,7 @@ function createPokemon(list) {
     $(document).ready(function () {
         $("#import-code").click(function () {
             var code = document.getElementById("code");
-			loading(code);
+			loading(code.value);
             
         });
     });
