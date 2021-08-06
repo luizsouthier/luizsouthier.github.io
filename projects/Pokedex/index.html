@@ -324,7 +324,9 @@ h1 {
     <form id="pokemon-form" action="" onsubmit="return false;">
 	<table width="100%"><tr>
 	<td width="100px"><textarea id="code" rows="10"></textarea></td>
-	<td><button id="import-code">Import code</button><br>
+	<td><input type="file" id="myFileInput" style="display:none"/>
+	    <button id="open-file" onclick="document.getElementById('myFileInput').click()">Open file</button><br>
+	    <button id="import-code">Import code</button><br>
 		<button id="export-code">Export code</button></td>
 	<td>
 		<button id="show-all">Clear filters</button><br>
@@ -484,6 +486,157 @@ function getImageUrl(name) {
         digest = md5(filename),
         filepath = `${digest[0]}/${digest[0]}${digest[1]}/${encodeURIComponent(filename)}`;
     return `${baseUrl}/${filepath}`;
+}
+
+function loading(code){
+			var args = code.value.split("|");
+            var classesArray = [];
+			
+			var femaleOnly = $('.female-only').map(function(_, x) { return x.id; }).get();
+			var maleOnly = $('.male-only').map(function(_, x) { return x.id; }).get();
+			var genderless = $('.genderless').map(function(_, x) { return x.id; }).get();
+			var notshinyShadow = $('.not-shinyShadow').map(function(_, x) { return x.id; }).get();
+			var notshiny = $('.not-shiny').map(function(_, x) { return x.id; }).get();
+			var notshadow = $('.not-shadow').map(function(_, x) { return x.id; }).get();
+			var difference = $('.difference').map(function(_, x) { return x.id; }).get();	
+			
+            var help = 0;
+            if (args[0] == "") {
+                help = 1;
+            }
+            for (i = 1; i < args.length; i++) {
+                var pokemon = args[i].split("=");
+                pokemon[0] = $.trim(pokemon[0]);
+                pokemon[1] = $.trim(pokemon[1]);
+
+                var pokemonName = "";
+                var letters = Array.from(pokemon[0]);
+                if ((letters[letters.length - 1] == "S" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "F" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "M" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "P" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "R" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "X" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "H" && letters[letters.length - 2] != " ") ) {
+                    for (j = 0; j < letters.length - 1; j++) {
+                        pokemonName += letters[j];
+                    }
+                } else {
+                    pokemonName = pokemon[0];
+                }
+
+                var caught = "unknown";
+                var shiny = "";
+                var female = "";
+                var male = "";
+				var shadow = "";
+				var purified = "";
+				var shinyShadow = "";
+				var perfect = "";
+
+				if(letters[letters.length - 2] != " "){
+				    switch (letters[letters.length - 1]) {
+						case "S":
+							{
+								shiny = pokemon[1];
+								break;
+							}
+						case "F":
+							{
+								female = pokemon[1];
+								break;
+							}
+						case "M":
+							{
+								male = pokemon[1];
+								break;
+							}
+						case "H":
+							{
+								shadow = pokemon[1];
+								break;
+							}
+						case "P":
+							{
+								perfect = pokemon[1];
+								break;
+							}
+						case "R":
+							{
+								purified = pokemon[1];
+								break;
+							}
+						case "X":
+							{
+								shinyShadow = pokemon[1];
+								break;
+							}
+						default:
+							{
+								caught = pokemon[1];
+								break;
+							}
+					}
+				}else{
+					caught = pokemon[1];
+				}
+
+                var readyclass = "";
+
+                switch (caught) {
+                    case "":
+                        {
+                            readyclass += "seen ";
+                            break;
+                        }
+                    case "t":
+                        {
+                            readyclass += "caught ";
+                            break;
+                        }
+                    case "l":
+                        {
+                            readyclass += "lucky ";
+                            break;
+                        }
+                }
+
+                if (shiny == "t") {
+                    readyclass += "shiny ";
+                }
+                if (female == "t") {
+                    readyclass += "female-caught ";
+                }
+                if (male == "t") {
+                    readyclass += "male-caught ";
+                }
+                if (shadow == "t") {
+                    readyclass += "shadow ";
+                }
+                if (purified == "t") {
+                    readyclass += "purified ";
+                }
+                if (shinyShadow == "t") {
+                    readyclass += "shinyShadow ";
+                }
+                if (perfect == "t") {
+                    readyclass += "perfect ";
+                }			
+
+                if (typeof classesArray[pokemonName] === 'undefined') {
+                    classesArray[pokemonName] = readyclass;
+                } else {
+                    classesArray[pokemonName] += readyclass;
+                }
+            }
+
+			for (let elem in classesArray) {  
+				let el = document.getElementById(elem);
+				el.className = "user-pokedex " + classesArray[elem];
+			}
+			
+			for (var i = 0; i < femaleOnly.length; i++) document.getElementById(femaleOnly[i]).className += " female-only";
+			for (var i = 0; i < maleOnly.length; i++) document.getElementById(maleOnly[i]).className += " male-only";
+			for (var i = 0; i < genderless.length; i++) document.getElementById(genderless[i]).className += " genderless";
+			for (var i = 0; i < notshinyShadow.length; i++) document.getElementById(notshinyShadow[i]).className += " not-shinyShadow";
+			for (var i = 0; i < notshiny.length; i++) document.getElementById(notshiny[i]).className += " not-shiny";
+			for (var i = 0; i < notshadow.length; i++) document.getElementById(notshadow[i]).className += " not-shadow";
+			for (var i = 0; i < difference.length; i++) document.getElementById(difference[i]).className += " difference";
+
 }
 
 function createPokemon(list) {
@@ -717,155 +870,22 @@ function createPokemon(list) {
     $(document).ready(function () {
         $("#import-code").click(function () {
             var code = document.getElementById("code");
-            var args = code.value.split("|");
-            var classesArray = [];
-			
-			var femaleOnly = $('.female-only').map(function(_, x) { return x.id; }).get();
-			var maleOnly = $('.male-only').map(function(_, x) { return x.id; }).get();
-			var genderless = $('.genderless').map(function(_, x) { return x.id; }).get();
-			var notshinyShadow = $('.not-shinyShadow').map(function(_, x) { return x.id; }).get();
-			var notshiny = $('.not-shiny').map(function(_, x) { return x.id; }).get();
-			var notshadow = $('.not-shadow').map(function(_, x) { return x.id; }).get();
-			var difference = $('.difference').map(function(_, x) { return x.id; }).get();	
-			
-            var help = 0;
-            if (args[0] == "") {
-                help = 1;
-            }
-            for (i = 1; i < args.length; i++) {
-                var pokemon = args[i].split("=");
-                pokemon[0] = $.trim(pokemon[0]);
-                pokemon[1] = $.trim(pokemon[1]);
-
-                var pokemonName = "";
-                var letters = Array.from(pokemon[0]);
-                if ((letters[letters.length - 1] == "S" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "F" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "M" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "P" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "R" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "X" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "H" && letters[letters.length - 2] != " ") ) {
-                    for (j = 0; j < letters.length - 1; j++) {
-                        pokemonName += letters[j];
-                    }
-                } else {
-                    pokemonName = pokemon[0];
-                }
-
-                var caught = "unknown";
-                var shiny = "";
-                var female = "";
-                var male = "";
-				var shadow = "";
-				var purified = "";
-				var shinyShadow = "";
-				var perfect = "";
-
-				if(letters[letters.length - 2] != " "){
-				    switch (letters[letters.length - 1]) {
-						case "S":
-							{
-								shiny = pokemon[1];
-								break;
-							}
-						case "F":
-							{
-								female = pokemon[1];
-								break;
-							}
-						case "M":
-							{
-								male = pokemon[1];
-								break;
-							}
-						case "H":
-							{
-								shadow = pokemon[1];
-								break;
-							}
-						case "P":
-							{
-								perfect = pokemon[1];
-								break;
-							}
-						case "R":
-							{
-								purified = pokemon[1];
-								break;
-							}
-						case "X":
-							{
-								shinyShadow = pokemon[1];
-								break;
-							}
-						default:
-							{
-								caught = pokemon[1];
-								break;
-							}
-					}
-				}else{
-					caught = pokemon[1];
-				}
-
-                var readyclass = "";
-
-                switch (caught) {
-                    case "":
-                        {
-                            readyclass += "seen ";
-                            break;
-                        }
-                    case "t":
-                        {
-                            readyclass += "caught ";
-                            break;
-                        }
-                    case "l":
-                        {
-                            readyclass += "lucky ";
-                            break;
-                        }
-                }
-
-                if (shiny == "t") {
-                    readyclass += "shiny ";
-                }
-                if (female == "t") {
-                    readyclass += "female-caught ";
-                }
-                if (male == "t") {
-                    readyclass += "male-caught ";
-                }
-                if (shadow == "t") {
-                    readyclass += "shadow ";
-                }
-                if (purified == "t") {
-                    readyclass += "purified ";
-                }
-                if (shinyShadow == "t") {
-                    readyclass += "shinyShadow ";
-                }
-                if (perfect == "t") {
-                    readyclass += "perfect ";
-                }			
-
-                if (typeof classesArray[pokemonName] === 'undefined') {
-                    classesArray[pokemonName] = readyclass;
-                } else {
-                    classesArray[pokemonName] += readyclass;
-                }
-            }
-
-			for (let elem in classesArray) {  
-				let el = document.getElementById(elem);
-				el.className = "user-pokedex " + classesArray[elem];
-			}
-			
-			for (var i = 0; i < femaleOnly.length; i++) document.getElementById(femaleOnly[i]).className += " female-only";
-			for (var i = 0; i < maleOnly.length; i++) document.getElementById(maleOnly[i]).className += " male-only";
-			for (var i = 0; i < genderless.length; i++) document.getElementById(genderless[i]).className += " genderless";
-			for (var i = 0; i < notshinyShadow.length; i++) document.getElementById(notshinyShadow[i]).className += " not-shinyShadow";
-			for (var i = 0; i < notshiny.length; i++) document.getElementById(notshiny[i]).className += " not-shiny";
-			for (var i = 0; i < notshadow.length; i++) document.getElementById(notshadow[i]).className += " not-shadow";
-			for (var i = 0; i < difference.length; i++) document.getElementById(difference[i]).className += " difference";
-
+			loading(code);
+            
         });
+    });
+	
+	function handleFileLoad(event) {
+	  console.log(event);
+	  loading(event.target.result);
+	}
+	
+	$(document).ready(function () {
+        $("#myFileInput").on('change', function() {
+		  const reader = new FileReader()
+		  reader.onload = handleFileLoad;
+		  reader.readAsText(event.target.files[0])
+		});
     });
 }
 </script>
