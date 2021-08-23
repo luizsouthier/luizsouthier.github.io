@@ -482,7 +482,7 @@ Sinnoh;Uxie;genderless;FALSE;FALSE;FALSE
 Sinnoh;Mesprit;genderless;FALSE;FALSE;FALSE
 Sinnoh;Azelf;genderless;FALSE;FALSE;FALSE
 Sinnoh;Dialga;genderless;TRUE;FALSE;FALSE
-Sinnoh;Palkia;genderless;FALSE;FALSE;FALSE
+Sinnoh;Palkia;genderless;TRUE;FALSE;FALSE
 Sinnoh;Heatran;both;TRUE;FALSE;FALSE
 Sinnoh;Regigigas;genderless;TRUE;FALSE;FALSE
 Sinnoh;Giratina;genderless;TRUE;FALSE;FALSE
@@ -722,11 +722,95 @@ Kalos;Hoopa;genderless;FALSE;FALSE;FALSE
 Kalos;Volcanion;genderless;FALSE;FALSE;FALSE
 Unknown;Meltan;genderless;TRUE;FALSE;FALSE
 Unknown;Melmetal;genderless;TRUE;FALSE;FALSE
+Galar;Grookey;both;FALSE;FALSE;FALSE
+Galar;Thwackey;both;FALSE;FALSE;FALSE
+Galar;Rillaboom;both;FALSE;FALSE;FALSE
+Galar;Scorbunny;both;FALSE;FALSE;FALSE
+Galar;Raboot;both;FALSE;FALSE;FALSE
+Galar;Cinderace;both;FALSE;FALSE;FALSE
+Galar;Sobble;both;FALSE;FALSE;FALSE
+Galar;Drizzile;both;FALSE;FALSE;FALSE
+Galar;Inteleon;both;FALSE;FALSE;FALSE
+Galar;Skwovet;both;FALSE;FALSE;FALSE
+Galar;Greedent;both;FALSE;FALSE;FALSE
+Galar;Rookidee;both;FALSE;FALSE;FALSE
+Galar;Corvisquire;both;FALSE;FALSE;FALSE
+Galar;Corviknight;both;FALSE;FALSE;FALSE
+Galar;Blipbug;both;FALSE;FALSE;FALSE
+Galar;Dottler;both;FALSE;FALSE;FALSE
+Galar;Orbeetle;both;FALSE;FALSE;FALSE
+Galar;Nickit;both;FALSE;FALSE;FALSE
+Galar;Thievul;both;FALSE;FALSE;FALSE
+Galar;Gossifleur;both;FALSE;FALSE;FALSE
+Galar;Eldegoss;both;FALSE;FALSE;FALSE
+Galar;Wooloo;both;FALSE;FALSE;FALSE
+Galar;Dubwool;both;FALSE;FALSE;FALSE
+Galar;Chewtle;both;FALSE;FALSE;FALSE
+Galar;Drednaw;both;FALSE;FALSE;FALSE
+Galar;Yamper;both;FALSE;FALSE;FALSE
+Galar;Boltund;both;FALSE;FALSE;FALSE
+Galar;Rolycoly;both;FALSE;FALSE;FALSE
+Galar;Carkol;both;FALSE;FALSE;FALSE
+Galar;Coalossal;both;FALSE;FALSE;FALSE
+Galar;Applin;both;FALSE;FALSE;FALSE
+Galar;Flapple;both;FALSE;FALSE;FALSE
+Galar;Appletun;both;FALSE;FALSE;FALSE
+Galar;Silicobra;both;FALSE;FALSE;FALSE
+Galar;Sandaconda;both;FALSE;FALSE;FALSE
+Galar;Cramorant;both;FALSE;FALSE;FALSE
+Galar;Arrokuda;both;FALSE;FALSE;FALSE
+Galar;Barraskewda;both;FALSE;FALSE;FALSE
+Galar;Toxel;both;FALSE;FALSE;FALSE
+Galar;Toxtricity;both;FALSE;FALSE;FALSE
+Galar;Sizzlipede;both;FALSE;FALSE;FALSE
+Galar;Centiskorch;both;FALSE;FALSE;FALSE
+Galar;Clobbopus;both;FALSE;FALSE;FALSE
+Galar;Grapploct;both;FALSE;FALSE;FALSE
+Galar;Sinistea;both;FALSE;FALSE;FALSE
+Galar;Polteageist;both;FALSE;FALSE;FALSE
+Galar;Hatenna;both;FALSE;FALSE;FALSE
+Galar;Hattrem;both;FALSE;FALSE;FALSE
+Galar;Hatterene;both;FALSE;FALSE;FALSE
+Galar;Impidimp;both;FALSE;FALSE;FALSE
+Galar;Morgrem;both;FALSE;FALSE;FALSE
+Galar;Grimmsnarl;both;FALSE;FALSE;FALSE
 Galar;Obstagoon;both;TRUE;FALSE;FALSE
-Galar;Perrserker;both;FALSE;FALSE;FALSE
-Galar;Sirfetch'd;both;FALSE;FALSE;FALSE
+Galar;Perrserker;both;TRUE;FALSE;FALSE
+Galar;Cursola;both;FALSE;FALSE;FALSE
+Galar;Sirfetch'd;both;TRUE;FALSE;FALSE
 Galar;Mr. Rime;both;FALSE;FALSE;FALSE
 Galar;Runerigus;both;FALSE;FALSE;FALSE
+Galar;Milcery;both;FALSE;FALSE;FALSE
+Galar;Alcremie;both;FALSE;FALSE;FALSE
+Galar;Falinks;both;FALSE;FALSE;FALSE
+Galar;Pincurchin;both;FALSE;FALSE;FALSE
+Galar;Snom;both;FALSE;FALSE;FALSE
+Galar;Frosmoth;both;FALSE;FALSE;FALSE
+Galar;Stonjourner;both;FALSE;FALSE;FALSE
+Galar;Eiscue;both;FALSE;FALSE;FALSE
+Galar;Indeedee;difference;FALSE;FALSE;FALSE
+Galar;Morpeko;both;FALSE;FALSE;FALSE
+Galar;Cufant;both;FALSE;FALSE;FALSE
+Galar;Copperajah;both;FALSE;FALSE;FALSE
+Galar;Dracozolt;both;FALSE;FALSE;FALSE
+Galar;Arctozolt;both;FALSE;FALSE;FALSE
+Galar;Dracovish;both;FALSE;FALSE;FALSE
+Galar;Arctovish;both;FALSE;FALSE;FALSE
+Galar;Duraludon;both;FALSE;FALSE;FALSE
+Galar;Dreepy;both;FALSE;FALSE;FALSE
+Galar;Drakloak;both;FALSE;FALSE;FALSE
+Galar;Dragapult;both;FALSE;FALSE;FALSE
+Galar;Zacian;both;FALSE;FALSE;FALSE
+Galar;Zamazenta;both;FALSE;FALSE;FALSE
+Galar;Eternatus;both;FALSE;FALSE;FALSE
+Galar;Kubfu;both;FALSE;FALSE;FALSE
+Galar;Urshifu;both;FALSE;FALSE;FALSE
+Galar;Zarude;both;FALSE;FALSE;FALSE
+Galar;Regieleki;both;FALSE;FALSE;FALSE
+Galar;Regidrago;both;FALSE;FALSE;FALSE
+Galar;Glastrier;both;FALSE;FALSE;FALSE
+Galar;Spectrier;both;FALSE;FALSE;FALSE
+Galar;Calyrex;both;FALSE;FALSE;FALSE
 Forms;Rattata alolan;both;TRUE;FALSE;FALSE
 Forms;Raticate alolan;both;TRUE;FALSE;FALSE
 Forms;Raichu alolan;both;TRUE;FALSE;FALSE
@@ -750,8 +834,8 @@ Forms;Ponyta galarian;both;TRUE;FALSE;FALSE
 Forms;Rapidash galarian;both;TRUE;FALSE;FALSE
 Forms;Slowpoke galarian;both;FALSE;FALSE;FALSE
 Forms;Slowbro galarian;both;FALSE;FALSE;FALSE
-Forms;Farfetch'd galarian;both;FALSE;FALSE;FALSE
-Forms;Weezing galarian;both;FALSE;FALSE;FALSE
+Forms;Farfetch'd galarian;both;TRUE;FALSE;FALSE
+Forms;Weezing galarian;both;TRUE;FALSE;FALSE
 Forms;Slowking galarian;both;FALSE;FALSE;FALSE
 Forms;Zigzagoon galarian;both;TRUE;FALSE;FALSE
 Forms;Linoone galarian;both;TRUE;FALSE;FALSE
@@ -759,7 +843,7 @@ Forms;Darumaka galarian;both;FALSE;FALSE;FALSE
 Forms;Darmanitan galarian;both;FALSE;FALSE;FALSE
 Forms;Darmanitan zen galarian;both;FALSE;FALSE;FALSE
 Forms;Yamask galarian;both;FALSE;FALSE;FALSE
-Forms;Stunfisk galarian;both;FALSE;FALSE;FALSE
+Forms;Stunfisk galarian;both;TRUE;FALSE;FALSE
 Forms;Mr. Mime galarian;both;FALSE;FALSE;FALSE
 Forms;Unown A;genderless;TRUE;FALSE;FALSE
 Forms;Unown B;genderless;FALSE;FALSE;FALSE
@@ -876,6 +960,27 @@ Forms;Genesect shock;genderless;FALSE;FALSE;FALSE
 Forms;Genesect burn;genderless;FALSE;FALSE;FALSE
 Forms;Genesect chill;genderless;FALSE;FALSE;FALSE
 Forms;Genesect douse;genderless;FALSE;FALSE;FALSE
+Forms;Toxtricity;both;FALSE;FALSE;FALSE
+Forms;Toxtricity Low;both;FALSE;FALSE;FALSE
+Forms;Sinistea;both;FALSE;FALSE;FALSE
+Forms;Sinistea Antique;both;FALSE;FALSE;FALSE
+Forms;Polteageist;both;FALSE;FALSE;FALSE
+Forms;Polteageist Antique;both;FALSE;FALSE;FALSE
+Forms;Eiscue;both;FALSE;FALSE;FALSE
+Forms;Eiscue Noice;both;FALSE;FALSE;FALSE
+Forms;Morpeko;both;FALSE;FALSE;FALSE
+Forms;Morpeko Hangry;both;FALSE;FALSE;FALSE
+Forms;Zacian;both;FALSE;FALSE;FALSE
+Forms;Zacian Crowned;both;FALSE;FALSE;FALSE
+Forms;Zamazenta;both;FALSE;FALSE;FALSE
+Forms;Zamazenta Crowned;both;FALSE;FALSE;FALSE
+Forms;Eternatus;both;FALSE;FALSE;FALSE
+Forms;Eternatus Eternamax;both;FALSE;FALSE;FALSE
+Forms;Urshifu Single;both;FALSE;FALSE;FALSE
+Forms;Urshifu Rapid;both;FALSE;FALSE;FALSE
+Forms;Calyrex;both;FALSE;FALSE;FALSE
+Forms;Calyrex Ice;both;FALSE;FALSE;FALSE
+Forms;Calyrex Rider;both;FALSE;FALSE;FALSE
 Mega;Venusaur mega;both;TRUE;FALSE;FALSE
 Mega;Charizard x mega;both;TRUE;FALSE;FALSE
 Mega;Charizard y mega;both;TRUE;FALSE;FALSE
