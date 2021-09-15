@@ -212,7 +212,7 @@ Johto;Granbull;both;TRUE;TRUE;FALSE
 Johto;Qwilfish;both;TRUE;FALSE;FALSE
 Johto;Scizor;difference;TRUE;TRUE;TRUE
 Johto;Shuckle;both;TRUE;TRUE;FALSE
-Johto;Heracross;difference;FALSE;FALSE;FALSE
+Johto;Heracross;difference;TRUE;FALSE;FALSE
 Johto;Sneasel;difference;TRUE;TRUE;TRUE
 Johto;Teddiursa;both;TRUE;TRUE;FALSE
 Johto;Ursaring;difference;TRUE;TRUE;FALSE
@@ -329,9 +329,9 @@ Hoenn;Spinda;both;TRUE;FALSE;FALSE
 Hoenn;Trapinch;both;TRUE;TRUE;FALSE
 Hoenn;Vibrava;both;TRUE;TRUE;FALSE
 Hoenn;Flygon;both;TRUE;TRUE;FALSE
-Hoenn;Cacnea;both;FALSE;FALSE;FALSE
+Hoenn;Cacnea;both;FALSE;TRUE;FALSE
 Hoenn;Cacturne;difference;FALSE;TRUE;FALSE
-Hoenn;Swablu;both;TRUE;TRUE;FALSE
+Hoenn;Swablu;both;TRUE;FALSE;FALSE
 Hoenn;Altaria;both;TRUE;FALSE;FALSE
 Hoenn;Zangoose;both;TRUE;FALSE;FALSE
 Hoenn;Seviper;both;TRUE;FALSE;FALSE
@@ -478,9 +478,9 @@ Sinnoh;Probopass;both;TRUE;TRUE;FALSE
 Sinnoh;Dusknoir;both;TRUE;TRUE;FALSE
 Sinnoh;Froslass;female;TRUE;FALSE;FALSE
 Sinnoh;Rotom;genderless;FALSE;FALSE;FALSE
-Sinnoh;Uxie;genderless;FALSE;FALSE;FALSE
-Sinnoh;Mesprit;genderless;FALSE;FALSE;FALSE
-Sinnoh;Azelf;genderless;FALSE;FALSE;FALSE
+Sinnoh;Uxie;genderless;TRUE;FALSE;FALSE
+Sinnoh;Mesprit;genderless;TRUE;FALSE;FALSE
+Sinnoh;Azelf;genderless;TRUE;FALSE;FALSE
 Sinnoh;Dialga;genderless;TRUE;FALSE;FALSE
 Sinnoh;Palkia;genderless;TRUE;FALSE;FALSE
 Sinnoh;Heatran;both;TRUE;FALSE;FALSE
@@ -499,9 +499,9 @@ Unova;Serperior;both;TRUE;FALSE;FALSE
 Unova;Tepig;both;TRUE;FALSE;FALSE
 Unova;Pignite;both;TRUE;FALSE;FALSE
 Unova;Emboar;both;TRUE;FALSE;FALSE
-Unova;Oshawott;both;FALSE;FALSE;FALSE
-Unova;Dewott;both;FALSE;FALSE;FALSE
-Unova;Samurott;both;FALSE;FALSE;FALSE
+Unova;Oshawott;both;TRUE;FALSE;FALSE
+Unova;Dewott;both;TRUE;FALSE;FALSE
+Unova;Samurott;both;TRUE;FALSE;FALSE
 Unova;Patrat;both;TRUE;FALSE;FALSE
 Unova;Watchog;both;TRUE;FALSE;FALSE
 Unova;Lillipup;both;TRUE;FALSE;FALSE
@@ -520,8 +520,8 @@ Unova;Musharna;both;FALSE;FALSE;FALSE
 Unova;Pidove;both;TRUE;FALSE;FALSE
 Unova;Tranquill;both;TRUE;FALSE;FALSE
 Unova;Unfezant;difference;TRUE;FALSE;FALSE
-Unova;Blitzle;both;FALSE;FALSE;FALSE
-Unova;Zebstrika;both;FALSE;FALSE;FALSE
+Unova;Blitzle;both;TRUE;FALSE;FALSE
+Unova;Zebstrika;both;TRUE;FALSE;FALSE
 Unova;Roggenrola;both;TRUE;FALSE;FALSE
 Unova;Boldore;both;TRUE;FALSE;FALSE
 Unova;Gigalith;both;TRUE;FALSE;FALSE
@@ -960,6 +960,15 @@ Forms;Genesect shock;genderless;FALSE;FALSE;FALSE
 Forms;Genesect burn;genderless;FALSE;FALSE;FALSE
 Forms;Genesect chill;genderless;FALSE;FALSE;FALSE
 Forms;Genesect douse;genderless;FALSE;FALSE;FALSE
+Forms;Furfrou Dandy;both;FALSE;FALSE;FALSE
+Forms;Furfrou Diamond;both;FALSE;FALSE;FALSE
+Forms;Furfrou Heart;both;FALSE;FALSE;FALSE
+Forms;Furfrou Debutante;both;FALSE;FALSE;FALSE
+Forms;Furfrou Kabuki;both;FALSE;FALSE;FALSE
+Forms;Furfrou La Reine;both;FALSE;FALSE;FALSE
+Forms;Furfrou Matron;both;FALSE;FALSE;FALSE
+Forms;Furfrou Pharaoh;both;FALSE;FALSE;FALSE
+Forms;Furfrou Star;both;FALSE;FALSE;FALSE
 Forms;Toxtricity;both;FALSE;FALSE;FALSE
 Forms;Toxtricity Low;both;FALSE;FALSE;FALSE
 Forms;Sinistea;both;FALSE;FALSE;FALSE
@@ -1043,6 +1052,7 @@ Event;Squirtle visor;both;TRUE;FALSE;FALSE
 Event;Wartortle sunglasses;both;TRUE;FALSE;FALSE
 Event;Blastoise sunglasses;both;TRUE;FALSE;FALSE
 Event;Blastoise clone;both;FALSE;FALSE;FALSE
+Event;Butterfree bow;difference;TRUE;FALSE;FALSE
 Event;Raticate party;difference;TRUE;FALSE;FALSE
 Event;Pikachu festive;difference;TRUE;FALSE;FALSE
 Event;Pikachu ash;difference;TRUE;FALSE;FALSE
@@ -1104,12 +1114,13 @@ Event;Togepi flower;both;TRUE;FALSE;FALSE
 Event;Espeon flower;both;TRUE;FALSE;FALSE
 Event;Umbreon flower;both;TRUE;FALSE;FALSE
 Event;Wobbuffet party;difference;TRUE;FALSE;FALSE
+Event;Sneasel glasses;difference;TRUE;FALSE;FALSE
 Event;Delibird holiday;both;TRUE;FALSE;FALSE
 Event;Stantler holiday;both;TRUE;FALSE;FALSE
 Event;Blissey flower;female;TRUE;FALSE;FALSE
 Event;Smoochum bow;female;TRUE;FALSE;FALSE
 Event;Wurmple party;both;TRUE;FALSE;FALSE
-Event;Kirlia hat;both;FALSE;FALSE;FALSE
+Event;Kirlia hat;both;TRUE;FALSE;FALSE
 Event;Sableye halloween;both;TRUE;FALSE;FALSE
 Event;Shinx hat;difference;TRUE;FALSE;FALSE
 Event;Buneary flower;both;TRUE;FALSE;FALSE
@@ -1127,3 +1138,4 @@ Event;Ponyta galarian meloetta;both;TRUE;FALSE;FALSE
 Event;Zigzagoon galarian meloetta;both;TRUE;FALSE;FALSE
 Event;Gardevoir meloetta;both;FALSE;FALSE;FALSE
 Event;Flygon meloetta;both;FALSE;FALSE;FALSE
+Event;Blitzle collar;both;TRUE;FALSE;FALSE
