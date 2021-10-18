@@ -165,8 +165,8 @@ Johto;Hoothoot;both;FALSE;FALSE;FALSE
 Johto;Noctowl;both;FALSE;FALSE;FALSE
 Johto;Ledyba;difference;TRUE;FALSE;FALSE
 Johto;Ledian;difference;TRUE;FALSE;FALSE
-Johto;Spinarak;both;FALSE;FALSE;FALSE
-Johto;Ariados;both;FALSE;FALSE;FALSE
+Johto;Spinarak;both;TRUE;FALSE;FALSE
+Johto;Ariados;both;TRUE;FALSE;FALSE
 Johto;Crobat;both;TRUE;TRUE;FALSE
 Johto;Chinchou;both;TRUE;FALSE;FALSE
 Johto;Lanturn;both;TRUE;FALSE;FALSE
@@ -834,6 +834,7 @@ Forms;Ponyta galarian;both;TRUE;FALSE;FALSE
 Forms;Rapidash galarian;both;TRUE;FALSE;FALSE
 Forms;Slowpoke galarian;both;FALSE;FALSE;FALSE
 Forms;Slowbro galarian;both;FALSE;FALSE;FALSE
+Forms;Slowking galarian;both;FALSE;FALSE;FALSE
 Forms;Farfetch'd galarian;both;TRUE;FALSE;FALSE
 Forms;Weezing galarian;both;TRUE;FALSE;FALSE
 Forms;Slowking galarian;both;FALSE;FALSE;FALSE
@@ -1079,6 +1080,7 @@ Event;Pikachu fly;difference;TRUE;FALSE;FALSE
 Event;Pikachu explorer;difference;TRUE;FALSE;FALSE
 Event;Pikachu holiday;difference;TRUE;FALSE;FALSE
 Event;Pikachu new year;difference;TRUE;FALSE;FALSE
+Event;Pikachu halloween;difference;TRUE;FALSE;FALSE
 Event;Raichu festive;difference;TRUE;FALSE;FALSE
 Event;Raichu ash;difference;TRUE;FALSE;FALSE
 Event;Raichu party;difference;TRUE;FALSE;FALSE
@@ -1122,7 +1124,9 @@ Event;Smoochum bow;female;TRUE;FALSE;FALSE
 Event;Wurmple party;both;TRUE;FALSE;FALSE
 Event;Kirlia hat;both;TRUE;FALSE;FALSE
 Event;Sableye halloween;both;TRUE;FALSE;FALSE
+Event;Piplup halloween;both;TRUE;FALSE;FALSE
 Event;Shinx hat;difference;TRUE;FALSE;FALSE
+Event;Drifblim halloween;both;TRUE;FALSE;FALSE
 Event;Buneary flower;both;TRUE;FALSE;FALSE
 Event;Happiny flower;female;TRUE;FALSE;FALSE
 Event;Croagunk cap;difference;TRUE;FALSE;FALSE
