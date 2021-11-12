@@ -27,9 +27,9 @@ Kanto;Pikachu;difference;TRUE;FALSE;FALSE
 Kanto;Raichu;difference;TRUE;FALSE;FALSE
 Kanto;Sandshrew;both;TRUE;TRUE;FALSE
 Kanto;Sandslash;both;TRUE;TRUE;FALSE
-Kanto;Nidoran♀;female;TRUE;TRUE;FALSE
-Kanto;Nidorina;female;TRUE;TRUE;FALSE
-Kanto;Nidoqueen;female;TRUE;TRUE;FALSE
+Kanto;Nidoran♀;female;TRUE;TRUE;TRUE
+Kanto;Nidorina;female;TRUE;TRUE;TRUE
+Kanto;Nidoqueen;female;TRUE;TRUE;TRUE
 Kanto;Nidoran♂;male;TRUE;TRUE;FALSE
 Kanto;Nidorino;male;TRUE;TRUE;FALSE
 Kanto;Nidoking;male;TRUE;TRUE;FALSE
@@ -205,7 +205,7 @@ Johto;Girafarig;difference;FALSE;FALSE;FALSE
 Johto;Pineco;both;TRUE;TRUE;TRUE
 Johto;Forretress;both;TRUE;TRUE;TRUE
 Johto;Dunsparce;both;TRUE;FALSE;FALSE
-Johto;Gligar;difference;TRUE;TRUE;FALSE
+Johto;Gligar;difference;TRUE;TRUE;TRUE
 Johto;Steelix;difference;TRUE;FALSE;FALSE
 Johto;Snubbull;both;TRUE;TRUE;FALSE
 Johto;Granbull;both;TRUE;TRUE;FALSE
@@ -247,7 +247,7 @@ Johto;Suicune;genderless;TRUE;TRUE;FALSE
 Johto;Larvitar;both;TRUE;TRUE;FALSE
 Johto;Pupitar;both;TRUE;TRUE;FALSE
 Johto;Tyranitar;both;TRUE;TRUE;FALSE
-Johto;Lugia;genderless;TRUE;FALSE;FALSE
+Johto;Lugia;genderless;TRUE;TRUE;FALSE
 Johto;Ho-Oh;genderless;TRUE;TRUE;FALSE
 Johto;Celebi;genderless;TRUE;FALSE;FALSE
 Hoenn;Treecko;both;TRUE;FALSE;FALSE
@@ -470,7 +470,7 @@ Sinnoh;Togekiss;both;TRUE;FALSE;FALSE
 Sinnoh;Yanmega;both;TRUE;FALSE;FALSE
 Sinnoh;Leafeon;both;TRUE;FALSE;FALSE
 Sinnoh;Glaceon;both;TRUE;FALSE;FALSE
-Sinnoh;Gliscor;both;TRUE;TRUE;FALSE
+Sinnoh;Gliscor;both;TRUE;TRUE;TRUE
 Sinnoh;Mamoswine;difference;TRUE;TRUE;FALSE
 Sinnoh;Porygon-Z;genderless;TRUE;TRUE;FALSE
 Sinnoh;Gallade;male;TRUE;TRUE;FALSE
@@ -627,8 +627,8 @@ Unova;Bisharp;both;FALSE;FALSE;FALSE
 Unova;Bouffalant;both;FALSE;FALSE;FALSE
 Unova;Rufflet;male;TRUE;FALSE;FALSE
 Unova;Braviary;male;TRUE;FALSE;FALSE
-Unova;Vullaby;female;FALSE;FALSE;FALSE
-Unova;Mandibuzz;female;FALSE;FALSE;FALSE
+Unova;Vullaby;female;TRUE;FALSE;FALSE
+Unova;Mandibuzz;female;TRUE;FALSE;FALSE
 Unova;Heatmor;both;TRUE;FALSE;FALSE
 Unova;Durant;both;TRUE;FALSE;FALSE
 Unova;Deino;both;TRUE;FALSE;FALSE
@@ -1116,7 +1116,7 @@ Event;Togepi flower;both;TRUE;FALSE;FALSE
 Event;Espeon flower;both;TRUE;FALSE;FALSE
 Event;Umbreon flower;both;TRUE;FALSE;FALSE
 Event;Wobbuffet party;difference;TRUE;FALSE;FALSE
-Event;Sneasel glasses;difference;TRUE;FALSE;FALSE
+Event;Sneasel sunglasses;difference;TRUE;FALSE;FALSE
 Event;Delibird holiday;both;TRUE;FALSE;FALSE
 Event;Stantler holiday;both;TRUE;FALSE;FALSE
 Event;Blissey flower;female;TRUE;FALSE;FALSE
@@ -1143,3 +1143,9 @@ Event;Zigzagoon galarian meloetta;both;TRUE;FALSE;FALSE
 Event;Gardevoir meloetta;both;FALSE;FALSE;FALSE
 Event;Flygon meloetta;both;FALSE;FALSE;FALSE
 Event;Blitzle collar;both;TRUE;FALSE;FALSE
+Event;Turtwig white hat;both;TRUE;FALSE;FALSE
+Event;Chimchar white hat;both;TRUE;FALSE;FALSE
+Event;Piplup white hat;both;TRUE;FALSE;FALSE
+Event;Turtwig red hat;both;TRUE;FALSE;FALSE
+Event;Chimchar red hat;both;TRUE;FALSE;FALSE
+Event;Piplup red hat;both;TRUE;FALSE;FALSE
