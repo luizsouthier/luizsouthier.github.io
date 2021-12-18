@@ -361,9 +361,9 @@ Hoenn;Absol;both;TRUE;TRUE;TRUE
 Hoenn;Wynaut;both;TRUE;FALSE;FALSE
 Hoenn;Snorunt;both;TRUE;FALSE;FALSE
 Hoenn;Glalie;both;TRUE;FALSE;FALSE
-Hoenn;Spheal;both;FALSE;TRUE;FALSE
-Hoenn;Sealeo;both;FALSE;TRUE;FALSE
-Hoenn;Walrein;both;FALSE;TRUE;FALSE
+Hoenn;Spheal;both;TRUE;TRUE;FALSE
+Hoenn;Sealeo;both;TRUE;TRUE;FALSE
+Hoenn;Walrein;both;TRUE;TRUE;FALSE
 Hoenn;Clamperl;both;TRUE;FALSE;FALSE
 Hoenn;Huntail;both;TRUE;FALSE;FALSE
 Hoenn;Gorebyss;both;TRUE;FALSE;FALSE
@@ -619,7 +619,7 @@ Unova;Accelgor;both;FALSE;FALSE;FALSE
 Unova;Stunfisk;both;FALSE;FALSE;FALSE
 Unova;Mienfoo;both;FALSE;FALSE;FALSE
 Unova;Mienshao;both;FALSE;FALSE;FALSE
-Unova;Druddigon;both;FALSE;FALSE;FALSE
+Unova;Druddigon;both;TRUE;FALSE;FALSE
 Unova;Golett;genderless;FALSE;FALSE;FALSE
 Unova;Golurk;genderless;FALSE;FALSE;FALSE
 Unova;Pawniard;both;FALSE;FALSE;FALSE
@@ -641,10 +641,10 @@ Unova;Terrakion;genderless;TRUE;FALSE;FALSE
 Unova;Virizion;genderless;TRUE;FALSE;FALSE
 Unova;Tornadus;male;TRUE;FALSE;FALSE
 Unova;Thundurus;male;TRUE;FALSE;FALSE
-Unova;Reshiram;genderless;FALSE;FALSE;FALSE
-Unova;Zekrom;genderless;FALSE;FALSE;FALSE
+Unova;Reshiram;genderless;TRUE;FALSE;FALSE
+Unova;Zekrom;genderless;TRUE;FALSE;FALSE
 Unova;Landorus;male;TRUE;FALSE;FALSE
-Unova;Kyurem;genderless;FALSE;FALSE;FALSE
+Unova;Kyurem;genderless;TRUE;FALSE;FALSE
 Unova;Keldeo;genderless;FALSE;FALSE;FALSE
 Unova;Meloetta;genderless;FALSE;FALSE;FALSE
 Unova;Genesect;genderless;TRUE;FALSE;FALSE
@@ -840,8 +840,8 @@ Forms;Weezing galarian;both;TRUE;FALSE;FALSE
 Forms;Slowking galarian;both;FALSE;FALSE;FALSE
 Forms;Zigzagoon galarian;both;TRUE;FALSE;FALSE
 Forms;Linoone galarian;both;TRUE;FALSE;FALSE
-Forms;Darumaka galarian;both;FALSE;FALSE;FALSE
-Forms;Darmanitan galarian;both;FALSE;FALSE;FALSE
+Forms;Darumaka galarian;both;TRUE;FALSE;FALSE
+Forms;Darmanitan galarian;both;TRUE;FALSE;FALSE
 Forms;Darmanitan zen galarian;both;FALSE;FALSE;FALSE
 Forms;Yamask galarian;both;FALSE;FALSE;FALSE
 Forms;Stunfisk galarian;both;TRUE;FALSE;FALSE
@@ -1149,3 +1149,7 @@ Event;Piplup white hat;both;TRUE;FALSE;FALSE
 Event;Turtwig red hat;both;TRUE;FALSE;FALSE
 Event;Chimchar red hat;both;TRUE;FALSE;FALSE
 Event;Piplup red hat;both;TRUE;FALSE;FALSE
+Event;Spheal holiday;both;TRUE;FALSE;FALSE
+Event;Glaceon holiday;both;TRUE;FALSE;FALSE
+Event;Hoothoot new year;both;TRUE;FALSE;FALSE
+Event;Slowking new year;both;TRUE;FALSE;FALSE
