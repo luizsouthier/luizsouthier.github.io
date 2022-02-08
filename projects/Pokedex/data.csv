@@ -834,10 +834,10 @@ Forms,Ponyta galarian,both,TRUE,FALSE,FALSE
 Forms,Rapidash galarian,both,TRUE,FALSE,FALSE
 Forms,Slowpoke galarian,both,FALSE,FALSE,FALSE
 Forms,Slowbro galarian,both,FALSE,FALSE,FALSE
-Forms,Slowking galarian,both,FALSE,FALSE,FALSE
 Forms,Farfetch'd galarian,both,TRUE,FALSE,FALSE
 Forms,Weezing galarian,both,TRUE,FALSE,FALSE
-Forms,Slowking galarian,both,FALSE,FALSE,FALSE
+Forms,Mr. Mime galarian,both,FALSE,FALSE,FALSE
+Forms,Corsola galarian,both,FALSE,FALSE,FALSE
 Forms,Zigzagoon galarian,both,TRUE,FALSE,FALSE
 Forms,Linoone galarian,both,TRUE,FALSE,FALSE
 Forms,Darumaka galarian,both,TRUE,FALSE,FALSE
@@ -845,7 +845,8 @@ Forms,Darmanitan galarian,both,TRUE,FALSE,FALSE
 Forms,Darmanitan zen galarian,both,FALSE,FALSE,FALSE
 Forms,Yamask galarian,both,FALSE,FALSE,FALSE
 Forms,Stunfisk galarian,both,TRUE,FALSE,FALSE
-Forms,Mr. Mime galarian,both,FALSE,FALSE,FALSE
+Forms,Slowking galarian,both,FALSE,FALSE,FALSE
+Forms,Voltorb hisuian,both,FALSE,FALSE,FALSE
 Forms,Unown A,genderless,TRUE,FALSE,FALSE
 Forms,Unown B,genderless,FALSE,FALSE,FALSE
 Forms,Unown C,genderless,TRUE,FALSE,FALSE
@@ -961,6 +962,23 @@ Forms,Genesect shock,genderless,FALSE,FALSE,FALSE
 Forms,Genesect burn,genderless,FALSE,FALSE,FALSE
 Forms,Genesect chill,genderless,FALSE,FALSE,FALSE
 Forms,Genesect douse,genderless,FALSE,FALSE,FALSE
+Forms,Greninja,both,FALSE,FALSE,FALSE
+Forms,Greninja ash,both,FALSE,FALSE,FALSE
+Forms,Flabébé,both,FALSE,FALSE,FALSE
+Forms,Flabébé blue,both,FALSE,FALSE,FALSE
+Forms,Flabébé yellow,both,FALSE,FALSE,FALSE
+Forms,Flabébé white,both,FALSE,FALSE,FALSE
+Forms,Flabébé orange,both,FALSE,FALSE,FALSE
+Forms,Floette,both,FALSE,FALSE,FALSE
+Forms,Floette blue,both,FALSE,FALSE,FALSE
+Forms,Floette yellow,both,FALSE,FALSE,FALSE
+Forms,Floette white,both,FALSE,FALSE,FALSE
+Forms,Floette orange,both,FALSE,FALSE,FALSE
+Forms,Florges,both,FALSE,FALSE,FALSE
+Forms,Florges blue,both,FALSE,FALSE,FALSE
+Forms,Florges yellow,both,FALSE,FALSE,FALSE
+Forms,Florges white,both,FALSE,FALSE,FALSE
+Forms,Florges orange,both,FALSE,FALSE,FALSE
 Forms,Furfrou Dandy,both,FALSE,FALSE,FALSE
 Forms,Furfrou Diamond,both,FALSE,FALSE,FALSE
 Forms,Furfrou Heart,both,FALSE,FALSE,FALSE
@@ -970,6 +988,16 @@ Forms,Furfrou La Reine,both,FALSE,FALSE,FALSE
 Forms,Furfrou Matron,both,FALSE,FALSE,FALSE
 Forms,Furfrou Pharaoh,both,FALSE,FALSE,FALSE
 Forms,Furfrou Star,both,FALSE,FALSE,FALSE
+Forms,Pumpkaboo small,both,FALSE,FALSE,FALSE
+Forms,Pumpkaboo,both,FALSE,FALSE,FALSE
+Forms,Pumpkaboo large,both,FALSE,FALSE,FALSE
+Forms,Pumpkaboo super,both,FALSE,FALSE,FALSE
+Forms,Gourgeist small,both,FALSE,FALSE,FALSE
+Forms,Gourgeist,both,FALSE,FALSE,FALSE
+Forms,Gourgeist large,both,FALSE,FALSE,FALSE
+Forms,Gourgeist super,both,FALSE,FALSE,FALSE
+Forms,Hoopa,both,FALSE,FALSE,FALSE
+Forms,Hoopa unbound,both,FALSE,FALSE,FALSE
 Forms,Toxtricity,both,FALSE,FALSE,FALSE
 Forms,Toxtricity Low,both,FALSE,FALSE,FALSE
 Forms,Sinistea,both,FALSE,FALSE,FALSE
@@ -1038,63 +1066,68 @@ Mega,Garchomp mega,both,TRUE,FALSE,FALSE
 Mega,Lucario mega,both,TRUE,FALSE,FALSE
 Mega,Gallade mega,male,TRUE,FALSE,FALSE
 Mega,Audino mega,both,TRUE,FALSE,FALSE
-Event,Bulbasaur fall,both,TRUE,FALSE,FALSE
 Event,Bulbasaur party hat,both,TRUE,FALSE,FALSE
 Event,Bulbasaur visor,both,TRUE,FALSE,FALSE
+Event,Bulbasaur fall,both,TRUE,FALSE,FALSE
 Event,Venusaur clone,difference,FALSE,FALSE,FALSE
-Event,Charmander fall,both,TRUE,FALSE,FALSE
 Event,Charmander party hat,both,TRUE,FALSE,FALSE
 Event,Charmander visor,both,TRUE,FALSE,FALSE
+Event,Charmander fall,both,TRUE,FALSE,FALSE
 Event,Charizard clone,both,FALSE,FALSE,FALSE
 Event,Squirtle sunglasses,both,TRUE,FALSE,FALSE
-Event,Squirtle fall,both,TRUE,FALSE,FALSE
 Event,Squirtle party hat,both,TRUE,FALSE,FALSE
 Event,Squirtle visor,both,TRUE,FALSE,FALSE
+Event,Squirtle fall,both,TRUE,FALSE,FALSE
 Event,Wartortle sunglasses,both,TRUE,FALSE,FALSE
 Event,Blastoise sunglasses,both,TRUE,FALSE,FALSE
 Event,Blastoise clone,both,FALSE,FALSE,FALSE
 Event,Butterfree bow,difference,TRUE,FALSE,FALSE
 Event,Raticate party,difference,TRUE,FALSE,FALSE
 Event,Pikachu festive,difference,TRUE,FALSE,FALSE
-Event,Pikachu ash,difference,TRUE,FALSE,FALSE
 Event,Pikachu party,difference,TRUE,FALSE,FALSE
+Event,Pikachu ash,difference,TRUE,FALSE,FALSE
 Event,Pikachu witch,difference,TRUE,FALSE,FALSE
 Event,Pikachu summer,difference,TRUE,FALSE,FALSE
 Event,Pikachu fragment,difference,TRUE,FALSE,FALSE
-Event,Pikachu winter,difference,TRUE,FALSE,FALSE
 Event,Pikachu flower,difference,TRUE,FALSE,FALSE
+Event,Pikachu winter,difference,TRUE,FALSE,FALSE
 Event,Pikachu detective,male,TRUE,FALSE,FALSE
-Event,Pikachu worldcap,difference,TRUE,FALSE,FALSE
 Event,Pikachu straw hat,difference,TRUE,FALSE,FALSE
-Event,Pikachu fall,male,TRUE,FALSE,FALSE
 Event,Pikachu party hat,difference,TRUE,FALSE,FALSE
-Event,Pikachu clone,male,FALSE,FALSE,FALSE
-Event,Pikachu libre,female,TRUE,FALSE,FALSE
 Event,Pikachu spring,difference,TRUE,FALSE,FALSE
 Event,Pikachu safari,difference,TRUE,FALSE,FALSE
 Event,Pikachu charizard,difference,TRUE,FALSE,FALSE
 Event,Pikachu umbreon,difference,TRUE,FALSE,FALSE
 Event,Pikachu rayquaza,difference,TRUE,FALSE,FALSE
 Event,Pikachu lucario,difference,TRUE,FALSE,FALSE
+Event,Pikachu worldcap,difference,TRUE,FALSE,FALSE
+Event,Pikachu new year,difference,TRUE,FALSE,FALSE
+Event,Pikachu meloetta,both,TRUE,FALSE,FALSE
+Event,Pikachu halloween,difference,TRUE,FALSE,FALSE
+Event,Pikachu fall,male,TRUE,FALSE,FALSE
+Event,Pikachu libre,female,TRUE,FALSE,FALSE
+Event,Pikachu clone,male,FALSE,FALSE,FALSE
 Event,Pikachu fly,difference,TRUE,FALSE,FALSE
 Event,Pikachu explorer,difference,TRUE,FALSE,FALSE
 Event,Pikachu holiday,difference,TRUE,FALSE,FALSE
-Event,Pikachu new year,difference,TRUE,FALSE,FALSE
-Event,Pikachu halloween,difference,TRUE,FALSE,FALSE
+Event,Pikachu pop,female,FALSE,FALSE,FALSE
+Event,Pikachu rock,female,FALSE,FALSE,FALSE
+Event,Pikachu 5th,both,TRUE,FALSE,FALSE
 Event,Raichu festive,difference,TRUE,FALSE,FALSE
-Event,Raichu ash,difference,TRUE,FALSE,FALSE
 Event,Raichu party,difference,TRUE,FALSE,FALSE
+Event,Raichu ash,difference,TRUE,FALSE,FALSE
 Event,Raichu witch,difference,TRUE,FALSE,FALSE
 Event,Raichu summer,difference,TRUE,FALSE,FALSE
 Event,Raichu fragment,difference,TRUE,FALSE,FALSE
-Event,Raichu winter,difference,TRUE,FALSE,FALSE
 Event,Raichu flower,difference,TRUE,FALSE,FALSE
+Event,Raichu winter,difference,TRUE,FALSE,FALSE
 Event,Raichu detective,male,TRUE,FALSE,FALSE
 Event,Raichu worldcap,difference,TRUE,FALSE,FALSE
 Event,Raichu new year,difference,TRUE,FALSE,FALSE
+Event,Nidorino party hat,both,TRUE,FALSE,FALSE
+Event,Ponyta galarian meloetta,both,TRUE,FALSE,FALSE
 Event,Slowpoke new year,both,TRUE,FALSE,FALSE
 Event,Slowbro new year,both,TRUE,FALSE,FALSE
-Event,Nidorino party hat,both,TRUE,FALSE,FALSE
 Event,Gengar party hat,both,TRUE,FALSE,FALSE
 Event,Gengar halloween,both,TRUE,FALSE,FALSE
 Event,Chansey flower,female,TRUE,FALSE,FALSE
@@ -1104,27 +1137,39 @@ Event,Vaporeon flower,both,TRUE,FALSE,FALSE
 Event,Jolteon flower,both,TRUE,FALSE,FALSE
 Event,Flareon flower,both,TRUE,FALSE,FALSE
 Event,Mewtwo armored,genderless,FALSE,FALSE,FALSE
+Event,Hoothoot new year,both,TRUE,FALSE,FALSE
 Event,Pichu festive,both,TRUE,FALSE,FALSE
-Event,Pichu ash,both,TRUE,FALSE,FALSE
 Event,Pichu party,both,TRUE,FALSE,FALSE
+Event,Pichu ash,both,TRUE,FALSE,FALSE
 Event,Pichu witch,both,TRUE,FALSE,FALSE
 Event,Pichu summer,both,TRUE,FALSE,FALSE
-Event,Pichu winter,both,TRUE,FALSE,FALSE
 Event,Pichu flower,both,TRUE,FALSE,FALSE
+Event,Pichu winter,both,TRUE,FALSE,FALSE
 Event,Pichu new year,both,TRUE,FALSE,FALSE
 Event,Togepi flower,both,TRUE,FALSE,FALSE
 Event,Espeon flower,both,TRUE,FALSE,FALSE
 Event,Umbreon flower,both,TRUE,FALSE,FALSE
+Event,Slowking new year,both,TRUE,FALSE,FALSE
 Event,Wobbuffet party,difference,TRUE,FALSE,FALSE
 Event,Sneasel sunglasses,difference,TRUE,FALSE,FALSE
 Event,Delibird holiday,both,TRUE,FALSE,FALSE
 Event,Stantler holiday,both,TRUE,FALSE,FALSE
-Event,Blissey flower,female,TRUE,FALSE,FALSE
 Event,Smoochum bow,female,TRUE,FALSE,FALSE
+Event,Blissey flower,female,TRUE,FALSE,FALSE
+Event,Zigzagoon galarian meloetta,both,TRUE,FALSE,FALSE
 Event,Wurmple party,both,TRUE,FALSE,FALSE
 Event,Kirlia hat,both,TRUE,FALSE,FALSE
+Event,Gardevoir meloetta,both,FALSE,FALSE,FALSE
 Event,Sableye halloween,both,TRUE,FALSE,FALSE
+Event,Flygon meloetta,both,FALSE,FALSE,FALSE
+Event,Spheal holiday,both,TRUE,FALSE,FALSE
+Event,Turtwig red hat,both,TRUE,FALSE,FALSE
+Event,Turtwig white hat,both,TRUE,FALSE,FALSE
+Event,Chimchar red hat,both,TRUE,FALSE,FALSE
+Event,Chimchar white hat,both,TRUE,FALSE,FALSE
 Event,Piplup halloween,both,TRUE,FALSE,FALSE
+Event,Piplup red hat,both,TRUE,FALSE,FALSE
+Event,Piplup white hat,both,TRUE,FALSE,FALSE
 Event,Shinx hat,difference,TRUE,FALSE,FALSE
 Event,Drifblim halloween,both,TRUE,FALSE,FALSE
 Event,Buneary flower,both,TRUE,FALSE,FALSE
@@ -1132,24 +1177,7 @@ Event,Happiny flower,female,TRUE,FALSE,FALSE
 Event,Croagunk cap,difference,TRUE,FALSE,FALSE
 Event,Leafeon flower,both,TRUE,FALSE,FALSE
 Event,Glaceon flower,both,TRUE,FALSE,FALSE
+Event,Glaceon holiday,both,TRUE,FALSE,FALSE
+Event,Blitzle collar,both,TRUE,FALSE,FALSE
 Event,Cubchoo holiday,both,TRUE,FALSE,FALSE
 Event,Sylveon flower,both,TRUE,FALSE,FALSE
-Event,Pikachu 5th,both,TRUE,FALSE,FALSE
-Event,Pikachu meloetta,both,TRUE,FALSE,FALSE
-Event,Pikachu pop,female,FALSE,FALSE,FALSE
-Event,Pikachu rock,female,FALSE,FALSE,FALSE
-Event,Ponyta galarian meloetta,both,TRUE,FALSE,FALSE
-Event,Zigzagoon galarian meloetta,both,TRUE,FALSE,FALSE
-Event,Gardevoir meloetta,both,FALSE,FALSE,FALSE
-Event,Flygon meloetta,both,FALSE,FALSE,FALSE
-Event,Blitzle collar,both,TRUE,FALSE,FALSE
-Event,Turtwig white hat,both,TRUE,FALSE,FALSE
-Event,Chimchar white hat,both,TRUE,FALSE,FALSE
-Event,Piplup white hat,both,TRUE,FALSE,FALSE
-Event,Turtwig red hat,both,TRUE,FALSE,FALSE
-Event,Chimchar red hat,both,TRUE,FALSE,FALSE
-Event,Piplup red hat,both,TRUE,FALSE,FALSE
-Event,Spheal holiday,both,TRUE,FALSE,FALSE
-Event,Glaceon holiday,both,TRUE,FALSE,FALSE
-Event,Hoothoot new year,both,TRUE,FALSE,FALSE
-Event,Slowking new year,both,TRUE,FALSE,FALSE
