@@ -665,8 +665,8 @@ Kalos,Talonflame,both,TRUE,FALSE,FALSE
 Kalos,Scatterbug,both,FALSE,FALSE,FALSE
 Kalos,Spewpa,both,FALSE,FALSE,FALSE
 Kalos,Vivillon,both,FALSE,FALSE,FALSE
-Kalos,Litleo,both,FALSE,FALSE,FALSE
-Kalos,Pyroar,difference,FALSE,FALSE,FALSE
+Kalos,Litleo,both,TRUE,FALSE,FALSE
+Kalos,Pyroar,difference,TRUE,FALSE,FALSE
 Kalos,Flabébé,female,FALSE,FALSE,FALSE
 Kalos,Floette,female,FALSE,FALSE,FALSE
 Kalos,Florges,female,FALSE,FALSE,FALSE
