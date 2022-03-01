@@ -720,8 +720,94 @@ Kalos,Zygarde,genderless,FALSE,FALSE,FALSE
 Kalos,Diancie,genderless,FALSE,FALSE,FALSE
 Kalos,Hoopa,genderless,FALSE,FALSE,FALSE
 Kalos,Volcanion,genderless,FALSE,FALSE,FALSE
-Unknown,Meltan,genderless,TRUE,FALSE,FALSE
-Unknown,Melmetal,genderless,TRUE,FALSE,FALSE
+Unova,Rowlet,both,FALSE,FALSE,FALSE
+Unova,Dartrix,both,FALSE,FALSE,FALSE
+Unova,Decidueye,both,FALSE,FALSE,FALSE
+Unova,Litten,both,FALSE,FALSE,FALSE
+Unova,Torracat,both,FALSE,FALSE,FALSE
+Unova,Incineroar,both,FALSE,FALSE,FALSE
+Unova,Popplio,both,FALSE,FALSE,FALSE
+Unova,Brionne,both,FALSE,FALSE,FALSE
+Unova,Primarina,both,FALSE,FALSE,FALSE
+Unova,Pikipek,both,FALSE,FALSE,FALSE
+Unova,Trumbeak,both,FALSE,FALSE,FALSE
+Unova,Toucannon,both,FALSE,FALSE,FALSE
+Unova,Yungoos,both,TRUE,FALSE,FALSE
+Unova,Gumshoos,both,TRUE,FALSE,FALSE
+Unova,Grubbin,both,FALSE,FALSE,FALSE
+Unova,Charjabug,both,FALSE,FALSE,FALSE
+Unova,Vikavolt,both,FALSE,FALSE,FALSE
+Unova,Crabrawler,both,FALSE,FALSE,FALSE
+Unova,Crabominable,both,FALSE,FALSE,FALSE
+Unova,Oricorio,both,FALSE,FALSE,FALSE
+Unova,Cutiefly,both,FALSE,FALSE,FALSE
+Unova,Ribombee,both,FALSE,FALSE,FALSE
+Unova,Rockruff,both,TRUE,FALSE,FALSE
+Unova,Lycanroc,both,TRUE,FALSE,FALSE
+Unova,Wishiwashi,both,FALSE,FALSE,FALSE
+Unova,Mareanie,both,FALSE,FALSE,FALSE
+Unova,Toxapex,both,FALSE,FALSE,FALSE
+Unova,Mudbray,both,FALSE,FALSE,FALSE
+Unova,Mudsdale,both,FALSE,FALSE,FALSE
+Unova,Dewpider,both,FALSE,FALSE,FALSE
+Unova,Araquanid,both,FALSE,FALSE,FALSE
+Unova,Fomantis,both,FALSE,FALSE,FALSE
+Unova,Lurantis,both,FALSE,FALSE,FALSE
+Unova,Morelull,both,FALSE,FALSE,FALSE
+Unova,Shiinotic,both,FALSE,FALSE,FALSE
+Unova,Salandit,both,FALSE,FALSE,FALSE
+Unova,Salazzle,female,FALSE,FALSE,FALSE
+Unova,Stufful,both,FALSE,FALSE,FALSE
+Unova,Bewear,both,FALSE,FALSE,FALSE
+Unova,Bounsweet,female,FALSE,FALSE,FALSE
+Unova,Steenee,female,FALSE,FALSE,FALSE
+Unova,Tsareena,female,FALSE,FALSE,FALSE
+Unova,Comfey,both,FALSE,FALSE,FALSE
+Unova,Oranguru,both,FALSE,FALSE,FALSE
+Unova,Passimian,both,FALSE,FALSE,FALSE
+Unova,Wimpod,both,FALSE,FALSE,FALSE
+Unova,Golisopod,both,FALSE,FALSE,FALSE
+Unova,Sandygast,both,FALSE,FALSE,FALSE
+Unova,Palossand,both,FALSE,FALSE,FALSE
+Unova,Pyukumuku,both,FALSE,FALSE,FALSE
+Unova,Type: Null,genderless,FALSE,FALSE,FALSE
+Unova,Silvally,genderless,FALSE,FALSE,FALSE
+Unova,Minior,genderless,FALSE,FALSE,FALSE
+Unova,Komala,both,FALSE,FALSE,FALSE
+Unova,Turtonator,both,FALSE,FALSE,FALSE
+Unova,Togedemaru,both,FALSE,FALSE,FALSE
+Unova,Mimikyu,both,FALSE,FALSE,FALSE
+Unova,Bruxish,both,FALSE,FALSE,FALSE
+Unova,Drampa,both,FALSE,FALSE,FALSE
+Unova,Dhelmise,genderless,FALSE,FALSE,FALSE
+Unova,Jangmo-o,both,FALSE,FALSE,FALSE
+Unova,Hakamo-o,both,FALSE,FALSE,FALSE
+Unova,Kommo-o,both,FALSE,FALSE,FALSE
+Unova,Tapu Koko,genderless,FALSE,FALSE,FALSE
+Unova,Tapu Lele,genderless,FALSE,FALSE,FALSE
+Unova,Tapu Bulu,genderless,FALSE,FALSE,FALSE
+Unova,Tapu Fini,genderless,FALSE,FALSE,FALSE
+Unova,Cosmog,genderless,FALSE,FALSE,FALSE
+Unova,Cosmoem,genderless,FALSE,FALSE,FALSE
+Unova,Solgaleo,genderless,FALSE,FALSE,FALSE
+Unova,Lunala,genderless,FALSE,FALSE,FALSE
+Unova,Nihilego,genderless,FALSE,FALSE,FALSE
+Unova,Buzzwole,genderless,FALSE,FALSE,FALSE
+Unova,Pheromosa,genderless,FALSE,FALSE,FALSE
+Unova,Xurkitree,genderless,FALSE,FALSE,FALSE
+Unova,Celesteela,genderless,FALSE,FALSE,FALSE
+Unova,Kartana,genderless,FALSE,FALSE,FALSE
+Unova,Guzzlord,genderless,FALSE,FALSE,FALSE
+Unova,Necrozma,genderless,FALSE,FALSE,FALSE
+Unova,Magearna,genderless,FALSE,FALSE,FALSE
+Unova,Marshadow,genderless,FALSE,FALSE,FALSE
+Unova,Poipole,genderless,FALSE,FALSE,FALSE
+Unova,Naganadel,genderless,FALSE,FALSE,FALSE
+Unova,Stakataka,genderless,FALSE,FALSE,FALSE
+Unova,Blacephalon,genderless,FALSE,FALSE,FALSE
+Unova,Zeraora,genderless,FALSE,FALSE,FALSE
+Unova,Meltan,genderless,TRUE,FALSE,FALSE
+Unova,Melmetal,genderless,TRUE,FALSE,FALSE
 Galar,Grookey,both,FALSE,FALSE,FALSE
 Galar,Thwackey,both,FALSE,FALSE,FALSE
 Galar,Rillaboom,both,FALSE,FALSE,FALSE
@@ -766,23 +852,23 @@ Galar,Sizzlipede,both,FALSE,FALSE,FALSE
 Galar,Centiskorch,both,FALSE,FALSE,FALSE
 Galar,Clobbopus,both,FALSE,FALSE,FALSE
 Galar,Grapploct,both,FALSE,FALSE,FALSE
-Galar,Sinistea,both,FALSE,FALSE,FALSE
-Galar,Polteageist,both,FALSE,FALSE,FALSE
-Galar,Hatenna,both,FALSE,FALSE,FALSE
-Galar,Hattrem,both,FALSE,FALSE,FALSE
-Galar,Hatterene,both,FALSE,FALSE,FALSE
-Galar,Impidimp,both,FALSE,FALSE,FALSE
-Galar,Morgrem,both,FALSE,FALSE,FALSE
-Galar,Grimmsnarl,both,FALSE,FALSE,FALSE
+Galar,Sinistea,genderless,FALSE,FALSE,FALSE
+Galar,Polteageist,genderless,FALSE,FALSE,FALSE
+Galar,Hatenna,female,FALSE,FALSE,FALSE
+Galar,Hattrem,female,FALSE,FALSE,FALSE
+Galar,Hatterene,female,FALSE,FALSE,FALSE
+Galar,Impidimp,male,FALSE,FALSE,FALSE
+Galar,Morgrem,male,FALSE,FALSE,FALSE
+Galar,Grimmsnarl,male,FALSE,FALSE,FALSE
 Galar,Obstagoon,both,TRUE,FALSE,FALSE
 Galar,Perrserker,both,TRUE,FALSE,FALSE
 Galar,Cursola,both,FALSE,FALSE,FALSE
 Galar,Sirfetch'd,both,TRUE,FALSE,FALSE
 Galar,Mr. Rime,both,FALSE,FALSE,FALSE
 Galar,Runerigus,both,FALSE,FALSE,FALSE
-Galar,Milcery,both,FALSE,FALSE,FALSE
-Galar,Alcremie,both,FALSE,FALSE,FALSE
-Galar,Falinks,both,FALSE,FALSE,FALSE
+Galar,Milcery,female,FALSE,FALSE,FALSE
+Galar,Alcremie,female,FALSE,FALSE,FALSE
+Galar,Falinks,genderless,FALSE,FALSE,FALSE
 Galar,Pincurchin,both,FALSE,FALSE,FALSE
 Galar,Snom,both,FALSE,FALSE,FALSE
 Galar,Frosmoth,both,FALSE,FALSE,FALSE
@@ -792,25 +878,25 @@ Galar,Indeedee,difference,FALSE,FALSE,FALSE
 Galar,Morpeko,both,FALSE,FALSE,FALSE
 Galar,Cufant,both,FALSE,FALSE,FALSE
 Galar,Copperajah,both,FALSE,FALSE,FALSE
-Galar,Dracozolt,both,FALSE,FALSE,FALSE
-Galar,Arctozolt,both,FALSE,FALSE,FALSE
-Galar,Dracovish,both,FALSE,FALSE,FALSE
-Galar,Arctovish,both,FALSE,FALSE,FALSE
+Galar,Dracozolt,genderless,FALSE,FALSE,FALSE
+Galar,Arctozolt,genderless,FALSE,FALSE,FALSE
+Galar,Dracovish,genderless,FALSE,FALSE,FALSE
+Galar,Arctovish,genderless,FALSE,FALSE,FALSE
 Galar,Duraludon,both,FALSE,FALSE,FALSE
 Galar,Dreepy,both,FALSE,FALSE,FALSE
 Galar,Drakloak,both,FALSE,FALSE,FALSE
 Galar,Dragapult,both,FALSE,FALSE,FALSE
-Galar,Zacian,both,FALSE,FALSE,FALSE
-Galar,Zamazenta,both,FALSE,FALSE,FALSE
-Galar,Eternatus,both,FALSE,FALSE,FALSE
+Galar,Zacian,genderless,FALSE,FALSE,FALSE
+Galar,Zamazenta,genderless,FALSE,FALSE,FALSE
+Galar,Eternatus,genderless,FALSE,FALSE,FALSE
 Galar,Kubfu,both,FALSE,FALSE,FALSE
 Galar,Urshifu,both,FALSE,FALSE,FALSE
-Galar,Zarude,both,FALSE,FALSE,FALSE
-Galar,Regieleki,both,FALSE,FALSE,FALSE
-Galar,Regidrago,both,FALSE,FALSE,FALSE
-Galar,Glastrier,both,FALSE,FALSE,FALSE
-Galar,Spectrier,both,FALSE,FALSE,FALSE
-Galar,Calyrex,both,FALSE,FALSE,FALSE
+Galar,Zarude,genderless,FALSE,FALSE,FALSE
+Galar,Regieleki,genderless,FALSE,FALSE,FALSE
+Galar,Regidrago,genderless,FALSE,FALSE,FALSE
+Galar,Glastrier,genderless,FALSE,FALSE,FALSE
+Galar,Spectrier,genderless,FALSE,FALSE,FALSE
+Galar,Calyrex,genderless,FALSE,FALSE,FALSE
 Forms,Rattata alolan,both,TRUE,FALSE,FALSE
 Forms,Raticate alolan,both,TRUE,FALSE,FALSE
 Forms,Raichu alolan,both,TRUE,FALSE,FALSE
@@ -998,12 +1084,55 @@ Forms,Gourgeist large,both,FALSE,FALSE,FALSE
 Forms,Gourgeist super,both,FALSE,FALSE,FALSE
 Forms,Hoopa,both,FALSE,FALSE,FALSE
 Forms,Hoopa unbound,both,FALSE,FALSE,FALSE
+Forms,Oricorio,both,FALSE,FALSE,FALSE
+Forms,Oricorio pom-pom,both,FALSE,FALSE,FALSE
+Forms,Oricorio pa'u,both,FALSE,FALSE,FALSE
+Forms,Oricorio sensu,both,FALSE,FALSE,FALSE
+Forms,Lycanroc,both,TRUE,FALSE,FALSE
+Forms,Lycanroc midnight,both,TRUE,FALSE,FALSE
+Forms,Lycanroc dusk,both,TRUE,FALSE,FALSE
+Forms,Wishiwashi,both,FALSE,FALSE,FALSE
+Forms,Wishiwashi school,both,FALSE,FALSE,FALSE
+Forms,Silvally normal,genderless,FALSE,FALSE,FALSE
+Forms,Silvally bug,genderless,FALSE,FALSE,FALSE
+Forms,Silvally dark,genderless,FALSE,FALSE,FALSE
+Forms,Silvally dragon,genderless,FALSE,FALSE,FALSE
+Forms,Silvally electric,genderless,FALSE,FALSE,FALSE
+Forms,Silvally fairy,genderless,FALSE,FALSE,FALSE
+Forms,Silvally fighting,genderless,FALSE,FALSE,FALSE
+Forms,Silvally fire,genderless,FALSE,FALSE,FALSE
+Forms,Silvally flying,genderless,FALSE,FALSE,FALSE
+Forms,Silvally ghost,genderless,FALSE,FALSE,FALSE
+Forms,Silvally grass,genderless,FALSE,FALSE,FALSE
+Forms,Silvally ground,genderless,FALSE,FALSE,FALSE
+Forms,Silvally ice,genderless,FALSE,FALSE,FALSE
+Forms,Silvally poison,genderless,FALSE,FALSE,FALSE
+Forms,Silvally psychic,genderless,FALSE,FALSE,FALSE
+Forms,Silvally rock,genderless,FALSE,FALSE,FALSE
+Forms,Silvally steel,genderless,FALSE,FALSE,FALSE
+Forms,Silvally water,genderless,FALSE,FALSE,FALSE
+Forms,Minior,genderless,FALSE,FALSE,FALSE
+Forms,Minior red,genderless,FALSE,FALSE,FALSE
+Forms,Minior orange,genderless,FALSE,FALSE,FALSE
+Forms,Minior yellow,genderless,FALSE,FALSE,FALSE
+Forms,Minior green,genderless,FALSE,FALSE,FALSE
+Forms,Minior blue,genderless,FALSE,FALSE,FALSE
+Forms,Minior indigo,genderless,FALSE,FALSE,FALSE
+Forms,Minior violet,genderless,FALSE,FALSE,FALSE
+Forms,Mimikyu,both,FALSE,FALSE,FALSE
+Forms,Mimikyu busted,both,FALSE,FALSE,FALSE
+Forms,Necrozma,genderless,FALSE,FALSE,FALSE
+Forms,Necrozma dusk,genderless,FALSE,FALSE,FALSE
+Forms,Necrozma dawn,genderless,FALSE,FALSE,FALSE
+Forms,Necrozma ultra,genderless,FALSE,FALSE,FALSE
+Forms,Magearna,genderless,FALSE,FALSE,FALSE
+Forms,Magearna original,genderless,FALSE,FALSE,FALSE
 Forms,Toxtricity,both,FALSE,FALSE,FALSE
 Forms,Toxtricity Low,both,FALSE,FALSE,FALSE
-Forms,Sinistea,both,FALSE,FALSE,FALSE
-Forms,Sinistea Antique,both,FALSE,FALSE,FALSE
-Forms,Polteageist,both,FALSE,FALSE,FALSE
-Forms,Polteageist Antique,both,FALSE,FALSE,FALSE
+Forms,Sinistea,genderless,FALSE,FALSE,FALSE
+Forms,Sinistea Antique,genderless,FALSE,FALSE,FALSE
+Forms,Polteageist,genderless,FALSE,FALSE,FALSE
+Forms,Polteageist Antique,genderless,FALSE,FALSE,FALSE
 Forms,Eiscue,both,FALSE,FALSE,FALSE
 Forms,Eiscue Noice,both,FALSE,FALSE,FALSE
 Forms,Morpeko,both,FALSE,FALSE,FALSE
@@ -1124,7 +1253,7 @@ Event,Raichu winter,difference,TRUE,FALSE,FALSE
 Event,Raichu detective,male,TRUE,FALSE,FALSE
 Event,Raichu worldcap,difference,TRUE,FALSE,FALSE
 Event,Raichu new year,difference,TRUE,FALSE,FALSE
-Event,Nidorino party hat,both,TRUE,FALSE,FALSE
+Event,Nidorino party hat,male,TRUE,FALSE,FALSE
 Event,Ponyta galarian meloetta,both,TRUE,FALSE,FALSE
 Event,Slowpoke new year,both,TRUE,FALSE,FALSE
 Event,Slowbro new year,both,TRUE,FALSE,FALSE
