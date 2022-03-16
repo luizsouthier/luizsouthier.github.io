@@ -1032,11 +1032,11 @@ Forms,Sawsbuck summer,both,FALSE,FALSE,FALSE,586
 Forms,Sawsbuck autumn,both,FALSE,FALSE,FALSE,586
 Forms,Sawsbuck winter,both,FALSE,FALSE,FALSE,586
 Forms,Tornadus incarnate,male,TRUE,FALSE,FALSE,641
-Forms,Tornadus therian,male,FALSE,FALSE,FALSE,641
+Forms,Tornadus therian,male,TRUE,FALSE,FALSE,641
 Forms,Thundurus incarnate,male,TRUE,FALSE,FALSE,642
-Forms,Thundurus therian,male,FALSE,FALSE,FALSE,642
+Forms,Thundurus therian,male,TRUE,FALSE,FALSE,642
 Forms,Landorus incarnate,male,TRUE,FALSE,FALSE,645
-Forms,Landorus therian,male,FALSE,FALSE,FALSE,645
+Forms,Landorus therian,male,TRUE,FALSE,FALSE,645
 Forms,Kyurem regular,genderless,FALSE,FALSE,FALSE,646
 Forms,Kyurem white,genderless,FALSE,FALSE,FALSE,646
 Forms,Kyurem black,genderless,FALSE,FALSE,FALSE,646
