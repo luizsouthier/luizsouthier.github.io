@@ -544,8 +544,8 @@ Unova,Leavanny,both,FALSE,FALSE,FALSE,542
 Unova,Venipede,both,FALSE,FALSE,FALSE,543
 Unova,Whirlipede,both,FALSE,FALSE,FALSE,544
 Unova,Scolipede,both,FALSE,FALSE,FALSE,545
-Unova,Cottonee,both,FALSE,FALSE,FALSE,546
-Unova,Whimsicott,both,FALSE,FALSE,FALSE,547
+Unova,Cottonee,both,TRUE,FALSE,FALSE,546
+Unova,Whimsicott,both,TRUE,FALSE,FALSE,547
 Unova,Petilil,female,FALSE,FALSE,FALSE,548
 Unova,Lilligant,female,FALSE,FALSE,FALSE,549
 Unova,Basculin,both,FALSE,FALSE,FALSE,550
@@ -1214,6 +1214,7 @@ Event,Blastoise sunglasses,both,TRUE,FALSE,FALSE,9
 Event,Blastoise clone,both,FALSE,FALSE,FALSE,9
 Event,Butterfree bow,difference,TRUE,FALSE,FALSE,12
 Event,Raticate party,difference,TRUE,FALSE,FALSE,20
+Event,Pikachu kariyushi,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu festive,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu party,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu ash,difference,TRUE,FALSE,FALSE,25
