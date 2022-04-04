@@ -100,10 +100,10 @@ Kanto,Krabby,both,TRUE,FALSE,FALSE,98
 Kanto,Kingler,both,TRUE,FALSE,FALSE,99
 Kanto,Voltorb,genderless,TRUE,TRUE,FALSE,100
 Kanto,Electrode,genderless,TRUE,TRUE,FALSE,101
-Kanto,Exeggcute,both,TRUE,TRUE,FALSE,102
-Kanto,Exeggutor,both,TRUE,TRUE,FALSE,103
-Kanto,Cubone,both,TRUE,TRUE,FALSE,104
-Kanto,Marowak,both,TRUE,TRUE,FALSE,105
+Kanto,Exeggcute,both,TRUE,TRUE,TRUE,102
+Kanto,Exeggutor,both,TRUE,TRUE,TRUE,103
+Kanto,Cubone,both,TRUE,TRUE,TRUE,104
+Kanto,Marowak,both,TRUE,TRUE,TRUE,105
 Kanto,Hitmonlee,male,TRUE,TRUE,FALSE,106
 Kanto,Hitmonchan,male,TRUE,TRUE,FALSE,107
 Kanto,Lickitung,both,TRUE,FALSE,FALSE,108
@@ -183,7 +183,7 @@ Johto,Ampharos,both,TRUE,TRUE,FALSE,181
 Johto,Bellossom,both,TRUE,TRUE,FALSE,182
 Johto,Marill,both,TRUE,FALSE,FALSE,183
 Johto,Azumarill,both,TRUE,FALSE,FALSE,184
-Johto,Sudowoodo,difference,TRUE,FALSE,FALSE,185
+Johto,Sudowoodo,difference,TRUE,TRUE,FALSE,185
 Johto,Politoed,difference,TRUE,TRUE,TRUE,186
 Johto,Hoppip,both,TRUE,TRUE,FALSE,187
 Johto,Skiploom,both,TRUE,TRUE,FALSE,188
@@ -201,7 +201,7 @@ Johto,Slowking,both,TRUE,TRUE,FALSE,199
 Johto,Misdreavus,both,TRUE,TRUE,FALSE,200
 Johto,Unown,genderless,TRUE,FALSE,FALSE,201
 Johto,Wobbuffet,difference,TRUE,TRUE,FALSE,202
-Johto,Girafarig,difference,TRUE,FALSE,FALSE,203
+Johto,Girafarig,difference,TRUE,TRUE,FALSE,203
 Johto,Pineco,both,TRUE,TRUE,TRUE,204
 Johto,Forretress,both,TRUE,TRUE,TRUE,205
 Johto,Dunsparce,both,TRUE,FALSE,FALSE,206
@@ -320,8 +320,8 @@ Hoenn,Carvanha,both,TRUE,TRUE,TRUE,318
 Hoenn,Sharpedo,both,TRUE,TRUE,TRUE,319
 Hoenn,Wailmer,both,TRUE,FALSE,FALSE,320
 Hoenn,Wailord,both,TRUE,FALSE,FALSE,321
-Hoenn,Numel,difference,FALSE,FALSE,FALSE,322
-Hoenn,Camerupt,difference,FALSE,FALSE,FALSE,323
+Hoenn,Numel,difference,FALSE,TRUE,FALSE,322
+Hoenn,Camerupt,difference,FALSE,TRUE,FALSE,323
 Hoenn,Torkoal,both,FALSE,FALSE,FALSE,324
 Hoenn,Spoink,both,TRUE,FALSE,FALSE,325
 Hoenn,Grumpig,both,TRUE,FALSE,FALSE,326
@@ -378,7 +378,7 @@ Hoenn,Metagross,genderless,TRUE,TRUE,TRUE,376
 Hoenn,Regirock,genderless,TRUE,FALSE,FALSE,377
 Hoenn,Regice,genderless,TRUE,FALSE,FALSE,378
 Hoenn,Registeel,genderless,TRUE,FALSE,FALSE,379
-Hoenn,Latias,female,TRUE,FALSE,FALSE,380
+Hoenn,Latias,female,TRUE,TRUE,FALSE,380
 Hoenn,Latios,male,TRUE,FALSE,FALSE,381
 Hoenn,Kyogre,genderless,TRUE,FALSE,FALSE,382
 Hoenn,Groudon,genderless,TRUE,FALSE,FALSE,383
@@ -897,11 +897,11 @@ Galar,Regidrago,genderless,FALSE,FALSE,FALSE,895
 Galar,Glastrier,genderless,FALSE,FALSE,FALSE,896
 Galar,Spectrier,genderless,FALSE,FALSE,FALSE,897
 Galar,Calyrex,genderless,FALSE,FALSE,FALSE,898
-Forms,Rattata alolan,both,TRUE,FALSE,FALSE,19
-Forms,Raticate alolan,both,TRUE,FALSE,FALSE,20
+Forms,Rattata alolan,both,TRUE,TRUE,FALSE,19
+Forms,Raticate alolan,both,TRUE,TRUE,FALSE,20
 Forms,Raichu alolan,both,TRUE,FALSE,FALSE,26
-Forms,Sandshrew alolan,both,TRUE,FALSE,FALSE,27
-Forms,Sandslash alolan,both,TRUE,FALSE,FALSE,28
+Forms,Sandshrew alolan,both,TRUE,TRUE,FALSE,27
+Forms,Sandslash alolan,both,TRUE,TRUE,FALSE,28
 Forms,Vulpix alolan,both,TRUE,FALSE,FALSE,37
 Forms,Ninetales alolan,both,TRUE,FALSE,FALSE,38
 Forms,Diglett alolan,both,TRUE,FALSE,FALSE,50
@@ -913,7 +913,7 @@ Forms,Graveler alolan,both,TRUE,FALSE,FALSE,75
 Forms,Golem alolan,both,TRUE,FALSE,FALSE,76
 Forms,Grimer alolan,both,TRUE,FALSE,FALSE,88
 Forms,Muk alolan,both,TRUE,FALSE,FALSE,89
-Forms,Exeggutor alolan,both,TRUE,FALSE,FALSE,103
+Forms,Exeggutor alolan,both,TRUE,TRUE,FALSE,103
 Forms,Marowak alolan,both,TRUE,FALSE,FALSE,105
 Forms,Meowth galarian,both,FALSE,FALSE,FALSE,52
 Forms,Ponyta galarian,both,TRUE,FALSE,FALSE,77
