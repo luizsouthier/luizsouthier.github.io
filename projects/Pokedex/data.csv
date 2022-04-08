@@ -1279,6 +1279,7 @@ Event,Pichu flower,both,TRUE,FALSE,FALSE,172
 Event,Pichu winter,both,TRUE,FALSE,FALSE,172
 Event,Pichu new year,both,TRUE,FALSE,FALSE,172
 Event,Togepi flower,both,TRUE,FALSE,FALSE,175
+Event,Togetic flower,both,TRUE,FALSE,FALSE,176
 Event,Espeon flower,both,TRUE,FALSE,FALSE,196
 Event,Umbreon flower,both,TRUE,FALSE,FALSE,197
 Event,Slowking new year,both,TRUE,FALSE,FALSE,199
@@ -1305,8 +1306,10 @@ Event,Piplup white hat,both,TRUE,FALSE,FALSE,393
 Event,Shinx hat,difference,TRUE,FALSE,FALSE,403
 Event,Drifblim halloween,both,TRUE,FALSE,FALSE,426
 Event,Buneary flower,both,TRUE,FALSE,FALSE,427
+Event,Lopunny flower,both,TRUE,FALSE,FALSE,428
 Event,Happiny flower,female,TRUE,FALSE,FALSE,440
 Event,Croagunk cap,difference,TRUE,FALSE,FALSE,453
+Event,Togekiss flower,both,TRUE,FALSE,FALSE,468
 Event,Leafeon flower,both,TRUE,FALSE,FALSE,470
 Event,Glaceon flower,both,TRUE,FALSE,FALSE,471
 Event,Glaceon holiday,both,TRUE,FALSE,FALSE,471
