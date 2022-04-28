@@ -283,8 +283,8 @@ Hoenn,Kirlia,both,TRUE,TRUE,FALSE,281
 Hoenn,Gardevoir,female,TRUE,TRUE,FALSE,282
 Hoenn,Surskit,both,FALSE,FALSE,FALSE,283
 Hoenn,Masquerain,both,FALSE,FALSE,FALSE,284
-Hoenn,Shroomish,both,FALSE,FALSE,FALSE,285
-Hoenn,Breloom,both,FALSE,FALSE,FALSE,286
+Hoenn,Shroomish,both,TRUE,FALSE,FALSE,285
+Hoenn,Breloom,both,TRUE,FALSE,FALSE,286
 Hoenn,Slakoth,both,TRUE,FALSE,FALSE,287
 Hoenn,Vigoroth,both,TRUE,FALSE,FALSE,288
 Hoenn,Slaking,both,TRUE,FALSE,FALSE,289
@@ -320,8 +320,8 @@ Hoenn,Carvanha,both,TRUE,TRUE,TRUE,318
 Hoenn,Sharpedo,both,TRUE,TRUE,TRUE,319
 Hoenn,Wailmer,both,TRUE,FALSE,FALSE,320
 Hoenn,Wailord,both,TRUE,FALSE,FALSE,321
-Hoenn,Numel,difference,FALSE,TRUE,FALSE,322
-Hoenn,Camerupt,difference,FALSE,TRUE,FALSE,323
+Hoenn,Numel,difference,TRUE,TRUE,FALSE,322
+Hoenn,Camerupt,difference,TRUE,TRUE,FALSE,323
 Hoenn,Torkoal,both,FALSE,FALSE,FALSE,324
 Hoenn,Spoink,both,TRUE,FALSE,FALSE,325
 Hoenn,Grumpig,both,TRUE,FALSE,FALSE,326
@@ -339,8 +339,8 @@ Hoenn,Lunatone,genderless,TRUE,FALSE,FALSE,337
 Hoenn,Solrock,genderless,TRUE,FALSE,FALSE,338
 Hoenn,Barboach,both,TRUE,FALSE,FALSE,339
 Hoenn,Whiscash,both,TRUE,FALSE,FALSE,340
-Hoenn,Corphish,both,FALSE,FALSE,FALSE,341
-Hoenn,Crawdaunt,both,FALSE,FALSE,FALSE,342
+Hoenn,Corphish,both,TRUE,FALSE,FALSE,341
+Hoenn,Crawdaunt,both,TRUE,FALSE,FALSE,342
 Hoenn,Baltoy,genderless,TRUE,FALSE,FALSE,343
 Hoenn,Claydol,genderless,TRUE,FALSE,FALSE,344
 Hoenn,Lileep,both,TRUE,TRUE,FALSE,345
@@ -418,8 +418,8 @@ Sinnoh,Vespiquen,female,FALSE,FALSE,FALSE,416
 Sinnoh,Pachirisu,difference,FALSE,FALSE,FALSE,417
 Sinnoh,Buizel,difference,TRUE,FALSE,FALSE,418
 Sinnoh,Floatzel,difference,TRUE,FALSE,FALSE,419
-Sinnoh,Cherubi,both,FALSE,FALSE,FALSE,420
-Sinnoh,Cherrim,both,FALSE,FALSE,FALSE,421
+Sinnoh,Cherubi,both,TRUE,FALSE,FALSE,420
+Sinnoh,Cherrim,both,TRUE,FALSE,FALSE,421
 Sinnoh,Shellos,both,FALSE,FALSE,FALSE,422
 Sinnoh,Gastrodon,both,FALSE,FALSE,FALSE,423
 Sinnoh,Ambipom,difference,TRUE,TRUE,FALSE,424
@@ -586,8 +586,8 @@ Unova,Vanilluxe,both,FALSE,FALSE,FALSE,584
 Unova,Deerling,both,FALSE,FALSE,FALSE,585
 Unova,Sawsbuck,both,FALSE,FALSE,FALSE,586
 Unova,Emolga,both,FALSE,FALSE,FALSE,587
-Unova,Karrablast,both,FALSE,FALSE,FALSE,588
-Unova,Escavalier,both,FALSE,FALSE,FALSE,589
+Unova,Karrablast,both,TRUE,FALSE,FALSE,588
+Unova,Escavalier,both,TRUE,FALSE,FALSE,589
 Unova,Foongus,both,FALSE,FALSE,FALSE,590
 Unova,Amoonguss,both,FALSE,FALSE,FALSE,591
 Unova,Frillish,difference,FALSE,FALSE,FALSE,592
@@ -608,14 +608,14 @@ Unova,Beheeyem,both,FALSE,FALSE,FALSE,606
 Unova,Litwick,both,FALSE,FALSE,FALSE,607
 Unova,Lampent,both,FALSE,FALSE,FALSE,608
 Unova,Chandelure,both,FALSE,FALSE,FALSE,609
-Unova,Axew,both,FALSE,FALSE,FALSE,610
-Unova,Fraxure,both,FALSE,FALSE,FALSE,611
-Unova,Haxorus,both,FALSE,FALSE,FALSE,612
+Unova,Axew,both,TRUE,FALSE,FALSE,610
+Unova,Fraxure,both,TRUE,FALSE,FALSE,611
+Unova,Haxorus,both,TRUE,FALSE,FALSE,612
 Unova,Cubchoo,both,TRUE,FALSE,FALSE,613
 Unova,Beartic,both,TRUE,FALSE,FALSE,614
 Unova,Cryogonal,genderless,FALSE,FALSE,FALSE,615
-Unova,Shelmet,both,FALSE,FALSE,FALSE,616
-Unova,Accelgor,both,FALSE,FALSE,FALSE,617
+Unova,Shelmet,both,TRUE,FALSE,FALSE,616
+Unova,Accelgor,both,TRUE,FALSE,FALSE,617
 Unova,Stunfisk,both,FALSE,FALSE,FALSE,618
 Unova,Mienfoo,both,FALSE,FALSE,FALSE,619
 Unova,Mienshao,both,FALSE,FALSE,FALSE,620
@@ -757,8 +757,8 @@ Alola,Morelull,both,FALSE,FALSE,FALSE,755
 Alola,Shiinotic,both,FALSE,FALSE,FALSE,756
 Alola,Salandit,both,FALSE,FALSE,FALSE,757
 Alola,Salazzle,female,FALSE,FALSE,FALSE,758
-Alola,Stufful,both,FALSE,FALSE,FALSE,759
-Alola,Bewear,both,FALSE,FALSE,FALSE,760
+Alola,Stufful,both,TRUE,FALSE,FALSE,759
+Alola,Bewear,both,TRUE,FALSE,FALSE,760
 Alola,Bounsweet,female,FALSE,FALSE,FALSE,761
 Alola,Steenee,female,FALSE,FALSE,FALSE,762
 Alola,Tsareena,female,FALSE,FALSE,FALSE,763
@@ -985,8 +985,8 @@ Forms,Burmy trash,both,TRUE,FALSE,FALSE,412
 Forms,Wormadam plant,female,TRUE,FALSE,FALSE,413
 Forms,Wormadam sandy,female,TRUE,FALSE,FALSE,413
 Forms,Wormadam trash,female,TRUE,FALSE,FALSE,413
-Forms,Cherrim overcast,both,FALSE,FALSE,FALSE,421
-Forms,Cherrim sunshine,both,FALSE,FALSE,FALSE,421
+Forms,Cherrim overcast,both,TRUE,FALSE,FALSE,421
+Forms,Cherrim sunshine,both,TRUE,FALSE,FALSE,421
 Forms,Shellos west,both,FALSE,FALSE,FALSE,422
 Forms,Shellos east,both,FALSE,FALSE,FALSE,422
 Forms,Gastrodon west,both,FALSE,FALSE,FALSE,423
