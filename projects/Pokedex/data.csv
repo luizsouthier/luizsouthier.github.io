@@ -686,8 +686,8 @@ Kalos,Swirlix,both,FALSE,FALSE,FALSE,684
 Kalos,Slurpuff,both,FALSE,FALSE,FALSE,685
 Kalos,Inkay,both,FALSE,FALSE,FALSE,686
 Kalos,Malamar,both,FALSE,FALSE,FALSE,687
-Kalos,Binacle,both,FALSE,FALSE,FALSE,688
-Kalos,Barbaracle,both,FALSE,FALSE,FALSE,689
+Kalos,Binacle,both,TRUE,FALSE,FALSE,688
+Kalos,Barbaracle,both,TRUE,FALSE,FALSE,689
 Kalos,Skrelp,both,FALSE,FALSE,FALSE,690
 Kalos,Dragalge,both,FALSE,FALSE,FALSE,691
 Kalos,Clauncher,both,FALSE,FALSE,FALSE,692
@@ -1262,6 +1262,7 @@ Event,Slowpoke new year,both,TRUE,FALSE,FALSE,78
 Event,Slowbro new year,both,TRUE,FALSE,FALSE,80
 Event,Gengar party hat,both,TRUE,FALSE,FALSE,94
 Event,Gengar halloween,both,TRUE,FALSE,FALSE,94
+Event,Lapras scarf,both,TRUE,FALSE,FALSE,113
 Event,Chansey flower,female,TRUE,FALSE,FALSE,113
 Event,Eevee flower,difference,TRUE,FALSE,FALSE,133
 Event,Eevee party hat,difference,TRUE,FALSE,FALSE,133
