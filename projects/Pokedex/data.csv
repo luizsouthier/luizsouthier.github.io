@@ -938,11 +938,11 @@ Forms,Unown A,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown B,genderless,FALSE,FALSE,FALSE,201
 Forms,Unown C,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown D,genderless,FALSE,FALSE,FALSE,201
-Forms,Unown E,genderless,FALSE,FALSE,FALSE,201
+Forms,Unown E,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown F,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown G,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown H,genderless,FALSE,FALSE,FALSE,201
-Forms,Unown I,genderless,FALSE,FALSE,FALSE,201
+Forms,Unown I,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown J,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown K,genderless,FALSE,FALSE,FALSE,201
 Forms,Unown L,genderless,TRUE,FALSE,FALSE,201
@@ -952,10 +952,10 @@ Forms,Unown O,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown P,genderless,FALSE,FALSE,FALSE,201
 Forms,Unown Q,genderless,FALSE,FALSE,FALSE,201
 Forms,Unown R,genderless,TRUE,FALSE,FALSE,201
-Forms,Unown S,genderless,FALSE,FALSE,FALSE,201
+Forms,Unown S,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown T,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown U,genderless,TRUE,FALSE,FALSE,201
-Forms,Unown V,genderless,FALSE,FALSE,FALSE,201
+Forms,Unown V,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown W,genderless,FALSE,FALSE,FALSE,201
 Forms,Unown X,genderless,FALSE,FALSE,FALSE,201
 Forms,Unown Y,genderless,FALSE,FALSE,FALSE,201
