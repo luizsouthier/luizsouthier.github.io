@@ -971,14 +971,14 @@ Forms,Spinda 6,both,TRUE,FALSE,FALSE,327
 Forms,Spinda 7,both,TRUE,FALSE,FALSE,327
 Forms,Spinda 8,both,TRUE,FALSE,FALSE,327
 Forms,Spinda 9,both,TRUE,FALSE,FALSE,327
-Forms,Castform Normal,both,TRUE,FALSE,FALSE,351
-Forms,Castform Sunny,both,FALSE,FALSE,FALSE,351
-Forms,Castform Rainy,both,TRUE,FALSE,FALSE,351
-Forms,Castform Snowy,both,FALSE,FALSE,FALSE,351
-Forms,Deoxys Normal,genderless,TRUE,FALSE,FALSE,386
-Forms,Deoxys Attack,genderless,TRUE,FALSE,FALSE,386
-Forms,Deoxys Defense,genderless,TRUE,FALSE,FALSE,386
-Forms,Deoxys Speed,genderless,TRUE,FALSE,FALSE,386
+Forms,Castform normal,both,TRUE,FALSE,FALSE,351
+Forms,Castform sunny,both,FALSE,FALSE,FALSE,351
+Forms,Castform rainy,both,TRUE,FALSE,FALSE,351
+Forms,Castform snowy,both,FALSE,FALSE,FALSE,351
+Forms,Deoxys normal,genderless,TRUE,FALSE,FALSE,386
+Forms,Deoxys attack,genderless,TRUE,FALSE,FALSE,386
+Forms,Deoxys defense,genderless,TRUE,FALSE,FALSE,386
+Forms,Deoxys speed,genderless,TRUE,FALSE,FALSE,386
 Forms,Burmy plant,both,TRUE,FALSE,FALSE,412
 Forms,Burmy sandy,both,TRUE,FALSE,FALSE,412
 Forms,Burmy trash,both,TRUE,FALSE,FALSE,412
@@ -1066,15 +1066,15 @@ Forms,Florges blue,both,FALSE,FALSE,FALSE,671
 Forms,Florges yellow,both,FALSE,FALSE,FALSE,671
 Forms,Florges white,both,FALSE,FALSE,FALSE,671
 Forms,Florges orange,both,FALSE,FALSE,FALSE,671
-Forms,Furfrou Dandy,both,FALSE,FALSE,FALSE,676
-Forms,Furfrou Diamond,both,FALSE,FALSE,FALSE,676
-Forms,Furfrou Heart,both,FALSE,FALSE,FALSE,676
-Forms,Furfrou Debutante,both,FALSE,FALSE,FALSE,676
-Forms,Furfrou Kabuki,both,FALSE,FALSE,FALSE,676
-Forms,Furfrou La Reine,both,FALSE,FALSE,FALSE,676
+Forms,Furfrou dandy,both,FALSE,FALSE,FALSE,676
+Forms,Furfrou diamond,both,FALSE,FALSE,FALSE,676
+Forms,Furfrou heart,both,FALSE,FALSE,FALSE,676
+Forms,Furfrou debutante,both,FALSE,FALSE,FALSE,676
+Forms,Furfrou kabuki,both,FALSE,FALSE,FALSE,676
+Forms,Furfrou la reine,both,FALSE,FALSE,FALSE,676
 Forms,Furfrou Matron,both,FALSE,FALSE,FALSE,676
-Forms,Furfrou Pharaoh,both,FALSE,FALSE,FALSE,676
-Forms,Furfrou Star,both,FALSE,FALSE,FALSE,676
+Forms,Furfrou pharaoh,both,FALSE,FALSE,FALSE,676
+Forms,Furfrou star,both,FALSE,FALSE,FALSE,676
 Forms,Pumpkaboo small,both,FALSE,FALSE,FALSE,710
 Forms,Pumpkaboo,both,FALSE,FALSE,FALSE,710
 Forms,Pumpkaboo large,both,FALSE,FALSE,FALSE,710
@@ -1129,26 +1129,26 @@ Forms,Necrozma ultra,genderless,FALSE,FALSE,FALSE,800
 Forms,Magearna,genderless,FALSE,FALSE,FALSE,801
 Forms,Magearna original,genderless,FALSE,FALSE,FALSE,801
 Forms,Toxtricity,both,FALSE,FALSE,FALSE,849
-Forms,Toxtricity Low,both,FALSE,FALSE,FALSE,849
+Forms,Toxtricity low,both,FALSE,FALSE,FALSE,849
 Forms,Sinistea,genderless,FALSE,FALSE,FALSE,854
-Forms,Sinistea Antique,genderless,FALSE,FALSE,FALSE,854
+Forms,Sinistea antique,genderless,FALSE,FALSE,FALSE,854
 Forms,Polteageist,genderless,FALSE,FALSE,FALSE,855
-Forms,Polteageist Antique,genderless,FALSE,FALSE,FALSE,855
+Forms,Polteageist antique,genderless,FALSE,FALSE,FALSE,855
 Forms,Eiscue,both,FALSE,FALSE,FALSE,875
-Forms,Eiscue Noice,both,FALSE,FALSE,FALSE,875
+Forms,Eiscue noice,both,FALSE,FALSE,FALSE,875
 Forms,Morpeko,both,FALSE,FALSE,FALSE,877
-Forms,Morpeko Hangry,both,FALSE,FALSE,FALSE,877
+Forms,Morpeko hangry,both,FALSE,FALSE,FALSE,877
 Forms,Zacian,both,FALSE,FALSE,FALSE,888
-Forms,Zacian Crowned,both,FALSE,FALSE,FALSE,888
+Forms,Zacian crowned,both,FALSE,FALSE,FALSE,888
 Forms,Zamazenta,both,FALSE,FALSE,FALSE,889
-Forms,Zamazenta Crowned,both,FALSE,FALSE,FALSE,889
+Forms,Zamazenta crowned,both,FALSE,FALSE,FALSE,889
 Forms,Eternatus,both,FALSE,FALSE,FALSE,890
-Forms,Eternatus Eternamax,both,FALSE,FALSE,FALSE,890
-Forms,Urshifu Single,both,FALSE,FALSE,FALSE,892
-Forms,Urshifu Rapid,both,FALSE,FALSE,FALSE,892
+Forms,Eternatus eternamax,both,FALSE,FALSE,FALSE,890
+Forms,Urshifu single,both,FALSE,FALSE,FALSE,892
+Forms,Urshifu rapid,both,FALSE,FALSE,FALSE,892
 Forms,Calyrex,both,FALSE,FALSE,FALSE,898
-Forms,Calyrex Ice,both,FALSE,FALSE,FALSE,898
-Forms,Calyrex Rider,both,FALSE,FALSE,FALSE,898
+Forms,Calyrex ice,both,FALSE,FALSE,FALSE,898
+Forms,Calyrex rider,both,FALSE,FALSE,FALSE,898
 Mega,Venusaur mega,both,TRUE,FALSE,FALSE,3
 Mega,Charizard x mega,both,TRUE,FALSE,FALSE,6
 Mega,Charizard y mega,both,TRUE,FALSE,FALSE,6

@@ -398,7 +398,7 @@ function getPokemon() {
 function getImageUrl(name) {
 
 	if(name == "Unown F") name = "Unown";
-	if(name == "Castform Normal") name = "Castform";
+	if(name == "Castform normal") name = "Castform";
     if(name == "Deoxys normal") name = "Deoxys";
 	if(name == "Burmy plant") name = "Burmy";
 	if(name == "Wormadam plant") name = "Wormadam";
@@ -490,6 +490,7 @@ function getImageUrl(name) {
 
 function loading(code){
 			var args = code.split("|");
+			console.log(args);
             var classesArray = [];
 			
 			var femaleOnly = $('.female-only').map(function(_, x) { return x.id; }).get();
