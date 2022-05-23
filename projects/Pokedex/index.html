@@ -518,6 +518,8 @@ function loading(code){
                 var pokemon = args[i].split("=");
                 pokemon[0] = $.trim(pokemon[0]);
                 pokemon[1] = $.trim(pokemon[1]);
+				
+				if(i==args.length-1) console.log(pokemon);
 
                 var pokemonName = "";
                 var letters = Array.from(pokemon[0]);
