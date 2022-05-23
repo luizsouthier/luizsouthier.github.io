@@ -1137,10 +1137,10 @@ Forms,Eiscue,both,FALSE,FALSE,FALSE,875
 Forms,Eiscue noice,both,FALSE,FALSE,FALSE,875
 Forms,Morpeko,both,FALSE,FALSE,FALSE,877
 Forms,Morpeko hangry,both,FALSE,FALSE,FALSE,877
-Forms,Zacian,both,FALSE,FALSE,FALSE,888
-Forms,Zacian crowned,both,FALSE,FALSE,FALSE,888
-Forms,Zamazenta,both,FALSE,FALSE,FALSE,889
-Forms,Zamazenta crowned,both,FALSE,FALSE,FALSE,889
+Forms,Zacian hero,genderless,FALSE,FALSE,FALSE,888
+Forms,Zacian crowned,genderless,FALSE,FALSE,FALSE,888
+Forms,Zamazenta hero,genderless,FALSE,FALSE,FALSE,889
+Forms,Zamazenta crowned,genderless,FALSE,FALSE,FALSE,889
 Forms,Eternatus,both,FALSE,FALSE,FALSE,890
 Forms,Eternatus eternamax,both,FALSE,FALSE,FALSE,890
 Forms,Urshifu single,both,FALSE,FALSE,FALSE,892
