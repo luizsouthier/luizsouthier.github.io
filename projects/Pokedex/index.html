@@ -498,8 +498,8 @@ function getImageUrl(name) {
 }
 
 function loading(code){
+			code = code.slice(0, -2);
 			var args = code.split("|");
-			console.log(args);
             var classesArray = [];
 			
 			var femaleOnly = $('.female-only').map(function(_, x) { return x.id; }).get();
