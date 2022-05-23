@@ -1049,19 +1049,18 @@ Forms,Genesect shock,genderless,FALSE,FALSE,FALSE,649
 Forms,Genesect burn,genderless,FALSE,FALSE,FALSE,649
 Forms,Genesect chill,genderless,FALSE,FALSE,FALSE,649
 Forms,Genesect douse,genderless,FALSE,FALSE,FALSE,649
-Forms,Greninja,both,FALSE,FALSE,FALSE,658
 Forms,Greninja ash,both,FALSE,FALSE,FALSE,658
-Forms,Flabébé,both,FALSE,FALSE,FALSE,669
+Forms,Flabébé red,both,FALSE,FALSE,FALSE,669
 Forms,Flabébé blue,both,FALSE,FALSE,FALSE,669
 Forms,Flabébé yellow,both,FALSE,FALSE,FALSE,669
 Forms,Flabébé white,both,FALSE,FALSE,FALSE,669
 Forms,Flabébé orange,both,FALSE,FALSE,FALSE,669
-Forms,Floette,both,FALSE,FALSE,FALSE,670
+Forms,Floette red,both,FALSE,FALSE,FALSE,670
 Forms,Floette blue,both,FALSE,FALSE,FALSE,670
 Forms,Floette yellow,both,FALSE,FALSE,FALSE,670
 Forms,Floette white,both,FALSE,FALSE,FALSE,670
 Forms,Floette orange,both,FALSE,FALSE,FALSE,670
-Forms,Florges,both,FALSE,FALSE,FALSE,671
+Forms,Florges red,both,FALSE,FALSE,FALSE,671
 Forms,Florges blue,both,FALSE,FALSE,FALSE,671
 Forms,Florges yellow,both,FALSE,FALSE,FALSE,671
 Forms,Florges white,both,FALSE,FALSE,FALSE,671
@@ -1076,20 +1075,20 @@ Forms,Furfrou matron,both,FALSE,FALSE,FALSE,676
 Forms,Furfrou pharaoh,both,FALSE,FALSE,FALSE,676
 Forms,Furfrou star,both,FALSE,FALSE,FALSE,676
 Forms,Pumpkaboo small,both,FALSE,FALSE,FALSE,710
-Forms,Pumpkaboo,both,FALSE,FALSE,FALSE,710
+Forms,Pumpkaboo average,both,FALSE,FALSE,FALSE,710
 Forms,Pumpkaboo large,both,FALSE,FALSE,FALSE,710
 Forms,Pumpkaboo super,both,FALSE,FALSE,FALSE,710
 Forms,Gourgeist small,both,FALSE,FALSE,FALSE,711
-Forms,Gourgeist,both,FALSE,FALSE,FALSE,711
+Forms,Gourgeist average,both,FALSE,FALSE,FALSE,711
 Forms,Gourgeist large,both,FALSE,FALSE,FALSE,711
 Forms,Gourgeist super,both,FALSE,FALSE,FALSE,711
-Forms,Hoopa,both,FALSE,FALSE,FALSE,720
+Forms,Hoopa confined,both,FALSE,FALSE,FALSE,720
 Forms,Hoopa unbound,both,FALSE,FALSE,FALSE,720
-Forms,Oricorio,both,FALSE,FALSE,FALSE,741
+Forms,Oricorio baile,both,FALSE,FALSE,FALSE,741
 Forms,Oricorio pom-pom,both,FALSE,FALSE,FALSE,741
 Forms,Oricorio pa'u,both,FALSE,FALSE,FALSE,741
 Forms,Oricorio sensu,both,FALSE,FALSE,FALSE,741
-Forms,Lycanroc,both,TRUE,FALSE,FALSE,745
+Forms,Lycanroc midday,both,TRUE,FALSE,FALSE,745
 Forms,Lycanroc midnight,both,TRUE,FALSE,FALSE,745
 Forms,Lycanroc dusk,both,TRUE,FALSE,FALSE,745
 Forms,Wishiwashi,both,FALSE,FALSE,FALSE,746
