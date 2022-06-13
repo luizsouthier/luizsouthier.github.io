@@ -413,8 +413,8 @@ Sinnoh,Bastiodon,both,TRUE,FALSE,FALSE,411
 Sinnoh,Burmy,both,TRUE,FALSE,FALSE,412
 Sinnoh,Wormadam,female,TRUE,FALSE,FALSE,413
 Sinnoh,Mothim,male,TRUE,FALSE,FALSE,414
-Sinnoh,Combee,difference,FALSE,FALSE,FALSE,415
-Sinnoh,Vespiquen,female,FALSE,FALSE,FALSE,416
+Sinnoh,Combee,difference,TRUE,FALSE,FALSE,415
+Sinnoh,Vespiquen,female,TRUE,FALSE,FALSE,416
 Sinnoh,Pachirisu,difference,FALSE,FALSE,FALSE,417
 Sinnoh,Buizel,difference,TRUE,FALSE,FALSE,418
 Sinnoh,Floatzel,difference,TRUE,FALSE,FALSE,419
@@ -509,12 +509,12 @@ Unova,Herdier,both,TRUE,FALSE,FALSE,507
 Unova,Stoutland,both,TRUE,FALSE,FALSE,508
 Unova,Purrloin,both,FALSE,FALSE,FALSE,509
 Unova,Liepard,both,FALSE,FALSE,FALSE,510
-Unova,Pansage,both,FALSE,FALSE,FALSE,511
-Unova,Simisage,both,FALSE,FALSE,FALSE,512
-Unova,Pansear,both,FALSE,FALSE,FALSE,513
-Unova,Simisear,both,FALSE,FALSE,FALSE,514
-Unova,Panpour,both,FALSE,FALSE,FALSE,515
-Unova,Simipour,both,FALSE,FALSE,FALSE,516
+Unova,Pansage,both,TRUE,FALSE,FALSE,511
+Unova,Simisage,both,TRUE,FALSE,FALSE,512
+Unova,Pansear,both,TRUE,FALSE,FALSE,513
+Unova,Simisear,both,TRUE,FALSE,FALSE,514
+Unova,Panpour,both,TRUE,FALSE,FALSE,515
+Unova,Simipour,both,TRUE,FALSE,FALSE,516
 Unova,Munna,both,FALSE,FALSE,FALSE,517
 Unova,Musharna,both,FALSE,FALSE,FALSE,518
 Unova,Pidove,both,TRUE,FALSE,FALSE,519
@@ -562,10 +562,10 @@ Unova,Scrafty,both,FALSE,FALSE,FALSE,560
 Unova,Sigilyph,both,FALSE,FALSE,FALSE,561
 Unova,Yamask,both,TRUE,FALSE,FALSE,562
 Unova,Cofagrigus,both,TRUE,FALSE,FALSE,563
-Unova,Tirtouga,both,FALSE,FALSE,FALSE,564
-Unova,Carracosta,both,FALSE,FALSE,FALSE,565
-Unova,Archen,both,FALSE,FALSE,FALSE,566
-Unova,Archeops,both,FALSE,FALSE,FALSE,567
+Unova,Tirtouga,both,TRUE,FALSE,FALSE,564
+Unova,Carracosta,both,TRUE,FALSE,FALSE,565
+Unova,Archen,both,TRUE,FALSE,FALSE,566
+Unova,Archeops,both,TRUE,FALSE,FALSE,567
 Unova,Trubbish,both,TRUE,FALSE,FALSE,568
 Unova,Garbodor,both,TRUE,FALSE,FALSE,569
 Unova,Zorua,both,FALSE,FALSE,FALSE,570
@@ -588,8 +588,8 @@ Unova,Sawsbuck,both,FALSE,FALSE,FALSE,586
 Unova,Emolga,both,FALSE,FALSE,FALSE,587
 Unova,Karrablast,both,TRUE,FALSE,FALSE,588
 Unova,Escavalier,both,TRUE,FALSE,FALSE,589
-Unova,Foongus,both,FALSE,FALSE,FALSE,590
-Unova,Amoonguss,both,FALSE,FALSE,FALSE,591
+Unova,Foongus,both,TRUE,FALSE,FALSE,590
+Unova,Amoonguss,both,TRUE,FALSE,FALSE,591
 Unova,Frillish,difference,FALSE,FALSE,FALSE,592
 Unova,Jellicent,difference,FALSE,FALSE,FALSE,593
 Unova,Alomomola,both,TRUE,FALSE,FALSE,594
@@ -682,8 +682,8 @@ Kalos,Doublade,both,FALSE,FALSE,FALSE,680
 Kalos,Aegislash,both,FALSE,FALSE,FALSE,681
 Kalos,Spritzee,both,FALSE,FALSE,FALSE,682
 Kalos,Aromatisse,both,FALSE,FALSE,FALSE,683
-Kalos,Swirlix,both,FALSE,FALSE,FALSE,684
-Kalos,Slurpuff,both,FALSE,FALSE,FALSE,685
+Kalos,Swirlix,both,TRUE,FALSE,FALSE,684
+Kalos,Slurpuff,both,TRUE,FALSE,FALSE,685
 Kalos,Inkay,both,FALSE,FALSE,FALSE,686
 Kalos,Malamar,both,FALSE,FALSE,FALSE,687
 Kalos,Binacle,both,TRUE,FALSE,FALSE,688
@@ -935,7 +935,7 @@ Forms,Stunfisk galarian,both,TRUE,FALSE,FALSE,618
 Forms,Voltorb hisuian,both,FALSE,FALSE,FALSE,100
 Forms,Electrode hisuian,both,FALSE,FALSE,FALSE,101
 Forms,Unown A,genderless,TRUE,FALSE,FALSE,201
-Forms,Unown B,genderless,FALSE,FALSE,FALSE,201
+Forms,Unown B,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown C,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown D,genderless,FALSE,FALSE,FALSE,201
 Forms,Unown E,genderless,TRUE,FALSE,FALSE,201
@@ -1244,6 +1244,7 @@ Event,Pikachu holiday,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu pop,female,FALSE,FALSE,FALSE,25
 Event,Pikachu rock,female,FALSE,FALSE,FALSE,25
 Event,Pikachu 5th,both,TRUE,FALSE,FALSE,25
+Event,Pikachu shaymin,both,TRUE,FALSE,FALSE,25
 Event,Raichu festive,difference,TRUE,FALSE,FALSE,26
 Event,Raichu party,difference,TRUE,FALSE,FALSE,26
 Event,Raichu ash,difference,TRUE,FALSE,FALSE,26
