@@ -1244,6 +1244,7 @@ Event,Pikachu holiday,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu pop,female,FALSE,FALSE,FALSE,25
 Event,Pikachu rock,female,FALSE,FALSE,FALSE,25
 Event,Pikachu 5th,both,TRUE,FALSE,FALSE,25
+Event,Pikachu tcg,both,TRUE,FALSE,FALSE,25
 Event,Pikachu shaymin,both,TRUE,FALSE,FALSE,25
 Event,Raichu festive,difference,TRUE,FALSE,FALSE,26
 Event,Raichu party,difference,TRUE,FALSE,FALSE,26
