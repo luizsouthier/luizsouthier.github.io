@@ -1203,6 +1203,8 @@ Event,Venusaur clone,difference,FALSE,FALSE,FALSE,3
 Event,Charmander party hat,both,TRUE,FALSE,FALSE,4
 Event,Charmander visor,both,TRUE,FALSE,FALSE,4
 Event,Charmander fall,both,TRUE,FALSE,FALSE,4
+Event,Charmelon party hat,both,TRUE,FALSE,FALSE,5
+Event,Charizard party hat,both,TRUE,FALSE,FALSE,6
 Event,Charizard clone,both,FALSE,FALSE,FALSE,6
 Event,Squirtle sunglasses,both,TRUE,FALSE,FALSE,7
 Event,Squirtle party hat,both,TRUE,FALSE,FALSE,7
@@ -1271,6 +1273,7 @@ Event,Eevee party hat,difference,TRUE,FALSE,FALSE,133
 Event,Vaporeon flower,both,TRUE,FALSE,FALSE,134
 Event,Jolteon flower,both,TRUE,FALSE,FALSE,135
 Event,Flareon flower,both,TRUE,FALSE,FALSE,136
+Event,Snorlax cowboy,both,TRUE,FALSE,FALSE,143
 Event,Mewtwo armored,genderless,FALSE,FALSE,FALSE,150
 Event,Hoothoot new year,both,TRUE,FALSE,FALSE,163
 Event,Pichu festive,both,TRUE,FALSE,FALSE,172
