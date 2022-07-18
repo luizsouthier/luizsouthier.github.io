@@ -1203,7 +1203,7 @@ Event,Venusaur clone,difference,FALSE,FALSE,FALSE,3
 Event,Charmander party hat,both,TRUE,FALSE,FALSE,4
 Event,Charmander visor,both,TRUE,FALSE,FALSE,4
 Event,Charmander fall,both,TRUE,FALSE,FALSE,4
-Event,Charmelon party hat,both,TRUE,FALSE,FALSE,5
+Event,Charmeleon party hat,both,TRUE,FALSE,FALSE,5
 Event,Charizard party hat,both,TRUE,FALSE,FALSE,6
 Event,Charizard clone,both,FALSE,FALSE,FALSE,6
 Event,Squirtle sunglasses,both,TRUE,FALSE,FALSE,7
