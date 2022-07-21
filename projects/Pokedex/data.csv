@@ -932,8 +932,22 @@ Forms,Darmanitan galarian,both,TRUE,FALSE,FALSE,555
 Forms,Darmanitan zen galarian,both,FALSE,FALSE,FALSE,555
 Forms,Yamask galarian,both,FALSE,FALSE,FALSE,562
 Forms,Stunfisk galarian,both,TRUE,FALSE,FALSE,618
+Forms,Growlithe hisuian,both,FALSE,FALSE,FALSE,58
+Forms,Arcanine hisuian,both,FALSE,FALSE,FALSE,59
 Forms,Voltorb hisuian,both,FALSE,FALSE,FALSE,100
 Forms,Electrode hisuian,both,FALSE,FALSE,FALSE,101
+Forms,Typhlosion hisuian,both,FALSE,FALSE,FALSE,157
+Forms,Qwilfish hisuian,both,FALSE,FALSE,FALSE,211
+Forms,Sneasel hisuian,difference,FALSE,FALSE,FALSE,215
+Forms,Samurott hisuian,both,FALSE,FALSE,FALSE,503
+Forms,Lilligant hisuian,both,FALSE,FALSE,FALSE,549
+Forms,Zorua hisuian,both,FALSE,FALSE,FALSE,570
+Forms,Zoroark hisuian,both,FALSE,FALSE,FALSE,571
+Forms,Braviary hisuian,both,FALSE,FALSE,FALSE,628
+Forms,Sliggoo hisuian,both,FALSE,FALSE,FALSE,705
+Forms,Goodra hisuian,both,FALSE,FALSE,FALSE,706
+Forms,Avalugg hisuian,both,FALSE,FALSE,FALSE,713
+Forms,Decidueye hisuian,both,FALSE,FALSE,FALSE,724
 Forms,Unown A,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown B,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown C,genderless,TRUE,FALSE,FALSE,201
