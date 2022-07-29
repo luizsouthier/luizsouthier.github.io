@@ -897,6 +897,13 @@ Galar,Regidrago,genderless,FALSE,FALSE,FALSE,895
 Galar,Glastrier,genderless,FALSE,FALSE,FALSE,896
 Galar,Spectrier,genderless,FALSE,FALSE,FALSE,897
 Galar,Calyrex,genderless,FALSE,FALSE,FALSE,898
+Hisui,Wyrdeer,both,FALSE,FALSE,FALSE,899
+Hisui,Kleavor,both,FALSE,FALSE,FALSE,900
+Hisui,Ursaluna,both,FALSE,FALSE,FALSE,901
+Hisui,Basculegion,difference,FALSE,FALSE,FALSE,902
+Hisui,Sneasler,both,FALSE,FALSE,FALSE,903
+Hisui,Overqwil,both,FALSE,FALSE,FALSE,904
+Hisui,Enamorus,female,FALSE,FALSE,FALSE,905
 Forms,Rattata alolan,both,TRUE,TRUE,FALSE,19
 Forms,Raticate alolan,both,TRUE,TRUE,FALSE,20
 Forms,Raichu alolan,both,TRUE,FALSE,FALSE,26
@@ -1162,6 +1169,8 @@ Forms,Urshifu rapid,both,FALSE,FALSE,FALSE,892
 Forms,Calyrex,both,FALSE,FALSE,FALSE,898
 Forms,Calyrex ice,both,FALSE,FALSE,FALSE,898
 Forms,Calyrex rider,both,FALSE,FALSE,FALSE,898
+Forms,Enamorus incarnate,female,TRUE,FALSE,FALSE,905
+Forms,Enamorus therian,female,TRUE,FALSE,FALSE,905
 Mega,Venusaur mega,both,TRUE,FALSE,FALSE,3
 Mega,Charizard x mega,both,TRUE,FALSE,FALSE,6
 Mega,Charizard y mega,both,TRUE,FALSE,FALSE,6
