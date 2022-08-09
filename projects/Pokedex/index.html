@@ -317,18 +317,30 @@ h1 {
   background-size: 30px 30px;
 }
 </style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2655301318011533"
+     crossorigin="anonymous"></script>
 </head>
 <body>
 	<div id="top">
-    <h1>Form</h1>
     <form id="pokemon-form" action="" onsubmit="return false;">
 	<table width="100%"><tr>
 	<td width="100px"><textarea id="code" rows="10"></textarea></td>
-	<td><input type="file" id="myFileInput" style="display:none"/>
-	    <button id="open-file" onclick="document.getElementById('myFileInput').click()">Open file</button><br>
-	    <button id="import-code">Import code</button><br>
-		<button id="export-code">Export code</button></td>
+	<td><input type="file" id="myFileInput" style="display:none"/>   
+		<button id="export-code">Export code</button><br>
+		<button id="import-code">Import code</button><br>
+		<button id="open-file" onclick="document.getElementById('myFileInput').click()">Open file</button></td>
+	<td width="400px">Mark T for registered and L for lucky.<br><br>
+<img src="https://vignette.wikia.nocookie.net/pokemongo/images/3/31/Shiny_Pok%C3%A9mon.png/revision/latest?cb=20171026223519" height="24px" width="24px" > Shiny<br>
+<img src="https://vignette.wikia.nocookie.net/pokemongo/images/7/76/Icon_Shadow_Pokémon.png/revision/latest/?cb=20190715225723" height="24px" width="24px" > Shadow<br>
+<img src="https://vignette.wikia.nocookie.net/pokemongo/images/5/52/Icon_Purified_Pokémon.png/revision/latest/?cb=20190715225729" height="24px" width="24px" > Purified<br>
+<img src="https://vignette.wikia.nocookie.net/pokemongo/images/6/6a/Appraisal_Rating_4.png/revision/latest?cb=20190716115838" height="24px" width="24px" > Perfect<br>
+<img src="https://vignette.wikia.nocookie.net/pokemongo/images/f/fb/Appraisal_Star.png/revision/latest?cb=20190715230114" height="24px" width="24px" > Shiny and shadow<br>
+<img src="https://vignette.wikia.nocookie.net/pokemongo/images/1/1d/Pok%C3%A9dex_Female_Caught.png/revision/latest?cb=20171208105035" height="24px" width="24px" > Female<br>
+<img src="https://vignette.wikia.nocookie.net/pokemongo/images/c/c2/Pok%C3%A9dex_Male_Caught.png/revision/latest?cb=20171208105039" height="24px" width="24px" > Male<br>
+	
+	</td>
 	<td>
+	<i>The filters are used with a AND operator. Clear one filter if you want to filter only by another</i><br>
 		<button id="show-all">Clear filters</button><br>
 		Show only:
 		<button id="show-difference">Gender difference</button>
@@ -343,11 +355,11 @@ h1 {
 		<button id="missing-purified">Purified</button>
 		<button id="missing-shinyShadow">Shiny shadow</button>
 		<button id="missing-perfect">Perfect</button><br>
-		<i>The filters are used in addition. Clear one filter if you want to filter only by another</i><br>
+		<br>
 		Examples:<br>
-		My missing lucky: click on "Clear filters" and them "Lucky"<br>
-		My missing shiny: click on "Clear filters" and them "Shiny"<br>
-		My missing perfect with shiny form released: click on "Clear filters", on "Shiny released" and them "Perfect"<br>
+		Show my missing lucky: click on "Clear filters" and them "Lucky"<br>
+		Show my missing shiny: click on "Clear filters" and them "Shiny"<br>
+		Show my missing perfect with shiny form released: click on "Clear filters", on "Shiny released" and them "Perfect"<br>
 	</td>
 	</tr></table>
         
