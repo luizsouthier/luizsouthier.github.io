@@ -541,9 +541,9 @@ Unova,Sawk,male,TRUE,FALSE,FALSE,539
 Unova,Sewaddle,both,FALSE,FALSE,FALSE,540
 Unova,Swadloon,both,FALSE,FALSE,FALSE,541
 Unova,Leavanny,both,FALSE,FALSE,FALSE,542
-Unova,Venipede,both,FALSE,FALSE,FALSE,543
-Unova,Whirlipede,both,FALSE,FALSE,FALSE,544
-Unova,Scolipede,both,FALSE,FALSE,FALSE,545
+Unova,Venipede,both,TRUE,FALSE,FALSE,543
+Unova,Whirlipede,both,TRUE,FALSE,FALSE,544
+Unova,Scolipede,both,TRUE,FALSE,FALSE,545
 Unova,Cottonee,both,TRUE,FALSE,FALSE,546
 Unova,Whimsicott,both,TRUE,FALSE,FALSE,547
 Unova,Petilil,female,FALSE,FALSE,FALSE,548
@@ -950,7 +950,7 @@ Forms,Samurott hisuian,both,FALSE,FALSE,FALSE,503
 Forms,Lilligant hisuian,both,FALSE,FALSE,FALSE,549
 Forms,Zorua hisuian,both,FALSE,FALSE,FALSE,570
 Forms,Zoroark hisuian,both,FALSE,FALSE,FALSE,571
-Forms,Braviary hisuian,both,FALSE,FALSE,FALSE,628
+Forms,Braviary hisuian,both,TRUE,FALSE,FALSE,628
 Forms,Sliggoo hisuian,both,FALSE,FALSE,FALSE,705
 Forms,Goodra hisuian,both,FALSE,FALSE,FALSE,706
 Forms,Avalugg hisuian,both,FALSE,FALSE,FALSE,713
@@ -958,7 +958,7 @@ Forms,Decidueye hisuian,both,FALSE,FALSE,FALSE,724
 Forms,Unown A,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown B,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown C,genderless,TRUE,FALSE,FALSE,201
-Forms,Unown D,genderless,FALSE,FALSE,FALSE,201
+Forms,Unown D,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown E,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown F,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown G,genderless,TRUE,FALSE,FALSE,201
@@ -968,7 +968,7 @@ Forms,Unown J,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown K,genderless,FALSE,FALSE,FALSE,201
 Forms,Unown L,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown M,genderless,FALSE,FALSE,FALSE,201
-Forms,Unown N,genderless,FALSE,FALSE,FALSE,201
+Forms,Unown N,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown O,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown P,genderless,FALSE,FALSE,FALSE,201
 Forms,Unown Q,genderless,FALSE,FALSE,FALSE,201
@@ -1272,6 +1272,8 @@ Event,Pikachu holiday,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu pop,female,FALSE,FALSE,FALSE,25
 Event,Pikachu rock,female,FALSE,FALSE,FALSE,25
 Event,Pikachu 5th,both,TRUE,FALSE,FALSE,25
+Event,Pikachu worlds 2022,both,TRUE,FALSE,FALSE,25
+Event,Pikachu scarf,both,TRUE,FALSE,FALSE,25
 Event,Pikachu fly okinawa,both,TRUE,FALSE,FALSE,25
 Event,Raichu festive,difference,TRUE,FALSE,FALSE,26
 Event,Raichu party,difference,TRUE,FALSE,FALSE,26
