@@ -454,8 +454,8 @@ Sinnoh,Drapion,both,TRUE,TRUE,FALSE,452
 Sinnoh,Croagunk,difference,TRUE,FALSE,FALSE,453
 Sinnoh,Toxicroak,difference,TRUE,FALSE,FALSE,454
 Sinnoh,Carnivine,both,FALSE,FALSE,FALSE,455
-Sinnoh,Finneon,difference,FALSE,FALSE,FALSE,456
-Sinnoh,Lumineon,difference,FALSE,FALSE,FALSE,457
+Sinnoh,Finneon,difference,TRUE,FALSE,FALSE,456
+Sinnoh,Lumineon,difference,TRUE,FALSE,FALSE,457
 Sinnoh,Mantyke,both,FALSE,FALSE,FALSE,458
 Sinnoh,Snover,difference,TRUE,TRUE,FALSE,459
 Sinnoh,Abomasnow,difference,TRUE,TRUE,FALSE,460
@@ -507,16 +507,16 @@ Unova,Watchog,both,TRUE,TRUE,FALSE,505
 Unova,Lillipup,both,TRUE,FALSE,FALSE,506
 Unova,Herdier,both,TRUE,FALSE,FALSE,507
 Unova,Stoutland,both,TRUE,FALSE,FALSE,508
-Unova,Purrloin,both,FALSE,TRUE,FALSE,509
-Unova,Liepard,both,FALSE,TRUE,FALSE,510
+Unova,Purrloin,both,TRUE,TRUE,FALSE,509
+Unova,Liepard,both,TRUE,TRUE,FALSE,510
 Unova,Pansage,both,TRUE,FALSE,FALSE,511
 Unova,Simisage,both,TRUE,FALSE,FALSE,512
 Unova,Pansear,both,TRUE,FALSE,FALSE,513
 Unova,Simisear,both,TRUE,FALSE,FALSE,514
 Unova,Panpour,both,TRUE,FALSE,FALSE,515
 Unova,Simipour,both,TRUE,FALSE,FALSE,516
-Unova,Munna,both,FALSE,FALSE,FALSE,517
-Unova,Musharna,both,FALSE,FALSE,FALSE,518
+Unova,Munna,both,TRUE,FALSE,FALSE,517
+Unova,Musharna,both,TRUE,FALSE,FALSE,518
 Unova,Pidove,both,TRUE,FALSE,FALSE,519
 Unova,Tranquill,both,TRUE,FALSE,FALSE,520
 Unova,Unfezant,difference,TRUE,FALSE,FALSE,521
@@ -603,8 +603,8 @@ Unova,Klinklang,genderless,TRUE,FALSE,FALSE,601
 Unova,Tynamo,both,FALSE,FALSE,FALSE,602
 Unova,Eelektrik,both,FALSE,FALSE,FALSE,603
 Unova,Eelektross,both,FALSE,FALSE,FALSE,604
-Unova,Elgyem,both,FALSE,FALSE,FALSE,605
-Unova,Beheeyem,both,FALSE,FALSE,FALSE,606
+Unova,Elgyem,both,TRUE,FALSE,FALSE,605
+Unova,Beheeyem,both,TRUE,FALSE,FALSE,606
 Unova,Litwick,both,FALSE,FALSE,FALSE,607
 Unova,Lampent,both,FALSE,FALSE,FALSE,608
 Unova,Chandelure,both,FALSE,FALSE,FALSE,609
@@ -680,12 +680,12 @@ Kalos,Meowstic,difference,TRUE,FALSE,FALSE,678
 Kalos,Honedge,both,FALSE,FALSE,FALSE,679
 Kalos,Doublade,both,FALSE,FALSE,FALSE,680
 Kalos,Aegislash,both,FALSE,FALSE,FALSE,681
-Kalos,Spritzee,both,FALSE,FALSE,FALSE,682
-Kalos,Aromatisse,both,FALSE,FALSE,FALSE,683
+Kalos,Spritzee,both,TRUE,FALSE,FALSE,682
+Kalos,Aromatisse,both,TRUE,FALSE,FALSE,683
 Kalos,Swirlix,both,TRUE,FALSE,FALSE,684
 Kalos,Slurpuff,both,TRUE,FALSE,FALSE,685
-Kalos,Inkay,both,FALSE,FALSE,FALSE,686
-Kalos,Malamar,both,FALSE,FALSE,FALSE,687
+Kalos,Inkay,both,TRUE,FALSE,FALSE,686
+Kalos,Malamar,both,TRUE,FALSE,FALSE,687
 Kalos,Binacle,both,TRUE,FALSE,FALSE,688
 Kalos,Barbaracle,both,TRUE,FALSE,FALSE,689
 Kalos,Skrelp,both,FALSE,FALSE,FALSE,690
@@ -715,7 +715,7 @@ Kalos,Avalugg,both,FALSE,FALSE,FALSE,713
 Kalos,Noibat,both,FALSE,FALSE,FALSE,714
 Kalos,Noivern,both,FALSE,FALSE,FALSE,715
 Kalos,Xerneas,genderless,FALSE,FALSE,FALSE,716
-Kalos,Yveltal,genderless,FALSE,FALSE,FALSE,717
+Kalos,Yveltal,genderless,TRUE,FALSE,FALSE,717
 Kalos,Zygarde,genderless,FALSE,FALSE,FALSE,718
 Kalos,Diancie,genderless,FALSE,FALSE,FALSE,719
 Kalos,Hoopa,genderless,FALSE,FALSE,FALSE,720
@@ -930,6 +930,9 @@ Forms,Slowbro galarian,both,FALSE,FALSE,FALSE,80
 Forms,Farfetch'd galarian,both,TRUE,FALSE,FALSE,83
 Forms,Weezing galarian,both,TRUE,FALSE,FALSE,110
 Forms,Mr. Mime galarian,both,FALSE,FALSE,FALSE,122
+Forms,Articuno galarian,both,FALSE,FALSE,FALSE,144
+Forms,Zapdos galarian,both,FALSE,FALSE,FALSE,145
+Forms,Moltres galarian,both,FALSE,FALSE,FALSE,146
 Forms,Slowking galarian,both,FALSE,FALSE,FALSE,199
 Forms,Corsola galarian,both,FALSE,FALSE,FALSE,222
 Forms,Zigzagoon galarian,both,TRUE,FALSE,FALSE,263
@@ -970,7 +973,7 @@ Forms,Unown L,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown M,genderless,FALSE,FALSE,FALSE,201
 Forms,Unown N,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown O,genderless,TRUE,FALSE,FALSE,201
-Forms,Unown P,genderless,FALSE,FALSE,FALSE,201
+Forms,Unown P,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown Q,genderless,FALSE,FALSE,FALSE,201
 Forms,Unown R,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown S,genderless,TRUE,FALSE,FALSE,201
@@ -978,8 +981,8 @@ Forms,Unown T,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown U,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown V,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown W,genderless,FALSE,FALSE,FALSE,201
-Forms,Unown X,genderless,FALSE,FALSE,FALSE,201
-Forms,Unown Y,genderless,FALSE,FALSE,FALSE,201
+Forms,Unown X,genderless,TRUE,FALSE,FALSE,201
+Forms,Unown Y,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown Z,genderless,FALSE,FALSE,FALSE,201
 Forms,Unown !,genderless,FALSE,FALSE,FALSE,201
 Forms,Unown ?,genderless,FALSE,FALSE,FALSE,201
