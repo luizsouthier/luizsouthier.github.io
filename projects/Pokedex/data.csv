@@ -1290,6 +1290,8 @@ Event,Raichu detective,male,TRUE,FALSE,FALSE,26
 Event,Raichu worldcap,difference,TRUE,FALSE,FALSE,26
 Event,Raichu new year,difference,TRUE,FALSE,FALSE,26
 Event,Nidorino party hat,male,TRUE,FALSE,FALSE,33
+Event,Diglett hat,both,TRUE,FALSE,FALSE,50
+Event,Dugtrio hat,both,TRUE,FALSE,FALSE,51
 Event,Ponyta galarian meloetta,both,TRUE,FALSE,FALSE,77
 Event,Slowpoke new year,both,TRUE,FALSE,FALSE,78
 Event,Slowbro new year,both,TRUE,FALSE,FALSE,80
@@ -1344,6 +1346,7 @@ Event,Buneary flower,both,TRUE,FALSE,FALSE,427
 Event,Lopunny flower,both,TRUE,FALSE,FALSE,428
 Event,Happiny flower,female,TRUE,FALSE,FALSE,440
 Event,Croagunk cap,difference,TRUE,FALSE,FALSE,453
+Event,Toxicroak cap,difference,TRUE,FALSE,FALSE,454
 Event,Togekiss flower,both,TRUE,FALSE,FALSE,468
 Event,Leafeon flower,both,TRUE,FALSE,FALSE,470
 Event,Glaceon flower,both,TRUE,FALSE,FALSE,471
