@@ -290,7 +290,7 @@ Hoenn,Vigoroth,both,TRUE,FALSE,FALSE,288
 Hoenn,Slaking,both,TRUE,FALSE,FALSE,289
 Hoenn,Nincada,both,TRUE,FALSE,FALSE,290
 Hoenn,Ninjask,both,TRUE,FALSE,FALSE,291
-Hoenn,Shedinja,genderless,FALSE,FALSE,FALSE,292
+Hoenn,Shedinja,genderless,TRUE,FALSE,FALSE,292
 Hoenn,Whismur,both,TRUE,TRUE,FALSE,293
 Hoenn,Loudred,both,TRUE,TRUE,FALSE,294
 Hoenn,Exploud,both,TRUE,TRUE,FALSE,295
@@ -605,9 +605,9 @@ Unova,Eelektrik,both,FALSE,FALSE,FALSE,603
 Unova,Eelektross,both,FALSE,FALSE,FALSE,604
 Unova,Elgyem,both,TRUE,FALSE,FALSE,605
 Unova,Beheeyem,both,TRUE,FALSE,FALSE,606
-Unova,Litwick,both,FALSE,FALSE,FALSE,607
-Unova,Lampent,both,FALSE,FALSE,FALSE,608
-Unova,Chandelure,both,FALSE,FALSE,FALSE,609
+Unova,Litwick,both,TRUE,FALSE,FALSE,607
+Unova,Lampent,both,TRUE,FALSE,FALSE,608
+Unova,Chandelure,both,TRUE,FALSE,FALSE,609
 Unova,Axew,both,TRUE,FALSE,FALSE,610
 Unova,Fraxure,both,TRUE,FALSE,FALSE,611
 Unova,Haxorus,both,TRUE,FALSE,FALSE,612
@@ -708,13 +708,13 @@ Kalos,Goodra,both,FALSE,FALSE,FALSE,706
 Kalos,Klefki,both,FALSE,FALSE,FALSE,707
 Kalos,Phantump,both,FALSE,FALSE,FALSE,708
 Kalos,Trevenant,both,FALSE,FALSE,FALSE,709
-Kalos,Pumpkaboo,both,FALSE,FALSE,FALSE,710
-Kalos,Gourgeist,both,FALSE,FALSE,FALSE,711
+Kalos,Pumpkaboo,both,TRUE,FALSE,FALSE,710
+Kalos,Gourgeist,both,TRUE,FALSE,FALSE,711
 Kalos,Bergmite,both,FALSE,FALSE,FALSE,712
 Kalos,Avalugg,both,FALSE,FALSE,FALSE,713
-Kalos,Noibat,both,FALSE,FALSE,FALSE,714
-Kalos,Noivern,both,FALSE,FALSE,FALSE,715
-Kalos,Xerneas,genderless,FALSE,FALSE,FALSE,716
+Kalos,Noibat,both,TRUE,FALSE,FALSE,714
+Kalos,Noivern,both,TRUE,FALSE,FALSE,715
+Kalos,Xerneas,genderless,TRUE,FALSE,FALSE,716
 Kalos,Yveltal,genderless,TRUE,FALSE,FALSE,717
 Kalos,Zygarde,genderless,FALSE,FALSE,FALSE,718
 Kalos,Diancie,genderless,FALSE,FALSE,FALSE,719
@@ -865,7 +865,7 @@ Galar,Perrserker,both,TRUE,FALSE,FALSE,863
 Galar,Cursola,both,FALSE,FALSE,FALSE,864
 Galar,Sirfetch'd,both,TRUE,FALSE,FALSE,865
 Galar,Mr. Rime,both,FALSE,FALSE,FALSE,866
-Galar,Runerigus,both,FALSE,FALSE,FALSE,867
+Galar,Runerigus,both,TRUE,FALSE,FALSE,867
 Galar,Milcery,female,FALSE,FALSE,FALSE,868
 Galar,Alcremie,female,FALSE,FALSE,FALSE,869
 Galar,Falinks,genderless,FALSE,FALSE,FALSE,870
@@ -899,7 +899,7 @@ Galar,Spectrier,genderless,FALSE,FALSE,FALSE,897
 Galar,Calyrex,genderless,FALSE,FALSE,FALSE,898
 Hisui,Wyrdeer,both,FALSE,FALSE,FALSE,899
 Hisui,Kleavor,both,FALSE,FALSE,FALSE,900
-Hisui,Ursaluna,both,FALSE,FALSE,FALSE,901
+Hisui,Ursaluna,both,TRUE,FALSE,FALSE,901
 Hisui,Basculegion,difference,FALSE,FALSE,FALSE,902
 Hisui,Sneasler,both,FALSE,FALSE,FALSE,903
 Hisui,Overqwil,both,FALSE,FALSE,FALSE,904
@@ -940,7 +940,7 @@ Forms,Linoone galarian,both,TRUE,FALSE,FALSE,264
 Forms,Darumaka galarian,both,TRUE,FALSE,FALSE,554
 Forms,Darmanitan galarian,both,TRUE,FALSE,FALSE,555
 Forms,Darmanitan zen galarian,both,FALSE,FALSE,FALSE,555
-Forms,Yamask galarian,both,FALSE,FALSE,FALSE,562
+Forms,Yamask galarian,both,TRUE,FALSE,FALSE,562
 Forms,Stunfisk galarian,both,TRUE,FALSE,FALSE,618
 Forms,Growlithe hisuian,both,FALSE,FALSE,FALSE,58
 Forms,Arcanine hisuian,both,FALSE,FALSE,FALSE,59
@@ -1098,14 +1098,14 @@ Forms,Furfrou la reine,both,FALSE,FALSE,FALSE,676
 Forms,Furfrou matron,both,FALSE,FALSE,FALSE,676
 Forms,Furfrou pharaoh,both,FALSE,FALSE,FALSE,676
 Forms,Furfrou star,both,FALSE,FALSE,FALSE,676
-Forms,Pumpkaboo small,both,FALSE,FALSE,FALSE,710
-Forms,Pumpkaboo average,both,FALSE,FALSE,FALSE,710
-Forms,Pumpkaboo large,both,FALSE,FALSE,FALSE,710
-Forms,Pumpkaboo super,both,FALSE,FALSE,FALSE,710
-Forms,Gourgeist small,both,FALSE,FALSE,FALSE,711
-Forms,Gourgeist average,both,FALSE,FALSE,FALSE,711
-Forms,Gourgeist large,both,FALSE,FALSE,FALSE,711
-Forms,Gourgeist super,both,FALSE,FALSE,FALSE,711
+Forms,Pumpkaboo small,both,TRUE,FALSE,FALSE,710
+Forms,Pumpkaboo average,both,TRUE,FALSE,FALSE,710
+Forms,Pumpkaboo large,both,TRUE,FALSE,FALSE,710
+Forms,Pumpkaboo super,both,TRUE,FALSE,FALSE,710
+Forms,Gourgeist small,both,TRUE,FALSE,FALSE,711
+Forms,Gourgeist average,both,TRUE,FALSE,FALSE,711
+Forms,Gourgeist large,both,TRUE,FALSE,FALSE,711
+Forms,Gourgeist super,both,TRUE,FALSE,FALSE,711
 Forms,Hoopa confined,both,FALSE,FALSE,FALSE,720
 Forms,Hoopa unbound,both,FALSE,FALSE,FALSE,720
 Forms,Oricorio baile,both,FALSE,FALSE,FALSE,741
@@ -1290,6 +1290,8 @@ Event,Raichu detective,male,TRUE,FALSE,FALSE,26
 Event,Raichu worldcap,difference,TRUE,FALSE,FALSE,26
 Event,Raichu new year,difference,TRUE,FALSE,FALSE,26
 Event,Nidorino party hat,male,TRUE,FALSE,FALSE,33
+Event,Vulpix halloween,both,TRUE,FALSE,FALSE,37
+Event,Ninetales halloween,both,TRUE,FALSE,FALSE,38
 Event,Diglett hat,both,TRUE,FALSE,FALSE,50
 Event,Dugtrio hat,both,TRUE,FALSE,FALSE,51
 Event,Ponyta galarian meloetta,both,TRUE,FALSE,FALSE,77
@@ -1297,6 +1299,7 @@ Event,Slowpoke new year,both,TRUE,FALSE,FALSE,78
 Event,Slowbro new year,both,TRUE,FALSE,FALSE,80
 Event,Gengar party hat,both,TRUE,FALSE,FALSE,94
 Event,Gengar halloween,both,TRUE,FALSE,FALSE,94
+Event,Gengar halloween 2022,both,TRUE,FALSE,FALSE,94
 Event,Chansey flower,female,TRUE,FALSE,FALSE,113
 Event,Lapras scarf,both,TRUE,FALSE,FALSE,131
 Event,Eevee flower,difference,TRUE,FALSE,FALSE,133
@@ -1332,6 +1335,8 @@ Event,Kirlia hat,both,TRUE,FALSE,FALSE,281
 Event,Gardevoir meloetta,both,FALSE,FALSE,FALSE,282
 Event,Sableye halloween,both,TRUE,FALSE,FALSE,302
 Event,Flygon meloetta,both,FALSE,FALSE,FALSE,330
+Event,Duskull cempasúchil,both,TRUE,FALSE,FALSE,355
+Event,Dusclops cempasúchil,both,TRUE,FALSE,FALSE,356
 Event,Spheal holiday,both,TRUE,FALSE,FALSE,363
 Event,Turtwig red hat,both,TRUE,FALSE,FALSE,387
 Event,Turtwig white hat,both,TRUE,FALSE,FALSE,387
@@ -1351,6 +1356,15 @@ Event,Togekiss flower,both,TRUE,FALSE,FALSE,468
 Event,Leafeon flower,both,TRUE,FALSE,FALSE,470
 Event,Glaceon flower,both,TRUE,FALSE,FALSE,471
 Event,Glaceon holiday,both,TRUE,FALSE,FALSE,471
+Event,Dusknoir cempasúchil,both,TRUE,FALSE,FALSE,477
 Event,Blitzle collar,both,TRUE,FALSE,FALSE,522
 Event,Cubchoo holiday,both,TRUE,FALSE,FALSE,613
 Event,Sylveon flower,both,TRUE,FALSE,FALSE,700
+Event,Pumpkaboo small halloween,both,TRUE,FALSE,FALSE,710
+Event,Pumpkaboo average halloween,both,TRUE,FALSE,FALSE,710
+Event,Pumpkaboo large halloween,both,TRUE,FALSE,FALSE,710
+Event,Pumpkaboo super halloween,both,TRUE,FALSE,FALSE,710
+Event,Gourgeist small halloween,both,TRUE,FALSE,FALSE,711
+Event,Gourgeist average halloween,both,TRUE,FALSE,FALSE,711
+Event,Gourgeist large halloween,both,TRUE,FALSE,FALSE,711
+Event,Gourgeist super halloween,both,TRUE,FALSE,FALSE,711
