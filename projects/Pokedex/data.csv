@@ -590,8 +590,8 @@ Unova,Karrablast,both,TRUE,FALSE,FALSE,588
 Unova,Escavalier,both,TRUE,FALSE,FALSE,589
 Unova,Foongus,both,TRUE,TRUE,FALSE,590
 Unova,Amoonguss,both,TRUE,TRUE,FALSE,591
-Unova,Frillish,difference,FALSE,FALSE,FALSE,592
-Unova,Jellicent,difference,FALSE,FALSE,FALSE,593
+Unova,Frillish,difference,TRUE,FALSE,FALSE,592
+Unova,Jellicent,difference,TRUE,FALSE,FALSE,593
 Unova,Alomomola,both,TRUE,FALSE,FALSE,594
 Unova,Joltik,both,FALSE,FALSE,FALSE,595
 Unova,Galvantula,both,FALSE,FALSE,FALSE,596
@@ -648,9 +648,9 @@ Unova,Kyurem,genderless,TRUE,FALSE,FALSE,646
 Unova,Keldeo,genderless,FALSE,FALSE,FALSE,647
 Unova,Meloetta,genderless,FALSE,FALSE,FALSE,648
 Unova,Genesect,genderless,TRUE,FALSE,FALSE,649
-Kalos,Chespin,both,FALSE,FALSE,FALSE,650
-Kalos,Quilladin,both,FALSE,FALSE,FALSE,651
-Kalos,Chesnaught,both,FALSE,FALSE,FALSE,652
+Kalos,Chespin,both,TRUE,FALSE,FALSE,650
+Kalos,Quilladin,both,TRUE,FALSE,FALSE,651
+Kalos,Chesnaught,both,TRUE,FALSE,FALSE,652
 Kalos,Fennekin,both,FALSE,FALSE,FALSE,653
 Kalos,Braixen,both,FALSE,FALSE,FALSE,654
 Kalos,Delphox,both,FALSE,FALSE,FALSE,655
@@ -674,7 +674,7 @@ Kalos,Skiddo,both,FALSE,FALSE,FALSE,672
 Kalos,Gogoat,both,FALSE,FALSE,FALSE,673
 Kalos,Pancham,both,FALSE,FALSE,FALSE,674
 Kalos,Pangoro,both,FALSE,FALSE,FALSE,675
-Kalos,Furfrou,both,FALSE,FALSE,FALSE,676
+Kalos,Furfrou,both,TRUE,FALSE,FALSE,676
 Kalos,Espurr,both,TRUE,FALSE,FALSE,677
 Kalos,Meowstic,difference,TRUE,FALSE,FALSE,678
 Kalos,Honedge,both,FALSE,FALSE,FALSE,679
@@ -692,15 +692,15 @@ Kalos,Skrelp,both,FALSE,FALSE,FALSE,690
 Kalos,Dragalge,both,FALSE,FALSE,FALSE,691
 Kalos,Clauncher,both,FALSE,FALSE,FALSE,692
 Kalos,Clawitzer,both,FALSE,FALSE,FALSE,693
-Kalos,Helioptile,both,FALSE,FALSE,FALSE,694
-Kalos,Heliolisk,both,FALSE,FALSE,FALSE,695
+Kalos,Helioptile,both,TRUE,FALSE,FALSE,694
+Kalos,Heliolisk,both,TRUE,FALSE,FALSE,695
 Kalos,Tyrunt,both,FALSE,FALSE,FALSE,696
 Kalos,Tyrantrum,both,FALSE,FALSE,FALSE,697
 Kalos,Amaura,both,FALSE,FALSE,FALSE,698
 Kalos,Aurorus,both,FALSE,FALSE,FALSE,699
 Kalos,Sylveon,both,TRUE,FALSE,FALSE,700
 Kalos,Hawlucha,both,FALSE,FALSE,FALSE,701
-Kalos,Dedenne,both,FALSE,FALSE,FALSE,702
+Kalos,Dedenne,both,TRUE,FALSE,FALSE,702
 Kalos,Carbink,genderless,FALSE,FALSE,FALSE,703
 Kalos,Goomy,both,FALSE,FALSE,FALSE,704
 Kalos,Sliggoo,both,FALSE,FALSE,FALSE,705
@@ -783,8 +783,8 @@ Alola,Dhelmise,genderless,FALSE,FALSE,FALSE,781
 Alola,Jangmo-o,both,FALSE,FALSE,FALSE,782
 Alola,Hakamo-o,both,FALSE,FALSE,FALSE,783
 Alola,Kommo-o,both,FALSE,FALSE,FALSE,784
-Alola,Tapu Koko,genderless,FALSE,FALSE,FALSE,785
-Alola,Tapu Lele,genderless,FALSE,FALSE,FALSE,786
+Alola,Tapu Koko,genderless,TRUE,FALSE,FALSE,785
+Alola,Tapu Lele,genderless,TRUE,FALSE,FALSE,786
 Alola,Tapu Bulu,genderless,FALSE,FALSE,FALSE,787
 Alola,Tapu Fini,genderless,FALSE,FALSE,FALSE,788
 Alola,Cosmog,genderless,FALSE,FALSE,FALSE,789
@@ -956,7 +956,7 @@ Forms,Zoroark hisuian,both,FALSE,FALSE,FALSE,571
 Forms,Braviary hisuian,both,TRUE,FALSE,FALSE,628
 Forms,Sliggoo hisuian,both,FALSE,FALSE,FALSE,705
 Forms,Goodra hisuian,both,FALSE,FALSE,FALSE,706
-Forms,Avalugg hisuian,both,FALSE,FALSE,FALSE,713
+Forms,Avalugg hisuian,both,TRUE,FALSE,FALSE,713
 Forms,Decidueye hisuian,both,FALSE,FALSE,FALSE,724
 Forms,Unown A,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown B,genderless,TRUE,FALSE,FALSE,201
@@ -1089,15 +1089,15 @@ Forms,Florges blue,both,FALSE,FALSE,FALSE,671
 Forms,Florges yellow,both,FALSE,FALSE,FALSE,671
 Forms,Florges white,both,FALSE,FALSE,FALSE,671
 Forms,Florges orange,both,FALSE,FALSE,FALSE,671
-Forms,Furfrou dandy,both,FALSE,FALSE,FALSE,676
-Forms,Furfrou diamond,both,FALSE,FALSE,FALSE,676
-Forms,Furfrou heart,both,FALSE,FALSE,FALSE,676
-Forms,Furfrou debutante,both,FALSE,FALSE,FALSE,676
-Forms,Furfrou kabuki,both,FALSE,FALSE,FALSE,676
-Forms,Furfrou la reine,both,FALSE,FALSE,FALSE,676
-Forms,Furfrou matron,both,FALSE,FALSE,FALSE,676
-Forms,Furfrou pharaoh,both,FALSE,FALSE,FALSE,676
-Forms,Furfrou star,both,FALSE,FALSE,FALSE,676
+Forms,Furfrou dandy,both,TRUE,FALSE,FALSE,676
+Forms,Furfrou diamond,both,TRUE,FALSE,FALSE,676
+Forms,Furfrou heart,both,TRUE,FALSE,FALSE,676
+Forms,Furfrou debutante,both,TRUE,FALSE,FALSE,676
+Forms,Furfrou kabuki,both,TRUE,FALSE,FALSE,676
+Forms,Furfrou la reine,both,TRUE,FALSE,FALSE,676
+Forms,Furfrou matron,both,TRUE,FALSE,FALSE,676
+Forms,Furfrou pharaoh,both,TRUE,FALSE,FALSE,676
+Forms,Furfrou star,both,TRUE,FALSE,FALSE,676
 Forms,Pumpkaboo small,both,TRUE,FALSE,FALSE,710
 Forms,Pumpkaboo average,both,TRUE,FALSE,FALSE,710
 Forms,Pumpkaboo large,both,TRUE,FALSE,FALSE,710
@@ -1240,7 +1240,7 @@ Event,Wartortle sunglasses,both,TRUE,FALSE,FALSE,8
 Event,Blastoise sunglasses,both,TRUE,FALSE,FALSE,9
 Event,Blastoise clone,both,FALSE,FALSE,FALSE,9
 Event,Butterfree bow,difference,TRUE,FALSE,FALSE,12
-Event,Raticate party,difference,TRUE,FALSE,FALSE,20
+Event,Raticate party,difference,TRUE,TRUE,FALSE,20
 Event,Pikachu fall,male,TRUE,FALSE,FALSE,25
 Event,Pikachu fly,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu libre,female,TRUE,FALSE,FALSE,25
@@ -1282,6 +1282,8 @@ Event,Pikachu shaymin,both,TRUE,FALSE,FALSE,25
 Event,Pikachu tcg,both,TRUE,FALSE,FALSE,25
 Event,Pikachu cake,both,TRUE,FALSE,FALSE,25
 Event,Pikachu 2023,both,TRUE,FALSE,FALSE,25
+Event,Pikachu brendan,both,TRUE,FALSE,FALSE,25
+Event,Pikachu may,both,TRUE,FALSE,FALSE,25
 Event,Pikachu clone,male,FALSE,FALSE,FALSE,25
 Event,Raichu summer,difference,TRUE,FALSE,FALSE,26
 Event,Raichu festive,difference,TRUE,FALSE,FALSE,26
@@ -1294,7 +1296,7 @@ Event,Raichu detective,male,TRUE,FALSE,FALSE,26
 Event,Raichu winter,difference,TRUE,FALSE,FALSE,26
 Event,Raichu new year,difference,TRUE,FALSE,FALSE,26
 Event,Raichu worldcap,difference,TRUE,FALSE,FALSE,26
-Event,Nidorino party hat,male,TRUE,FALSE,FALSE,33
+Event,Nidorino party hat,male,TRUE,TRUE,FALSE,33
 Event,Vulpix halloween,both,TRUE,FALSE,FALSE,37
 Event,Ninetales halloween,both,TRUE,FALSE,FALSE,38
 Event,Diglett hat,both,TRUE,FALSE,FALSE,50
