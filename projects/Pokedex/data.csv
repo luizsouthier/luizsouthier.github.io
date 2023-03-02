@@ -1045,6 +1045,7 @@ Forms,Arceus steel,genderless,FALSE,FALSE,FALSE,493
 Forms,Arceus water,genderless,FALSE,FALSE,FALSE,493
 Forms,Basculin red-striped,both,FALSE,FALSE,FALSE,550
 Forms,Basculin blue-striped,both,FALSE,FALSE,FALSE,550
+Forms,Basculin white-striped,both,FALSE,FALSE,FALSE,550
 Forms,Darmanitan standard,both,FALSE,FALSE,FALSE,555
 Forms,Darmanitan zen,both,FALSE,FALSE,FALSE,555
 Forms,Deerling spring,both,FALSE,FALSE,FALSE,585
@@ -1074,6 +1075,26 @@ Forms,Genesect burn,genderless,FALSE,FALSE,FALSE,649
 Forms,Genesect chill,genderless,FALSE,FALSE,FALSE,649
 Forms,Genesect douse,genderless,FALSE,FALSE,FALSE,649
 Forms,Greninja ash,both,FALSE,FALSE,FALSE,658
+Forms,Vivillon archipelago,both,FALSE,FALSE,FALSE,666
+Forms,Vivillon continental,both,FALSE,FALSE,FALSE,666
+Forms,Vivillon elegant,both,FALSE,FALSE,FALSE,666
+Forms,Vivillon fancy,both,FALSE,FALSE,FALSE,666
+Forms,Vivillon garden,both,FALSE,FALSE,FALSE,666
+Forms,Vivillon high plains,both,FALSE,FALSE,FALSE,666
+Forms,Vivillon icy snow,both,FALSE,FALSE,FALSE,666
+Forms,Vivillon jungle,both,FALSE,FALSE,FALSE,666
+Forms,Vivillon marine,both,FALSE,FALSE,FALSE,666
+Forms,Vivillon meadow,both,FALSE,FALSE,FALSE,666
+Forms,Vivillon modern,both,FALSE,FALSE,FALSE,666
+Forms,Vivillon monsoon,both,FALSE,FALSE,FALSE,666
+Forms,Vivillon ocean,both,FALSE,FALSE,FALSE,666
+Forms,Vivillon poké ball,both,FALSE,FALSE,FALSE,666
+Forms,Vivillon polar,both,FALSE,FALSE,FALSE,666
+Forms,Vivillon river,both,FALSE,FALSE,FALSE,666
+Forms,Vivillon sandstorm,both,FALSE,FALSE,FALSE,666
+Forms,Vivillon savanna,both,FALSE,FALSE,FALSE,666
+Forms,Vivillon sun,both,FALSE,FALSE,FALSE,666
+Forms,Vivillon tundra,both,FALSE,FALSE,FALSE,666
 Forms,Flabébé red,both,FALSE,FALSE,FALSE,669
 Forms,Flabébé blue,both,FALSE,FALSE,FALSE,669
 Forms,Flabébé yellow,both,FALSE,FALSE,FALSE,669
@@ -1214,6 +1235,8 @@ Mega,Salamence mega,both,TRUE,FALSE,FALSE,373
 Mega,Metagross mega,both,TRUE,FALSE,FALSE,376
 Mega,Latias mega,female,TRUE,FALSE,FALSE,380
 Mega,Latios mega,male,TRUE,FALSE,FALSE,381
+Mega,Kyogre primal,both,TRUE,FALSE,FALSE,382
+Mega,Groudon primal,both,TRUE,FALSE,FALSE,383
 Mega,Rayquaza mega,both,TRUE,FALSE,FALSE,384
 Mega,Lopunny mega,both,TRUE,FALSE,FALSE,428
 Mega,Garchomp mega,both,TRUE,FALSE,FALSE,445
@@ -1351,6 +1374,7 @@ Event,Sableye halloween,both,TRUE,FALSE,FALSE,302
 Event,Flygon meloetta,both,FALSE,FALSE,FALSE,330
 Event,Duskull cempasúchil,both,TRUE,FALSE,FALSE,355
 Event,Dusclops cempasúchil,both,TRUE,FALSE,FALSE,356
+Event,Absol sunglasses,both,TRUE,TRUE,TRUE,359
 Event,Spheal holiday,both,TRUE,FALSE,FALSE,363
 Event,Turtwig red hat,both,TRUE,FALSE,FALSE,387
 Event,Turtwig white hat,both,TRUE,FALSE,FALSE,387
@@ -1386,3 +1410,108 @@ Event,Gourgeist small halloween,both,TRUE,FALSE,FALSE,711
 Event,Gourgeist average halloween,both,TRUE,FALSE,FALSE,711
 Event,Gourgeist large halloween,both,TRUE,FALSE,FALSE,711
 Event,Gourgeist super halloween,both,TRUE,FALSE,FALSE,711
+Paldea,Sprigatito,both,FALSE,FALSE,FALSE,906
+Paldea,Floragato,both,FALSE,FALSE,FALSE,907
+Paldea,Meowscarada,both,FALSE,FALSE,FALSE,908
+Paldea,Fuecoco,both,FALSE,FALSE,FALSE,909
+Paldea,Crocalor,both,FALSE,FALSE,FALSE,910
+Paldea,Skeledirge,both,FALSE,FALSE,FALSE,911
+Paldea,Quaxly,both,FALSE,FALSE,FALSE,912
+Paldea,Quaxwell,both,FALSE,FALSE,FALSE,913
+Paldea,Quaquaval,both,FALSE,FALSE,FALSE,914
+Paldea,Lechonk,both,FALSE,FALSE,FALSE,915
+Paldea,Oinkologne,both,FALSE,FALSE,FALSE,916
+Paldea,Tarountula,both,FALSE,FALSE,FALSE,917
+Paldea,Spidops,both,FALSE,FALSE,FALSE,918
+Paldea,Nymble,both,FALSE,FALSE,FALSE,919
+Paldea,Lokix,both,FALSE,FALSE,FALSE,920
+Paldea,Pawmi,both,FALSE,FALSE,FALSE,921
+Paldea,Pawmo,both,FALSE,FALSE,FALSE,922
+Paldea,Pawmot,both,FALSE,FALSE,FALSE,923
+Paldea,Tandemaus,both,FALSE,FALSE,FALSE,924
+Paldea,Maushold,both,FALSE,FALSE,FALSE,925
+Paldea,Fidough,both,FALSE,FALSE,FALSE,926
+Paldea,Dachsbun,both,FALSE,FALSE,FALSE,927
+Paldea,Smoliv,both,FALSE,FALSE,FALSE,928
+Paldea,Dolliv,both,FALSE,FALSE,FALSE,929
+Paldea,Arboliva,both,FALSE,FALSE,FALSE,930
+Paldea,Squawkabilly,both,FALSE,FALSE,FALSE,931
+Paldea,Nacli,both,FALSE,FALSE,FALSE,932
+Paldea,Naclstack,both,FALSE,FALSE,FALSE,933
+Paldea,Garganacl,both,FALSE,FALSE,FALSE,934
+Paldea,Charcadet,both,FALSE,FALSE,FALSE,935
+Paldea,Armarouge,both,FALSE,FALSE,FALSE,936
+Paldea,Ceruledge,both,FALSE,FALSE,FALSE,937
+Paldea,Tadbulb,both,FALSE,FALSE,FALSE,938
+Paldea,Bellibolt,both,FALSE,FALSE,FALSE,939
+Paldea,Wattrel,both,FALSE,FALSE,FALSE,940
+Paldea,Kilowattrel,both,FALSE,FALSE,FALSE,941
+Paldea,Maschiff,both,FALSE,FALSE,FALSE,942
+Paldea,Mabosstiff,both,FALSE,FALSE,FALSE,943
+Paldea,Shroodle,both,FALSE,FALSE,FALSE,944
+Paldea,Grafaiai,both,FALSE,FALSE,FALSE,945
+Paldea,Bramblin,both,FALSE,FALSE,FALSE,946
+Paldea,Brambleghast,both,FALSE,FALSE,FALSE,947
+Paldea,Toedscool,both,FALSE,FALSE,FALSE,948
+Paldea,Toedscruel,both,FALSE,FALSE,FALSE,949
+Paldea,Klawf,both,FALSE,FALSE,FALSE,950
+Paldea,Capsakid,both,FALSE,FALSE,FALSE,951
+Paldea,Scovillain,both,FALSE,FALSE,FALSE,952
+Paldea,Rellor,both,FALSE,FALSE,FALSE,953
+Paldea,Rabsca,both,FALSE,FALSE,FALSE,954
+Paldea,Flittle,both,FALSE,FALSE,FALSE,955
+Paldea,Espathra,both,FALSE,FALSE,FALSE,956
+Paldea,Tinkatink,both,FALSE,FALSE,FALSE,957
+Paldea,Tinkatuff,both,FALSE,FALSE,FALSE,958
+Paldea,Tinkaton,both,FALSE,FALSE,FALSE,959
+Paldea,Wiglett,both,FALSE,FALSE,FALSE,960
+Paldea,Wugtrio,both,FALSE,FALSE,FALSE,961
+Paldea,Bombirdier,both,FALSE,FALSE,FALSE,962
+Paldea,Finizen,both,FALSE,FALSE,FALSE,963
+Paldea,Palafin,both,FALSE,FALSE,FALSE,964
+Paldea,Varoom,both,FALSE,FALSE,FALSE,965
+Paldea,Revavroom,both,FALSE,FALSE,FALSE,966
+Paldea,Cyclizar,both,FALSE,FALSE,FALSE,967
+Paldea,Orthworm,both,FALSE,FALSE,FALSE,968
+Paldea,Glimmet,both,FALSE,FALSE,FALSE,969
+Paldea,Glimmora,both,FALSE,FALSE,FALSE,970
+Paldea,Greavard,both,FALSE,FALSE,FALSE,971
+Paldea,Houndstone,both,FALSE,FALSE,FALSE,972
+Paldea,Flamigo,both,FALSE,FALSE,FALSE,973
+Paldea,Cetoddle,both,FALSE,FALSE,FALSE,974
+Paldea,Cetitan,both,FALSE,FALSE,FALSE,975
+Paldea,Veluza,both,FALSE,FALSE,FALSE,976
+Paldea,Dondozo,both,FALSE,FALSE,FALSE,977
+Paldea,Tatsugiri,both,FALSE,FALSE,FALSE,978
+Paldea,Annihilape,both,FALSE,FALSE,FALSE,979
+Paldea,Clodsire,both,FALSE,FALSE,FALSE,980
+Paldea,Farigiraf,both,FALSE,FALSE,FALSE,981
+Paldea,Dudunsparce,both,FALSE,FALSE,FALSE,982
+Paldea,Kingambit,both,FALSE,FALSE,FALSE,983
+Paldea,Great Tusk,both,FALSE,FALSE,FALSE,984
+Paldea,Scream Tail,both,FALSE,FALSE,FALSE,985
+Paldea,Brute Bonnet,both,FALSE,FALSE,FALSE,986
+Paldea,Flutter Mane,both,FALSE,FALSE,FALSE,987
+Paldea,Slither Wing,both,FALSE,FALSE,FALSE,988
+Paldea,Sandy Shocks,both,FALSE,FALSE,FALSE,989
+Paldea,Iron Treads,both,FALSE,FALSE,FALSE,990
+Paldea,Iron Bundle,both,FALSE,FALSE,FALSE,991
+Paldea,Iron Hands,both,FALSE,FALSE,FALSE,992
+Paldea,Iron Jugulis,both,FALSE,FALSE,FALSE,993
+Paldea,Iron Moth,both,FALSE,FALSE,FALSE,994
+Paldea,Iron Thorns,both,FALSE,FALSE,FALSE,995
+Paldea,Frigibax,both,FALSE,FALSE,FALSE,996
+Paldea,Arctibax,both,FALSE,FALSE,FALSE,997
+Paldea,Baxcalibur,both,FALSE,FALSE,FALSE,998
+Paldea,Gimmighoul,both,FALSE,FALSE,FALSE,999
+Paldea,Gholdengo,both,FALSE,FALSE,FALSE,1000
+Paldea,Wo-Chien,both,FALSE,FALSE,FALSE,1001
+Paldea,Chien-Pao,both,FALSE,FALSE,FALSE,1002
+Paldea,Ting-Lu,both,FALSE,FALSE,FALSE,1003
+Paldea,Chi-Yu,both,FALSE,FALSE,FALSE,1004
+Paldea,Roaring Moon,both,FALSE,FALSE,FALSE,1005
+Paldea,Iron Valiant,both,FALSE,FALSE,FALSE,1006
+Paldea,Koraidon,both,FALSE,FALSE,FALSE,1007
+Paldea,Miraidon,both,FALSE,FALSE,FALSE,1008
+Paldea,Walking Wake,both,FALSE,FALSE,FALSE,1009
+Paldea,Iron Leaves,both,FALSE,FALSE,FALSE,1010
