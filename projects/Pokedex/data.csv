@@ -527,8 +527,8 @@ Unova,Boldore,both,TRUE,FALSE,FALSE,525
 Unova,Gigalith,both,TRUE,FALSE,FALSE,526
 Unova,Woobat,both,TRUE,FALSE,FALSE,527
 Unova,Swoobat,both,TRUE,FALSE,FALSE,528
-Unova,Drilbur,both,FALSE,FALSE,FALSE,529
-Unova,Excadrill,both,FALSE,FALSE,FALSE,530
+Unova,Drilbur,both,TRUE,FALSE,FALSE,529
+Unova,Excadrill,both,TRUE,FALSE,FALSE,530
 Unova,Audino,both,TRUE,FALSE,FALSE,531
 Unova,Timburr,both,TRUE,FALSE,FALSE,532
 Unova,Gurdurr,both,TRUE,FALSE,FALSE,533
@@ -1307,6 +1307,7 @@ Event,Pikachu cake,both,TRUE,FALSE,FALSE,25
 Event,Pikachu 2023,both,TRUE,FALSE,FALSE,25
 Event,Pikachu brendan,both,TRUE,FALSE,FALSE,25
 Event,Pikachu may,both,TRUE,FALSE,FALSE,25
+Event,Pikachu spring2023,both,TRUE,FALSE,FALSE,25
 Event,Pikachu clone,male,FALSE,FALSE,FALSE,25
 Event,Raichu summer,difference,TRUE,FALSE,FALSE,26
 Event,Raichu festive,difference,TRUE,FALSE,FALSE,26
@@ -1319,6 +1320,7 @@ Event,Raichu detective,male,TRUE,FALSE,FALSE,26
 Event,Raichu winter,difference,TRUE,FALSE,FALSE,26
 Event,Raichu new year,difference,TRUE,FALSE,FALSE,26
 Event,Raichu worldcap,difference,TRUE,FALSE,FALSE,26
+Event,Raichu spring2023,difference,TRUE,FALSE,FALSE,26
 Event,Nidorino party hat,male,TRUE,TRUE,FALSE,33
 Event,Vulpix halloween,both,TRUE,FALSE,FALSE,37
 Event,Ninetales halloween,both,TRUE,FALSE,FALSE,38
@@ -1332,16 +1334,22 @@ Event,Gengar halloween,both,TRUE,FALSE,FALSE,94
 Event,Gengar halloween 2022,both,TRUE,FALSE,FALSE,94
 Event,Chansey flower,female,TRUE,FALSE,FALSE,113
 Event,Lapras scarf,both,TRUE,FALSE,FALSE,131
+Event,Lapras blanche,both,TRUE,FALSE,FALSE,131
 Event,Eevee flower,difference,TRUE,FALSE,FALSE,133
 Event,Eevee party hat,difference,TRUE,FALSE,FALSE,133
 Event,Eevee hat,difference,TRUE,FALSE,FALSE,133
+Event,Eevee spring2023,difference,TRUE,FALSE,FALSE,133
 Event,Vaporeon flower,both,TRUE,FALSE,FALSE,134
 Event,Vaporeon hat,both,TRUE,FALSE,FALSE,134
+Event,Vaporeon spring2023,both,TRUE,FALSE,FALSE,134
 Event,Jolteon flower,both,TRUE,FALSE,FALSE,135
 Event,Jolteon hat,both,TRUE,FALSE,FALSE,135
+Event,Jolteon spring2023,both,TRUE,FALSE,FALSE,135
 Event,Flareon flower,both,TRUE,FALSE,FALSE,136
 Event,Flareon hat,both,TRUE,FALSE,FALSE,136
+Event,Flareon spring2023,both,TRUE,FALSE,FALSE,136
 Event,Snorlax cowboy,both,TRUE,FALSE,FALSE,143
+Event,Snorlax nightcap,both,TRUE,FALSE,FALSE,143
 Event,Mewtwo armored,genderless,FALSE,FALSE,FALSE,150
 Event,Hoothoot new year,both,TRUE,FALSE,FALSE,163
 Event,Noctowl new year,both,TRUE,FALSE,FALSE,164
@@ -1353,12 +1361,15 @@ Event,Pichu flower,both,TRUE,FALSE,FALSE,172
 Event,Pichu ash,both,TRUE,FALSE,FALSE,172
 Event,Pichu witch,both,TRUE,FALSE,FALSE,172
 Event,Pichu new year,both,TRUE,FALSE,FALSE,172
+Event,Pichu spring2023,both,TRUE,FALSE,FALSE,172
 Event,Togepi flower,both,TRUE,FALSE,FALSE,175
 Event,Togetic flower,both,TRUE,FALSE,FALSE,176
-Event,Espeon hat,both,TRUE,FALSE,FALSE,196
 Event,Espeon flower,both,TRUE,FALSE,FALSE,196
+Event,Espeon hat,both,TRUE,FALSE,FALSE,196
+Event,Espeon spring2023,both,TRUE,FALSE,FALSE,196
 Event,Umbreon flower,both,TRUE,FALSE,FALSE,197
 Event,Umbreon hat,both,TRUE,FALSE,FALSE,197
+Event,Umbreon spring2023,both,TRUE,FALSE,FALSE,197
 Event,Slowking new year,both,TRUE,FALSE,FALSE,199
 Event,Wobbuffet party,difference,TRUE,FALSE,FALSE,202
 Event,Sneasel sunglasses,difference,TRUE,FALSE,FALSE,215
@@ -1393,8 +1404,10 @@ Event,Toxicroak cap,difference,TRUE,FALSE,FALSE,454
 Event,Togekiss flower,both,TRUE,FALSE,FALSE,468
 Event,Leafeon flower,both,TRUE,FALSE,FALSE,470
 Event,Leafeon hat,both,TRUE,FALSE,FALSE,470
+Event,Leafeon spring2023,both,TRUE,FALSE,FALSE,470
 Event,Glaceon flower,both,TRUE,FALSE,FALSE,471
 Event,Glaceon hat,both,TRUE,FALSE,FALSE,471
+Event,Glaceon spring2023,both,TRUE,FALSE,FALSE,471
 Event,Glaceon holiday,both,TRUE,FALSE,FALSE,471
 Event,Dusknoir cempasúchil,both,TRUE,FALSE,FALSE,477
 Event,Blitzle collar,both,TRUE,FALSE,FALSE,522
@@ -1402,6 +1415,7 @@ Event,Cubchoo holiday,both,TRUE,FALSE,FALSE,613
 Event,Beartic holiday,both,TRUE,FALSE,FALSE,613
 Event,Sylveon flower,both,TRUE,FALSE,FALSE,700
 Event,Sylveon hat,both,TRUE,FALSE,FALSE,700
+Event,Sylveon spring2023,both,TRUE,FALSE,FALSE,700
 Event,Pumpkaboo small halloween,both,TRUE,FALSE,FALSE,710
 Event,Pumpkaboo average halloween,both,TRUE,FALSE,FALSE,710
 Event,Pumpkaboo large halloween,both,TRUE,FALSE,FALSE,710
