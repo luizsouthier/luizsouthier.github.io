@@ -785,7 +785,7 @@ Alola,Hakamo-o,both,FALSE,FALSE,FALSE,783
 Alola,Kommo-o,both,FALSE,FALSE,FALSE,784
 Alola,Tapu Koko,genderless,TRUE,FALSE,FALSE,785
 Alola,Tapu Lele,genderless,TRUE,FALSE,FALSE,786
-Alola,Tapu Bulu,genderless,FALSE,FALSE,FALSE,787
+Alola,Tapu Bulu,genderless,TRUE,FALSE,FALSE,787
 Alola,Tapu Fini,genderless,FALSE,FALSE,FALSE,788
 Alola,Cosmog,genderless,FALSE,FALSE,FALSE,789
 Alola,Cosmoem,genderless,FALSE,FALSE,FALSE,790
@@ -1333,6 +1333,7 @@ Event,Gengar party hat,both,TRUE,FALSE,FALSE,94
 Event,Gengar halloween,both,TRUE,FALSE,FALSE,94
 Event,Gengar halloween 2022,both,TRUE,FALSE,FALSE,94
 Event,Chansey flower,female,TRUE,FALSE,FALSE,113
+Event,Electabuzz spark,both,TRUE,FALSE,FALSE,125
 Event,Lapras scarf,both,TRUE,FALSE,FALSE,131
 Event,Lapras blanche,both,TRUE,FALSE,FALSE,131
 Event,Eevee flower,difference,TRUE,FALSE,FALSE,133
@@ -1376,6 +1377,7 @@ Event,Sneasel sunglasses,difference,TRUE,FALSE,FALSE,215
 Event,Delibird holiday,both,TRUE,FALSE,FALSE,225
 Event,Stantler holiday,both,TRUE,FALSE,FALSE,234
 Event,Smoochum bow,female,TRUE,FALSE,FALSE,238
+Event,Elekid spark,both,TRUE,FALSE,FALSE,239
 Event,Blissey flower,female,TRUE,FALSE,FALSE,242
 Event,Zigzagoon galarian meloetta,both,TRUE,FALSE,FALSE,263
 Event,Wurmple party,both,TRUE,FALSE,FALSE,265
@@ -1401,6 +1403,7 @@ Event,Lopunny flower,both,TRUE,FALSE,FALSE,428
 Event,Happiny flower,female,TRUE,FALSE,FALSE,440
 Event,Croagunk cap,difference,TRUE,FALSE,FALSE,453
 Event,Toxicroak cap,difference,TRUE,FALSE,FALSE,454
+Event,Electivire spark,both,TRUE,FALSE,FALSE,466
 Event,Togekiss flower,both,TRUE,FALSE,FALSE,468
 Event,Leafeon flower,both,TRUE,FALSE,FALSE,470
 Event,Leafeon hat,both,TRUE,FALSE,FALSE,470

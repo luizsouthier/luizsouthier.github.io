@@ -447,6 +447,10 @@ function getImageUrl(name) {
 	if(name == "Pikachu libre") name = "Pikachu female libre";
 	if(name == "Pikachu pop") name = "Pikachu female pop";
 	if(name == "Pikachu rock") name = "Pikachu female rock";
+	if(name == "Pumpkaboo average halloween") name = "Pumpkaboo halloween";
+	if(name == "Gourgeist average halloween") name = "Gourgeist halloween";
+    if(name == "Vivillon_archipelago") name = "Vivillon";
+	
 
 
 	if(name == "Unown F shiny") name = "Unown shiny";
@@ -484,6 +488,9 @@ function getImageUrl(name) {
 	if(name == "Pikachu libre shiny") name = "Pikachu female libre shiny";
 	if(name == "Pikachu pop shiny") name = "Pikachu female pop shiny";
 	if(name == "Pikachu rock shiny") name = "Pikachu female rock shiny";
+	if(name == "Pumpkaboo average halloween shiny") name = "Pumpkaboo halloween shiny";
+	if(name == "Gourgeist average halloween shiny") name = "Gourgeist halloween shiny";
+    if(name == "Vivillon_archipelago shiny") name = "Vivillon shiny";
 
 	
 	if(name == "Spinda 1") name = "Spinda";
@@ -668,7 +675,7 @@ function loading(code){
 }
 
 function createPokemon(list) {
-	var region = ["Kanto", "Johto", "Hoenn", "Sinnoh", "Unova", "Kalos", "Alola", "Galar", "Hisui", "Forms", "Event", "Mega"];
+	var region = ["Kanto", "Johto", "Hoenn", "Sinnoh", "Unova", "Kalos", "Alola", "Galar", "Hisui", "Paldea", "Forms", "Event", "Mega"];
 	for(j = 0; j < region.length; j++) {
 		var tekst = "";
 		var el = document.getElementById(region[j]);
