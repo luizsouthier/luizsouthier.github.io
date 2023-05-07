@@ -456,7 +456,7 @@ Sinnoh,Toxicroak,difference,TRUE,FALSE,FALSE,454
 Sinnoh,Carnivine,both,FALSE,FALSE,FALSE,455
 Sinnoh,Finneon,difference,TRUE,FALSE,FALSE,456
 Sinnoh,Lumineon,difference,TRUE,FALSE,FALSE,457
-Sinnoh,Mantyke,both,FALSE,FALSE,FALSE,458
+Sinnoh,Mantyke,both,TRUE,FALSE,FALSE,458
 Sinnoh,Snover,difference,TRUE,TRUE,FALSE,459
 Sinnoh,Abomasnow,difference,TRUE,TRUE,FALSE,460
 Sinnoh,Weavile,difference,TRUE,TRUE,TRUE,461
@@ -616,7 +616,7 @@ Unova,Beartic,both,TRUE,FALSE,FALSE,614
 Unova,Cryogonal,genderless,FALSE,FALSE,FALSE,615
 Unova,Shelmet,both,TRUE,FALSE,FALSE,616
 Unova,Accelgor,both,TRUE,FALSE,FALSE,617
-Unova,Stunfisk,both,FALSE,FALSE,FALSE,618
+Unova,Stunfisk,both,TRUE,FALSE,FALSE,618
 Unova,Mienfoo,both,FALSE,FALSE,FALSE,619
 Unova,Mienshao,both,FALSE,FALSE,FALSE,620
 Unova,Druddigon,both,TRUE,FALSE,FALSE,621
@@ -651,9 +651,9 @@ Unova,Genesect,genderless,TRUE,FALSE,FALSE,649
 Kalos,Chespin,both,TRUE,FALSE,FALSE,650
 Kalos,Quilladin,both,TRUE,FALSE,FALSE,651
 Kalos,Chesnaught,both,TRUE,FALSE,FALSE,652
-Kalos,Fennekin,both,FALSE,FALSE,FALSE,653
-Kalos,Braixen,both,FALSE,FALSE,FALSE,654
-Kalos,Delphox,both,FALSE,FALSE,FALSE,655
+Kalos,Fennekin,both,TRUE,FALSE,FALSE,653
+Kalos,Braixen,both,TRUE,FALSE,FALSE,654
+Kalos,Delphox,both,TRUE,FALSE,FALSE,655
 Kalos,Froakie,both,FALSE,FALSE,FALSE,656
 Kalos,Frogadier,both,FALSE,FALSE,FALSE,657
 Kalos,Greninja,both,FALSE,FALSE,FALSE,658
@@ -898,7 +898,7 @@ Galar,Glastrier,genderless,FALSE,FALSE,FALSE,896
 Galar,Spectrier,genderless,FALSE,FALSE,FALSE,897
 Galar,Calyrex,genderless,FALSE,FALSE,FALSE,898
 Hisui,Wyrdeer,both,FALSE,FALSE,FALSE,899
-Hisui,Kleavor,both,FALSE,FALSE,FALSE,900
+Hisui,Kleavor,both,TRUE,FALSE,FALSE,900
 Hisui,Ursaluna,both,TRUE,TRUE,FALSE,901
 Hisui,Basculegion,difference,FALSE,FALSE,FALSE,902
 Hisui,Sneasler,both,FALSE,FALSE,FALSE,903
@@ -1070,7 +1070,7 @@ Forms,Keldeo resolute,genderless,FALSE,FALSE,FALSE,647
 Forms,Meloetta aria,genderless,FALSE,FALSE,FALSE,648
 Forms,Meloetta pirouette,genderless,FALSE,FALSE,FALSE,648
 Forms,Genesect regular,genderless,TRUE,FALSE,FALSE,649
-Forms,Genesect shock,genderless,FALSE,FALSE,FALSE,649
+Forms,Genesect shock,genderless,TRUE,FALSE,FALSE,649
 Forms,Genesect burn,genderless,FALSE,FALSE,FALSE,649
 Forms,Genesect chill,genderless,FALSE,FALSE,FALSE,649
 Forms,Genesect douse,genderless,FALSE,FALSE,FALSE,649
