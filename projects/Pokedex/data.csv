@@ -148,7 +148,7 @@ Kanto,Moltres,genderless,TRUE,TRUE,FALSE,146
 Kanto,Dratini,both,TRUE,TRUE,FALSE,147
 Kanto,Dragonair,both,TRUE,TRUE,FALSE,148
 Kanto,Dragonite,both,TRUE,TRUE,FALSE,149
-Kanto,Mewtwo,genderless,TRUE,TRUE,FALSE,150
+Kanto,Mewtwo,genderless,TRUE,TRUE,TRUE,150
 Kanto,Mew,genderless,TRUE,FALSE,FALSE,151
 Johto,Chikorita,both,TRUE,TRUE,FALSE,152
 Johto,Bayleef,both,TRUE,TRUE,FALSE,153
@@ -786,7 +786,7 @@ Alola,Kommo-o,both,FALSE,FALSE,FALSE,784
 Alola,Tapu Koko,genderless,TRUE,FALSE,FALSE,785
 Alola,Tapu Lele,genderless,TRUE,FALSE,FALSE,786
 Alola,Tapu Bulu,genderless,TRUE,FALSE,FALSE,787
-Alola,Tapu Fini,genderless,FALSE,FALSE,FALSE,788
+Alola,Tapu Fini,genderless,TRUE,FALSE,FALSE,788
 Alola,Cosmog,genderless,FALSE,FALSE,FALSE,789
 Alola,Cosmoem,genderless,FALSE,FALSE,FALSE,790
 Alola,Solgaleo,genderless,FALSE,FALSE,FALSE,791
