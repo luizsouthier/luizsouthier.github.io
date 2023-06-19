@@ -142,7 +142,7 @@ Kanto,Kabuto,both,TRUE,FALSE,FALSE,140
 Kanto,Kabutops,both,TRUE,FALSE,FALSE,141
 Kanto,Aerodactyl,both,TRUE,TRUE,TRUE,142
 Kanto,Snorlax,both,TRUE,TRUE,FALSE,143
-Kanto,Articuno,genderless,TRUE,TRUE,FALSE,144
+Kanto,Articuno,genderless,TRUE,TRUE,TRUE,144
 Kanto,Zapdos,genderless,TRUE,TRUE,FALSE,145
 Kanto,Moltres,genderless,TRUE,TRUE,FALSE,146
 Kanto,Dratini,both,TRUE,TRUE,FALSE,147
@@ -163,8 +163,8 @@ Johto,Sentret,both,TRUE,FALSE,FALSE,161
 Johto,Furret,both,TRUE,FALSE,FALSE,162
 Johto,Hoothoot,both,TRUE,FALSE,FALSE,163
 Johto,Noctowl,both,TRUE,FALSE,FALSE,164
-Johto,Ledyba,difference,TRUE,FALSE,FALSE,165
-Johto,Ledian,difference,TRUE,FALSE,FALSE,166
+Johto,Ledyba,difference,TRUE,TRUE,FALSE,165
+Johto,Ledian,difference,TRUE,TRUE,FALSE,166
 Johto,Spinarak,both,TRUE,FALSE,FALSE,167
 Johto,Ariados,both,TRUE,FALSE,FALSE,168
 Johto,Crobat,both,TRUE,TRUE,FALSE,169
@@ -235,7 +235,7 @@ Johto,Porygon2,genderless,TRUE,TRUE,FALSE,233
 Johto,Stantler,both,TRUE,TRUE,TRUE,234
 Johto,Smeargle,both,TRUE,FALSE,FALSE,235
 Johto,Tyrogue,male,TRUE,FALSE,FALSE,236
-Johto,Hitmontop,male,TRUE,FALSE,FALSE,237
+Johto,Hitmontop,male,TRUE,TRUE,FALSE,237
 Johto,Smoochum,female,TRUE,FALSE,FALSE,238
 Johto,Elekid,both,TRUE,FALSE,FALSE,239
 Johto,Magby,both,TRUE,FALSE,FALSE,240
@@ -375,7 +375,7 @@ Hoenn,Salamence,both,TRUE,TRUE,TRUE,373
 Hoenn,Beldum,genderless,TRUE,TRUE,TRUE,374
 Hoenn,Metang,genderless,TRUE,TRUE,TRUE,375
 Hoenn,Metagross,genderless,TRUE,TRUE,TRUE,376
-Hoenn,Regirock,genderless,TRUE,FALSE,FALSE,377
+Hoenn,Regirock,genderless,TRUE,TRUE,FALSE,377
 Hoenn,Regice,genderless,TRUE,TRUE,FALSE,378
 Hoenn,Registeel,genderless,TRUE,TRUE,FALSE,379
 Hoenn,Latias,female,TRUE,TRUE,FALSE,380
@@ -429,8 +429,8 @@ Sinnoh,Buneary,both,TRUE,FALSE,FALSE,427
 Sinnoh,Lopunny,both,TRUE,FALSE,FALSE,428
 Sinnoh,Mismagius,both,TRUE,TRUE,FALSE,429
 Sinnoh,Honchkrow,both,TRUE,TRUE,TRUE,430
-Sinnoh,Glameow,both,TRUE,FALSE,FALSE,431
-Sinnoh,Purugly,both,TRUE,FALSE,FALSE,432
+Sinnoh,Glameow,both,TRUE,TRUE,FALSE,431
+Sinnoh,Purugly,both,TRUE,TRUE,FALSE,432
 Sinnoh,Chingling,both,FALSE,FALSE,FALSE,433
 Sinnoh,Stunky,both,FALSE,TRUE,FALSE,434
 Sinnoh,Skuntank,both,FALSE,TRUE,FALSE,435
@@ -441,9 +441,9 @@ Sinnoh,Mime Jr.,both,TRUE,FALSE,FALSE,439
 Sinnoh,Happiny,female,TRUE,FALSE,FALSE,440
 Sinnoh,Chatot,both,FALSE,FALSE,FALSE,441
 Sinnoh,Spiritomb,both,TRUE,FALSE,FALSE,442
-Sinnoh,Gible,difference,TRUE,FALSE,FALSE,443
-Sinnoh,Gabite,difference,TRUE,FALSE,FALSE,444
-Sinnoh,Garchomp,difference,TRUE,FALSE,FALSE,445
+Sinnoh,Gible,difference,TRUE,TRUE,FALSE,443
+Sinnoh,Gabite,difference,TRUE,TRUE,FALSE,444
+Sinnoh,Garchomp,difference,TRUE,TRUE,FALSE,445
 Sinnoh,Munchlax,both,TRUE,FALSE,FALSE,446
 Sinnoh,Riolu,both,TRUE,FALSE,FALSE,447
 Sinnoh,Lucario,both,TRUE,FALSE,FALSE,448
@@ -546,8 +546,8 @@ Unova,Whirlipede,both,TRUE,FALSE,FALSE,544
 Unova,Scolipede,both,TRUE,FALSE,FALSE,545
 Unova,Cottonee,both,TRUE,FALSE,FALSE,546
 Unova,Whimsicott,both,TRUE,FALSE,FALSE,547
-Unova,Petilil,female,FALSE,FALSE,FALSE,548
-Unova,Lilligant,female,FALSE,FALSE,FALSE,549
+Unova,Petilil,female,TRUE,FALSE,FALSE,548
+Unova,Lilligant,female,TRUE,FALSE,FALSE,549
 Unova,Basculin,both,FALSE,FALSE,FALSE,550
 Unova,Sandile,both,FALSE,FALSE,FALSE,551
 Unova,Krokorok,both,FALSE,FALSE,FALSE,552
@@ -620,8 +620,8 @@ Unova,Stunfisk,both,TRUE,FALSE,FALSE,618
 Unova,Mienfoo,both,FALSE,FALSE,FALSE,619
 Unova,Mienshao,both,FALSE,FALSE,FALSE,620
 Unova,Druddigon,both,TRUE,FALSE,FALSE,621
-Unova,Golett,genderless,FALSE,TRUE,FALSE,622
-Unova,Golurk,genderless,FALSE,TRUE,FALSE,623
+Unova,Golett,genderless,TRUE,TRUE,FALSE,622
+Unova,Golurk,genderless,TRUE,TRUE,FALSE,623
 Unova,Pawniard,both,TRUE,FALSE,FALSE,624
 Unova,Bisharp,both,TRUE,FALSE,FALSE,625
 Unova,Bouffalant,both,FALSE,FALSE,FALSE,626
@@ -672,8 +672,8 @@ Kalos,Floette,female,FALSE,FALSE,FALSE,670
 Kalos,Florges,female,FALSE,FALSE,FALSE,671
 Kalos,Skiddo,both,FALSE,FALSE,FALSE,672
 Kalos,Gogoat,both,FALSE,FALSE,FALSE,673
-Kalos,Pancham,both,FALSE,FALSE,FALSE,674
-Kalos,Pangoro,both,FALSE,FALSE,FALSE,675
+Kalos,Pancham,both,TRUE,FALSE,FALSE,674
+Kalos,Pangoro,both,TRUE,FALSE,FALSE,675
 Kalos,Furfrou,both,TRUE,FALSE,FALSE,676
 Kalos,Espurr,both,TRUE,FALSE,FALSE,677
 Kalos,Meowstic,difference,TRUE,FALSE,FALSE,678
@@ -688,10 +688,10 @@ Kalos,Inkay,both,TRUE,FALSE,FALSE,686
 Kalos,Malamar,both,TRUE,FALSE,FALSE,687
 Kalos,Binacle,both,TRUE,FALSE,FALSE,688
 Kalos,Barbaracle,both,TRUE,FALSE,FALSE,689
-Kalos,Skrelp,both,FALSE,FALSE,FALSE,690
-Kalos,Dragalge,both,FALSE,FALSE,FALSE,691
-Kalos,Clauncher,both,FALSE,FALSE,FALSE,692
-Kalos,Clawitzer,both,FALSE,FALSE,FALSE,693
+Kalos,Skrelp,both,TRUE,FALSE,FALSE,690
+Kalos,Dragalge,both,TRUE,FALSE,FALSE,691
+Kalos,Clauncher,both,TRUE,FALSE,FALSE,692
+Kalos,Clawitzer,both,TRUE,FALSE,FALSE,693
 Kalos,Helioptile,both,TRUE,FALSE,FALSE,694
 Kalos,Heliolisk,both,TRUE,FALSE,FALSE,695
 Kalos,Tyrunt,both,FALSE,FALSE,FALSE,696
@@ -702,9 +702,9 @@ Kalos,Sylveon,both,TRUE,FALSE,FALSE,700
 Kalos,Hawlucha,both,FALSE,FALSE,FALSE,701
 Kalos,Dedenne,both,TRUE,FALSE,FALSE,702
 Kalos,Carbink,genderless,FALSE,FALSE,FALSE,703
-Kalos,Goomy,both,FALSE,FALSE,FALSE,704
-Kalos,Sliggoo,both,FALSE,FALSE,FALSE,705
-Kalos,Goodra,both,FALSE,FALSE,FALSE,706
+Kalos,Goomy,both,TRUE,FALSE,FALSE,704
+Kalos,Sliggoo,both,TRUE,FALSE,FALSE,705
+Kalos,Goodra,both,TRUE,FALSE,FALSE,706
 Kalos,Klefki,both,FALSE,FALSE,FALSE,707
 Kalos,Phantump,both,FALSE,FALSE,FALSE,708
 Kalos,Trevenant,both,FALSE,FALSE,FALSE,709
@@ -749,10 +749,10 @@ Alola,Mareanie,both,FALSE,FALSE,FALSE,747
 Alola,Toxapex,both,FALSE,FALSE,FALSE,748
 Alola,Mudbray,both,FALSE,FALSE,FALSE,749
 Alola,Mudsdale,both,FALSE,FALSE,FALSE,750
-Alola,Dewpider,both,FALSE,FALSE,FALSE,751
-Alola,Araquanid,both,FALSE,FALSE,FALSE,752
-Alola,Fomantis,both,FALSE,FALSE,FALSE,753
-Alola,Lurantis,both,FALSE,FALSE,FALSE,754
+Alola,Dewpider,both,TRUE,FALSE,FALSE,751
+Alola,Araquanid,both,TRUE,FALSE,FALSE,752
+Alola,Fomantis,both,TRUE,FALSE,FALSE,753
+Alola,Lurantis,both,TRUE,FALSE,FALSE,754
 Alola,Morelull,both,FALSE,FALSE,FALSE,755
 Alola,Shiinotic,both,FALSE,FALSE,FALSE,756
 Alola,Salandit,both,FALSE,FALSE,FALSE,757
@@ -763,7 +763,7 @@ Alola,Bounsweet,female,FALSE,FALSE,FALSE,761
 Alola,Steenee,female,FALSE,FALSE,FALSE,762
 Alola,Tsareena,female,FALSE,FALSE,FALSE,763
 Alola,Comfey,both,FALSE,FALSE,FALSE,764
-Alola,Oranguru,both,FALSE,FALSE,FALSE,765
+Alola,Oranguru,both,TRUE,FALSE,FALSE,765
 Alola,Passimian,both,FALSE,FALSE,FALSE,766
 Alola,Wimpod,both,FALSE,FALSE,FALSE,767
 Alola,Golisopod,both,FALSE,FALSE,FALSE,768
@@ -791,7 +791,7 @@ Alola,Cosmog,genderless,FALSE,FALSE,FALSE,789
 Alola,Cosmoem,genderless,FALSE,FALSE,FALSE,790
 Alola,Solgaleo,genderless,FALSE,FALSE,FALSE,791
 Alola,Lunala,genderless,FALSE,FALSE,FALSE,792
-Alola,Nihilego,genderless,FALSE,FALSE,FALSE,793
+Alola,Nihilego,genderless,TRUE,FALSE,FALSE,793
 Alola,Buzzwole,genderless,FALSE,FALSE,FALSE,794
 Alola,Pheromosa,genderless,FALSE,FALSE,FALSE,795
 Alola,Xurkitree,genderless,FALSE,FALSE,FALSE,796
@@ -915,9 +915,9 @@ Forms,Diglett alolan,both,TRUE,TRUE,FALSE,50
 Forms,Dugtrio alolan,both,TRUE,TRUE,FALSE,51
 Forms,Meowth alolan,both,TRUE,FALSE,FALSE,52
 Forms,Persian alolan,both,TRUE,FALSE,FALSE,53
-Forms,Geodude alolan,both,TRUE,FALSE,FALSE,74
-Forms,Graveler alolan,both,TRUE,FALSE,FALSE,75
-Forms,Golem alolan,both,TRUE,FALSE,FALSE,76
+Forms,Geodude alolan,both,TRUE,TRUE,FALSE,74
+Forms,Graveler alolan,both,TRUE,TRUE,FALSE,75
+Forms,Golem alolan,both,TRUE,TRUE,FALSE,76
 Forms,Grimer alolan,both,TRUE,TRUE,FALSE,88
 Forms,Muk alolan,both,TRUE,TRUE,FALSE,89
 Forms,Exeggutor alolan,both,TRUE,TRUE,TRUE,103
@@ -970,7 +970,7 @@ Forms,Unown I,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown J,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown K,genderless,FALSE,FALSE,FALSE,201
 Forms,Unown L,genderless,TRUE,FALSE,FALSE,201
-Forms,Unown M,genderless,FALSE,FALSE,FALSE,201
+Forms,Unown M,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown N,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown O,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown P,genderless,TRUE,FALSE,FALSE,201
@@ -984,7 +984,7 @@ Forms,Unown W,genderless,FALSE,FALSE,FALSE,201
 Forms,Unown X,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown Y,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown Z,genderless,FALSE,FALSE,FALSE,201
-Forms,Unown !,genderless,FALSE,FALSE,FALSE,201
+Forms,Unown !,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown ?,genderless,FALSE,FALSE,FALSE,201
 Forms,Spinda 1,both,TRUE,FALSE,FALSE,327
 Forms,Spinda 2,both,TRUE,FALSE,FALSE,327
@@ -1011,10 +1011,10 @@ Forms,Wormadam sandy,female,TRUE,FALSE,FALSE,413
 Forms,Wormadam trash,female,TRUE,FALSE,FALSE,413
 Forms,Cherrim overcast,both,TRUE,FALSE,FALSE,421
 Forms,Cherrim sunshine,both,TRUE,FALSE,FALSE,421
-Forms,Shellos west,both,FALSE,FALSE,FALSE,422
-Forms,Shellos east,both,FALSE,FALSE,FALSE,422
-Forms,Gastrodon west,both,FALSE,FALSE,FALSE,423
-Forms,Gastrodon east,both,FALSE,FALSE,FALSE,423
+Forms,Shellos west,both,TRUE,FALSE,FALSE,422
+Forms,Shellos east,both,TRUE,FALSE,FALSE,422
+Forms,Gastrodon west,both,TRUE,FALSE,FALSE,423
+Forms,Gastrodon east,both,TRUE,FALSE,FALSE,423
 Forms,Rotom regular,genderless,FALSE,FALSE,FALSE,479
 Forms,Rotom heat,genderless,FALSE,FALSE,FALSE,479
 Forms,Rotom wash,genderless,FALSE,FALSE,FALSE,479
