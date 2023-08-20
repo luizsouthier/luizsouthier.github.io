@@ -420,8 +420,8 @@ Sinnoh,Buizel,difference,TRUE,FALSE,FALSE,418
 Sinnoh,Floatzel,difference,TRUE,FALSE,FALSE,419
 Sinnoh,Cherubi,both,TRUE,FALSE,FALSE,420
 Sinnoh,Cherrim,both,TRUE,FALSE,FALSE,421
-Sinnoh,Shellos,both,FALSE,FALSE,FALSE,422
-Sinnoh,Gastrodon,both,FALSE,FALSE,FALSE,423
+Sinnoh,Shellos,both,TRUE,FALSE,FALSE,422
+Sinnoh,Gastrodon,both,TRUE,FALSE,FALSE,423
 Sinnoh,Ambipom,difference,TRUE,TRUE,FALSE,424
 Sinnoh,Drifloon,both,TRUE,TRUE,FALSE,425
 Sinnoh,Drifblim,both,TRUE,TRUE,FALSE,426
@@ -557,8 +557,8 @@ Unova,Darmanitan,both,TRUE,FALSE,FALSE,555
 Unova,Maractus,both,FALSE,FALSE,FALSE,556
 Unova,Dwebble,both,TRUE,FALSE,FALSE,557
 Unova,Crustle,both,TRUE,FALSE,FALSE,558
-Unova,Scraggy,both,FALSE,FALSE,FALSE,559
-Unova,Scrafty,both,FALSE,FALSE,FALSE,560
+Unova,Scraggy,both,TRUE,FALSE,FALSE,559
+Unova,Scrafty,both,TRUE,FALSE,FALSE,560
 Unova,Sigilyph,both,FALSE,FALSE,FALSE,561
 Unova,Yamask,both,TRUE,FALSE,FALSE,562
 Unova,Cofagrigus,both,TRUE,FALSE,FALSE,563
@@ -593,8 +593,8 @@ Unova,Amoonguss,both,TRUE,TRUE,FALSE,591
 Unova,Frillish,difference,TRUE,FALSE,FALSE,592
 Unova,Jellicent,difference,TRUE,FALSE,FALSE,593
 Unova,Alomomola,both,TRUE,FALSE,FALSE,594
-Unova,Joltik,both,FALSE,TRUE,FALSE,595
-Unova,Galvantula,both,FALSE,TRUE,FALSE,596
+Unova,Joltik,both,TRUE,TRUE,FALSE,595
+Unova,Galvantula,both,TRUE,TRUE,FALSE,596
 Unova,Ferroseed,both,TRUE,FALSE,FALSE,597
 Unova,Ferrothorn,both,TRUE,FALSE,FALSE,598
 Unova,Klink,genderless,TRUE,FALSE,FALSE,599
@@ -654,9 +654,9 @@ Kalos,Chesnaught,both,TRUE,FALSE,FALSE,652
 Kalos,Fennekin,both,TRUE,FALSE,FALSE,653
 Kalos,Braixen,both,TRUE,FALSE,FALSE,654
 Kalos,Delphox,both,TRUE,FALSE,FALSE,655
-Kalos,Froakie,both,FALSE,FALSE,FALSE,656
-Kalos,Frogadier,both,FALSE,FALSE,FALSE,657
-Kalos,Greninja,both,FALSE,FALSE,FALSE,658
+Kalos,Froakie,both,TRUE,FALSE,FALSE,656
+Kalos,Frogadier,both,TRUE,FALSE,FALSE,657
+Kalos,Greninja,both,TRUE,FALSE,FALSE,658
 Kalos,Bunnelby,both,TRUE,FALSE,FALSE,659
 Kalos,Diggersby,both,TRUE,FALSE,FALSE,660
 Kalos,Fletchling,both,TRUE,FALSE,FALSE,661
@@ -694,10 +694,10 @@ Kalos,Clauncher,both,TRUE,FALSE,FALSE,692
 Kalos,Clawitzer,both,TRUE,FALSE,FALSE,693
 Kalos,Helioptile,both,TRUE,FALSE,FALSE,694
 Kalos,Heliolisk,both,TRUE,FALSE,FALSE,695
-Kalos,Tyrunt,both,FALSE,FALSE,FALSE,696
-Kalos,Tyrantrum,both,FALSE,FALSE,FALSE,697
-Kalos,Amaura,both,FALSE,FALSE,FALSE,698
-Kalos,Aurorus,both,FALSE,FALSE,FALSE,699
+Kalos,Tyrunt,both,TRUE,FALSE,FALSE,696
+Kalos,Tyrantrum,both,TRUE,FALSE,FALSE,697
+Kalos,Amaura,both,TRUE,FALSE,FALSE,698
+Kalos,Aurorus,both,TRUE,FALSE,FALSE,699
 Kalos,Sylveon,both,TRUE,FALSE,FALSE,700
 Kalos,Hawlucha,both,FALSE,FALSE,FALSE,701
 Kalos,Dedenne,both,TRUE,FALSE,FALSE,702
@@ -774,7 +774,7 @@ Alola,Type: Null,genderless,FALSE,FALSE,FALSE,772
 Alola,Silvally,genderless,FALSE,FALSE,FALSE,773
 Alola,Minior,genderless,FALSE,FALSE,FALSE,774
 Alola,Komala,both,FALSE,FALSE,FALSE,775
-Alola,Turtonator,both,FALSE,FALSE,FALSE,776
+Alola,Turtonator,both,TRUE,FALSE,FALSE,776
 Alola,Togedemaru,both,FALSE,FALSE,FALSE,777
 Alola,Mimikyu,both,FALSE,FALSE,FALSE,778
 Alola,Bruxish,both,FALSE,FALSE,FALSE,779
@@ -1260,7 +1260,9 @@ Event,Squirtle party hat,both,TRUE,FALSE,FALSE,7
 Event,Squirtle visor,both,TRUE,FALSE,FALSE,7
 Event,Squirtle fall,both,TRUE,FALSE,FALSE,7
 Event,Wartortle sunglasses,both,TRUE,FALSE,FALSE,8
+Event,Wartortle fall,both,TRUE,FALSE,FALSE,8
 Event,Blastoise sunglasses,both,TRUE,FALSE,FALSE,9
+Event,Blastoise fall,both,TRUE,FALSE,FALSE,9
 Event,Blastoise clone,both,FALSE,FALSE,FALSE,9
 Event,Butterfree bow,difference,TRUE,FALSE,FALSE,12
 Event,Raticate party,difference,TRUE,TRUE,FALSE,20
@@ -1269,17 +1271,17 @@ Event,Pikachu fly,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu libre,female,TRUE,FALSE,FALSE,25
 Event,Pikachu explorer,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu holiday,difference,TRUE,FALSE,FALSE,25
-Event,Pikachu 5th,both,TRUE,FALSE,FALSE,25
+Event,Pikachu 5th,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu pop,female,FALSE,FALSE,FALSE,25
 Event,Pikachu rock,female,FALSE,FALSE,FALSE,25
 Event,Pikachu kariyushi,difference,TRUE,FALSE,FALSE,25
-Event,Pikachu fly okinawa,both,TRUE,FALSE,FALSE,25
-Event,Pikachu worlds 2022,both,TRUE,FALSE,FALSE,25
-Event,Pikachu scarf,both,TRUE,FALSE,FALSE,25
-Event,Pikachu green,both,TRUE,FALSE,FALSE,25
-Event,Pikachu purple,both,TRUE,FALSE,FALSE,25
-Event,Pikachu fly green,both,TRUE,FALSE,FALSE,25
-Event,Pikachu fly purple,both,TRUE,FALSE,FALSE,25
+Event,Pikachu fly okinawa,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu worlds 2022,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu scarf,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu green,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu purple,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu fly green,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu fly purple,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu summer,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu fragment,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu witch,difference,TRUE,FALSE,FALSE,25
@@ -1298,16 +1300,25 @@ Event,Pikachu rayquaza,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu lucario,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu worldcap,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu new year,difference,TRUE,FALSE,FALSE,25
-Event,Pikachu meloetta,both,TRUE,FALSE,FALSE,25
+Event,Pikachu meloetta,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu safari,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu halloween,difference,TRUE,FALSE,FALSE,25
-Event,Pikachu shaymin,both,TRUE,FALSE,FALSE,25
-Event,Pikachu tcg,both,TRUE,FALSE,FALSE,25
-Event,Pikachu cake,both,TRUE,FALSE,FALSE,25
-Event,Pikachu 2023,both,TRUE,FALSE,FALSE,25
-Event,Pikachu brendan,both,TRUE,FALSE,FALSE,25
-Event,Pikachu may,both,TRUE,FALSE,FALSE,25
-Event,Pikachu spring2023,both,TRUE,FALSE,FALSE,25
+Event,Pikachu shaymin,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu tcg,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu cake,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu 2023,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu brendan,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu may,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu spring2023,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu teal,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu fly orange,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu amethyst,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu aquamarine,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu malachite,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu pyrite,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu quartz,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu worlds2023,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu phd,female,TRUE,FALSE,FALSE,25
 Event,Pikachu clone,male,FALSE,FALSE,FALSE,25
 Event,Raichu summer,difference,TRUE,FALSE,FALSE,26
 Event,Raichu festive,difference,TRUE,FALSE,FALSE,26
@@ -1326,8 +1337,10 @@ Event,Vulpix halloween,both,TRUE,FALSE,FALSE,37
 Event,Ninetales halloween,both,TRUE,FALSE,FALSE,38
 Event,Diglett hat,both,TRUE,FALSE,FALSE,50
 Event,Dugtrio hat,both,TRUE,FALSE,FALSE,51
+Event,Ponyta candela,both,TRUE,FALSE,FALSE,77
 Event,Ponyta galarian meloetta,both,TRUE,FALSE,FALSE,77
-Event,Slowpoke new year,both,TRUE,FALSE,FALSE,78
+Event,Rapidash candela,both,TRUE,FALSE,FALSE,78
+Event,Slowpoke new year,both,TRUE,FALSE,FALSE,79
 Event,Slowbro new year,both,TRUE,FALSE,FALSE,80
 Event,Gengar party hat,both,TRUE,FALSE,FALSE,94
 Event,Gengar halloween,both,TRUE,FALSE,FALSE,94
@@ -1340,15 +1353,19 @@ Event,Eevee flower,difference,TRUE,FALSE,FALSE,133
 Event,Eevee party hat,difference,TRUE,FALSE,FALSE,133
 Event,Eevee hat,difference,TRUE,FALSE,FALSE,133
 Event,Eevee spring2023,difference,TRUE,FALSE,FALSE,133
+Event,Eevee explorer,difference,TRUE,FALSE,FALSE,133
 Event,Vaporeon flower,both,TRUE,FALSE,FALSE,134
 Event,Vaporeon hat,both,TRUE,FALSE,FALSE,134
 Event,Vaporeon spring2023,both,TRUE,FALSE,FALSE,134
+Event,Vaporeon explorer,both,TRUE,FALSE,FALSE,134
 Event,Jolteon flower,both,TRUE,FALSE,FALSE,135
 Event,Jolteon hat,both,TRUE,FALSE,FALSE,135
 Event,Jolteon spring2023,both,TRUE,FALSE,FALSE,135
+Event,Jolteon explorer,both,TRUE,FALSE,FALSE,135
 Event,Flareon flower,both,TRUE,FALSE,FALSE,136
 Event,Flareon hat,both,TRUE,FALSE,FALSE,136
 Event,Flareon spring2023,both,TRUE,FALSE,FALSE,136
+Event,Flareon explorer,both,TRUE,FALSE,FALSE,136
 Event,Snorlax cowboy,both,TRUE,FALSE,FALSE,143
 Event,Snorlax nightcap,both,TRUE,FALSE,FALSE,143
 Event,Mewtwo armored,genderless,FALSE,FALSE,FALSE,150
@@ -1368,9 +1385,11 @@ Event,Togetic flower,both,TRUE,FALSE,FALSE,176
 Event,Espeon flower,both,TRUE,FALSE,FALSE,196
 Event,Espeon hat,both,TRUE,FALSE,FALSE,196
 Event,Espeon spring2023,both,TRUE,FALSE,FALSE,196
+Event,Espeon explorer,both,TRUE,FALSE,FALSE,196
 Event,Umbreon flower,both,TRUE,FALSE,FALSE,197
 Event,Umbreon hat,both,TRUE,FALSE,FALSE,197
 Event,Umbreon spring2023,both,TRUE,FALSE,FALSE,197
+Event,Umbreon explorer,both,TRUE,FALSE,FALSE,197
 Event,Slowking new year,both,TRUE,FALSE,FALSE,199
 Event,Wobbuffet party,difference,TRUE,FALSE,FALSE,202
 Event,Sneasel sunglasses,difference,TRUE,FALSE,FALSE,215
@@ -1408,10 +1427,12 @@ Event,Togekiss flower,both,TRUE,FALSE,FALSE,468
 Event,Leafeon flower,both,TRUE,FALSE,FALSE,470
 Event,Leafeon hat,both,TRUE,FALSE,FALSE,470
 Event,Leafeon spring2023,both,TRUE,FALSE,FALSE,470
+Event,Leafeon explorer,both,TRUE,FALSE,FALSE,470
 Event,Glaceon flower,both,TRUE,FALSE,FALSE,471
 Event,Glaceon hat,both,TRUE,FALSE,FALSE,471
 Event,Glaceon spring2023,both,TRUE,FALSE,FALSE,471
 Event,Glaceon holiday,both,TRUE,FALSE,FALSE,471
+Event,Glaceon explorer,both,TRUE,FALSE,FALSE,471
 Event,Dusknoir cempasúchil,both,TRUE,FALSE,FALSE,477
 Event,Blitzle collar,both,TRUE,FALSE,FALSE,522
 Event,Cubchoo holiday,both,TRUE,FALSE,FALSE,613
@@ -1419,6 +1440,7 @@ Event,Beartic holiday,both,TRUE,FALSE,FALSE,613
 Event,Sylveon flower,both,TRUE,FALSE,FALSE,700
 Event,Sylveon hat,both,TRUE,FALSE,FALSE,700
 Event,Sylveon spring2023,both,TRUE,FALSE,FALSE,700
+Event,Sylveon explorer,both,TRUE,FALSE,FALSE,700
 Event,Pumpkaboo small halloween,both,TRUE,FALSE,FALSE,710
 Event,Pumpkaboo average halloween,both,TRUE,FALSE,FALSE,710
 Event,Pumpkaboo large halloween,both,TRUE,FALSE,FALSE,710
