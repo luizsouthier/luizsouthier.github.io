@@ -1201,9 +1201,9 @@ Mega,Charizard y mega,both,TRUE,FALSE,FALSE,6
 Mega,Blastoise mega,both,TRUE,FALSE,FALSE,9
 Mega,Beedrill mega,both,TRUE,FALSE,FALSE,15
 Mega,Pidgeot mega,both,TRUE,FALSE,FALSE,18
-Mega,Gengar mega,both,TRUE,FALSE,FALSE,94
 Mega,Alakazam mega,both,TRUE,FALSE,FALSE,65
 Mega,Slowbro mega,both,TRUE,FALSE,FALSE,80
+Mega,Gengar mega,both,TRUE,FALSE,FALSE,94
 Mega,Kangaskhan mega,female,TRUE,FALSE,FALSE,115
 Mega,Pinsir mega,both,TRUE,FALSE,FALSE,127
 Mega,Gyarados mega,both,TRUE,FALSE,FALSE,130
@@ -1235,9 +1235,9 @@ Mega,Salamence mega,both,TRUE,FALSE,FALSE,373
 Mega,Metagross mega,both,TRUE,FALSE,FALSE,376
 Mega,Latias mega,female,TRUE,FALSE,FALSE,380
 Mega,Latios mega,male,TRUE,FALSE,FALSE,381
-Mega,Kyogre primal,both,TRUE,FALSE,FALSE,382
-Mega,Groudon primal,both,TRUE,FALSE,FALSE,383
-Mega,Rayquaza mega,both,TRUE,FALSE,FALSE,384
+Mega,Kyogre primal,genderless,TRUE,FALSE,FALSE,382
+Mega,Groudon primal,genderless,TRUE,FALSE,FALSE,383
+Mega,Rayquaza mega,genderless,TRUE,FALSE,FALSE,384
 Mega,Lopunny mega,both,TRUE,FALSE,FALSE,428
 Mega,Garchomp mega,both,TRUE,FALSE,FALSE,445
 Mega,Lucario mega,both,TRUE,FALSE,FALSE,448
@@ -1260,9 +1260,9 @@ Event,Squirtle party hat,both,TRUE,FALSE,FALSE,7
 Event,Squirtle visor,both,TRUE,FALSE,FALSE,7
 Event,Squirtle fall,both,TRUE,FALSE,FALSE,7
 Event,Wartortle sunglasses,both,TRUE,FALSE,FALSE,8
-Event,Wartortle fall,both,TRUE,FALSE,FALSE,8
+Event,Wartortle party hat,both,TRUE,FALSE,FALSE,8
 Event,Blastoise sunglasses,both,TRUE,FALSE,FALSE,9
-Event,Blastoise fall,both,TRUE,FALSE,FALSE,9
+Event,Blastoise party hat,both,TRUE,FALSE,FALSE,9
 Event,Blastoise clone,both,FALSE,FALSE,FALSE,9
 Event,Butterfree bow,difference,TRUE,FALSE,FALSE,12
 Event,Raticate party,difference,TRUE,TRUE,FALSE,20
@@ -1317,7 +1317,7 @@ Event,Pikachu aquamarine,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu malachite,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu pyrite,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu quartz,difference,TRUE,FALSE,FALSE,25
-Event,Pikachu worlds2023,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu worlds 2023,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu phd,female,TRUE,FALSE,FALSE,25
 Event,Pikachu clone,male,FALSE,FALSE,FALSE,25
 Event,Raichu summer,difference,TRUE,FALSE,FALSE,26
@@ -1366,6 +1366,7 @@ Event,Flareon flower,both,TRUE,FALSE,FALSE,136
 Event,Flareon hat,both,TRUE,FALSE,FALSE,136
 Event,Flareon spring2023,both,TRUE,FALSE,FALSE,136
 Event,Flareon explorer,both,TRUE,FALSE,FALSE,136
+Event,Aerodactyl satchel,both,TRUE,FALSE,FALSE,142
 Event,Snorlax cowboy,both,TRUE,FALSE,FALSE,143
 Event,Snorlax nightcap,both,TRUE,FALSE,FALSE,143
 Event,Mewtwo armored,genderless,FALSE,FALSE,FALSE,150
