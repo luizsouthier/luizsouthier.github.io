@@ -67,9 +67,9 @@ Kanto,Alakazam,difference,TRUE,TRUE,FALSE,65
 Kanto,Machop,both,TRUE,TRUE,FALSE,66
 Kanto,Machoke,both,TRUE,TRUE,FALSE,67
 Kanto,Machamp,both,TRUE,TRUE,FALSE,68
-Kanto,Bellsprout,both,TRUE,TRUE,FALSE,69
-Kanto,Weepinbell,both,TRUE,TRUE,FALSE,70
-Kanto,Victreebel,both,TRUE,TRUE,FALSE,71
+Kanto,Bellsprout,both,TRUE,TRUE,TRUE,69
+Kanto,Weepinbell,both,TRUE,TRUE,TRUE,70
+Kanto,Victreebel,both,TRUE,TRUE,TRUE,71
 Kanto,Tentacool,both,TRUE,FALSE,FALSE,72
 Kanto,Tentacruel,both,TRUE,FALSE,FALSE,73
 Kanto,Geodude,both,TRUE,TRUE,FALSE,74
@@ -90,9 +90,9 @@ Kanto,Grimer,both,TRUE,TRUE,TRUE,88
 Kanto,Muk,both,TRUE,TRUE,TRUE,89
 Kanto,Shellder,both,TRUE,TRUE,FALSE,90
 Kanto,Cloyster,both,TRUE,TRUE,FALSE,91
-Kanto,Gastly,both,TRUE,FALSE,FALSE,92
-Kanto,Haunter,both,TRUE,FALSE,FALSE,93
-Kanto,Gengar,both,TRUE,FALSE,FALSE,94
+Kanto,Gastly,both,TRUE,TRUE,FALSE,92
+Kanto,Haunter,both,TRUE,TRUE,FALSE,93
+Kanto,Gengar,both,TRUE,TRUE,FALSE,94
 Kanto,Onix,both,TRUE,TRUE,FALSE,95
 Kanto,Drowzee,both,TRUE,TRUE,TRUE,96
 Kanto,Hypno,difference,TRUE,TRUE,TRUE,97
@@ -109,8 +109,8 @@ Kanto,Hitmonchan,male,TRUE,TRUE,FALSE,107
 Kanto,Lickitung,both,TRUE,FALSE,FALSE,108
 Kanto,Koffing,both,TRUE,TRUE,TRUE,109
 Kanto,Weezing,both,TRUE,TRUE,TRUE,110
-Kanto,Rhyhorn,difference,TRUE,FALSE,FALSE,111
-Kanto,Rhydon,difference,TRUE,FALSE,FALSE,112
+Kanto,Rhyhorn,difference,TRUE,TRUE,FALSE,111
+Kanto,Rhydon,difference,TRUE,TRUE,FALSE,112
 Kanto,Chansey,female,TRUE,FALSE,FALSE,113
 Kanto,Tangela,both,TRUE,TRUE,FALSE,114
 Kanto,Kangaskhan,female,TRUE,FALSE,FALSE,115
@@ -143,11 +143,11 @@ Kanto,Kabutops,both,TRUE,FALSE,FALSE,141
 Kanto,Aerodactyl,both,TRUE,TRUE,TRUE,142
 Kanto,Snorlax,both,TRUE,TRUE,FALSE,143
 Kanto,Articuno,genderless,TRUE,TRUE,TRUE,144
-Kanto,Zapdos,genderless,TRUE,TRUE,FALSE,145
-Kanto,Moltres,genderless,TRUE,TRUE,FALSE,146
-Kanto,Dratini,both,TRUE,TRUE,FALSE,147
-Kanto,Dragonair,both,TRUE,TRUE,FALSE,148
-Kanto,Dragonite,both,TRUE,TRUE,FALSE,149
+Kanto,Zapdos,genderless,TRUE,TRUE,TRUE,145
+Kanto,Moltres,genderless,TRUE,TRUE,TRUE,146
+Kanto,Dratini,both,TRUE,TRUE,TRUE,147
+Kanto,Dragonair,both,TRUE,TRUE,TRUE,148
+Kanto,Dragonite,both,TRUE,TRUE,TRUE,149
 Kanto,Mewtwo,genderless,TRUE,TRUE,TRUE,150
 Kanto,Mew,genderless,TRUE,FALSE,FALSE,151
 Johto,Chikorita,both,TRUE,TRUE,FALSE,152
@@ -247,7 +247,7 @@ Johto,Suicune,genderless,TRUE,TRUE,FALSE,245
 Johto,Larvitar,both,TRUE,TRUE,TRUE,246
 Johto,Pupitar,both,TRUE,TRUE,TRUE,247
 Johto,Tyranitar,both,TRUE,TRUE,TRUE,248
-Johto,Lugia,genderless,TRUE,TRUE,FALSE,249
+Johto,Lugia,genderless,TRUE,TRUE,TRUE,249
 Johto,Ho-Oh,genderless,TRUE,TRUE,FALSE,250
 Johto,Celebi,genderless,TRUE,FALSE,FALSE,251
 Hoenn,Treecko,both,TRUE,TRUE,FALSE,252
@@ -337,8 +337,8 @@ Hoenn,Zangoose,both,TRUE,FALSE,FALSE,335
 Hoenn,Seviper,both,TRUE,FALSE,FALSE,336
 Hoenn,Lunatone,genderless,TRUE,FALSE,FALSE,337
 Hoenn,Solrock,genderless,TRUE,FALSE,FALSE,338
-Hoenn,Barboach,both,TRUE,FALSE,FALSE,339
-Hoenn,Whiscash,both,TRUE,FALSE,FALSE,340
+Hoenn,Barboach,both,TRUE,TRUE,FALSE,339
+Hoenn,Whiscash,both,TRUE,TRUE,FALSE,340
 Hoenn,Corphish,both,TRUE,FALSE,FALSE,341
 Hoenn,Crawdaunt,both,TRUE,FALSE,FALSE,342
 Hoenn,Baltoy,genderless,TRUE,FALSE,FALSE,343
@@ -406,10 +406,10 @@ Sinnoh,Luxio,difference,TRUE,TRUE,FALSE,404
 Sinnoh,Luxray,difference,TRUE,TRUE,FALSE,405
 Sinnoh,Budew,both,TRUE,FALSE,FALSE,406
 Sinnoh,Roserade,difference,TRUE,FALSE,FALSE,407
-Sinnoh,Cranidos,both,TRUE,FALSE,FALSE,408
-Sinnoh,Rampardos,both,TRUE,FALSE,FALSE,409
-Sinnoh,Shieldon,both,TRUE,FALSE,FALSE,410
-Sinnoh,Bastiodon,both,TRUE,FALSE,FALSE,411
+Sinnoh,Cranidos,both,TRUE,TRUE,FALSE,408
+Sinnoh,Rampardos,both,TRUE,TRUE,FALSE,409
+Sinnoh,Shieldon,both,TRUE,TRUE,FALSE,410
+Sinnoh,Bastiodon,both,TRUE,TRUE,FALSE,411
 Sinnoh,Burmy,both,TRUE,FALSE,FALSE,412
 Sinnoh,Wormadam,female,TRUE,FALSE,FALSE,413
 Sinnoh,Mothim,male,TRUE,FALSE,FALSE,414
@@ -462,7 +462,7 @@ Sinnoh,Abomasnow,difference,TRUE,TRUE,FALSE,460
 Sinnoh,Weavile,difference,TRUE,TRUE,TRUE,461
 Sinnoh,Magnezone,genderless,TRUE,TRUE,TRUE,462
 Sinnoh,Lickilicky,both,TRUE,FALSE,FALSE,463
-Sinnoh,Rhyperior,difference,TRUE,FALSE,FALSE,464
+Sinnoh,Rhyperior,difference,TRUE,TRUE,FALSE,464
 Sinnoh,Tangrowth,difference,TRUE,TRUE,FALSE,465
 Sinnoh,Electivire,both,TRUE,TRUE,FALSE,466
 Sinnoh,Magmortar,both,TRUE,TRUE,FALSE,467
@@ -484,7 +484,7 @@ Sinnoh,Azelf,genderless,TRUE,FALSE,FALSE,482
 Sinnoh,Dialga,genderless,TRUE,FALSE,FALSE,483
 Sinnoh,Palkia,genderless,TRUE,FALSE,FALSE,484
 Sinnoh,Heatran,both,TRUE,FALSE,FALSE,485
-Sinnoh,Regigigas,genderless,TRUE,FALSE,FALSE,486
+Sinnoh,Regigigas,genderless,TRUE,TRUE,FALSE,486
 Sinnoh,Giratina,genderless,TRUE,FALSE,FALSE,487
 Sinnoh,Cresselia,female,TRUE,FALSE,FALSE,488
 Sinnoh,Phione,genderless,FALSE,FALSE,FALSE,489
@@ -527,8 +527,8 @@ Unova,Boldore,both,TRUE,FALSE,FALSE,525
 Unova,Gigalith,both,TRUE,FALSE,FALSE,526
 Unova,Woobat,both,TRUE,FALSE,FALSE,527
 Unova,Swoobat,both,TRUE,FALSE,FALSE,528
-Unova,Drilbur,both,TRUE,FALSE,FALSE,529
-Unova,Excadrill,both,TRUE,FALSE,FALSE,530
+Unova,Drilbur,both,TRUE,TRUE,FALSE,529
+Unova,Excadrill,both,TRUE,TRUE,FALSE,530
 Unova,Audino,both,TRUE,FALSE,FALSE,531
 Unova,Timburr,both,TRUE,FALSE,FALSE,532
 Unova,Gurdurr,both,TRUE,FALSE,FALSE,533
@@ -568,16 +568,16 @@ Unova,Archen,both,TRUE,FALSE,FALSE,566
 Unova,Archeops,both,TRUE,FALSE,FALSE,567
 Unova,Trubbish,both,TRUE,FALSE,FALSE,568
 Unova,Garbodor,both,TRUE,FALSE,FALSE,569
-Unova,Zorua,both,FALSE,FALSE,FALSE,570
-Unova,Zoroark,both,FALSE,FALSE,FALSE,571
+Unova,Zorua,both,TRUE,FALSE,FALSE,570
+Unova,Zoroark,both,TRUE,FALSE,FALSE,571
 Unova,Minccino,both,TRUE,FALSE,FALSE,572
 Unova,Cinccino,both,TRUE,FALSE,FALSE,573
 Unova,Gothita,both,FALSE,FALSE,FALSE,574
 Unova,Gothorita,both,FALSE,FALSE,FALSE,575
 Unova,Gothitelle,both,FALSE,FALSE,FALSE,576
-Unova,Solosis,both,FALSE,FALSE,FALSE,577
-Unova,Duosion,both,FALSE,FALSE,FALSE,578
-Unova,Reuniclus,both,FALSE,FALSE,FALSE,579
+Unova,Solosis,both,TRUE,FALSE,FALSE,577
+Unova,Duosion,both,TRUE,FALSE,FALSE,578
+Unova,Reuniclus,both,TRUE,FALSE,FALSE,579
 Unova,Ducklett,both,FALSE,TRUE,FALSE,580
 Unova,Swanna,both,FALSE,TRUE,FALSE,581
 Unova,Vanillite,both,FALSE,FALSE,FALSE,582
@@ -605,9 +605,9 @@ Unova,Eelektrik,both,FALSE,FALSE,FALSE,603
 Unova,Eelektross,both,FALSE,FALSE,FALSE,604
 Unova,Elgyem,both,TRUE,FALSE,FALSE,605
 Unova,Beheeyem,both,TRUE,FALSE,FALSE,606
-Unova,Litwick,both,TRUE,FALSE,FALSE,607
-Unova,Lampent,both,TRUE,FALSE,FALSE,608
-Unova,Chandelure,both,TRUE,FALSE,FALSE,609
+Unova,Litwick,both,TRUE,TRUE,FALSE,607
+Unova,Lampent,both,TRUE,TRUE,FALSE,608
+Unova,Chandelure,both,TRUE,TRUE,FALSE,609
 Unova,Axew,both,TRUE,FALSE,FALSE,610
 Unova,Fraxure,both,TRUE,FALSE,FALSE,611
 Unova,Haxorus,both,TRUE,FALSE,FALSE,612
@@ -670,8 +670,8 @@ Kalos,Pyroar,difference,TRUE,FALSE,FALSE,668
 Kalos,Flabébé,female,FALSE,FALSE,FALSE,669
 Kalos,Floette,female,FALSE,FALSE,FALSE,670
 Kalos,Florges,female,FALSE,FALSE,FALSE,671
-Kalos,Skiddo,both,FALSE,FALSE,FALSE,672
-Kalos,Gogoat,both,FALSE,FALSE,FALSE,673
+Kalos,Skiddo,both,TRUE,FALSE,FALSE,672
+Kalos,Gogoat,both,TRUE,FALSE,FALSE,673
 Kalos,Pancham,both,TRUE,FALSE,FALSE,674
 Kalos,Pangoro,both,TRUE,FALSE,FALSE,675
 Kalos,Furfrou,both,TRUE,FALSE,FALSE,676
@@ -706,8 +706,8 @@ Kalos,Goomy,both,TRUE,FALSE,FALSE,704
 Kalos,Sliggoo,both,TRUE,FALSE,FALSE,705
 Kalos,Goodra,both,TRUE,FALSE,FALSE,706
 Kalos,Klefki,both,FALSE,FALSE,FALSE,707
-Kalos,Phantump,both,FALSE,FALSE,FALSE,708
-Kalos,Trevenant,both,FALSE,FALSE,FALSE,709
+Kalos,Phantump,both,TRUE,FALSE,FALSE,708
+Kalos,Trevenant,both,TRUE,FALSE,FALSE,709
 Kalos,Pumpkaboo,both,TRUE,FALSE,FALSE,710
 Kalos,Gourgeist,both,TRUE,FALSE,FALSE,711
 Kalos,Bergmite,both,TRUE,FALSE,FALSE,712
@@ -734,9 +734,9 @@ Alola,Trumbeak,both,FALSE,FALSE,FALSE,732
 Alola,Toucannon,both,FALSE,FALSE,FALSE,733
 Alola,Yungoos,both,TRUE,FALSE,FALSE,734
 Alola,Gumshoos,both,TRUE,FALSE,FALSE,735
-Alola,Grubbin,both,FALSE,FALSE,FALSE,736
-Alola,Charjabug,both,FALSE,FALSE,FALSE,737
-Alola,Vikavolt,both,FALSE,FALSE,FALSE,738
+Alola,Grubbin,both,TRUE,FALSE,FALSE,736
+Alola,Charjabug,both,TRUE,FALSE,FALSE,737
+Alola,Vikavolt,both,TRUE,FALSE,FALSE,738
 Alola,Crabrawler,both,FALSE,FALSE,FALSE,739
 Alola,Crabominable,both,FALSE,FALSE,FALSE,740
 Alola,Oricorio,both,FALSE,FALSE,FALSE,741
@@ -797,7 +797,7 @@ Alola,Pheromosa,genderless,FALSE,FALSE,FALSE,795
 Alola,Xurkitree,genderless,FALSE,FALSE,FALSE,796
 Alola,Celesteela,genderless,FALSE,FALSE,FALSE,797
 Alola,Kartana,genderless,FALSE,FALSE,FALSE,798
-Alola,Guzzlord,genderless,FALSE,FALSE,FALSE,799
+Alola,Guzzlord,genderless,TRUE,FALSE,FALSE,799
 Alola,Necrozma,genderless,FALSE,FALSE,FALSE,800
 Alola,Magearna,genderless,FALSE,FALSE,FALSE,801
 Alola,Marshadow,genderless,FALSE,FALSE,FALSE,802
@@ -901,9 +901,114 @@ Hisui,Wyrdeer,both,FALSE,FALSE,FALSE,899
 Hisui,Kleavor,both,TRUE,FALSE,FALSE,900
 Hisui,Ursaluna,both,TRUE,TRUE,FALSE,901
 Hisui,Basculegion,difference,FALSE,FALSE,FALSE,902
-Hisui,Sneasler,both,FALSE,FALSE,FALSE,903
+Hisui,Sneasler,both,FALSE,TRUE,FALSE,903
 Hisui,Overqwil,both,FALSE,FALSE,FALSE,904
 Hisui,Enamorus,female,FALSE,FALSE,FALSE,905
+Paldea,Sprigatito,both,FALSE,FALSE,FALSE,906
+Paldea,Floragato,both,FALSE,FALSE,FALSE,907
+Paldea,Meowscarada,both,FALSE,FALSE,FALSE,908
+Paldea,Fuecoco,both,FALSE,FALSE,FALSE,909
+Paldea,Crocalor,both,FALSE,FALSE,FALSE,910
+Paldea,Skeledirge,both,FALSE,FALSE,FALSE,911
+Paldea,Quaxly,both,FALSE,FALSE,FALSE,912
+Paldea,Quaxwell,both,FALSE,FALSE,FALSE,913
+Paldea,Quaquaval,both,FALSE,FALSE,FALSE,914
+Paldea,Lechonk,difference,TRUE,FALSE,FALSE,915
+Paldea,Oinkologne,both,FALSE,FALSE,FALSE,916
+Paldea,Tarountula,both,FALSE,FALSE,FALSE,917
+Paldea,Spidops,both,FALSE,FALSE,FALSE,918
+Paldea,Nymble,both,FALSE,FALSE,FALSE,919
+Paldea,Lokix,both,FALSE,FALSE,FALSE,920
+Paldea,Pawmi,both,FALSE,FALSE,FALSE,921
+Paldea,Pawmo,both,FALSE,FALSE,FALSE,922
+Paldea,Pawmot,both,FALSE,FALSE,FALSE,923
+Paldea,Tandemaus,both,FALSE,FALSE,FALSE,924
+Paldea,Maushold,both,FALSE,FALSE,FALSE,925
+Paldea,Fidough,both,FALSE,FALSE,FALSE,926
+Paldea,Dachsbun,both,FALSE,FALSE,FALSE,927
+Paldea,Smoliv,both,FALSE,FALSE,FALSE,928
+Paldea,Dolliv,both,FALSE,FALSE,FALSE,929
+Paldea,Arboliva,both,FALSE,FALSE,FALSE,930
+Paldea,Squawkabilly,both,FALSE,FALSE,FALSE,931
+Paldea,Nacli,both,FALSE,FALSE,FALSE,932
+Paldea,Naclstack,both,FALSE,FALSE,FALSE,933
+Paldea,Garganacl,both,FALSE,FALSE,FALSE,934
+Paldea,Charcadet,both,FALSE,FALSE,FALSE,935
+Paldea,Armarouge,both,FALSE,FALSE,FALSE,936
+Paldea,Ceruledge,both,FALSE,FALSE,FALSE,937
+Paldea,Tadbulb,both,FALSE,FALSE,FALSE,938
+Paldea,Bellibolt,both,FALSE,FALSE,FALSE,939
+Paldea,Wattrel,both,FALSE,FALSE,FALSE,940
+Paldea,Kilowattrel,both,FALSE,FALSE,FALSE,941
+Paldea,Maschiff,both,FALSE,FALSE,FALSE,942
+Paldea,Mabosstiff,both,FALSE,FALSE,FALSE,943
+Paldea,Shroodle,both,FALSE,FALSE,FALSE,944
+Paldea,Grafaiai,both,FALSE,FALSE,FALSE,945
+Paldea,Bramblin,both,FALSE,FALSE,FALSE,946
+Paldea,Brambleghast,both,FALSE,FALSE,FALSE,947
+Paldea,Toedscool,both,FALSE,FALSE,FALSE,948
+Paldea,Toedscruel,both,FALSE,FALSE,FALSE,949
+Paldea,Klawf,both,FALSE,FALSE,FALSE,950
+Paldea,Capsakid,both,FALSE,FALSE,FALSE,951
+Paldea,Scovillain,both,FALSE,FALSE,FALSE,952
+Paldea,Rellor,both,FALSE,FALSE,FALSE,953
+Paldea,Rabsca,both,FALSE,FALSE,FALSE,954
+Paldea,Flittle,both,FALSE,FALSE,FALSE,955
+Paldea,Espathra,both,FALSE,FALSE,FALSE,956
+Paldea,Tinkatink,both,FALSE,FALSE,FALSE,957
+Paldea,Tinkatuff,both,FALSE,FALSE,FALSE,958
+Paldea,Tinkaton,both,FALSE,FALSE,FALSE,959
+Paldea,Wiglett,both,FALSE,FALSE,FALSE,960
+Paldea,Wugtrio,both,FALSE,FALSE,FALSE,961
+Paldea,Bombirdier,both,TRUE,FALSE,FALSE,962
+Paldea,Finizen,both,FALSE,FALSE,FALSE,963
+Paldea,Palafin,both,FALSE,FALSE,FALSE,964
+Paldea,Varoom,both,FALSE,FALSE,FALSE,965
+Paldea,Revavroom,both,FALSE,FALSE,FALSE,966
+Paldea,Cyclizar,both,FALSE,FALSE,FALSE,967
+Paldea,Orthworm,both,FALSE,FALSE,FALSE,968
+Paldea,Glimmet,both,FALSE,FALSE,FALSE,969
+Paldea,Glimmora,both,FALSE,FALSE,FALSE,970
+Paldea,Greavard,both,FALSE,FALSE,FALSE,971
+Paldea,Houndstone,both,FALSE,FALSE,FALSE,972
+Paldea,Flamigo,both,FALSE,FALSE,FALSE,973
+Paldea,Cetoddle,both,FALSE,FALSE,FALSE,974
+Paldea,Cetitan,both,FALSE,FALSE,FALSE,975
+Paldea,Veluza,both,FALSE,FALSE,FALSE,976
+Paldea,Dondozo,both,FALSE,FALSE,FALSE,977
+Paldea,Tatsugiri,both,FALSE,FALSE,FALSE,978
+Paldea,Annihilape,both,FALSE,FALSE,FALSE,979
+Paldea,Clodsire,both,TRUE,FALSE,FALSE,980
+Paldea,Farigiraf,both,FALSE,FALSE,FALSE,981
+Paldea,Dudunsparce,both,FALSE,FALSE,FALSE,982
+Paldea,Kingambit,both,FALSE,FALSE,FALSE,983
+Paldea,Great Tusk,both,FALSE,FALSE,FALSE,984
+Paldea,Scream Tail,both,FALSE,FALSE,FALSE,985
+Paldea,Brute Bonnet,both,FALSE,FALSE,FALSE,986
+Paldea,Flutter Mane,both,FALSE,FALSE,FALSE,987
+Paldea,Slither Wing,both,FALSE,FALSE,FALSE,988
+Paldea,Sandy Shocks,both,FALSE,FALSE,FALSE,989
+Paldea,Iron Treads,both,FALSE,FALSE,FALSE,990
+Paldea,Iron Bundle,both,FALSE,FALSE,FALSE,991
+Paldea,Iron Hands,both,FALSE,FALSE,FALSE,992
+Paldea,Iron Jugulis,both,FALSE,FALSE,FALSE,993
+Paldea,Iron Moth,both,FALSE,FALSE,FALSE,994
+Paldea,Iron Thorns,both,FALSE,FALSE,FALSE,995
+Paldea,Frigibax,both,FALSE,FALSE,FALSE,996
+Paldea,Arctibax,both,FALSE,FALSE,FALSE,997
+Paldea,Baxcalibur,both,FALSE,FALSE,FALSE,998
+Paldea,Gimmighoul,both,FALSE,FALSE,FALSE,999
+Paldea,Gholdengo,both,FALSE,FALSE,FALSE,1000
+Paldea,Wo-Chien,both,FALSE,FALSE,FALSE,1001
+Paldea,Chien-Pao,both,FALSE,FALSE,FALSE,1002
+Paldea,Ting-Lu,both,FALSE,FALSE,FALSE,1003
+Paldea,Chi-Yu,both,FALSE,FALSE,FALSE,1004
+Paldea,Roaring Moon,both,FALSE,FALSE,FALSE,1005
+Paldea,Iron Valiant,both,FALSE,FALSE,FALSE,1006
+Paldea,Koraidon,both,FALSE,FALSE,FALSE,1007
+Paldea,Miraidon,both,FALSE,FALSE,FALSE,1008
+Paldea,Walking Wake,both,FALSE,FALSE,FALSE,1009
+Paldea,Iron Leaves,both,FALSE,FALSE,FALSE,1010
 Forms,Rattata alolan,both,TRUE,TRUE,FALSE,19
 Forms,Raticate alolan,both,TRUE,TRUE,FALSE,20
 Forms,Raichu alolan,both,TRUE,FALSE,FALSE,26
@@ -942,13 +1047,13 @@ Forms,Darmanitan galarian,both,TRUE,FALSE,FALSE,555
 Forms,Darmanitan zen galarian,both,FALSE,FALSE,FALSE,555
 Forms,Yamask galarian,both,TRUE,FALSE,FALSE,562
 Forms,Stunfisk galarian,both,TRUE,FALSE,FALSE,618
-Forms,Growlithe hisuian,both,FALSE,FALSE,FALSE,58
-Forms,Arcanine hisuian,both,FALSE,FALSE,FALSE,59
+Forms,Growlithe hisuian,both,TRUE,FALSE,FALSE,58
+Forms,Arcanine hisuian,both,TRUE,FALSE,FALSE,59
 Forms,Voltorb hisuian,both,FALSE,FALSE,FALSE,100
 Forms,Electrode hisuian,both,FALSE,FALSE,FALSE,101
 Forms,Typhlosion hisuian,both,FALSE,FALSE,FALSE,157
 Forms,Qwilfish hisuian,both,FALSE,FALSE,FALSE,211
-Forms,Sneasel hisuian,difference,FALSE,FALSE,FALSE,215
+Forms,Sneasel hisuian,difference,FALSE,TRUE,FALSE,215
 Forms,Samurott hisuian,both,FALSE,FALSE,FALSE,503
 Forms,Lilligant hisuian,both,FALSE,FALSE,FALSE,549
 Forms,Zorua hisuian,both,FALSE,FALSE,FALSE,570
@@ -958,6 +1063,10 @@ Forms,Sliggoo hisuian,both,FALSE,FALSE,FALSE,705
 Forms,Goodra hisuian,both,FALSE,FALSE,FALSE,706
 Forms,Avalugg hisuian,both,TRUE,FALSE,FALSE,713
 Forms,Decidueye hisuian,both,FALSE,FALSE,FALSE,724
+Forms,Tauros paldean,male,FALSE,FALSE,FALSE,128
+Forms,Tauros paldean blaze,male,FALSE,FALSE,FALSE,128
+Forms,Tauros paldean aqua,male,FALSE,FALSE,FALSE,128
+Forms,Wooper paldean,both,TRUE,FALSE,FALSE,194
 Forms,Unown A,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown B,genderless,TRUE,FALSE,FALSE,201
 Forms,Unown C,genderless,TRUE,FALSE,FALSE,201
@@ -1071,9 +1180,9 @@ Forms,Meloetta aria,genderless,FALSE,FALSE,FALSE,648
 Forms,Meloetta pirouette,genderless,FALSE,FALSE,FALSE,648
 Forms,Genesect regular,genderless,TRUE,FALSE,FALSE,649
 Forms,Genesect shock,genderless,TRUE,FALSE,FALSE,649
-Forms,Genesect burn,genderless,FALSE,FALSE,FALSE,649
+Forms,Genesect burn,genderless,TRUE,FALSE,FALSE,649
 Forms,Genesect chill,genderless,FALSE,FALSE,FALSE,649
-Forms,Genesect douse,genderless,FALSE,FALSE,FALSE,649
+Forms,Genesect douse,genderless,TRUE,FALSE,FALSE,649
 Forms,Greninja ash,both,FALSE,FALSE,FALSE,658
 Forms,Vivillon archipelago,both,FALSE,FALSE,FALSE,666
 Forms,Vivillon continental,both,FALSE,FALSE,FALSE,666
@@ -1279,9 +1388,17 @@ Event,Pikachu fly okinawa,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu worlds 2022,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu scarf,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu green,difference,TRUE,FALSE,FALSE,25
-Event,Pikachu purple,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu fly green,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu purple,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu fly purple,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu teal,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu fly orange,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu worlds 2023,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu amethyst,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu aquamarine,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu malachite,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu pyrite,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu quartz,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu summer,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu fragment,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu witch,difference,TRUE,FALSE,FALSE,25
@@ -1307,17 +1424,11 @@ Event,Pikachu shaymin,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu tcg,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu cake,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu 2023,difference,TRUE,FALSE,FALSE,25
-Event,Pikachu brendan,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu may,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu brendan,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu spring2023,difference,TRUE,FALSE,FALSE,25
-Event,Pikachu teal,difference,TRUE,FALSE,FALSE,25
-Event,Pikachu fly orange,difference,TRUE,FALSE,FALSE,25
-Event,Pikachu amethyst,difference,TRUE,FALSE,FALSE,25
-Event,Pikachu aquamarine,difference,TRUE,FALSE,FALSE,25
-Event,Pikachu malachite,difference,TRUE,FALSE,FALSE,25
-Event,Pikachu pyrite,difference,TRUE,FALSE,FALSE,25
-Event,Pikachu quartz,difference,TRUE,FALSE,FALSE,25
-Event,Pikachu worlds 2023,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu detective 2023,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu halloween 2023,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu phd,female,TRUE,FALSE,FALSE,25
 Event,Pikachu clone,male,FALSE,FALSE,FALSE,25
 Event,Raichu summer,difference,TRUE,FALSE,FALSE,26
@@ -1332,19 +1443,24 @@ Event,Raichu winter,difference,TRUE,FALSE,FALSE,26
 Event,Raichu new year,difference,TRUE,FALSE,FALSE,26
 Event,Raichu worldcap,difference,TRUE,FALSE,FALSE,26
 Event,Raichu spring2023,difference,TRUE,FALSE,FALSE,26
+Event,Raichu detective 2023,difference,TRUE,FALSE,FALSE,26
 Event,Nidorino party hat,male,TRUE,TRUE,FALSE,33
-Event,Vulpix halloween,both,TRUE,FALSE,FALSE,37
-Event,Ninetales halloween,both,TRUE,FALSE,FALSE,38
+Event,Vulpix halloween,both,TRUE,TRUE,FALSE,37
+Event,Ninetales halloween,both,TRUE,TRUE,FALSE,38
 Event,Diglett hat,both,TRUE,FALSE,FALSE,50
 Event,Dugtrio hat,both,TRUE,FALSE,FALSE,51
 Event,Ponyta candela,both,TRUE,FALSE,FALSE,77
 Event,Ponyta galarian meloetta,both,TRUE,FALSE,FALSE,77
 Event,Rapidash candela,both,TRUE,FALSE,FALSE,78
 Event,Slowpoke new year,both,TRUE,FALSE,FALSE,79
+Event,Slowpoke detective,both,TRUE,FALSE,FALSE,79
 Event,Slowbro new year,both,TRUE,FALSE,FALSE,80
 Event,Gengar party hat,both,TRUE,FALSE,FALSE,94
 Event,Gengar halloween,both,TRUE,FALSE,FALSE,94
 Event,Gengar halloween 2022,both,TRUE,FALSE,FALSE,94
+Event,Gengar halloween 2023,both,TRUE,FALSE,FALSE,94
+Event,Cubone cempasúchil,both,TRUE,FALSE,FALSE,104
+Event,Marowak cempasúchil,both,TRUE,FALSE,FALSE,105
 Event,Chansey flower,female,TRUE,FALSE,FALSE,113
 Event,Electabuzz spark,both,TRUE,FALSE,FALSE,125
 Event,Lapras scarf,both,TRUE,FALSE,FALSE,131
@@ -1367,7 +1483,7 @@ Event,Flareon hat,both,TRUE,FALSE,FALSE,136
 Event,Flareon spring2023,both,TRUE,FALSE,FALSE,136
 Event,Flareon explorer,both,TRUE,FALSE,FALSE,136
 Event,Aerodactyl satchel,both,TRUE,FALSE,FALSE,142
-Event,Snorlax cowboy,both,TRUE,FALSE,FALSE,143
+Event,Snorlax cowboy,both,TRUE,TRUE,FALSE,143
 Event,Snorlax nightcap,both,TRUE,FALSE,FALSE,143
 Event,Mewtwo armored,genderless,FALSE,FALSE,FALSE,150
 Event,Hoothoot new year,both,TRUE,FALSE,FALSE,163
@@ -1450,108 +1566,3 @@ Event,Gourgeist small halloween,both,TRUE,FALSE,FALSE,711
 Event,Gourgeist average halloween,both,TRUE,FALSE,FALSE,711
 Event,Gourgeist large halloween,both,TRUE,FALSE,FALSE,711
 Event,Gourgeist super halloween,both,TRUE,FALSE,FALSE,711
-Paldea,Sprigatito,both,FALSE,FALSE,FALSE,906
-Paldea,Floragato,both,FALSE,FALSE,FALSE,907
-Paldea,Meowscarada,both,FALSE,FALSE,FALSE,908
-Paldea,Fuecoco,both,FALSE,FALSE,FALSE,909
-Paldea,Crocalor,both,FALSE,FALSE,FALSE,910
-Paldea,Skeledirge,both,FALSE,FALSE,FALSE,911
-Paldea,Quaxly,both,FALSE,FALSE,FALSE,912
-Paldea,Quaxwell,both,FALSE,FALSE,FALSE,913
-Paldea,Quaquaval,both,FALSE,FALSE,FALSE,914
-Paldea,Lechonk,both,FALSE,FALSE,FALSE,915
-Paldea,Oinkologne,both,FALSE,FALSE,FALSE,916
-Paldea,Tarountula,both,FALSE,FALSE,FALSE,917
-Paldea,Spidops,both,FALSE,FALSE,FALSE,918
-Paldea,Nymble,both,FALSE,FALSE,FALSE,919
-Paldea,Lokix,both,FALSE,FALSE,FALSE,920
-Paldea,Pawmi,both,FALSE,FALSE,FALSE,921
-Paldea,Pawmo,both,FALSE,FALSE,FALSE,922
-Paldea,Pawmot,both,FALSE,FALSE,FALSE,923
-Paldea,Tandemaus,both,FALSE,FALSE,FALSE,924
-Paldea,Maushold,both,FALSE,FALSE,FALSE,925
-Paldea,Fidough,both,FALSE,FALSE,FALSE,926
-Paldea,Dachsbun,both,FALSE,FALSE,FALSE,927
-Paldea,Smoliv,both,FALSE,FALSE,FALSE,928
-Paldea,Dolliv,both,FALSE,FALSE,FALSE,929
-Paldea,Arboliva,both,FALSE,FALSE,FALSE,930
-Paldea,Squawkabilly,both,FALSE,FALSE,FALSE,931
-Paldea,Nacli,both,FALSE,FALSE,FALSE,932
-Paldea,Naclstack,both,FALSE,FALSE,FALSE,933
-Paldea,Garganacl,both,FALSE,FALSE,FALSE,934
-Paldea,Charcadet,both,FALSE,FALSE,FALSE,935
-Paldea,Armarouge,both,FALSE,FALSE,FALSE,936
-Paldea,Ceruledge,both,FALSE,FALSE,FALSE,937
-Paldea,Tadbulb,both,FALSE,FALSE,FALSE,938
-Paldea,Bellibolt,both,FALSE,FALSE,FALSE,939
-Paldea,Wattrel,both,FALSE,FALSE,FALSE,940
-Paldea,Kilowattrel,both,FALSE,FALSE,FALSE,941
-Paldea,Maschiff,both,FALSE,FALSE,FALSE,942
-Paldea,Mabosstiff,both,FALSE,FALSE,FALSE,943
-Paldea,Shroodle,both,FALSE,FALSE,FALSE,944
-Paldea,Grafaiai,both,FALSE,FALSE,FALSE,945
-Paldea,Bramblin,both,FALSE,FALSE,FALSE,946
-Paldea,Brambleghast,both,FALSE,FALSE,FALSE,947
-Paldea,Toedscool,both,FALSE,FALSE,FALSE,948
-Paldea,Toedscruel,both,FALSE,FALSE,FALSE,949
-Paldea,Klawf,both,FALSE,FALSE,FALSE,950
-Paldea,Capsakid,both,FALSE,FALSE,FALSE,951
-Paldea,Scovillain,both,FALSE,FALSE,FALSE,952
-Paldea,Rellor,both,FALSE,FALSE,FALSE,953
-Paldea,Rabsca,both,FALSE,FALSE,FALSE,954
-Paldea,Flittle,both,FALSE,FALSE,FALSE,955
-Paldea,Espathra,both,FALSE,FALSE,FALSE,956
-Paldea,Tinkatink,both,FALSE,FALSE,FALSE,957
-Paldea,Tinkatuff,both,FALSE,FALSE,FALSE,958
-Paldea,Tinkaton,both,FALSE,FALSE,FALSE,959
-Paldea,Wiglett,both,FALSE,FALSE,FALSE,960
-Paldea,Wugtrio,both,FALSE,FALSE,FALSE,961
-Paldea,Bombirdier,both,FALSE,FALSE,FALSE,962
-Paldea,Finizen,both,FALSE,FALSE,FALSE,963
-Paldea,Palafin,both,FALSE,FALSE,FALSE,964
-Paldea,Varoom,both,FALSE,FALSE,FALSE,965
-Paldea,Revavroom,both,FALSE,FALSE,FALSE,966
-Paldea,Cyclizar,both,FALSE,FALSE,FALSE,967
-Paldea,Orthworm,both,FALSE,FALSE,FALSE,968
-Paldea,Glimmet,both,FALSE,FALSE,FALSE,969
-Paldea,Glimmora,both,FALSE,FALSE,FALSE,970
-Paldea,Greavard,both,FALSE,FALSE,FALSE,971
-Paldea,Houndstone,both,FALSE,FALSE,FALSE,972
-Paldea,Flamigo,both,FALSE,FALSE,FALSE,973
-Paldea,Cetoddle,both,FALSE,FALSE,FALSE,974
-Paldea,Cetitan,both,FALSE,FALSE,FALSE,975
-Paldea,Veluza,both,FALSE,FALSE,FALSE,976
-Paldea,Dondozo,both,FALSE,FALSE,FALSE,977
-Paldea,Tatsugiri,both,FALSE,FALSE,FALSE,978
-Paldea,Annihilape,both,FALSE,FALSE,FALSE,979
-Paldea,Clodsire,both,FALSE,FALSE,FALSE,980
-Paldea,Farigiraf,both,FALSE,FALSE,FALSE,981
-Paldea,Dudunsparce,both,FALSE,FALSE,FALSE,982
-Paldea,Kingambit,both,FALSE,FALSE,FALSE,983
-Paldea,Great Tusk,both,FALSE,FALSE,FALSE,984
-Paldea,Scream Tail,both,FALSE,FALSE,FALSE,985
-Paldea,Brute Bonnet,both,FALSE,FALSE,FALSE,986
-Paldea,Flutter Mane,both,FALSE,FALSE,FALSE,987
-Paldea,Slither Wing,both,FALSE,FALSE,FALSE,988
-Paldea,Sandy Shocks,both,FALSE,FALSE,FALSE,989
-Paldea,Iron Treads,both,FALSE,FALSE,FALSE,990
-Paldea,Iron Bundle,both,FALSE,FALSE,FALSE,991
-Paldea,Iron Hands,both,FALSE,FALSE,FALSE,992
-Paldea,Iron Jugulis,both,FALSE,FALSE,FALSE,993
-Paldea,Iron Moth,both,FALSE,FALSE,FALSE,994
-Paldea,Iron Thorns,both,FALSE,FALSE,FALSE,995
-Paldea,Frigibax,both,FALSE,FALSE,FALSE,996
-Paldea,Arctibax,both,FALSE,FALSE,FALSE,997
-Paldea,Baxcalibur,both,FALSE,FALSE,FALSE,998
-Paldea,Gimmighoul,both,FALSE,FALSE,FALSE,999
-Paldea,Gholdengo,both,FALSE,FALSE,FALSE,1000
-Paldea,Wo-Chien,both,FALSE,FALSE,FALSE,1001
-Paldea,Chien-Pao,both,FALSE,FALSE,FALSE,1002
-Paldea,Ting-Lu,both,FALSE,FALSE,FALSE,1003
-Paldea,Chi-Yu,both,FALSE,FALSE,FALSE,1004
-Paldea,Roaring Moon,both,FALSE,FALSE,FALSE,1005
-Paldea,Iron Valiant,both,FALSE,FALSE,FALSE,1006
-Paldea,Koraidon,both,FALSE,FALSE,FALSE,1007
-Paldea,Miraidon,both,FALSE,FALSE,FALSE,1008
-Paldea,Walking Wake,both,FALSE,FALSE,FALSE,1009
-Paldea,Iron Leaves,both,FALSE,FALSE,FALSE,1010
