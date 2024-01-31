@@ -415,7 +415,7 @@ Sinnoh,Wormadam,female,TRUE,FALSE,FALSE,413
 Sinnoh,Mothim,male,TRUE,FALSE,FALSE,414
 Sinnoh,Combee,difference,TRUE,FALSE,FALSE,415
 Sinnoh,Vespiquen,female,TRUE,FALSE,FALSE,416
-Sinnoh,Pachirisu,difference,FALSE,FALSE,FALSE,417
+Sinnoh,Pachirisu,difference,TRUE,FALSE,FALSE,417
 Sinnoh,Buizel,difference,TRUE,FALSE,FALSE,418
 Sinnoh,Floatzel,difference,TRUE,FALSE,FALSE,419
 Sinnoh,Cherubi,both,TRUE,FALSE,FALSE,420
@@ -431,15 +431,15 @@ Sinnoh,Mismagius,both,TRUE,TRUE,FALSE,429
 Sinnoh,Honchkrow,both,TRUE,TRUE,TRUE,430
 Sinnoh,Glameow,both,TRUE,TRUE,FALSE,431
 Sinnoh,Purugly,both,TRUE,TRUE,FALSE,432
-Sinnoh,Chingling,both,FALSE,FALSE,FALSE,433
-Sinnoh,Stunky,both,FALSE,TRUE,FALSE,434
-Sinnoh,Skuntank,both,FALSE,TRUE,FALSE,435
+Sinnoh,Chingling,both,TRUE,FALSE,FALSE,433
+Sinnoh,Stunky,both,TRUE,TRUE,FALSE,434
+Sinnoh,Skuntank,both,TRUE,TRUE,FALSE,435
 Sinnoh,Bronzor,genderless,TRUE,FALSE,FALSE,436
 Sinnoh,Bronzong,genderless,TRUE,FALSE,FALSE,437
 Sinnoh,Bonsly,both,TRUE,FALSE,FALSE,438
 Sinnoh,Mime Jr.,both,TRUE,FALSE,FALSE,439
 Sinnoh,Happiny,female,TRUE,FALSE,FALSE,440
-Sinnoh,Chatot,both,FALSE,FALSE,FALSE,441
+Sinnoh,Chatot,both,TRUE,FALSE,FALSE,441
 Sinnoh,Spiritomb,both,TRUE,FALSE,FALSE,442
 Sinnoh,Gible,difference,TRUE,TRUE,FALSE,443
 Sinnoh,Gabite,difference,TRUE,TRUE,FALSE,444
@@ -453,7 +453,7 @@ Sinnoh,Skorupi,both,TRUE,TRUE,FALSE,451
 Sinnoh,Drapion,both,TRUE,TRUE,FALSE,452
 Sinnoh,Croagunk,difference,TRUE,FALSE,FALSE,453
 Sinnoh,Toxicroak,difference,TRUE,FALSE,FALSE,454
-Sinnoh,Carnivine,both,FALSE,FALSE,FALSE,455
+Sinnoh,Carnivine,both,TRUE,FALSE,FALSE,455
 Sinnoh,Finneon,difference,TRUE,FALSE,FALSE,456
 Sinnoh,Lumineon,difference,TRUE,FALSE,FALSE,457
 Sinnoh,Mantyke,both,TRUE,FALSE,FALSE,458
@@ -477,7 +477,7 @@ Sinnoh,Gallade,male,TRUE,TRUE,FALSE,475
 Sinnoh,Probopass,both,TRUE,TRUE,FALSE,476
 Sinnoh,Dusknoir,both,TRUE,TRUE,FALSE,477
 Sinnoh,Froslass,female,TRUE,FALSE,FALSE,478
-Sinnoh,Rotom,genderless,FALSE,FALSE,FALSE,479
+Sinnoh,Rotom,genderless,TRUE,FALSE,FALSE,479
 Sinnoh,Uxie,genderless,TRUE,FALSE,FALSE,480
 Sinnoh,Mesprit,genderless,TRUE,FALSE,FALSE,481
 Sinnoh,Azelf,genderless,TRUE,FALSE,FALSE,482
@@ -490,7 +490,7 @@ Sinnoh,Cresselia,female,TRUE,FALSE,FALSE,488
 Sinnoh,Phione,genderless,FALSE,FALSE,FALSE,489
 Sinnoh,Manaphy,genderless,FALSE,FALSE,FALSE,490
 Sinnoh,Darkrai,genderless,TRUE,FALSE,FALSE,491
-Sinnoh,Shaymin,genderless,FALSE,FALSE,FALSE,492
+Sinnoh,Shaymin,genderless,TRUE,FALSE,FALSE,492
 Sinnoh,Arceus,genderless,FALSE,FALSE,FALSE,493
 Unova,Victini,genderless,FALSE,FALSE,FALSE,494
 Unova,Snivy,both,TRUE,FALSE,FALSE,495
@@ -720,9 +720,9 @@ Kalos,Zygarde,genderless,FALSE,FALSE,FALSE,718
 Kalos,Diancie,genderless,FALSE,FALSE,FALSE,719
 Kalos,Hoopa,genderless,FALSE,FALSE,FALSE,720
 Kalos,Volcanion,genderless,FALSE,FALSE,FALSE,721
-Alola,Rowlet,both,FALSE,FALSE,FALSE,722
-Alola,Dartrix,both,FALSE,FALSE,FALSE,723
-Alola,Decidueye,both,FALSE,FALSE,FALSE,724
+Alola,Rowlet,both,TRUE,FALSE,FALSE,722
+Alola,Dartrix,both,TRUE,FALSE,FALSE,723
+Alola,Decidueye,both,TRUE,FALSE,FALSE,724
 Alola,Litten,both,FALSE,FALSE,FALSE,725
 Alola,Torracat,both,FALSE,FALSE,FALSE,726
 Alola,Incineroar,both,FALSE,FALSE,FALSE,727
@@ -740,8 +740,8 @@ Alola,Vikavolt,both,TRUE,FALSE,FALSE,738
 Alola,Crabrawler,both,FALSE,FALSE,FALSE,739
 Alola,Crabominable,both,FALSE,FALSE,FALSE,740
 Alola,Oricorio,both,FALSE,FALSE,FALSE,741
-Alola,Cutiefly,both,FALSE,FALSE,FALSE,742
-Alola,Ribombee,both,FALSE,FALSE,FALSE,743
+Alola,Cutiefly,both,TRUE,FALSE,FALSE,742
+Alola,Ribombee,both,TRUE,FALSE,FALSE,743
 Alola,Rockruff,both,TRUE,FALSE,FALSE,744
 Alola,Lycanroc,both,TRUE,FALSE,FALSE,745
 Alola,Wishiwashi,both,FALSE,FALSE,FALSE,746
@@ -778,7 +778,7 @@ Alola,Turtonator,both,TRUE,FALSE,FALSE,776
 Alola,Togedemaru,both,FALSE,FALSE,FALSE,777
 Alola,Mimikyu,both,FALSE,FALSE,FALSE,778
 Alola,Bruxish,both,FALSE,FALSE,FALSE,779
-Alola,Drampa,both,FALSE,FALSE,FALSE,780
+Alola,Drampa,both,TRUE,FALSE,FALSE,780
 Alola,Dhelmise,genderless,FALSE,FALSE,FALSE,781
 Alola,Jangmo-o,both,FALSE,FALSE,FALSE,782
 Alola,Hakamo-o,both,FALSE,FALSE,FALSE,783
@@ -903,7 +903,7 @@ Hisui,Ursaluna,both,TRUE,TRUE,FALSE,901
 Hisui,Basculegion,difference,FALSE,FALSE,FALSE,902
 Hisui,Sneasler,both,TRUE,TRUE,FALSE,903
 Hisui,Overqwil,both,FALSE,FALSE,FALSE,904
-Hisui,Enamorus,female,FALSE,FALSE,FALSE,905
+Hisui,Enamorus,female,TRUE,FALSE,FALSE,905
 Paldea,Sprigatito,both,FALSE,FALSE,FALSE,906
 Paldea,Floragato,both,FALSE,FALSE,FALSE,907
 Paldea,Meowscarada,both,FALSE,FALSE,FALSE,908
@@ -977,7 +977,7 @@ Paldea,Cetitan,both,FALSE,FALSE,FALSE,975
 Paldea,Veluza,both,FALSE,FALSE,FALSE,976
 Paldea,Dondozo,both,FALSE,FALSE,FALSE,977
 Paldea,Tatsugiri,both,FALSE,FALSE,FALSE,978
-Paldea,Annihilape,both,FALSE,FALSE,FALSE,979
+Paldea,Annihilape,both,TRUE,FALSE,FALSE,979
 Paldea,Clodsire,both,TRUE,FALSE,FALSE,980
 Paldea,Farigiraf,both,FALSE,FALSE,FALSE,981
 Paldea,Dudunsparce,both,FALSE,FALSE,FALSE,982
@@ -1049,10 +1049,10 @@ Forms,Yamask galarian,both,TRUE,FALSE,FALSE,562
 Forms,Stunfisk galarian,both,TRUE,FALSE,FALSE,618
 Forms,Growlithe hisuian,both,TRUE,FALSE,FALSE,58
 Forms,Arcanine hisuian,both,TRUE,FALSE,FALSE,59
-Forms,Voltorb hisuian,both,FALSE,FALSE,FALSE,100
-Forms,Electrode hisuian,both,FALSE,FALSE,FALSE,101
-Forms,Typhlosion hisuian,both,FALSE,FALSE,FALSE,157
-Forms,Qwilfish hisuian,both,FALSE,FALSE,FALSE,211
+Forms,Voltorb hisuian,both,TRUE,FALSE,FALSE,100
+Forms,Electrode hisuian,both,TRUE,FALSE,FALSE,101
+Forms,Typhlosion hisuian,both,TRUE,FALSE,FALSE,157
+Forms,Qwilfish hisuian,both,TRUE,FALSE,FALSE,211
 Forms,Sneasel hisuian,difference,TRUE,TRUE,FALSE,215
 Forms,Samurott hisuian,both,TRUE,FALSE,FALSE,503
 Forms,Lilligant hisuian,both,FALSE,FALSE,FALSE,549
@@ -1062,7 +1062,7 @@ Forms,Braviary hisuian,both,TRUE,FALSE,FALSE,628
 Forms,Sliggoo hisuian,both,FALSE,FALSE,FALSE,705
 Forms,Goodra hisuian,both,FALSE,FALSE,FALSE,706
 Forms,Avalugg hisuian,both,TRUE,FALSE,FALSE,713
-Forms,Decidueye hisuian,both,FALSE,FALSE,FALSE,724
+Forms,Decidueye hisuian,both,TRUE,FALSE,FALSE,724
 Forms,Tauros paldean,male,FALSE,FALSE,FALSE,128
 Forms,Tauros paldean blaze,male,FALSE,FALSE,FALSE,128
 Forms,Tauros paldean aqua,male,FALSE,FALSE,FALSE,128
@@ -1130,6 +1130,10 @@ Forms,Rotom wash,genderless,FALSE,FALSE,FALSE,479
 Forms,Rotom fan,genderless,FALSE,FALSE,FALSE,479
 Forms,Rotom frost,genderless,FALSE,FALSE,FALSE,479
 Forms,Rotom mow,genderless,FALSE,FALSE,FALSE,479
+Forms,Dialga,genderless,FALSE,FALSE,FALSE,483
+Forms,Dialga origin,genderless,FALSE,FALSE,FALSE,483
+Forms,Palkia,genderless,FALSE,FALSE,FALSE,484
+Forms,Palkia origin,genderless,FALSE,FALSE,FALSE,484
 Forms,Giratina altered,genderless,TRUE,FALSE,FALSE,487
 Forms,Giratina origin,genderless,TRUE,FALSE,FALSE,487
 Forms,Shaymin land,genderless,FALSE,FALSE,FALSE,492
@@ -1429,12 +1433,15 @@ Event,Pikachu brendan,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu spring2023,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu detective 2023,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu halloween 2023,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu holiday 2023,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu dawn,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu lucas,difference,TRUE,FALSE,FALSE,25
-Event,Pikachu holiday 2023,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu akari,difference,TRUE,FALSE,FALSE,25
+Event,Pikachu rei,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu fly red,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu adventure,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu phd,female,TRUE,FALSE,FALSE,25
+Event,Pikachu horizons,difference,TRUE,FALSE,FALSE,25
 Event,Pikachu clone,male,FALSE,FALSE,FALSE,25
 Event,Raichu summer,difference,TRUE,FALSE,FALSE,26
 Event,Raichu festive,difference,TRUE,FALSE,FALSE,26
