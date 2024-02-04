@@ -942,10 +942,10 @@
 7Alola,Vikavolt,both,TRUE,FALSE,FALSE,738
 7Alola,Crabrawler,both,FALSE,FALSE,FALSE,739
 7Alola,Crabominable,both,FALSE,FALSE,FALSE,740
-7Alola,Oricorio,both,FALSE,FALSE,FALSE,741
-7Alola,Oricorio pom-pom,both,FALSE,FALSE,FALSE,741
-7Alola,Oricorio pa'u,both,FALSE,FALSE,FALSE,741
-7Alola,Oricorio sensu,both,FALSE,FALSE,FALSE,741
+7Alola,Oricorio,both,TRUE,FALSE,FALSE,741
+7Alola,Oricorio pom-pom,both,TRUE,FALSE,FALSE,741
+7Alola,Oricorio pa'u,both,TRUE,FALSE,FALSE,741
+7Alola,Oricorio sensu,both,TRUE,FALSE,FALSE,741
 7Alola,Cutiefly,both,TRUE,FALSE,FALSE,742
 7Alola,Ribombee,both,TRUE,FALSE,FALSE,743
 7Alola,Rockruff,both,TRUE,FALSE,FALSE,744
@@ -1082,6 +1082,8 @@
 8Galar,Silicobra,both,FALSE,FALSE,FALSE,843
 8Galar,Sandaconda,both,FALSE,FALSE,FALSE,844
 8Galar,Cramorant,both,FALSE,FALSE,FALSE,845
+8Galar,Cramorant gulpin,both,FALSE,FALSE,FALSE,845
+8Galar,Cramorant gorging,both,FALSE,FALSE,FALSE,845
 8Galar,Arrokuda,both,FALSE,FALSE,FALSE,846
 8Galar,Barraskewda,both,FALSE,FALSE,FALSE,847
 8Galar,Toxel,both,FALSE,FALSE,FALSE,848
@@ -1109,6 +1111,14 @@
 8Galar,Runerigus,both,TRUE,FALSE,FALSE,867
 8Galar,Milcery,female,FALSE,FALSE,FALSE,868
 8Galar,Alcremie,female,FALSE,FALSE,FALSE,869
+8Galar,Alcremie ruby,female,FALSE,FALSE,FALSE,869
+8Galar,Alcremie matcha,female,FALSE,FALSE,FALSE,869
+8Galar,Alcremie mint,female,FALSE,FALSE,FALSE,869
+8Galar,Alcremie lemon,female,FALSE,FALSE,FALSE,869
+8Galar,Alcremie salted,female,FALSE,FALSE,FALSE,869
+8Galar,Alcremie ruby swirl,female,FALSE,FALSE,FALSE,869
+8Galar,Alcremie caramel,female,FALSE,FALSE,FALSE,869
+8Galar,Alcremie rainbow,female,FALSE,FALSE,FALSE,869
 8Galar,Falinks,genderless,FALSE,FALSE,FALSE,870
 8Galar,Pincurchin,both,FALSE,FALSE,FALSE,871
 8Galar,Snom,both,FALSE,FALSE,FALSE,872
@@ -1153,7 +1163,7 @@
 9Hisui,Sneasler,both,TRUE,TRUE,FALSE,903
 9Hisui,Overqwil,both,FALSE,FALSE,FALSE,904
 9Hisui,Enamorus,female,TRUE,FALSE,FALSE,905
-9Paldea,Enamorus therian,female,TRUE,FALSE,FALSE,905
+9Hisui,Enamorus therian,female,TRUE,FALSE,FALSE,905
 9Paldea,Sprigatito,both,FALSE,FALSE,FALSE,906
 9Paldea,Floragato,both,FALSE,FALSE,FALSE,907
 9Paldea,Meowscarada,both,FALSE,FALSE,FALSE,908
@@ -1174,12 +1184,16 @@
 9Paldea,Pawmot,both,FALSE,FALSE,FALSE,923
 9Paldea,Tandemaus,both,FALSE,FALSE,FALSE,924
 9Paldea,Maushold,both,FALSE,FALSE,FALSE,925
+9Paldea,Maushold four,both,FALSE,FALSE,FALSE,925
 9Paldea,Fidough,both,FALSE,FALSE,FALSE,926
 9Paldea,Dachsbun,both,FALSE,FALSE,FALSE,927
 9Paldea,Smoliv,both,FALSE,FALSE,FALSE,928
 9Paldea,Dolliv,both,FALSE,FALSE,FALSE,929
 9Paldea,Arboliva,both,FALSE,FALSE,FALSE,930
 9Paldea,Squawkabilly,both,FALSE,FALSE,FALSE,931
+9Paldea,Squawkabilly blue,both,FALSE,FALSE,FALSE,931
+9Paldea,Squawkabilly yellow,both,FALSE,FALSE,FALSE,931
+9Paldea,Squawkabilly white,both,FALSE,FALSE,FALSE,931
 9Paldea,Nacli,both,FALSE,FALSE,FALSE,932
 9Paldea,Naclstack,both,FALSE,FALSE,FALSE,933
 9Paldea,Garganacl,both,FALSE,FALSE,FALSE,934
@@ -1213,6 +1227,7 @@
 9Paldea,Bombirdier,both,TRUE,FALSE,FALSE,962
 9Paldea,Finizen,both,FALSE,FALSE,FALSE,963
 9Paldea,Palafin,both,FALSE,FALSE,FALSE,964
+9Paldea,Palafin hero,both,FALSE,FALSE,FALSE,964
 9Paldea,Varoom,both,FALSE,FALSE,FALSE,965
 9Paldea,Revavroom,both,FALSE,FALSE,FALSE,966
 9Paldea,Cyclizar,both,FALSE,FALSE,FALSE,967
@@ -1227,10 +1242,13 @@
 9Paldea,Veluza,both,FALSE,FALSE,FALSE,976
 9Paldea,Dondozo,both,FALSE,FALSE,FALSE,977
 9Paldea,Tatsugiri,both,FALSE,FALSE,FALSE,978
+9Paldea,Tatsugiri droopy,both,FALSE,FALSE,FALSE,978
+9Paldea,Tatsugiri stretchy,both,FALSE,FALSE,FALSE,978
 9Paldea,Annihilape,both,TRUE,FALSE,FALSE,979
 9Paldea,Clodsire,both,TRUE,FALSE,FALSE,980
 9Paldea,Farigiraf,both,FALSE,FALSE,FALSE,981
 9Paldea,Dudunsparce,both,FALSE,FALSE,FALSE,982
+9Paldea,Dudunsparce three,both,FALSE,FALSE,FALSE,982
 9Paldea,Kingambit,both,FALSE,FALSE,FALSE,983
 9Paldea,Great Tusk,both,FALSE,FALSE,FALSE,984
 9Paldea,Scream Tail,both,FALSE,FALSE,FALSE,985
@@ -1248,6 +1266,7 @@
 9Paldea,Arctibax,both,FALSE,FALSE,FALSE,997
 9Paldea,Baxcalibur,both,FALSE,FALSE,FALSE,998
 9Paldea,Gimmighoul,both,FALSE,FALSE,FALSE,999
+9Paldea,Gimmighoul roaming,both,FALSE,FALSE,FALSE,999
 9Paldea,Gholdengo,both,FALSE,FALSE,FALSE,1000
 9Paldea,Wo-Chien,both,FALSE,FALSE,FALSE,1001
 9Paldea,Chien-Pao,both,FALSE,FALSE,FALSE,1002
@@ -1259,6 +1278,28 @@
 9Paldea,Miraidon,both,FALSE,FALSE,FALSE,1008
 9Paldea,Walking Wake,both,FALSE,FALSE,FALSE,1009
 9Paldea,Iron Leaves,both,FALSE,FALSE,FALSE,1010
+9Paldea,Dipplin,both,FALSE,FALSE,FALSE,1011
+9Paldea,Poltchageist,both,FALSE,FALSE,FALSE,1012
+9Paldea,Poltchageist artisan,both,FALSE,FALSE,FALSE,1012
+9Paldea,Sinistcha,both,FALSE,FALSE,FALSE,1013
+9Paldea,Sinistcha artisan,both,FALSE,FALSE,FALSE,1013
+9Paldea,Okidogi,both,FALSE,FALSE,FALSE,1014
+9Paldea,Munkidori,both,FALSE,FALSE,FALSE,1015
+9Paldea,Fezandipiti,both,FALSE,FALSE,FALSE,1016
+9Paldea,Ogerpon,both,FALSE,FALSE,FALSE,1017
+9Paldea,Ogerpon wellsprng,both,FALSE,FALSE,FALSE,1017
+9Paldea,Ogerpon hearthflame,both,FALSE,FALSE,FALSE,1017
+9Paldea,Ogerpon cornerstone,both,FALSE,FALSE,FALSE,1017
+9Paldea,Archaludon,both,FALSE,FALSE,FALSE,1018
+9Paldea,Hydrapple,both,FALSE,FALSE,FALSE,1019
+9Paldea,Gouging Fire,both,FALSE,FALSE,FALSE,1020
+9Paldea,Raging Bolt,both,FALSE,FALSE,FALSE,1021
+9Paldea,Iron Boulder,both,FALSE,FALSE,FALSE,1022
+9Paldea,Iron Crown,both,FALSE,FALSE,FALSE,1023
+9Paldea,Terapagos,both,FALSE,FALSE,FALSE,1024
+9Paldea,Terapagos terastal,both,FALSE,FALSE,FALSE,1024
+9Paldea,Terapagos stellar,both,FALSE,FALSE,FALSE,1024
+9Paldea,Pecharunt,both,FALSE,FALSE,FALSE,1025
 Event,Bulbasaur party hat,both,TRUE,FALSE,FALSE,1
 Event,Bulbasaur visor,both,TRUE,FALSE,FALSE,1
 Event,Bulbasaur fall,both,TRUE,FALSE,FALSE,1
