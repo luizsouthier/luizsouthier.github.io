@@ -176,11 +176,11 @@
 1Kanto,Aerodactyl,both,TRUE,TRUE,TRUE,142
 1Kanto,Snorlax,both,TRUE,TRUE,FALSE,143
 1Kanto,Articuno,genderless,TRUE,TRUE,TRUE,144
-1Kanto,Articuno galarian,both,FALSE,FALSE,FALSE,144
+1Kanto,Articuno galarian,genderless,FALSE,FALSE,FALSE,144
 1Kanto,Zapdos,genderless,TRUE,TRUE,TRUE,145
-1Kanto,Zapdos galarian,both,FALSE,FALSE,FALSE,145
+1Kanto,Zapdos galarian,genderless,FALSE,FALSE,FALSE,145
 1Kanto,Moltres,genderless,TRUE,TRUE,TRUE,146
-1Kanto,Moltres galarian,both,FALSE,FALSE,FALSE,146
+1Kanto,Moltres galarian,genderless,FALSE,FALSE,FALSE,146
 1Kanto,Dratini,both,TRUE,TRUE,TRUE,147
 1Kanto,Dragonair,both,TRUE,TRUE,TRUE,148
 1Kanto,Dragonite,both,TRUE,TRUE,TRUE,149
@@ -579,9 +579,9 @@
 4Sinnoh,Mesprit,genderless,TRUE,FALSE,FALSE,481
 4Sinnoh,Azelf,genderless,TRUE,FALSE,FALSE,482
 4Sinnoh,Dialga,genderless,TRUE,FALSE,FALSE,483
-4Sinnoh,Dialga origin,genderless,FALSE,FALSE,FALSE,483
+4Sinnoh,Dialga origin,genderless,TRUE,FALSE,FALSE,483
 4Sinnoh,Palkia,genderless,TRUE,FALSE,FALSE,484
-4Sinnoh,Palkia origin,genderless,FALSE,FALSE,FALSE,484
+4Sinnoh,Palkia origin,genderless,TRUE,FALSE,FALSE,484
 4Sinnoh,Heatran,both,TRUE,FALSE,FALSE,485
 4Sinnoh,Regigigas,genderless,TRUE,TRUE,FALSE,486
 4Sinnoh,Giratina,genderless,TRUE,FALSE,FALSE,487
@@ -748,7 +748,7 @@
 5Unova,Haxorus,both,TRUE,FALSE,FALSE,612
 5Unova,Cubchoo,both,TRUE,FALSE,FALSE,613
 5Unova,Beartic,both,TRUE,FALSE,FALSE,614
-5Unova,Cryogonal,genderless,FALSE,FALSE,FALSE,615
+5Unova,Cryogonal,genderless,TRUE,FALSE,FALSE,615
 5Unova,Shelmet,both,TRUE,FALSE,FALSE,616
 5Unova,Accelgor,both,TRUE,FALSE,FALSE,617
 5Unova,Stunfisk,both,TRUE,FALSE,FALSE,618
@@ -1174,7 +1174,7 @@
 9Paldea,Quaxwell,both,FALSE,FALSE,FALSE,913
 9Paldea,Quaquaval,both,FALSE,FALSE,FALSE,914
 9Paldea,Lechonk,difference,TRUE,FALSE,FALSE,915
-9Paldea,Oinkologne,both,FALSE,FALSE,FALSE,916
+9Paldea,Oinkologne,both,TRUE,FALSE,FALSE,916
 9Paldea,Tarountula,both,FALSE,FALSE,FALSE,917
 9Paldea,Spidops,both,FALSE,FALSE,FALSE,918
 9Paldea,Nymble,both,FALSE,FALSE,FALSE,919
