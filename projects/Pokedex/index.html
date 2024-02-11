@@ -275,6 +275,36 @@ h1 {
   background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/c/c2/Pok%C3%A9dex_Male_Caught.png/revision/latest?cb=20171208105039);
 }
 
+.user-pokedex.difference .perfectMale-switch {
+  background-image: url(male4.png);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.perfectMale .perfectMale-switch {
+  filter: grayscale(0%);
+}
+
+.user-pokedex.difference .perfectFemale-switch {
+  background-image: url(female4.png);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.perfectFemale .perfectFemale-switch {
+  filter: grayscale(0%);
+}
+
 .optional-switch {
   min-height: 30px;
 }
@@ -287,7 +317,9 @@ h1 {
 .user-pokedex.seen .purified-switch,
 .user-pokedex.seen .shinyShadow-switch,
 .user-pokedex.seen .shinyPurified-switch,
-.user-pokedex.seen .perfect-switch {
+.user-pokedex.seen .perfect-switch,
+.user-pokedex.seen .perfectMale-switch,
+.user-pokedex.seen .perfectFemale-switch {
   opacity: 0;
   cursor: default;
 }
@@ -332,6 +364,10 @@ h1 {
   background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/f/fc/Pok%C3%A9dex_Genderless_Caught.png/revision/latest?cb=20171208105037);
   background-size: 30px 30px;
 }
+
+.user-pokedex.difference .perfect-switch {
+  display: none;
+}
 </style>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2655301318011533"
      crossorigin="anonymous"></script>
@@ -365,7 +401,6 @@ Shiny and <img src="shinyShadow.png" height="24px" width="24px" > shadow
         <button id="show-shiny">Shiny released</button>
 		<button id="show-shadow">Shadow released</button>
 		<button id="show-shinyShadow">Shiny shadow released</button>
-		<button id="show-shinyPurified">Shiny purified released</button><br>
 		My missing: 
 		<button id="missing-all">All</button>
 		<button id="missing-lucky">Lucky</button>
@@ -562,11 +597,13 @@ function loading(code){
 				
 				if(i==args.length-1) console.log(pokemon);
 				
-				//S shiny, F female, M male, P perfect, H shadow,  R purified, X shinyShadow, Y shinyPurified
+				//S shiny, F female, M male, P perfect
+				//A perfect male, B perfect female
+				//H shadow,  R purified, X shinyShadow, Y shinyPurified
 
                 var pokemonName = "";
                 var letters = Array.from(pokemon[0]);
-                if ((letters[letters.length - 1] == "S" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "F" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "M" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "P" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "R" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "X" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "H" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "Y" && letters[letters.length - 2] != " ")) {
+                if ((letters[letters.length - 1] == "S" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "F" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "M" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "P" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "R" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "X" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "H" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "Y" && letters[letters.length - 2] != " ")|| (letters[letters.length - 1] == "A" && letters[letters.length - 2] != " ")|| (letters[letters.length - 1] == "B" && letters[letters.length - 2] != " ")) {
                     for (j = 0; j < letters.length - 1; j++) {
                         pokemonName += letters[j];
                     }
@@ -583,6 +620,8 @@ function loading(code){
 				var shinyShadow = "";
 				var shinyPurified = "";
 				var perfect = "";
+				var perfectMale = "";
+				var perfectFemale = "";
 
 				if(letters[letters.length - 2] != " "){
 				    switch (letters[letters.length - 1]) {
@@ -624,6 +663,16 @@ function loading(code){
 						case "Z":
 							{
 								shinyPurified = pokemon[1];
+								break;
+							}
+						case "A":
+							{
+								perfectMale = pokemon[1];
+								break;
+							}
+						case "B":
+							{
+								perfectFemale = pokemon[1];
 								break;
 							}
 						default:
@@ -679,7 +728,13 @@ function loading(code){
                 }
                 if (perfect == "t") {
                     readyclass += "perfect ";
-                }			
+                }
+				if (perfectMale == "t") {
+                    readyclass += "perfectMale ";
+                }
+				if (perfectFemale == "t") {
+                    readyclass += "perfectFemale ";
+                }				
 
                 if (typeof classesArray[pokemonName] === 'undefined') {
                     classesArray[pokemonName] = readyclass;
@@ -718,7 +773,9 @@ function createPokemon(list) {
 				if(list[i]['shiny']=="FALSE") tekst += " not-shiny";
 				if(list[i]['shadow']=="FALSE") tekst += " not-shadow";
 				if(list[i]['shadowshiny']=="FALSE") tekst += " not-shinyShadow";
-				tekst += '"><div class="image-regular"><img src="' + getImageUrl(list[i]['name']) + '" width="100" height="100"></div><div class="image-shiny"><img src="' + getImageUrl(list[i]['name'] + " shiny") + '" width="100" height="100"></div><div class="name">#' + ('000'+list[i]['n']).slice(-3)+' ' + list[i]['name'] + '</div><div class="caught-switch"><div class="seen-btn">S</div>&nbsp;<div class="caught-btn">T</div>&nbsp;<div class="lucky-btn">L</div></div><div class="optional-switch"><div class="perfect-switch"></div>';
+				tekst += '"><div class="image-regular"><img src="' + getImageUrl(list[i]['name']) + '" width="100" height="100"></div><div class="image-shiny"><img src="' + getImageUrl(list[i]['name'] + " shiny") + '" width="100" height="100"></div><div class="name">#' + ('000'+list[i]['n']).slice(-3)+' ' + list[i]['name'] + '</div><div class="caught-switch"><div class="seen-btn">S</div>&nbsp;<div class="caught-btn">T</div>&nbsp;<div class="lucky-btn">L</div></div><div class="optional-switch">'
+				if(list[i]['gender']!="difference") tekst += '<div class="perfect-switch"></div>';
+				if(list[i]['gender']=="difference") tekst += '<div class="perfectMale-switch"></div><div class="perfectFemale-switch"></div>';
 				if(list[i]['shiny']=="TRUE") tekst += '<div class="shiny-switch"></div>';
 				if(list[i]['shadow']=="TRUE") tekst += '<div class="shadow-switch"></div><div class="purified-switch"></div>';
 				if(list[i]['shadowshiny']=="TRUE") tekst += '<div class="shinyShadow-switch"></div><div class="shinyPurified-switch"></div>';
@@ -757,6 +814,22 @@ function createPokemon(list) {
         });
     });
 	
+	
+    $(document).ready(function () {
+        $('.perfectMale-switch').click(function () {
+            $(this).parent().parent(".caught").toggleClass('perfectMale');
+            $(this).parent().parent(".lucky").toggleClass('perfectMale');
+        });
+    });
+	
+    $(document).ready(function () {
+        $('.perfectFemale-switch').click(function () {
+            $(this).parent().parent(".caught").toggleClass('perfectFemale');
+            $(this).parent().parent(".lucky").toggleClass('perfectFemale');
+        });
+    });	
+
+	
     $(document).ready(function () {
         $('.purified-switch').click(function () {
             $(this).parent().parent(".caught").toggleClass('purified');
@@ -788,7 +861,7 @@ function createPokemon(list) {
 
     $(document).ready(function () {
         $(".seen-btn").click(function () {
-            $(this).parent().parent().removeClass("caught").removeClass("lucky").addClass("seen").removeClass("female-caught").removeClass("male-caught").removeClass("shiny").removeClass("shadow").removeClass("shinyShadow").removeClass("purified").removeClass("shinyPurified").removeClass("perfect");
+            $(this).parent().parent().removeClass("caught").removeClass("lucky").addClass("seen").removeClass("female-caught").removeClass("male-caught").removeClass("shiny").removeClass("shadow").removeClass("shinyShadow").removeClass("purified").removeClass("shinyPurified").removeClass("perfect").removeClass("perfectMale").removeClass("perfectFemale");
         });
         $(".caught-btn").click(function () {
             $(this).parent().parent().removeClass("seen").removeClass("lucky").addClass("caught");
@@ -903,7 +976,14 @@ function createPokemon(list) {
 						if (pokemon.classList.contains('male-caught')) tekst +='| ' + list[i]['name']+'M = t';
 						if (pokemon.classList.contains('female-caught')) tekst +='| ' + list[i]['name']+'F = t';
 				}
-				if (pokemon.classList.contains('perfect')) tekst +='| ' + list[i]['name']+'P = t';
+				
+				if(list[i]['gender']=='difference'){
+						if (pokemon.classList.contains('perfectMale')) tekst +='| ' + list[i]['name']+'A = t';
+						if (pokemon.classList.contains('perfectFemale')) tekst +='| ' + list[i]['name']+'B = t';
+				}else{
+					if (pokemon.classList.contains('perfect')) tekst +='| ' + list[i]['name']+'P = t';
+				}
+				
 				if (pokemon.classList.contains('shiny')) tekst +='| ' + list[i]['name']+'S = t';
 				else if (!pokemon.classList.contains('not-shiny')) tekst +='| ' + list[i]['name']+'S = ';
 				
