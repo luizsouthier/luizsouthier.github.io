@@ -82,7 +82,7 @@ h1 {
   background: #cabcff;
   text-align: center;
   border-radius: 50px;
-  width: 120px;
+  width: 150px;
   height: 220px !important;
   color: white;
   font-weight: 300;
@@ -561,11 +561,11 @@ function loading(code){
 				
 				if(i==args.length-1) console.log(pokemon);
 				
-				//S shiny, F female, M male, P perfect, H shadow,  R purified, X shinyShadow, Z shinyPurified
+				//S shiny, F female, M male, P perfect, H shadow,  R purified, X shinyShadow, Y shinyPurified
 
                 var pokemonName = "";
                 var letters = Array.from(pokemon[0]);
-                if ((letters[letters.length - 1] == "S" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "F" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "M" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "P" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "R" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "X" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "H" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "Z" && letters[letters.length - 2] != " ")) {
+                if ((letters[letters.length - 1] == "S" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "F" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "M" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "P" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "R" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "X" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "H" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "Y" && letters[letters.length - 2] != " ")) {
                     for (j = 0; j < letters.length - 1; j++) {
                         pokemonName += letters[j];
                     }
@@ -915,8 +915,8 @@ function createPokemon(list) {
 				if (pokemon.classList.contains('purified')) tekst +='| ' + list[i]['name']+'R = t';
 				else if (!pokemon.classList.contains('not-shadow')) tekst +='| ' + list[i]['name']+'R = ';
 				
-				if (pokemon.classList.contains('shinyPurified')) tekst +='| ' + list[i]['name']+'Z = t';
-				else if (!pokemon.classList.contains('not-shinyShadow')) tekst +='| ' + list[i]['name']+'Z = ';
+				if (pokemon.classList.contains('shinyPurified')) tekst +='| ' + list[i]['name']+'Y = t';
+				else if (!pokemon.classList.contains('not-shinyShadow')) tekst +='| ' + list[i]['name']+'Y = ';
 			
 			tekst += "\n";
 			}
