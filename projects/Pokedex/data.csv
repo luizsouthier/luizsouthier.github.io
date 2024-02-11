@@ -238,12 +238,12 @@
 2Johto,Slowking,both,TRUE,TRUE,FALSE,199
 2Johto,Slowking galarian,both,TRUE,FALSE,FALSE,199
 2Johto,Misdreavus,both,TRUE,TRUE,FALSE,200
-2Johto,Unown,genderless,TRUE,FALSE,FALSE,201
 2Johto,Unown A,genderless,TRUE,FALSE,FALSE,201
 2Johto,Unown B,genderless,TRUE,FALSE,FALSE,201
 2Johto,Unown C,genderless,TRUE,FALSE,FALSE,201
 2Johto,Unown D,genderless,TRUE,FALSE,FALSE,201
 2Johto,Unown E,genderless,TRUE,FALSE,FALSE,201
+2Johto,Unown,genderless,TRUE,FALSE,FALSE,201
 2Johto,Unown G,genderless,TRUE,FALSE,FALSE,201
 2Johto,Unown H,genderless,TRUE,FALSE,FALSE,201
 2Johto,Unown I,genderless,TRUE,FALSE,FALSE,201
@@ -655,8 +655,8 @@
 5Unova,Tympole,both,TRUE,FALSE,FALSE,535
 5Unova,Palpitoad,both,TRUE,FALSE,FALSE,536
 5Unova,Seismitoad,both,TRUE,FALSE,FALSE,537
-5Unova,Throh,male,TRUE,FALSE,FALSE,538
-5Unova,Sawk,male,TRUE,FALSE,FALSE,539
+5Unova,Throh,male,TRUE,TRUE,FALSE,538
+5Unova,Sawk,male,TRUE,TRUE,FALSE,539
 5Unova,Sewaddle,both,FALSE,FALSE,FALSE,540
 5Unova,Swadloon,both,FALSE,FALSE,FALSE,541
 5Unova,Leavanny,both,FALSE,FALSE,FALSE,542
@@ -725,8 +725,10 @@
 5Unova,Escavalier,both,TRUE,FALSE,FALSE,589
 5Unova,Foongus,both,TRUE,TRUE,FALSE,590
 5Unova,Amoonguss,both,TRUE,TRUE,FALSE,591
-5Unova,Frillish,difference,TRUE,FALSE,FALSE,592
-5Unova,Jellicent,difference,TRUE,FALSE,FALSE,593
+5Unova,Frillish,male,TRUE,FALSE,FALSE,592
+5Unova,Frillish female,female,TRUE,FALSE,FALSE,592
+5Unova,Jellicent,male,TRUE,FALSE,FALSE,593
+5Unova,Jellicent female,female,TRUE,FALSE,FALSE,593
 5Unova,Alomomola,both,TRUE,FALSE,FALSE,594
 5Unova,Joltik,both,TRUE,TRUE,FALSE,595
 5Unova,Galvantula,both,TRUE,TRUE,FALSE,596
@@ -834,7 +836,8 @@
 6Kalos,Vivillon sun,both,FALSE,FALSE,FALSE,666
 6Kalos,Vivillon tundra,both,FALSE,FALSE,FALSE,666
 6Kalos,Litleo,both,TRUE,FALSE,FALSE,667
-6Kalos,Pyroar,difference,TRUE,FALSE,FALSE,668
+6Kalos,Pyroar,male,TRUE,FALSE,FALSE,668
+6Kalos,Pyroar female,female,TRUE,FALSE,FALSE,668
 6Kalos,Flabébé,female,FALSE,FALSE,FALSE,669
 6Kalos,Flabébé blue,both,FALSE,FALSE,FALSE,669
 6Kalos,Flabébé yellow,both,FALSE,FALSE,FALSE,669
@@ -855,17 +858,18 @@
 6Kalos,Pancham,both,TRUE,FALSE,FALSE,674
 6Kalos,Pangoro,both,TRUE,FALSE,FALSE,675
 6Kalos,Furfrou,both,TRUE,FALSE,FALSE,676
-6Kalos,Furfrou dandy,both,TRUE,FALSE,FALSE,676
-6Kalos,Furfrou diamond,both,TRUE,FALSE,FALSE,676
 6Kalos,Furfrou heart,both,TRUE,FALSE,FALSE,676
-6Kalos,Furfrou debutante,both,TRUE,FALSE,FALSE,676
-6Kalos,Furfrou kabuki,both,TRUE,FALSE,FALSE,676
-6Kalos,Furfrou la reine,both,TRUE,FALSE,FALSE,676
-6Kalos,Furfrou matron,both,TRUE,FALSE,FALSE,676
-6Kalos,Furfrou pharaoh,both,TRUE,FALSE,FALSE,676
 6Kalos,Furfrou star,both,TRUE,FALSE,FALSE,676
+6Kalos,Furfrou diamond,both,TRUE,FALSE,FALSE,676
+6Kalos,Furfrou debutante,both,TRUE,FALSE,FALSE,676
+6Kalos,Furfrou matron,both,TRUE,FALSE,FALSE,676
+6Kalos,Furfrou dandy,both,TRUE,FALSE,FALSE,676
+6Kalos,Furfrou la reine,both,TRUE,FALSE,FALSE,676
+6Kalos,Furfrou kabuki,both,TRUE,FALSE,FALSE,676
+6Kalos,Furfrou pharaoh,both,TRUE,FALSE,FALSE,676
 6Kalos,Espurr,both,TRUE,FALSE,FALSE,677
-6Kalos,Meowstic,difference,TRUE,FALSE,FALSE,678
+6Kalos,Meowstic,male,TRUE,FALSE,FALSE,678
+6Kalos,Meowstic female,female,TRUE,FALSE,FALSE,678
 6Kalos,Honedge,both,FALSE,FALSE,FALSE,679
 6Kalos,Doublade,both,FALSE,FALSE,FALSE,680
 6Kalos,Aegislash,both,FALSE,FALSE,FALSE,681
@@ -1174,7 +1178,8 @@
 9Paldea,Quaxwell,both,FALSE,FALSE,FALSE,913
 9Paldea,Quaquaval,both,FALSE,FALSE,FALSE,914
 9Paldea,Lechonk,difference,TRUE,FALSE,FALSE,915
-9Paldea,Oinkologne,both,TRUE,FALSE,FALSE,916
+9Paldea,Oinkologne,male,TRUE,FALSE,FALSE,916
+9Paldea,Oinkologne female,female,TRUE,FALSE,FALSE,916
 9Paldea,Tarountula,both,FALSE,FALSE,FALSE,917
 9Paldea,Spidops,both,FALSE,FALSE,FALSE,918
 9Paldea,Nymble,both,FALSE,FALSE,FALSE,919
