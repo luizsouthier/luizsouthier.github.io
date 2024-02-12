@@ -82,8 +82,8 @@ h1 {
   background: #cabcff;
   text-align: center;
   border-radius: 50px;
-  width: 130px;
-  height: 250px !important;
+  width: 168px;
+  height: 220px !important;
   color: white;
   font-weight: 300;
   padding: 10px;
@@ -776,7 +776,7 @@ function createPokemon(list) {
 				if(list[i]['gender']!="difference") tekst += '<div class="perfect-switch"></div>';
 				if(list[i]['gender']=="difference") tekst += '<div class="perfectMale-switch"></div><div class="perfectFemale-switch"></div>';
 				if(list[i]['shiny']=="TRUE") tekst += '<div class="shiny-switch"></div>';
-				if(list[i]['shadow']=="TRUE") tekst += '<br><div class="shadow-switch"></div><div class="purified-switch"></div>';
+				if(list[i]['shadow']=="TRUE") tekst += '<div class="shadow-switch"></div><div class="purified-switch"></div>';
 				if(list[i]['shadowshiny']=="TRUE") tekst += '<div class="shinyShadow-switch"></div><div class="shinyPurified-switch"></div>';
 				tekst += '</div><div class="optional-switch"><div class="male-switch"></div><div class="female-switch"></div></div></div>';
 			}
