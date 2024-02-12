@@ -82,8 +82,8 @@ h1 {
   background: #cabcff;
   text-align: center;
   border-radius: 50px;
-  width: 150px;
-  height: 220px !important;
+  width: 130px;
+  height: 250px !important;
   color: white;
   font-weight: 300;
   padding: 10px;
@@ -389,9 +389,8 @@ h1 {
 
 Shiny and <img src="shinyShadow.png" height="24px" width="24px" > shadow
 <img src="shinyPurified.png" height="24px" width="24px" > purified<br>
-<img src="https://vignette.wikia.nocookie.net/pokemongo/images/1/1d/Pok%C3%A9dex_Female_Caught.png/revision/latest?cb=20171208105035" height="24px" width="24px" > Female
 <img src="https://vignette.wikia.nocookie.net/pokemongo/images/c/c2/Pok%C3%A9dex_Male_Caught.png/revision/latest?cb=20171208105039" height="24px" width="24px" > Male<br>
-	
+<img src="https://vignette.wikia.nocookie.net/pokemongo/images/1/1d/Pok%C3%A9dex_Female_Caught.png/revision/latest?cb=20171208105035" height="24px" width="24px" > Female
 	</td>
 	<td>
 	<i>The filters are used with a AND operator. Clear one filter if you want to filter only by another</i><br>
@@ -400,7 +399,7 @@ Shiny and <img src="shinyShadow.png" height="24px" width="24px" > shadow
 		<button id="show-difference">Gender difference</button>
         <button id="show-shiny">Shiny released</button>
 		<button id="show-shadow">Shadow released</button>
-		<button id="show-shinyShadow">Shiny shadow released</button>
+		<button id="show-shinyShadow">Shiny shadow released</button><br>
 		My missing: 
 		<button id="missing-all">All</button>
 		<button id="missing-lucky">Lucky</button>
@@ -777,7 +776,7 @@ function createPokemon(list) {
 				if(list[i]['gender']!="difference") tekst += '<div class="perfect-switch"></div>';
 				if(list[i]['gender']=="difference") tekst += '<div class="perfectMale-switch"></div><div class="perfectFemale-switch"></div>';
 				if(list[i]['shiny']=="TRUE") tekst += '<div class="shiny-switch"></div>';
-				if(list[i]['shadow']=="TRUE") tekst += '<div class="shadow-switch"></div><div class="purified-switch"></div>';
+				if(list[i]['shadow']=="TRUE") tekst += '<br><div class="shadow-switch"></div><div class="purified-switch"></div>';
 				if(list[i]['shadowshiny']=="TRUE") tekst += '<div class="shinyShadow-switch"></div><div class="shinyPurified-switch"></div>';
 				tekst += '</div><div class="optional-switch"><div class="male-switch"></div><div class="female-switch"></div></div></div>';
 			}
