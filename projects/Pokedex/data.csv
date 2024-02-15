@@ -1546,8 +1546,8 @@ Mega,Kangaskhan mega,female,TRUE,FALSE,FALSE,115
 Mega,Pinsir mega,both,TRUE,FALSE,FALSE,127
 Mega,Gyarados mega,both,TRUE,FALSE,FALSE,130
 Mega,Aerodactyl mega,both,TRUE,FALSE,FALSE,142
-Mega,Mewtwo x mega,both,TRUE,FALSE,FALSE,150
-Mega,Mewtwo y mega,both,TRUE,FALSE,FALSE,150
+Mega,Mewtwo x mega,genderless,TRUE,FALSE,FALSE,150
+Mega,Mewtwo y mega,genderless,TRUE,FALSE,FALSE,150
 Mega,Ampharos mega,both,TRUE,FALSE,FALSE,181
 Mega,Steelix mega,both,TRUE,FALSE,FALSE,208
 Mega,Scizor mega,both,TRUE,FALSE,FALSE,212
@@ -1582,4 +1582,4 @@ Mega,Lucario mega,both,TRUE,FALSE,FALSE,448
 Mega,Abomasnow mega,both,TRUE,FALSE,FALSE,460
 Mega,Gallade mega,male,TRUE,FALSE,FALSE,475
 Mega,Audino mega,both,TRUE,FALSE,FALSE,531
-Mega,Diancie mega,both,TRUE,FALSE,FALSE,719
+Mega,Diancie mega,genderless,TRUE,FALSE,FALSE,719
