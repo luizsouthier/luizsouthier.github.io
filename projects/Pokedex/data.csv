@@ -86,11 +86,11 @@
 1Kanto,Victreebel,both,TRUE,TRUE,TRUE,71
 1Kanto,Tentacool,both,TRUE,TRUE,TRUE,72
 1Kanto,Tentacruel,both,TRUE,TRUE,TRUE,73
-1Kanto,Geodude,both,TRUE,TRUE,FALSE,74
+1Kanto,Geodude,both,TRUE,TRUE,TRUE,74
 1Kanto,Geodude alolan,both,TRUE,TRUE,FALSE,74
-1Kanto,Graveler,both,TRUE,TRUE,FALSE,75
+1Kanto,Graveler,both,TRUE,TRUE,TRUE,75
 1Kanto,Graveler alolan,both,TRUE,TRUE,FALSE,75
-1Kanto,Golem,both,TRUE,TRUE,FALSE,76
+1Kanto,Golem,both,TRUE,TRUE,TRUE,76
 1Kanto,Golem alolan,both,TRUE,TRUE,FALSE,76
 1Kanto,Ponyta,both,TRUE,FALSE,FALSE,77
 1Kanto,Ponyta galarian,both,TRUE,FALSE,FALSE,77
@@ -225,7 +225,7 @@
 2Johto,Hoppip,both,TRUE,TRUE,FALSE,187
 2Johto,Skiploom,both,TRUE,TRUE,FALSE,188
 2Johto,Jumpluff,both,TRUE,TRUE,FALSE,189
-2Johto,Aipom,difference,TRUE,TRUE,FALSE,190
+2Johto,Aipom,difference,TRUE,TRUE,TRUE,190
 2Johto,Sunkern,both,TRUE,FALSE,FALSE,191
 2Johto,Sunflora,both,TRUE,FALSE,FALSE,192
 2Johto,Yanma,both,TRUE,FALSE,FALSE,193
@@ -1177,7 +1177,7 @@
 9Paldea,Quaxly,both,FALSE,FALSE,FALSE,912
 9Paldea,Quaxwell,both,FALSE,FALSE,FALSE,913
 9Paldea,Quaquaval,both,FALSE,FALSE,FALSE,914
-9Paldea,Lechonk,difference,TRUE,FALSE,FALSE,915
+9Paldea,Lechonk,both,TRUE,FALSE,FALSE,915
 9Paldea,Oinkologne,male,TRUE,FALSE,FALSE,916
 9Paldea,Oinkologne female,female,TRUE,FALSE,FALSE,916
 9Paldea,Tarountula,both,FALSE,FALSE,FALSE,917
@@ -1557,7 +1557,7 @@ Mega,Tyranitar mega,both,TRUE,FALSE,FALSE,248
 Mega,Sceptile mega,both,TRUE,FALSE,FALSE,254
 Mega,Blaziken mega,both,TRUE,FALSE,FALSE,257
 Mega,Swampert mega,both,TRUE,FALSE,FALSE,260
-Mega,Gardevoir mega,female,TRUE,FALSE,FALSE,282
+Mega,Gardevoir mega,both,TRUE,FALSE,FALSE,282
 Mega,Sableye mega,both,TRUE,FALSE,FALSE,302
 Mega,Mawile mega,both,TRUE,FALSE,FALSE,303
 Mega,Aggron mega,both,TRUE,FALSE,FALSE,306
