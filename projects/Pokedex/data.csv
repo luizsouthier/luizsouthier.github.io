@@ -815,26 +815,26 @@
 6Kalos,Talonflame,both,TRUE,FALSE,FALSE,663
 6Kalos,Scatterbug,both,FALSE,FALSE,FALSE,664
 6Kalos,Spewpa,both,FALSE,FALSE,FALSE,665
-6Kalos,Vivillon,both,FALSE,FALSE,FALSE,666
-6Kalos,Vivillon continental,both,FALSE,FALSE,FALSE,666
-6Kalos,Vivillon elegant,both,FALSE,FALSE,FALSE,666
-6Kalos,Vivillon fancy,both,FALSE,FALSE,FALSE,666
-6Kalos,Vivillon garden,both,FALSE,FALSE,FALSE,666
-6Kalos,Vivillon high plains,both,FALSE,FALSE,FALSE,666
 6Kalos,Vivillon icy snow,both,FALSE,FALSE,FALSE,666
-6Kalos,Vivillon jungle,both,FALSE,FALSE,FALSE,666
-6Kalos,Vivillon marine,both,FALSE,FALSE,FALSE,666
+6Kalos,Vivillon polar,both,FALSE,FALSE,FALSE,666
+6Kalos,Vivillon tundra,both,FALSE,FALSE,FALSE,666
+6Kalos,Vivillon continental,both,FALSE,FALSE,FALSE,666
+6Kalos,Vivillon garden,both,FALSE,FALSE,FALSE,666
+6Kalos,Vivillon elegant,both,FALSE,FALSE,FALSE,666
 6Kalos,Vivillon meadow,both,FALSE,FALSE,FALSE,666
 6Kalos,Vivillon modern,both,FALSE,FALSE,FALSE,666
-6Kalos,Vivillon monsoon,both,FALSE,FALSE,FALSE,666
-6Kalos,Vivillon ocean,both,FALSE,FALSE,FALSE,666
-6Kalos,Vivillon poké ball,both,FALSE,FALSE,FALSE,666
-6Kalos,Vivillon polar,both,FALSE,FALSE,FALSE,666
-6Kalos,Vivillon river,both,FALSE,FALSE,FALSE,666
+6Kalos,Vivillon marine,both,FALSE,FALSE,FALSE,666
+6Kalos,Vivillon,both,FALSE,FALSE,FALSE,666
+6Kalos,Vivillon high plains,both,FALSE,FALSE,FALSE,666
 6Kalos,Vivillon sandstorm,both,FALSE,FALSE,FALSE,666
+6Kalos,Vivillon river,both,FALSE,FALSE,FALSE,666
+6Kalos,Vivillon monsoon,both,FALSE,FALSE,FALSE,666
 6Kalos,Vivillon savanna,both,FALSE,FALSE,FALSE,666
 6Kalos,Vivillon sun,both,FALSE,FALSE,FALSE,666
-6Kalos,Vivillon tundra,both,FALSE,FALSE,FALSE,666
+6Kalos,Vivillon ocean,both,FALSE,FALSE,FALSE,666
+6Kalos,Vivillon jungle,both,FALSE,FALSE,FALSE,666
+6Kalos,Vivillon fancy,both,FALSE,FALSE,FALSE,666
+6Kalos,Vivillon poké ball,both,FALSE,FALSE,FALSE,666
 6Kalos,Litleo,both,TRUE,FALSE,FALSE,667
 6Kalos,Pyroar,male,TRUE,FALSE,FALSE,668
 6Kalos,Pyroar female,female,TRUE,FALSE,FALSE,668
@@ -920,7 +920,7 @@
 6Kalos,Xerneas,genderless,TRUE,FALSE,FALSE,716
 6Kalos,Yveltal,genderless,TRUE,FALSE,FALSE,717
 6Kalos,Zygarde,genderless,FALSE,FALSE,FALSE,718
-6Kalos,Zygarde 10%,genderless,FALSE,FALSE,FALSE,718
+6Kalos,Zygarde 10percent,genderless,FALSE,FALSE,FALSE,718
 6Kalos,Zygarde complete,genderless,FALSE,FALSE,FALSE,718
 6Kalos,Diancie,genderless,FALSE,FALSE,FALSE,719
 6Kalos,Hoopa,genderless,FALSE,FALSE,FALSE,720
