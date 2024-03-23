@@ -265,7 +265,7 @@
 2Johto,Unown Y,genderless,TRUE,FALSE,FALSE,201
 2Johto,Unown Z,genderless,FALSE,FALSE,FALSE,201
 2Johto,Unown !,genderless,TRUE,FALSE,FALSE,201
-2Johto,Unown ?,genderless,FALSE,FALSE,FALSE,201
+2Johto,Unown ?,genderless,TRUE,FALSE,FALSE,201
 2Johto,Wobbuffet,difference,TRUE,TRUE,FALSE,202
 2Johto,Girafarig,difference,TRUE,TRUE,FALSE,203
 2Johto,Pineco,both,TRUE,TRUE,TRUE,204
@@ -670,10 +670,10 @@
 5Unova,Lilligant hisuian,both,FALSE,FALSE,FALSE,549
 5Unova,Basculin,both,FALSE,FALSE,FALSE,550
 5Unova,Basculin blue-striped,both,FALSE,FALSE,FALSE,550
-5Unova,Basculin white-striped,both,FALSE,FALSE,FALSE,550
-5Unova,Sandile,both,FALSE,FALSE,FALSE,551
-5Unova,Krokorok,both,FALSE,FALSE,FALSE,552
-5Unova,Krookodile,both,FALSE,FALSE,FALSE,553
+5Unova,Basculin white-striped,both,TRUE,FALSE,FALSE,550
+5Unova,Sandile,both,TRUE,FALSE,FALSE,551
+5Unova,Krokorok,both,TRUE,FALSE,FALSE,552
+5Unova,Krookodile,both,TRUE,FALSE,FALSE,553
 5Unova,Darumaka,both,TRUE,FALSE,FALSE,554
 5Unova,Darumaka galarian,both,TRUE,FALSE,FALSE,554
 5Unova,Darmanitan,both,TRUE,FALSE,FALSE,555
@@ -707,8 +707,8 @@
 5Unova,Solosis,both,TRUE,FALSE,FALSE,577
 5Unova,Duosion,both,TRUE,FALSE,FALSE,578
 5Unova,Reuniclus,both,TRUE,FALSE,FALSE,579
-5Unova,Ducklett,both,FALSE,TRUE,FALSE,580
-5Unova,Swanna,both,FALSE,TRUE,FALSE,581
+5Unova,Ducklett,both,TRUE,TRUE,FALSE,580
+5Unova,Swanna,both,TRUE,TRUE,FALSE,581
 5Unova,Vanillite,both,TRUE,FALSE,FALSE,582
 5Unova,Vanillish,both,TRUE,FALSE,FALSE,583
 5Unova,Vanilluxe,both,TRUE,FALSE,FALSE,584
@@ -720,7 +720,7 @@
 5Unova,Sawsbuck summer,both,FALSE,FALSE,FALSE,586
 5Unova,Sawsbuck autumn,both,FALSE,FALSE,FALSE,586
 5Unova,Sawsbuck winter,both,FALSE,FALSE,FALSE,586
-5Unova,Emolga,both,FALSE,FALSE,FALSE,587
+5Unova,Emolga,both,TRUE,FALSE,FALSE,587
 5Unova,Karrablast,both,TRUE,FALSE,FALSE,588
 5Unova,Escavalier,both,TRUE,FALSE,FALSE,589
 5Unova,Foongus,both,TRUE,TRUE,FALSE,590
@@ -765,7 +765,7 @@
 5Unova,Bouffalant,both,FALSE,FALSE,FALSE,626
 5Unova,Rufflet,male,TRUE,FALSE,FALSE,627
 5Unova,Braviary,male,TRUE,FALSE,FALSE,628
-5Unova,Braviary hisuian,both,TRUE,FALSE,FALSE,628
+5Unova,Braviary hisuian,male,TRUE,FALSE,FALSE,628
 5Unova,Vullaby,female,TRUE,FALSE,FALSE,629
 5Unova,Mandibuzz,female,TRUE,FALSE,FALSE,630
 5Unova,Heatmor,both,TRUE,FALSE,FALSE,631
@@ -838,21 +838,21 @@
 6Kalos,Litleo,both,TRUE,FALSE,FALSE,667
 6Kalos,Pyroar,male,TRUE,FALSE,FALSE,668
 6Kalos,Pyroar female,female,TRUE,FALSE,FALSE,668
-6Kalos,Flabébé,female,FALSE,FALSE,FALSE,669
-6Kalos,Flabébé blue,both,FALSE,FALSE,FALSE,669
-6Kalos,Flabébé yellow,both,FALSE,FALSE,FALSE,669
-6Kalos,Flabébé white,both,FALSE,FALSE,FALSE,669
-6Kalos,Flabébé orange,both,FALSE,FALSE,FALSE,669
-6Kalos,Floette,female,FALSE,FALSE,FALSE,670
-6Kalos,Floette blue,both,FALSE,FALSE,FALSE,670
-6Kalos,Floette yellow,both,FALSE,FALSE,FALSE,670
-6Kalos,Floette white,both,FALSE,FALSE,FALSE,670
-6Kalos,Floette orange,both,FALSE,FALSE,FALSE,670
-6Kalos,Florges,female,FALSE,FALSE,FALSE,671
-6Kalos,Florges blue,both,FALSE,FALSE,FALSE,671
-6Kalos,Florges yellow,both,FALSE,FALSE,FALSE,671
-6Kalos,Florges white,both,FALSE,FALSE,FALSE,671
-6Kalos,Florges orange,both,FALSE,FALSE,FALSE,671
+6Kalos,Flabébé,female,TRUE,FALSE,FALSE,669
+6Kalos,Flabébé blue,female,TRUE,FALSE,FALSE,669
+6Kalos,Flabébé yellow,female,TRUE,FALSE,FALSE,669
+6Kalos,Flabébé white,female,TRUE,FALSE,FALSE,669
+6Kalos,Flabébé orange,female,TRUE,FALSE,FALSE,669
+6Kalos,Floette,female,TRUE,FALSE,FALSE,670
+6Kalos,Floette blue,female,TRUE,FALSE,FALSE,670
+6Kalos,Floette yellow,female,TRUE,FALSE,FALSE,670
+6Kalos,Floette white,female,TRUE,FALSE,FALSE,670
+6Kalos,Floette orange,female,TRUE,FALSE,FALSE,670
+6Kalos,Florges,female,TRUE,FALSE,FALSE,671
+6Kalos,Florges blue,female,TRUE,FALSE,FALSE,671
+6Kalos,Florges yellow,female,TRUE,FALSE,FALSE,671
+6Kalos,Florges white,female,TRUE,FALSE,FALSE,671
+6Kalos,Florges orange,female,TRUE,FALSE,FALSE,671
 6Kalos,Skiddo,both,TRUE,FALSE,FALSE,672
 6Kalos,Gogoat,both,TRUE,FALSE,FALSE,673
 6Kalos,Pancham,both,TRUE,FALSE,FALSE,674
@@ -930,9 +930,9 @@
 7Alola,Dartrix,both,TRUE,FALSE,FALSE,723
 7Alola,Decidueye,both,TRUE,FALSE,FALSE,724
 7Alola,Decidueye hisuian,both,TRUE,FALSE,FALSE,724
-7Alola,Litten,both,FALSE,FALSE,FALSE,725
-7Alola,Torracat,both,FALSE,FALSE,FALSE,726
-7Alola,Incineroar,both,FALSE,FALSE,FALSE,727
+7Alola,Litten,both,TRUE,FALSE,FALSE,725
+7Alola,Torracat,both,TRUE,FALSE,FALSE,726
+7Alola,Incineroar,both,TRUE,FALSE,FALSE,727
 7Alola,Popplio,both,FALSE,FALSE,FALSE,728
 7Alola,Brionne,both,FALSE,FALSE,FALSE,729
 7Alola,Primarina,both,FALSE,FALSE,FALSE,730
@@ -944,8 +944,8 @@
 7Alola,Grubbin,both,TRUE,FALSE,FALSE,736
 7Alola,Charjabug,both,TRUE,FALSE,FALSE,737
 7Alola,Vikavolt,both,TRUE,FALSE,FALSE,738
-7Alola,Crabrawler,both,FALSE,FALSE,FALSE,739
-7Alola,Crabominable,both,FALSE,FALSE,FALSE,740
+7Alola,Crabrawler,both,TRUE,FALSE,FALSE,739
+7Alola,Crabominable,both,TRUE,FALSE,FALSE,740
 7Alola,Oricorio,both,TRUE,FALSE,FALSE,741
 7Alola,Oricorio pom-pom,both,TRUE,FALSE,FALSE,741
 7Alola,Oricorio pa'u,both,TRUE,FALSE,FALSE,741
@@ -978,8 +978,8 @@
 7Alola,Comfey,both,FALSE,FALSE,FALSE,764
 7Alola,Oranguru,both,TRUE,FALSE,FALSE,765
 7Alola,Passimian,both,FALSE,FALSE,FALSE,766
-7Alola,Wimpod,both,FALSE,FALSE,FALSE,767
-7Alola,Golisopod,both,FALSE,FALSE,FALSE,768
+7Alola,Wimpod,both,TRUE,FALSE,FALSE,767
+7Alola,Golisopod,both,TRUE,FALSE,FALSE,768
 7Alola,Sandygast,both,FALSE,FALSE,FALSE,769
 7Alola,Palossand,both,FALSE,FALSE,FALSE,770
 7Alola,Pyukumuku,both,FALSE,FALSE,FALSE,771
@@ -1018,9 +1018,9 @@
 7Alola,Bruxish,both,FALSE,FALSE,FALSE,779
 7Alola,Drampa,both,TRUE,FALSE,FALSE,780
 7Alola,Dhelmise,genderless,FALSE,FALSE,FALSE,781
-7Alola,Jangmo-o,both,FALSE,FALSE,FALSE,782
-7Alola,Hakamo-o,both,FALSE,FALSE,FALSE,783
-7Alola,Kommo-o,both,FALSE,FALSE,FALSE,784
+7Alola,Jangmo-o,both,TRUE,FALSE,FALSE,782
+7Alola,Hakamo-o,both,TRUE,FALSE,FALSE,783
+7Alola,Kommo-o,both,TRUE,FALSE,FALSE,784
 7Alola,Tapu Koko,genderless,TRUE,FALSE,FALSE,785
 7Alola,Tapu Lele,genderless,TRUE,FALSE,FALSE,786
 7Alola,Tapu Bulu,genderless,TRUE,FALSE,FALSE,787
@@ -1033,8 +1033,8 @@
 7Alola,Buzzwole,genderless,FALSE,FALSE,FALSE,794
 7Alola,Pheromosa,genderless,FALSE,FALSE,FALSE,795
 7Alola,Xurkitree,genderless,FALSE,FALSE,FALSE,796
-7Alola,Celesteela,genderless,FALSE,FALSE,FALSE,797
-7Alola,Kartana,genderless,FALSE,FALSE,FALSE,798
+7Alola,Celesteela,genderless,TRUE,FALSE,FALSE,797
+7Alola,Kartana,genderless,TRUE,FALSE,FALSE,798
 7Alola,Guzzlord,genderless,TRUE,FALSE,FALSE,799
 7Alola,Necrozma,genderless,FALSE,FALSE,FALSE,800
 7Alola,Necrozma dusk,genderless,FALSE,FALSE,FALSE,800
@@ -1165,7 +1165,7 @@
 9Hisui,Ursaluna,both,TRUE,TRUE,FALSE,901
 9Hisui,Basculegion,difference,FALSE,FALSE,FALSE,902
 9Hisui,Sneasler,both,TRUE,TRUE,FALSE,903
-9Hisui,Overqwil,both,FALSE,FALSE,FALSE,904
+9Hisui,Overqwil,both,TRUE,FALSE,FALSE,904
 9Hisui,Enamorus,female,TRUE,FALSE,FALSE,905
 9Hisui,Enamorus therian,female,TRUE,FALSE,FALSE,905
 9Paldea,Sprigatito,both,FALSE,FALSE,FALSE,906
@@ -1270,9 +1270,9 @@
 9Paldea,Frigibax,both,FALSE,FALSE,FALSE,996
 9Paldea,Arctibax,both,FALSE,FALSE,FALSE,997
 9Paldea,Baxcalibur,both,FALSE,FALSE,FALSE,998
-9Paldea,Gimmighoul,both,FALSE,FALSE,FALSE,999
-9Paldea,Gimmighoul roaming,both,FALSE,FALSE,FALSE,999
-9Paldea,Gholdengo,both,FALSE,FALSE,FALSE,1000
+9Paldea,Gimmighoul,genderlees,FALSE,FALSE,FALSE,999
+9Paldea,Gimmighoul roaming,genderlees,FALSE,FALSE,FALSE,999
+9Paldea,Gholdengo,genderlees,FALSE,FALSE,FALSE,1000
 9Paldea,Wo-Chien,both,FALSE,FALSE,FALSE,1001
 9Paldea,Chien-Pao,both,FALSE,FALSE,FALSE,1002
 9Paldea,Ting-Lu,both,FALSE,FALSE,FALSE,1003
