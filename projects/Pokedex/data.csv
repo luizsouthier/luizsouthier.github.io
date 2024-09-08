@@ -422,10 +422,10 @@
 3Hoenn,Crawdaunt,both,TRUE,TRUE,FALSE,342
 3Hoenn,Baltoy,genderless,TRUE,FALSE,FALSE,343
 3Hoenn,Claydol,genderless,TRUE,FALSE,FALSE,344
-3Hoenn,Lileep,both,TRUE,TRUE,FALSE,345
-3Hoenn,Cradily,both,TRUE,TRUE,FALSE,346
-3Hoenn,Anorith,both,TRUE,TRUE,FALSE,347
-3Hoenn,Armaldo,both,TRUE,TRUE,FALSE,348
+3Hoenn,Lileep,both,TRUE,TRUE,TRUE,345
+3Hoenn,Cradily,both,TRUE,TRUE,TRUE,346
+3Hoenn,Anorith,both,TRUE,TRUE,TRUE,347
+3Hoenn,Armaldo,both,TRUE,TRUE,TRUE,348
 3Hoenn,Feebas,both,TRUE,FALSE,FALSE,349
 3Hoenn,Milotic,difference,TRUE,FALSE,FALSE,350
 3Hoenn,Castform,both,TRUE,FALSE,FALSE,351
@@ -586,7 +586,7 @@
 4Sinnoh,Regigigas,genderless,TRUE,TRUE,FALSE,486
 4Sinnoh,Giratina,genderless,TRUE,FALSE,FALSE,487
 4Sinnoh,Giratina origin,genderless,TRUE,FALSE,FALSE,487
-4Sinnoh,Cresselia,female,TRUE,FALSE,FALSE,488
+4Sinnoh,Cresselia,female,TRUE,TRUE,FALSE,488
 4Sinnoh,Phione,genderless,FALSE,FALSE,FALSE,489
 4Sinnoh,Manaphy,genderless,FALSE,FALSE,FALSE,490
 4Sinnoh,Darkrai,genderless,TRUE,FALSE,FALSE,491
@@ -649,9 +649,9 @@
 5Unova,Drilbur,both,TRUE,TRUE,FALSE,529
 5Unova,Excadrill,both,TRUE,TRUE,FALSE,530
 5Unova,Audino,both,TRUE,FALSE,FALSE,531
-5Unova,Timburr,both,TRUE,FALSE,FALSE,532
-5Unova,Gurdurr,both,TRUE,FALSE,FALSE,533
-5Unova,Conkeldurr,both,TRUE,FALSE,FALSE,534
+5Unova,Timburr,both,TRUE,TRUE,FALSE,532
+5Unova,Gurdurr,both,TRUE,TRUE,FALSE,533
+5Unova,Conkeldurr,both,TRUE,TRUE,FALSE,534
 5Unova,Tympole,both,TRUE,FALSE,FALSE,535
 5Unova,Palpitoad,both,TRUE,FALSE,FALSE,536
 5Unova,Seismitoad,both,TRUE,FALSE,FALSE,537
@@ -689,10 +689,10 @@
 5Unova,Yamask,both,TRUE,FALSE,FALSE,562
 5Unova,Yamask galarian,both,TRUE,FALSE,FALSE,562
 5Unova,Cofagrigus,both,TRUE,FALSE,FALSE,563
-5Unova,Tirtouga,both,TRUE,FALSE,FALSE,564
-5Unova,Carracosta,both,TRUE,FALSE,FALSE,565
-5Unova,Archen,both,TRUE,FALSE,FALSE,566
-5Unova,Archeops,both,TRUE,FALSE,FALSE,567
+5Unova,Tirtouga,both,TRUE,TRUE,FALSE,564
+5Unova,Carracosta,both,TRUE,TRUE,FALSE,565
+5Unova,Archen,both,TRUE,TRUE,FALSE,566
+5Unova,Archeops,both,TRUE,TRUE,FALSE,567
 5Unova,Trubbish,both,TRUE,FALSE,FALSE,568
 5Unova,Garbodor,both,TRUE,FALSE,FALSE,569
 5Unova,Zorua,both,TRUE,FALSE,FALSE,570
@@ -755,8 +755,8 @@
 5Unova,Accelgor,both,TRUE,FALSE,FALSE,617
 5Unova,Stunfisk,both,TRUE,FALSE,FALSE,618
 5Unova,Stunfisk galarian,both,TRUE,FALSE,FALSE,618
-5Unova,Mienfoo,both,FALSE,FALSE,FALSE,619
-5Unova,Mienshao,both,FALSE,FALSE,FALSE,620
+5Unova,Mienfoo,both,TRUE,FALSE,FALSE,619
+5Unova,Mienshao,both,TRUE,FALSE,FALSE,620
 5Unova,Druddigon,both,TRUE,FALSE,FALSE,621
 5Unova,Golett,genderless,TRUE,TRUE,FALSE,622
 5Unova,Golurk,genderless,TRUE,TRUE,FALSE,623
@@ -933,9 +933,9 @@
 7Alola,Litten,both,TRUE,FALSE,FALSE,725
 7Alola,Torracat,both,TRUE,FALSE,FALSE,726
 7Alola,Incineroar,both,TRUE,FALSE,FALSE,727
-7Alola,Popplio,both,FALSE,FALSE,FALSE,728
-7Alola,Brionne,both,FALSE,FALSE,FALSE,729
-7Alola,Primarina,both,FALSE,FALSE,FALSE,730
+7Alola,Popplio,both,TRUE,FALSE,FALSE,728
+7Alola,Brionne,both,TRUE,FALSE,FALSE,729
+7Alola,Primarina,both,TRUE,FALSE,FALSE,730
 7Alola,Pikipek,both,FALSE,FALSE,FALSE,731
 7Alola,Trumbeak,both,FALSE,FALSE,FALSE,732
 7Alola,Toucannon,both,FALSE,FALSE,FALSE,733
@@ -1012,7 +1012,7 @@
 7Alola,Minior violet,genderless,FALSE,FALSE,FALSE,774
 7Alola,Komala,both,TRUE,FALSE,FALSE,775
 7Alola,Turtonator,both,TRUE,FALSE,FALSE,776
-7Alola,Togedemaru,both,FALSE,FALSE,FALSE,777
+7Alola,Togedemaru,both,TRUE,FALSE,FALSE,777
 7Alola,Mimikyu,both,FALSE,FALSE,FALSE,778
 7Alola,Mimikyu busted,both,FALSE,FALSE,FALSE,778
 7Alola,Bruxish,both,FALSE,FALSE,FALSE,779
@@ -1059,8 +1059,8 @@
 8Galar,Sobble,both,FALSE,FALSE,FALSE,816
 8Galar,Drizzile,both,FALSE,FALSE,FALSE,817
 8Galar,Inteleon,both,FALSE,FALSE,FALSE,818
-8Galar,Skwovet,both,FALSE,FALSE,FALSE,819
-8Galar,Greedent,both,FALSE,FALSE,FALSE,820
+8Galar,Skwovet,both,TRUE,FALSE,FALSE,819
+8Galar,Greedent,both,TRUE,FALSE,FALSE,820
 8Galar,Rookidee,both,FALSE,FALSE,FALSE,821
 8Galar,Corvisquire,both,FALSE,FALSE,FALSE,822
 8Galar,Corviknight,both,FALSE,FALSE,FALSE,823
@@ -1071,8 +1071,8 @@
 8Galar,Thievul,both,FALSE,FALSE,FALSE,828
 8Galar,Gossifleur,both,FALSE,FALSE,FALSE,829
 8Galar,Eldegoss,both,FALSE,FALSE,FALSE,830
-8Galar,Wooloo,both,FALSE,FALSE,FALSE,831
-8Galar,Dubwool,both,FALSE,FALSE,FALSE,832
+8Galar,Wooloo,both,TRUE,FALSE,FALSE,831
+8Galar,Dubwool,both,TRUE,FALSE,FALSE,832
 8Galar,Chewtle,both,FALSE,FALSE,FALSE,833
 8Galar,Drednaw,both,FALSE,FALSE,FALSE,834
 8Galar,Yamper,both,FALSE,FALSE,FALSE,835
@@ -1123,7 +1123,7 @@
 8Galar,Alcremie ruby swirl,female,FALSE,FALSE,FALSE,869
 8Galar,Alcremie caramel,female,FALSE,FALSE,FALSE,869
 8Galar,Alcremie rainbow,female,FALSE,FALSE,FALSE,869
-8Galar,Falinks,genderless,FALSE,FALSE,FALSE,870
+8Galar,Falinks,genderless,TRUE,FALSE,FALSE,870
 8Galar,Pincurchin,both,FALSE,FALSE,FALSE,871
 8Galar,Snom,both,FALSE,FALSE,FALSE,872
 8Galar,Frosmoth,both,FALSE,FALSE,FALSE,873
@@ -1143,7 +1143,7 @@
 8Galar,Dreepy,both,FALSE,FALSE,FALSE,885
 8Galar,Drakloak,both,FALSE,FALSE,FALSE,886
 8Galar,Dragapult,both,FALSE,FALSE,FALSE,887
-8Galar,Zacian,genderless,FALSE,FALSE,FALSE,888
+8Galar,Zacian,genderless,TRUE,FALSE,FALSE,888
 8Galar,Zacian crowned,genderless,FALSE,FALSE,FALSE,888
 8Galar,Zamazenta,genderless,FALSE,FALSE,FALSE,889
 8Galar,Zamazenta crowned,genderless,FALSE,FALSE,FALSE,889
