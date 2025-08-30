@@ -713,13 +713,13 @@ function createPokemon(list) {
 				
 				tekst += '"><div class="image-regular"><img src="' + getImageUrl(list[i]['name']) + '" width="100" height="100"></div><div class="image-shiny"><img src="' + getImageUrl(list[i]['name'] + " shiny") + '" width="100" height="100"></div><div class="name">' + ('0000'+list[i]['n']).slice(-4)+' ' + list[i]['name'] + '</div><div class="caught-switch">&nbsp;<div class="lucky-btn"></div>'
 				if(list[i]['dynamax']=="TRUE") tekst += '<div class="dynamax-switch"></div>';
-				tekst += '</div></div>';
 				if(list[i]['gender']!="difference") tekst += '<div class="perfect-switch"></div>';
 				if(list[i]['shiny']=="TRUE"&&list[i]['gender']!="difference") tekst += '<div class="shiny-switch"></div>';
 				if(list[i]['gender']=="difference") tekst += '<br><div class="perfectMale-switch"></div><div class="perfectFemale-switch"></div>';
 				if(list[i]['shiny']=="TRUE"&&list[i]['gender']=="difference") tekst += '<div class="shinyMale-switch"></div><div class="shinyFemale-switch"></div>';
 				if(list[i]['shadow']=="TRUE") tekst += '<br><div class="shadow-switch"></div><div class="purified-switch"></div>';
 				if(list[i]['shadowshiny']=="TRUE") tekst += '<div class="shinyShadow-switch"></div><div class="shinyPurified-switch"></div>';
+				tekst += '</div></div>';
 
 			}
 		}
