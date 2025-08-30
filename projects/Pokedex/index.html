@@ -124,7 +124,7 @@ h1 {
 }
 
 .user-pokedex .lucky-btn {
-  background-image: url(https://static.wikia.nocookie.net/pokemongo/images/8/8c/Pokedex_lucky.png/revision/latest?cb=20210920120825);
+  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/8/8c/Pokedex_lucky.png/revision/latest?cb=20210920120825);
   background-size: 24px 24px;
   margin: 3px auto;
   width: 24px;
@@ -228,7 +228,7 @@ h1 {
   filter: grayscale(0%);
 }
 
-.user-pokedex.perfectMale .perfectMale-switch {
+.user-pokedex .perfectMale-switch {
   background-image: url(male4.png);
   background-size: 24px 24px;
   margin: 3px auto;
@@ -243,7 +243,7 @@ h1 {
   filter: grayscale(0%);
 }
 
-.user-pokedex.perfectFemale .perfectFemale-switch {
+.user-pokedex .perfectFemale-switch {
   background-image: url(female4.png);
   background-size: 24px 24px;
   margin: 3px auto;
@@ -257,6 +257,38 @@ h1 {
 .user-pokedex.perfectFemale .perfectFemale-switch {
   filter: grayscale(0%);
 }
+
+
+.user-pokedex .shinyMale-switch {
+  background-image: url(male4.png);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.shinyMale .shinyMale-switch {
+  filter: grayscale(0%);
+}
+
+.user-pokedex .shinyFemale-switch {
+  background-image: url(female4.png);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.shinyFemale .shinyFemale-switch {
+  filter: grayscale(0%);
+}
+
 
 .optional-switch {
   min-height: 30px;
@@ -822,6 +854,7 @@ function createPokemon(list) {
         $("#missing-shiny").click(function () {
 			$(".user-pokedex.shiny").hide();
 			$(".user-pokedex.not-shiny").hide();
+			$(".user-pokedex.shinyMale.shinyFemale").hide();
 		});
     });
 	
