@@ -92,7 +92,7 @@ h1 {
 }
 
 .user-pokedex .name {
-	font-size: 125%;
+	font-size: 100%;
 	margin: 5px auto;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -121,32 +121,6 @@ h1 {
 
 .user-pokedex.shiny .image-shiny {
   display: block;
-}
-
-.user-pokedex .caught-switch div {
-  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/f/fc/Pok%C3%A9dex_Genderless_Caught.png/revision/latest?cb=20171208105037);
-  background-size: 20px 20px;
-  height: 20px;
-  width: 20px;
-  line-height: 20px;
-  text-align: center;
-  font-size: 14px;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.user-pokedex.seen .seen-btn {
-  font-weight: bold;
-  color: blue;
-  background: white;
-  border-radius: 30px;
-}
-
-.user-pokedex.caught .caught-btn {
-  font-weight: bold;
-  color: blue;
-  background: white;
-  border-radius: 30px;
 }
 
 .user-pokedex.lucky .lucky-btn {
@@ -246,35 +220,6 @@ h1 {
   filter: grayscale(0%);
 }
 
-.user-pokedex .female-switch {
-  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/a/ad/Pok%C3%A9dex_Female_Seen.png/revision/latest?cb=20171208105036);
-  background-size: 30px 30px;
-  margin: auto;
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.user-pokedex .male-switch {
-  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/b/ba/Pok%C3%A9dex_Male_Seen.png/revision/latest?cb=20171208105039);
-  background-size: 30px 30px;
-  margin: auto;
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  display: inline-block;
-}
-
-.user-pokedex.female-caught .female-switch {
-  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/1/1d/Pok%C3%A9dex_Female_Caught.png/revision/latest?cb=20171208105035);
-}
-
-.user-pokedex.male-caught .male-switch {
-  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/c/c2/Pok%C3%A9dex_Male_Caught.png/revision/latest?cb=20171208105039);
-}
-
 .user-pokedex.perfectMale .perfectMale-switch {
   background-image: url(male4.png);
   background-size: 24px 24px;
@@ -310,25 +255,6 @@ h1 {
 }
 
 
-.user-pokedex.seen .female-switch,
-.user-pokedex.seen .male-switch,
-.user-pokedex.seen .shiny-switch,
-.user-pokedex.seen .shadow-switch,
-.user-pokedex.seen .purified-switch,
-.user-pokedex.seen .shinyShadow-switch,
-.user-pokedex.seen .shinyPurified-switch,
-.user-pokedex.seen .perfect-switch,
-.user-pokedex.seen .perfectMale-switch,
-.user-pokedex.seen .perfectFemale-switch {
-  opacity: 0;
-  cursor: default;
-}
-
-.user-pokedex.seen .image-regular {
-  filter: brightness(0.15) !important;
-  opacity: 0.35 !important;
-}
-
 .user-pokedex.lucky {
   background: #403a96 !important;
 }
@@ -336,33 +262,6 @@ h1 {
 .user-pokedex.lucky .image-regular,
 .user-pokedex.lucky .image-shiny {
   background: url(https://vignette.wikia.nocookie.net/pokemongo/images/1/13/Lucky_Pok%C3%A9mon_sprite_bg.png/revision/latest?cb=20180811004911) center 0 !important;
-}
-
-.user-pokedex.female-only .female-switch {
-  display: none;
-}
-
-.user-pokedex.female-only .male-switch {
-  background: url(https://vignette.wikia.nocookie.net/pokemongo/images/1/1d/Pok%C3%A9dex_Female_Caught.png/revision/latest?cb=20171208105035);
-  background-size: 30px 30px;
-}
-
-.user-pokedex.male-only .female-switch {
-  display: none;
-}
-
-.user-pokedex.male-only .male-switch {
-  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/c/c2/Pok%C3%A9dex_Male_Caught.png/revision/latest?cb=20171208105039);
-  background-size: 30px 30px;
-}
-
-.user-pokedex.genderless .female-switch {
-  display: none;
-}
-
-.user-pokedex.genderless .male-switch {
-  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/f/fc/Pok%C3%A9dex_Genderless_Caught.png/revision/latest?cb=20171208105037);
-  background-size: 30px 30px;
 }
 
 .user-pokedex.difference .perfect-switch {
@@ -389,8 +288,6 @@ h1 {
 
 Shiny and <img src="shinyShadow.png" height="24px" width="24px" > shadow
 <img src="shinyPurified.png" height="24px" width="24px" > purified<br>
-<img src="https://vignette.wikia.nocookie.net/pokemongo/images/c/c2/Pok%C3%A9dex_Male_Caught.png/revision/latest?cb=20171208105039" height="24px" width="24px" > Male<br>
-<img src="https://vignette.wikia.nocookie.net/pokemongo/images/1/1d/Pok%C3%A9dex_Female_Caught.png/revision/latest?cb=20171208105035" height="24px" width="24px" > Female
 	</td>
 	<td>
 	<i>The filters are used with a AND operator. Clear one filter if you want to filter only by another</i><br>
@@ -403,7 +300,6 @@ Shiny and <img src="shinyShadow.png" height="24px" width="24px" > shadow
 		<button id="show-dynamax">Dynamax released</button>
 		<br>
 		My missing: 
-		<button id="missing-all">All</button>
 		<button id="missing-lucky">Lucky</button>
 		<button id="missing-shiny">Shiny</button>
 		<button id="missing-shadow">Shadow</button>
@@ -411,6 +307,7 @@ Shiny and <img src="shinyShadow.png" height="24px" width="24px" > shadow
 		<button id="missing-shinyShadow">Shiny shadow</button>
 		<button id="missing-shinyPurified">Shiny purified</button>
 		<button id="missing-perfect">Perfect</button><br>
+		<button id="missing-dynamax">Dynamax</button><br>
 	</td>
 	</tr></table>
         
@@ -764,7 +661,7 @@ function createPokemon(list) {
 		var el = document.getElementById(region[j]);
 		for (i = 0; i < list.length; i++) {
 			if(list[i]['region'] == region[j]) {
-				tekst += '<div id="' + list[i]['name'] + '" class="user-pokedex seen';
+				tekst += '<div id="' + list[i]['name'] + '" class="user-pokedex caught';
 				if(list[i]['gender']=="female") tekst += " female-only";
 				if(list[i]['gender']=="male") tekst += " male-only";
 				if(list[i]['gender']=="genderless") tekst += " genderless";
@@ -774,14 +671,14 @@ function createPokemon(list) {
 				if(list[i]['shadowshiny']=="FALSE") tekst += " not-shinyShadow";
 				if(list[i]['dynamax']=="FALSE") tekst += " not-dynamax";
 				
-				tekst += '"><div class="image-regular"><img src="' + getImageUrl(list[i]['name']) + '" width="100" height="100"></div><div class="image-shiny"><img src="' + getImageUrl(list[i]['name'] + " shiny") + '" width="100" height="100"></div><div class="name">' + ('0000'+list[i]['n']).slice(-4)+' ' + list[i]['name'] + '</div><div class="caught-switch"><div class="seen-btn">S</div>&nbsp;<div class="caught-btn">C</div>&nbsp;<div class="lucky-btn">L</div></div><div class="optional-switch">'
+				tekst += '"><div class="image-regular"><img src="' + getImageUrl(list[i]['name']) + '" width="100" height="100"></div><div class="image-shiny"><img src="' + getImageUrl(list[i]['name'] + " shiny") + '" width="100" height="100"></div><div class="name">' + ('0000'+list[i]['n']).slice(-4)+' ' + list[i]['name'] + '</div><div class="caught-switch">&nbsp;<div class="lucky-btn">L</div>'
 				if(list[i]['gender']!="difference") tekst += '<div class="perfect-switch"></div>';
 				if(list[i]['gender']=="difference") tekst += '<div class="perfectMale-switch"></div><div class="perfectFemale-switch"></div>';
 				if(list[i]['shiny']=="TRUE") tekst += '<div class="shiny-switch"></div>';
 				if(list[i]['shadow']=="TRUE") tekst += '<div class="shadow-switch"></div><div class="purified-switch"></div>';
 				if(list[i]['shadowshiny']=="TRUE") tekst += '<div class="shinyShadow-switch"></div><div class="shinyPurified-switch"></div>';
 				if(list[i]['dynamax']=="TRUE") tekst += '<div class="dynamax-switch"></div>';
-				tekst += '</div><div class="optional-switch"><div class="male-switch"></div><div class="female-switch"></div></div></div>';
+				tekst += '</div></div>';
 			}
 		}
 		el.innerHTML = tekst;
@@ -790,7 +687,6 @@ function createPokemon(list) {
     $(document).ready(function () {
         $('.shiny-switch').click(function () {
             $(this).parent().parent(".caught").toggleClass('shiny');
-            $(this).parent().parent(".lucky").toggleClass('shiny');
         });
     });
 
@@ -798,21 +694,18 @@ function createPokemon(list) {
     $(document).ready(function () {
         $('.shadow-switch').click(function () {
             $(this).parent().parent(".caught").toggleClass('shadow');
-            $(this).parent().parent(".lucky").toggleClass('shadow');
         });
     });
 	
     $(document).ready(function () {
         $('.shinyShadow-switch').click(function () {
             $(this).parent().parent(".caught").toggleClass('shinyShadow');
-            $(this).parent().parent(".lucky").toggleClass('shinyShadow');
         });
     });
 	
     $(document).ready(function () {
         $('.perfect-switch').click(function () {
             $(this).parent().parent(".caught").toggleClass('perfect');
-            $(this).parent().parent(".lucky").toggleClass('perfect');
         });
     });
 	
@@ -820,14 +713,12 @@ function createPokemon(list) {
     $(document).ready(function () {
         $('.perfectMale-switch').click(function () {
             $(this).parent().parent(".caught").toggleClass('perfectMale');
-            $(this).parent().parent(".lucky").toggleClass('perfectMale');
         });
     });
 	
     $(document).ready(function () {
         $('.perfectFemale-switch').click(function () {
             $(this).parent().parent(".caught").toggleClass('perfectFemale');
-            $(this).parent().parent(".lucky").toggleClass('perfectFemale');
         });
     });	
 
@@ -835,50 +726,27 @@ function createPokemon(list) {
     $(document).ready(function () {
         $('.purified-switch').click(function () {
             $(this).parent().parent(".caught").toggleClass('purified');
-            $(this).parent().parent(".lucky").toggleClass('purified');
         });
     });
 	
 	$(document).ready(function () {
         $('.shinyPurified-switch').click(function () {
             $(this).parent().parent(".caught").toggleClass('shinyPurified');
-            $(this).parent().parent(".lucky").toggleClass('shinyPurified');
         });
     });
 	
 	$(document).ready(function () {
         $('.dynamax-switch').click(function () {
             $(this).parent().parent(".caught").toggleClass('dynamax');
-            $(this).parent().parent(".lucky").toggleClass('dynamax');
+        });
+    });
+	
+	$(document).ready(function () {
+        $('.lucky-btn').click(function () {
+            $(this).parent().parent(".caught").toggleClass('lucky');
         });
     });
 
-    $(document).ready(function () {
-        $(".female-switch").click(function () {
-            $(this).parent().parent(".caught").toggleClass("female-caught");
-            $(this).parent().parent(".lucky").toggleClass("female-caught");
-        });
-        $(".male-switch").click(function () {
-            if ($(this).parent().parent().hasClass("female-only") || $(this).parent().parent().hasClass("male-only") || $(this).parent().parent().hasClass("genderless")) {
-                null
-            } else {
-                $(this).parent().parent(".caught").toggleClass("male-caught")
-                $(this).parent().parent(".lucky").toggleClass("male-caught")
-            }
-        });
-    });
-
-    $(document).ready(function () {
-        $(".seen-btn").click(function () {
-            $(this).parent().parent().removeClass("caught").removeClass("lucky").addClass("seen").removeClass("female-caught").removeClass("male-caught").removeClass("shiny").removeClass("shadow").removeClass("shinyShadow").removeClass("purified").removeClass("shinyPurified").removeClass("perfect").removeClass("perfectMale").removeClass("perfectFemale").removeClass("dynamax");
-        });
-        $(".caught-btn").click(function () {
-            $(this).parent().parent().removeClass("seen").removeClass("lucky").addClass("caught");
-        });
-        $(".lucky-btn").click(function () {
-            $(this).parent().parent().removeClass("caught").removeClass("seen").addClass("lucky");
-        });
-    });
 	
 	$(document).ready(function () {
         $("#show-all").click(function () {
@@ -922,13 +790,6 @@ function createPokemon(list) {
 		});
     });	
 	
-	
-	$(document).ready(function () {
-        $("#missing-all").click(function () {
-			$(".user-pokedex:not('.seen')").hide();
-		
-		});
-    });
 	
 	$(document).ready(function () {
         $("#missing-lucky").click(function () {
