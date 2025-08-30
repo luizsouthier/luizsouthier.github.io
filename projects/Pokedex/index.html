@@ -275,7 +275,7 @@ h1 {
   background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/c/c2/Pok%C3%A9dex_Male_Caught.png/revision/latest?cb=20171208105039);
 }
 
-.user-pokedex.difference .perfectMale-switch {
+.user-pokedex.perfectMale .perfectMale-switch {
   background-image: url(male4.png);
   background-size: 24px 24px;
   margin: 3px auto;
@@ -290,7 +290,7 @@ h1 {
   filter: grayscale(0%);
 }
 
-.user-pokedex.difference .perfectFemale-switch {
+.user-pokedex.perfectFemale .perfectFemale-switch {
   background-image: url(female4.png);
   background-size: 24px 24px;
   margin: 3px auto;
@@ -399,7 +399,9 @@ Shiny and <img src="shinyShadow.png" height="24px" width="24px" > shadow
 		<button id="show-difference">Gender difference</button>
         <button id="show-shiny">Shiny released</button>
 		<button id="show-shadow">Shadow released</button>
-		<button id="show-shinyShadow">Shiny shadow released</button><br>
+		<button id="show-shinyShadow">Shiny shadow released</button>
+		<button id="show-dynamax">Dynamax released</button>
+		<br>
 		My missing: 
 		<button id="missing-all">All</button>
 		<button id="missing-lucky">Lucky</button>
@@ -439,6 +441,8 @@ Shiny and <img src="shinyShadow.png" height="24px" width="24px" > shadow
     <div id="Event" style="text-align: center; margin: auto;"></div>
 	<h1>Mega</h1>
     <div id="Mega" style="text-align: center; margin: auto;"></div>
+	<h1>Gigantamax</h1>
+    <div id="Gigantamax" style="text-align: center; margin: auto;"></div>
 	</div>	
 	<script>
 	getPokemon();
@@ -754,7 +758,7 @@ function loading(code){
 }
 
 function createPokemon(list) {
-	var region = ["1Kanto", "2Johto", "3Hoenn", "4Sinnoh", "5Unova", "6Kalos", "7Alola", "8Galar", "9Hisui", "9Paldea", "Event", "Mega"];
+	var region = ["1Kanto", "2Johto", "3Hoenn", "4Sinnoh", "5Unova", "6Kalos", "7Alola", "8Galar", "9Hisui", "9Paldea", "Event", "Gigantamax", "Mega"];
 	for(j = 0; j < region.length; j++) {
 		var tekst = "";
 		var el = document.getElementById(region[j]);
@@ -768,12 +772,15 @@ function createPokemon(list) {
 				if(list[i]['shiny']=="FALSE") tekst += " not-shiny";
 				if(list[i]['shadow']=="FALSE") tekst += " not-shadow";
 				if(list[i]['shadowshiny']=="FALSE") tekst += " not-shinyShadow";
-				tekst += '"><div class="image-regular"><img src="' + getImageUrl(list[i]['name']) + '" width="100" height="100"></div><div class="image-shiny"><img src="' + getImageUrl(list[i]['name'] + " shiny") + '" width="100" height="100"></div><div class="name">#' + ('000'+list[i]['n']).slice(-3)+' ' + list[i]['name'] + '</div><div class="caught-switch"><div class="seen-btn">S</div>&nbsp;<div class="caught-btn">T</div>&nbsp;<div class="lucky-btn">L</div></div><div class="optional-switch">'
+				if(list[i]['dynamax']=="FALSE") tekst += " not-dynamax";
+				
+				tekst += '"><div class="image-regular"><img src="' + getImageUrl(list[i]['name']) + '" width="100" height="100"></div><div class="image-shiny"><img src="' + getImageUrl(list[i]['name'] + " shiny") + '" width="100" height="100"></div><div class="name">' + ('0000'+list[i]['n']).slice(-4)+' ' + list[i]['name'] + '</div><div class="caught-switch"><div class="seen-btn">S</div>&nbsp;<div class="caught-btn">C</div>&nbsp;<div class="lucky-btn">L</div></div><div class="optional-switch">'
 				if(list[i]['gender']!="difference") tekst += '<div class="perfect-switch"></div>';
 				if(list[i]['gender']=="difference") tekst += '<div class="perfectMale-switch"></div><div class="perfectFemale-switch"></div>';
 				if(list[i]['shiny']=="TRUE") tekst += '<div class="shiny-switch"></div>';
 				if(list[i]['shadow']=="TRUE") tekst += '<div class="shadow-switch"></div><div class="purified-switch"></div>';
 				if(list[i]['shadowshiny']=="TRUE") tekst += '<div class="shinyShadow-switch"></div><div class="shinyPurified-switch"></div>';
+				if(list[i]['dynamax']=="TRUE") tekst += '<div class="dynamax-switch"></div>';
 				tekst += '</div><div class="optional-switch"><div class="male-switch"></div><div class="female-switch"></div></div></div>';
 			}
 		}
@@ -838,6 +845,13 @@ function createPokemon(list) {
             $(this).parent().parent(".lucky").toggleClass('shinyPurified');
         });
     });
+	
+	$(document).ready(function () {
+        $('.dynamax-switch').click(function () {
+            $(this).parent().parent(".caught").toggleClass('dynamax');
+            $(this).parent().parent(".lucky").toggleClass('dynamax');
+        });
+    });
 
     $(document).ready(function () {
         $(".female-switch").click(function () {
@@ -856,7 +870,7 @@ function createPokemon(list) {
 
     $(document).ready(function () {
         $(".seen-btn").click(function () {
-            $(this).parent().parent().removeClass("caught").removeClass("lucky").addClass("seen").removeClass("female-caught").removeClass("male-caught").removeClass("shiny").removeClass("shadow").removeClass("shinyShadow").removeClass("purified").removeClass("shinyPurified").removeClass("perfect").removeClass("perfectMale").removeClass("perfectFemale");
+            $(this).parent().parent().removeClass("caught").removeClass("lucky").addClass("seen").removeClass("female-caught").removeClass("male-caught").removeClass("shiny").removeClass("shadow").removeClass("shinyShadow").removeClass("purified").removeClass("shinyPurified").removeClass("perfect").removeClass("perfectMale").removeClass("perfectFemale").removeClass("dynamax");
         });
         $(".caught-btn").click(function () {
             $(this).parent().parent().removeClass("seen").removeClass("lucky").addClass("caught");
@@ -900,6 +914,14 @@ function createPokemon(list) {
 		
 		});
     });
+	
+	$(document).ready(function () {
+        $("#show-dynamax").click(function () {
+			$(".user-pokedex.not-dynamax").hide();
+		
+		});
+    });	
+	
 	
 	$(document).ready(function () {
         $("#missing-all").click(function () {
@@ -947,6 +969,13 @@ function createPokemon(list) {
         $("#missing-shinyPurified").click(function () {
 			$(".user-pokedex.shinyPurified").hide();
 			$(".user-pokedex.not-shinyShadow").hide();
+		});
+    });
+	
+	$(document).ready(function () {
+        $("#missing-dynamax").click(function () {
+			$(".user-pokedex.dynamax").hide();
+			$(".user-pokedex.not-dynamax").hide();
 		});
     });
 		
