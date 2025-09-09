@@ -430,94 +430,14 @@ function getPokemon() {
 		var data = $.csv.toObjects(csvString,{separator: ','});
 		createPokemon(data);
 	});
-	
-	
+
 	var csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 1Kanto,Bulbasaur,both,TRUE,TRUE,TRUE,1,TRUE
-1Kanto,Ivysaur,both,TRUE,TRUE,TRUE,2,TRUE
-1Kanto,Venusaur,difference,TRUE,TRUE,TRUE,3,TRUE
-1Kanto,Charmander,both,TRUE,TRUE,TRUE,4,TRUE
-1Kanto,Charmeleon,both,TRUE,TRUE,TRUE,5,TRUE
-1Kanto,Charizard,both,TRUE,TRUE,TRUE,6,TRUE
-1Kanto,Squirtle,both,TRUE,TRUE,TRUE,7,TRUE
-1Kanto,Wartortle,both,TRUE,TRUE,TRUE,8,TRUE
-1Kanto,Blastoise,both,TRUE,TRUE,TRUE,9,TRUE
-1Kanto,Caterpie,both,TRUE,TRUE,FALSE,10,TRUE
-1Kanto,Metapod,both,TRUE,TRUE,FALSE,11,TRUE
-1Kanto,Butterfree,difference,TRUE,TRUE,FALSE,12,TRUE
-1Kanto,Weedle,both,TRUE,TRUE,FALSE,13,FALSE
-1Kanto,Kakuna,both,TRUE,TRUE,FALSE,14,FALSE
-1Kanto,Beedrill,both,TRUE,TRUE,FALSE,15,FALSE
-1Kanto,Pidgey,both,TRUE,TRUE,FALSE,16,FALSE
-1Kanto,Pidgeotto,both,TRUE,TRUE,FALSE,17,FALSE
-1Kanto,Pidgeot,both,TRUE,TRUE,FALSE,18,FALSE
-1Kanto,Rattata,difference,TRUE,TRUE,FALSE,19,FALSE
-1Kanto,Rattata alolan,both,TRUE,TRUE,FALSE,19,FALSE
-1Kanto,Raticate,difference,TRUE,TRUE,FALSE,20,FALSE
-1Kanto,Raticate alolan,both,TRUE,TRUE,FALSE,20,FALSE
-1Kanto,Spearow,both,TRUE,FALSE,FALSE,21,FALSE
-1Kanto,Fearow,both,TRUE,FALSE,FALSE,22,FALSE
-1Kanto,Ekans,both,TRUE,TRUE,TRUE,23,FALSE
-1Kanto,Arbok,both,TRUE,TRUE,TRUE,24,FALSE
-1Kanto,Pikachu,difference,TRUE,FALSE,FALSE,25,FALSE
-1Kanto,Raichu,difference,TRUE,FALSE,FALSE,26,FALSE
-1Kanto,Raichu alolan,both,TRUE,FALSE,FALSE,26,FALSE
-1Kanto,Sandshrew,both,TRUE,TRUE,FALSE,27,FALSE
-1Kanto,Sandshrew alolan,both,TRUE,TRUE,FALSE,27,FALSE
-1Kanto,Sandslash,both,TRUE,TRUE,FALSE,28,FALSE
-1Kanto,Sandslash alolan,both,TRUE,TRUE,FALSE,28,FALSE
-1Kanto,Nidoran♀,female,TRUE,TRUE,TRUE,29,FALSE
-1Kanto,Nidorina,female,TRUE,TRUE,TRUE,30,FALSE
-1Kanto,Nidoqueen,female,TRUE,TRUE,TRUE,31,FALSE
-1Kanto,Nidoran♂,male,TRUE,TRUE,TRUE,32,FALSE
-1Kanto,Nidorino,male,TRUE,TRUE,TRUE,33,FALSE
-1Kanto,Nidoking,male,TRUE,TRUE,TRUE,34,FALSE
-1Kanto,Clefairy,both,TRUE,FALSE,FALSE,35,FALSE
-1Kanto,Clefable,both,TRUE,FALSE,FALSE,36,FALSE
-1Kanto,Vulpix,both,TRUE,TRUE,FALSE,37,FALSE
-1Kanto,Vulpix alolan,both,TRUE,TRUE,FALSE,37,FALSE
-1Kanto,Ninetales,both,TRUE,TRUE,FALSE,38,FALSE
-1Kanto,Ninetales alolan,both,TRUE,TRUE,FALSE,38,FALSE
-1Kanto,Jigglypuff,both,TRUE,FALSE,FALSE,39,FALSE
-1Kanto,Wigglytuff,both,TRUE,FALSE,FALSE,40,FALSE
-1Kanto,Zubat,difference,TRUE,TRUE,TRUE,41,FALSE
-1Kanto,Golbat,difference,TRUE,TRUE,TRUE,42,FALSE
-1Kanto,Oddish,both,TRUE,TRUE,FALSE,43,FALSE
-1Kanto,Gloom,difference,TRUE,TRUE,FALSE,44,FALSE
-1Kanto,Vileplume,difference,TRUE,TRUE,FALSE,45,FALSE
-1Kanto,Paras,both,TRUE,FALSE,FALSE,46,FALSE
-1Kanto,Parasect,both,TRUE,FALSE,FALSE,47,FALSE
-1Kanto,Venonat,both,TRUE,TRUE,TRUE,48,FALSE
-1Kanto,Venomoth,both,TRUE,TRUE,TRUE,49,FALSE
-1Kanto,Diglett,both,TRUE,TRUE,FALSE,50,FALSE
-1Kanto,Diglett alolan,both,TRUE,TRUE,FALSE,50,FALSE
-1Kanto,Dugtrio,both,TRUE,TRUE,FALSE,51,FALSE
-1Kanto,Dugtrio alolan,both,TRUE,TRUE,FALSE,51,FALSE
-1Kanto,Meowth,both,TRUE,TRUE,TRUE,52,FALSE
-1Kanto,Meowth alolan,both,TRUE,FALSE,FALSE,52,FALSE
-1Kanto,Meowth galarian,both,TRUE,FALSE,FALSE,52,FALSE
-1Kanto,Persian,both,TRUE,TRUE,TRUE,53,FALSE
-1Kanto,Persian alolan,both,TRUE,FALSE,FALSE,53,FALSE
-1Kanto,Psyduck,both,TRUE,TRUE,FALSE,54,FALSE
-1Kanto,Golduck,both,TRUE,TRUE,FALSE,55,FALSE
-1Kanto,Mankey,both,TRUE,TRUE,FALSE,56,FALSE
-1Kanto,Primeape,both,TRUE,TRUE,FALSE,57,FALSE
-1Kanto,Growlithe,both,TRUE,TRUE,TRUE,58,FALSE
-1Kanto,Growlithe hisuian,both,TRUE,FALSE,FALSE,58,FALSE
-1Kanto,Arcanine,both,TRUE,TRUE,TRUE,59,FALSE
-1Kanto,Arcanine hisuian,both,TRUE,FALSE,FALSE,59,FALSE
-1Kanto,Poliwag,both,TRUE,TRUE,TRUE,60,FALSE
-1Kanto,Poliwhirl,both,TRUE,TRUE,TRUE,61,FALSE
-1Kanto,Poliwrath,both,TRUE,TRUE,TRUE,62,FALSE
-1Kanto,Abra,both,TRUE,TRUE,FALSE,63,FALSE
-1Kanto,Kadabra,difference,TRUE,TRUE,FALSE,64,FALSE
-1Kanto,Alakazam,difference,TRUE,TRUE,FALSE,65,FALSE`;
+1Kanto,Ivysaur,both,TRUE,TRUE,TRUE,2,TRUE`;
 
 	var data = $.csv.toObjects(csvString);
 	createPokemon(data);
 	
-	//var data = get_data();
-	//createPokemon(data);
 }
 
 function getImageUrl(name) {
@@ -629,191 +549,47 @@ function getImageUrl(name) {
     return `${baseUrl}/${filepath}`;
 }
 
-function loading(code){
-			code = code.slice(0, -2);
-			var args = code.split("|");
-            var classesArray = [];
-			
-			var femaleOnly = $('.female-only').map(function(_, x) { return x.id; }).get();
-			var maleOnly = $('.male-only').map(function(_, x) { return x.id; }).get();
-			var genderless = $('.genderless').map(function(_, x) { return x.id; }).get();
-			var notshinyShadow = $('.not-shinyShadow').map(function(_, x) { return x.id; }).get();
-			var notshiny = $('.not-shiny').map(function(_, x) { return x.id; }).get();
-			var notshadow = $('.not-shadow').map(function(_, x) { return x.id; }).get();
-			var difference = $('.difference').map(function(_, x) { return x.id; }).get();	
-			
-            var help = 0;
-            if (args[0] == "") {
-                help = 1;
-            }
-            for (i = 1; i < args.length; i++) {
-                var pokemon = args[i].split("=");
-                pokemon[0] = $.trim(pokemon[0]);
-                pokemon[1] = $.trim(pokemon[1]);
-				
-				if(i==args.length-1) console.log(pokemon);
-				
-				//S shiny, F female, M male, P perfect
-				//A perfect male, B perfect female
-				//H shadow,  R purified, X shinyShadow, Y shinyPurified
+function applyCSV(csvText) {
+    const rows = csvText.split("\n").filter(r => r.trim() !== "");
+    if (rows.length < 2) return;
 
-                var pokemonName = "";
-                var letters = Array.from(pokemon[0]);
-                if ((letters[letters.length - 1] == "S" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "F" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "M" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "P" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "R" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "X" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "H" && letters[letters.length - 2] != " ") || (letters[letters.length - 1] == "Y" && letters[letters.length - 2] != " ")|| (letters[letters.length - 1] == "A" && letters[letters.length - 2] != " ")|| (letters[letters.length - 1] == "B" && letters[letters.length - 2] != " ")) {
-                    for (j = 0; j < letters.length - 1; j++) {
-                        pokemonName += letters[j];
-                    }
-                } else {
-                    pokemonName = pokemon[0];
-                }
+    const headers = rows[0].split(",").map(h => h.trim()); // remove espaços extras
+    console.log(headers);
 
-                var caught = "unknown";
-                var shiny = "";
-                var female = "";
-                var male = "";
-				var shadow = "";
-				var purified = "";
-				var shinyShadow = "";
-				var shinyPurified = "";
-				var perfect = "";
-				var perfectMale = "";
-				var perfectFemale = "";
+    for (let i = 1; i < rows.length; i++) {
+        const cols = rows[i].split(",").map(c => c.trim()); // remove \r e espaços
+        const pokemonId = cols[0];
+        const card = document.getElementById(pokemonId);
+        if (!card) continue;
 
-				if(letters[letters.length - 2] != " "){
-				    switch (letters[letters.length - 1]) {
-						case "S":
-							{
-								shiny = pokemon[1];
-								break;
-							}
-						case "F":
-							{
-								female = pokemon[1];
-								break;
-							}
-						case "M":
-							{
-								male = pokemon[1];
-								break;
-							}
-						case "H":
-							{
-								shadow = pokemon[1];
-								break;
-							}
-						case "P":
-							{
-								perfect = pokemon[1];
-								break;
-							}
-						case "R":
-							{
-								purified = pokemon[1];
-								break;
-							}
-						case "X":
-							{
-								shinyShadow = pokemon[1];
-								break;
-							}
-						case "Y":
-							{
-								shinyPurified = pokemon[1];
-								break;
-							}
-						case "A":
-							{
-								perfectMale = pokemon[1];
-								break;
-							}
-						case "B":
-							{
-								perfectFemale = pokemon[1];
-								break;
-							}
-						default:
-							{
-								caught = pokemon[1];
-								break;
-							}
-					}
-				}else{
-					caught = pokemon[1];
-				}
+        console.log(cols);
 
-                var readyclass = "";
+        // Limpa todas as classes que podem ser importadas
+        card.classList.remove(
+            "dynamax","lucky","perfectMale","perfectFemale",
+            "perfect","shinyMale","shinyFemale","shiny",
+            "shadow","shinyShadow","purified","shinyPurified"
+        );
 
-                switch (caught) {
-                    case "":
-                        {
-                            readyclass += "seen ";
-                            break;
-                        }
-                    case "t":
-                        {
-                            readyclass += "caught ";
-                            break;
-                        }
-                    case "l":
-                        {
-                            readyclass += "lucky ";
-                            break;
-                        }
-                }
+        // Marca classes com base no CSV
+        if (cols[headers.indexOf("dynamax")] === "TRUE") card.classList.add("dynamax");
+        if (cols[headers.indexOf("lucky")] === "TRUE") card.classList.add("lucky");
+        if (cols[headers.indexOf("perfectMale")] === "TRUE") card.classList.add("perfectMale");
+        if (cols[headers.indexOf("perfectFemale")] === "TRUE") card.classList.add("perfectFemale");
+        if (cols[headers.indexOf("perfect")] === "TRUE") card.classList.add("perfect");
+        if (cols[headers.indexOf("shinyMale")] === "TRUE") card.classList.add("shinyMale");
+        if (cols[headers.indexOf("shinyFemale")] === "TRUE") card.classList.add("shinyFemale");
+        if (cols[headers.indexOf("shiny")] === "TRUE") card.classList.add("shiny");
+        if (cols[headers.indexOf("shadow")] === "TRUE") card.classList.add("shadow");
+        if (cols[headers.indexOf("shinyShadow")] === "TRUE") card.classList.add("shinyShadow");
+        if (cols[headers.indexOf("purified")] === "TRUE") card.classList.add("purified");
+        if (cols[headers.indexOf("shinyPurified")] === "TRUE") card.classList.add("shinyPurified");
 
-                if (shiny == "t") {
-                    readyclass += "shiny ";
-                }
-                if (female == "t") {
-                    readyclass += "female-caught ";
-                }
-                if (male == "t") {
-                    readyclass += "male-caught ";
-                }
-                if (shadow == "t") {
-                    readyclass += "shadow ";
-                }
-                if (purified == "t") {
-                    readyclass += "purified ";
-                }
-                if (shinyShadow == "t") {
-                    readyclass += "shinyShadow ";
-                }
-				if (shinyPurified == "t") {
-                    readyclass += "shinyPurified ";
-                }
-                if (perfect == "t") {
-                    readyclass += "perfect ";
-                }
-				if (perfectMale == "t") {
-                    readyclass += "perfectMale ";
-                }
-				if (perfectFemale == "t") {
-                    readyclass += "perfectFemale ";
-                }				
-
-                if (typeof classesArray[pokemonName] === 'undefined') {
-                    classesArray[pokemonName] = readyclass;
-                } else {
-                    classesArray[pokemonName] += readyclass;
-                }
-            }
-
-			for (let elem in classesArray) {  
-				let el = document.getElementById(elem);
-				console.log(elem);
-				el.className = "user-pokedex " + classesArray[elem];
-			}
-			
-			for (var i = 0; i < femaleOnly.length; i++) document.getElementById(femaleOnly[i]).className += " female-only";
-			for (var i = 0; i < maleOnly.length; i++) document.getElementById(maleOnly[i]).className += " male-only";
-			for (var i = 0; i < genderless.length; i++) document.getElementById(genderless[i]).className += " genderless";
-			for (var i = 0; i < notshinyShadow.length; i++) document.getElementById(notshinyShadow[i]).className += " not-shinyShadow";
-			for (var i = 0; i < notshiny.length; i++) document.getElementById(notshiny[i]).className += " not-shiny";
-			for (var i = 0; i < notshadow.length; i++) document.getElementById(notshadow[i]).className += " not-shadow";
-			for (var i = 0; i < difference.length; i++) document.getElementById(difference[i]).className += " difference";
-
+        console.log("Classes aplicadas:", card.className); // confere as classes do card
+    }
 }
+
+
 
 function createPokemon(list) {
 	var region = ["1Kanto", "2Johto", "3Hoenn", "4Sinnoh", "5Unova", "6Kalos", "7Alola", "8Galar", "9Hisui", "9Paldea", "Event", "Gigantamax", "Mega"];
@@ -1052,93 +828,67 @@ function createPokemon(list) {
 		});
     });
 
-    $(document).ready(function () {
-        $("#export-code").click(function () {
-		
-		    var code = document.getElementById("code");
-			var tekst = "";
-		
-			for (i = 0; i < list.length; i++) {
-				pokemon = document.getElementById(list[i]['name']);
-				if (pokemon.classList.contains('seen')) tekst +='| ' + list[i]['name']+' = ';
-				else if (pokemon.classList.contains('caught')) tekst +='| ' + list[i]['name']+' = t';
-				else if (pokemon.classList.contains('lucky')) tekst +='| ' + list[i]['name']+' = l';
-				if(list[i]['gender']=='both'||list[i]['gender']=='difference'){
-						if (pokemon.classList.contains('male-caught')) tekst +='| ' + list[i]['name']+'M = t';
-						if (pokemon.classList.contains('female-caught')) tekst +='| ' + list[i]['name']+'F = t';
-				}
-				
-				if(list[i]['gender']=='difference'){
-						if (pokemon.classList.contains('perfectMale')) tekst +='| ' + list[i]['name']+'A = t';
-						if (pokemon.classList.contains('perfectFemale')) tekst +='| ' + list[i]['name']+'B = t';
-				}else{
-					if (pokemon.classList.contains('perfect')) tekst +='| ' + list[i]['name']+'P = t';
-				}
-				
-				if (pokemon.classList.contains('shiny')) tekst +='| ' + list[i]['name']+'S = t';
-				else if (!pokemon.classList.contains('not-shiny')) tekst +='| ' + list[i]['name']+'S = ';
-				
-				if (pokemon.classList.contains('shadow')) tekst +='| ' + list[i]['name']+'H = t';
-				else if (!pokemon.classList.contains('not-shadow')) tekst +='| ' + list[i]['name']+'H = ';
-				
-				if (pokemon.classList.contains('shinyShadow')) tekst +='| ' + list[i]['name']+'X = t';
-				else if (!pokemon.classList.contains('not-shinyShadow')) tekst +='| ' + list[i]['name']+'X = ';
-				
-				if (pokemon.classList.contains('purified')) tekst +='| ' + list[i]['name']+'R = t';
-				else if (!pokemon.classList.contains('not-shadow')) tekst +='| ' + list[i]['name']+'R = ';
-				
-				if (pokemon.classList.contains('shinyPurified')) tekst +='| ' + list[i]['name']+'Y = t';
-				else if (!pokemon.classList.contains('not-shinyShadow')) tekst +='| ' + list[i]['name']+'Y = ';
-			
-			tekst += "\n";
-			}
-            code.value = "{{User Dex\n"+tekst+"}}";
-			
-			var textFileAsBlob = new Blob([code.value], {type:'text/plain'}); 
-			var downloadLink = document.createElement("a");
-			downloadLink.download = "myDex.txt";
-			downloadLink.innerHTML = "Download File";
-			if (window.webkitURL != null)
-			{
-				// Chrome allows the link to be clicked
-				// without actually adding it to the DOM.
-				downloadLink.href = window.webkitURL.createObjectURL(textFileAsBlob);
-			}
-			else
-			{
-				// Firefox requires the link to be added to the DOM
-				// before it can be clicked.
-				downloadLink.href = window.URL.createObjectURL(textFileAsBlob);
-				downloadLink.onclick = destroyClickedElement;
-				downloadLink.style.display = "none";
-				document.body.appendChild(downloadLink);
-			}
-		
-			downloadLink.click();
-        });
+$(document).ready(function () {
 
-    });
+    $("#export-code").click(function () {
 
-    $(document).ready(function () {
-        $("#import-code").click(function () {
-            var code = document.getElementById("code");
-			loading(code.value);
+        // Cria array para armazenar as linhas do CSV
+        let csvRows = [];
+        // Cabeçalho
+        csvRows.push([
+            "name","dynamax","lucky","perfectMale","perfectFemale",
+            "perfect","shinyMale","shinyFemale","shiny","shadow","shinyShadow","purified","shinyPurified"
+        ].join(","));
+
+        // Percorre cada Pokémon
+        for (let i = 0; i < list.length; i++) {
+            let pokemon = document.getElementById(list[i]['name']);
             
+            let row = [
+                list[i]['name'],
+                pokemon.classList.contains('dynamax') ? 'TRUE' : '',
+                pokemon.classList.contains('lucky') ? 'TRUE' : '',
+                pokemon.classList.contains('perfectMale') ? 'TRUE' : '',
+                pokemon.classList.contains('perfectFemale') ? 'TRUE' : '',
+                pokemon.classList.contains('perfect') ? 'TRUE' : '',
+				pokemon.classList.contains('shinyMale') ? 'TRUE' : '',
+                pokemon.classList.contains('shinyFemale') ? 'TRUE' : '',
+                pokemon.classList.contains('shiny') ? 'TRUE' : '',
+                pokemon.classList.contains('shadow') ? 'TRUE' : '',
+                pokemon.classList.contains('shinyShadow') ? 'TRUE' : '',
+                pokemon.classList.contains('purified') ? 'TRUE' : '',
+                pokemon.classList.contains('shinyPurified') ? 'TRUE' : ''
+            ];
+
+            csvRows.push(row.join(","));
+        }
+
+        // Cria o CSV
+        const csvString = csvRows.join("\n");
+        const blob = new Blob([csvString], { type: 'text/csv' });
+        const url = URL.createObjectURL(blob);
+
+        // Cria link e dispara download
+        const downloadLink = document.createElement("a");
+        downloadLink.href = url;
+        downloadLink.download = "myDex.csv";
+        downloadLink.click();
+        URL.revokeObjectURL(url);
+    });
+
+    // Importação do CSV
+    $(document).ready(function () {
+        $("#myFileInput").on('change', function(event) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                applyCSV(e.target.result);
+            }
+            reader.readAsText(event.target.files[0]);
         });
     });
-	
-	function handleFileLoad(event) {
-	  console.log(event);
-	  loading(event.target.result);
-	}
-	
-	$(document).ready(function () {
-        $("#myFileInput").on('change', function() {
-		  const reader = new FileReader()
-		  reader.onload = handleFileLoad;
-		  reader.readAsText(event.target.files[0])
-		});
-    });
+
+});
+
 }
 </script>
 	
