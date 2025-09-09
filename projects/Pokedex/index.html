@@ -711,9 +711,9 @@ function createPokemon(list) {
 				if(list[i]['shadowshiny']=="FALSE") tekst += " not-shinyShadow";
 				if(list[i]['dynamax']=="FALSE") tekst += " not-dynamax";
 				tekst += '"><div class="image-regular"><img src="' + getImageUrl(list[i]['name']) + '" width="100" height="100"></div><div class="image-shiny"><img src="' + getImageUrl(list[i]['name'] + " shiny") + '" width="100" height="100"></div><div class="name">' + ('0000'+list[i]['n']).slice(-4)+' ' + list[i]['name'] + '</div><div class="caught-switch">&nbsp;<div class="lucky-btn"></div>'
-				if(list[i]['dynamax']=="TRUE") tekst += '<div class="dynamax-switch"></div><br>';
+				if(list[i]['dynamax']=="TRUE") tekst += '<div class="dynamax-switch"></div>';
 				if(list[i]['gender']!="difference"){
-					tekst += '<div class="perfect-switch"></div>';
+					tekst += '<br><div class="perfect-switch"></div>';
 					if(list[i]['shiny']=="TRUE") tekst += '<div class="shiny-switch"></div>';
 				}else{
 					tekst += '<br><div class="perfectMale-switch"></div><div class="perfectFemale-switch"></div>';
