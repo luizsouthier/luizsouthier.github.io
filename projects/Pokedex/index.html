@@ -7,6 +7,7 @@
 	<script type="text/javascript" src="jquery.csv.js"></script>
 	<script type="text/javascript" src="a.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.12.0/js/md5.min.js"></script>
+	<script src="test.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
     <style>
 body {
@@ -84,6 +85,19 @@ h1 {
   border-radius: 50px;
   width: 120px;
   height: 220px !important;
+  color: white;
+  font-weight: 300;
+  padding: 10px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.user-pokedex.background {
+  background: #cabcff;
+  text-align: center;
+  border-radius: 20px;
+  width: 120px;
+  height: 200px !important;
   color: white;
   font-weight: 300;
   padding: 10px;
@@ -337,12 +351,31 @@ h1 {
   background: url("light.png") center 0 no-repeat !important;
 }
 
-
-
-
 .user-pokedex.difference .perfect-switch {
   display: none;
 }
+
+.user-pokedex.background .image-regular{
+  filter: grayscale(90%);
+}
+
+.user-pokedex .hasbackground-switch {
+  background-image: url(background.png);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.hasbackground .hasbackground-switch,
+.user-pokedex.background.hasbackground .image-regular{
+  filter: grayscale(0%);
+}
+
+
 </style>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2655301318011533"
      crossorigin="anonymous"></script>
@@ -416,6 +449,10 @@ Shiny and <img src="shinyShadow.png" height="24px" width="24px" > shadow
     <div id="Mega" style="text-align: center; margin: auto;"></div>
 	<h1>Gigantamax</h1>
     <div id="Gigantamax" style="text-align: center; margin: auto;"></div>
+	<h1>Special Background</h1>
+    <div id="Special" style="text-align: center; margin: auto;"></div>
+	<h1>Location Background</h1>
+    <div id="Location" style="text-align: center; margin: auto;"></div>
 	</div>	
 	<script>
 	getPokemon();
@@ -430,10 +467,6 @@ function getPokemon() {
 		var data = $.csv.toObjects(csvString,{separator: ','});
 		createPokemon(data);
 	});
-
-	var csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
-1Kanto,Bulbasaur,both,TRUE,TRUE,TRUE,1,TRUE
-1Kanto,Ivysaur,both,TRUE,TRUE,TRUE,2,TRUE`;
 
 	var data = $.csv.toObjects(csvString);
 	createPokemon(data);
@@ -554,15 +587,12 @@ function applyCSV(csvText) {
     if (rows.length < 2) return;
 
     const headers = rows[0].split(",").map(h => h.trim()); // remove espaços extras
-    console.log(headers);
 
     for (let i = 1; i < rows.length; i++) {
         const cols = rows[i].split(",").map(c => c.trim()); // remove \r e espaços
         const pokemonId = cols[0];
         const card = document.getElementById(pokemonId);
         if (!card) continue;
-
-        console.log(cols);
 
         // Limpa todas as classes que podem ser importadas
         card.classList.remove(
@@ -584,15 +614,12 @@ function applyCSV(csvText) {
         if (cols[headers.indexOf("shinyShadow")] === "TRUE") card.classList.add("shinyShadow");
         if (cols[headers.indexOf("purified")] === "TRUE") card.classList.add("purified");
         if (cols[headers.indexOf("shinyPurified")] === "TRUE") card.classList.add("shinyPurified");
-
-        console.log("Classes aplicadas:", card.className); // confere as classes do card
     }
 }
 
-
-
 function createPokemon(list) {
 	var region = ["1Kanto", "2Johto", "3Hoenn", "4Sinnoh", "5Unova", "6Kalos", "7Alola", "8Galar", "9Hisui", "9Paldea", "Event", "Gigantamax", "Mega"];
+	var background = ["Special", "Location"];
 	for(j = 0; j < region.length; j++) {
 		var tekst = "";
 		var el = document.getElementById(region[j]);
@@ -607,7 +634,7 @@ function createPokemon(list) {
 				if(list[i]['shadow']=="FALSE") tekst += " not-shadow";
 				if(list[i]['shadowshiny']=="FALSE") tekst += " not-shinyShadow";
 				if(list[i]['dynamax']=="FALSE") tekst += " not-dynamax";
-				tekst += '"><div class="image-regular"><img src="' + getImageUrl(list[i]['name']) + '" width="100" height="100"></div><div class="image-shiny"><img src="' + getImageUrl(list[i]['name'] + " shiny") + '" width="100" height="100"></div><div class="name">' + ('0000'+list[i]['n']).slice(-4)+' ' + list[i]['name'] + '</div><div class="caught-switch">&nbsp;<div class="lucky-btn"></div>'
+				tekst += '"><div class="image-regular"><img src="' + getImageUrl(list[i]['name']) + '" width="100" height="100"></div><div class="image-shiny"><img src="' + getImageUrl(list[i]['name'] + " shiny") + '" width="100" height="100"></div><div class="name">' + ('0000'+list[i]['n']).slice(-4)+' ' + list[i]['name'] + '</div><div class="caught-switch"><div class="lucky-btn"></div>'
 				if(list[i]['dynamax']=="TRUE") tekst += '<div class="dynamax-switch"></div>';
 				if(list[i]['gender']!="difference"){
 					tekst += '<br><div class="perfect-switch"></div>';
@@ -620,7 +647,7 @@ function createPokemon(list) {
 					tekst += '<br><div class="shadow-switch"></div><div class="purified-switch"></div>';
 					if(list[i]['shadowshiny']=="TRUE") tekst += '<div class="shinyShadow-switch"></div><div class="shinyPurified-switch"></div>';
 				} else {
-					tekst += '<div style="background-size: 24px 24px; margin: 3px auto; width: 24px; height: 24px;"></div>';
+					tekst += '<br><div style="background-size: 24px 24px; margin: 3px auto; width: 24px; height: 24px;display:inline-block"></div>';
 				}
 				tekst += '</div></div>';
 
@@ -628,6 +655,26 @@ function createPokemon(list) {
 		}
 		el.innerHTML = tekst;
 	}
+
+for(j = 0; j < background.length; j++) {
+		var tekst = "";
+		var el = document.getElementById(background[j]);
+		for (i = 0; i < list.length; i++) {
+			if(list[i]['region'] == background[j]) {
+				tekst += '<div id="' + list[i]['name'] + list[i]['gender']+'" class="user-pokedex background';
+				tekst += '"><div class="image-regular" style="background:url(' +getImageUrl(list[i]['gender']) + ') center/cover no-repeat;"><img src="' + getImageUrl(list[i]['name']) + '" width="100" height="100"></div><div class="name">' + ('0000'+list[i]['n']).slice(-4)+' ' + list[i]['name'] + '</div><div class="caught-switch"><div class="hasbackground-switch"></div></div></div>';
+
+			}
+		}
+		console.log(tekst);
+		el.innerHTML = tekst;
+	}
+	
+	$(document).ready(function () {
+		$('.hasbackground-switch').click(function () {
+			$(this).parent().parent(".background").toggleClass('hasbackground');
+		});
+	});
 
     $(document).ready(function () {
         $('.shiny-switch').click(function () {
