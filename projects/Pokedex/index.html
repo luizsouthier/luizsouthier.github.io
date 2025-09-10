@@ -421,6 +421,8 @@ Shiny and <img src="shinyShadow.png" height="24px" width="24px" > shadow
 		<button id="missing-shinyPurified">Shiny purified</button>
 		<button id="missing-perfect">Perfect</button><br>
 		<button id="missing-dynamax">Dynamax</button><br>
+		<button id="missing-background">Background</button><br>
+
 	</td>
 	</tr></table>
         
@@ -825,6 +827,13 @@ for(j = 0; j < background.length; j++) {
 	$(document).ready(function () {
         $("#missing-lucky").click(function () {
 			$(".user-pokedex.lucky").hide();
+		
+		});
+    });
+	
+	$(document).ready(function () {
+        $("#missing-background").click(function () {
+			$(".user-pokedex.hasbackground").hide();
 		
 		});
     });
