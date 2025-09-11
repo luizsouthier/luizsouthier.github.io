@@ -675,160 +675,86 @@ function createPokemon(list) {
 		el.innerHTML = tekst;
 	}
 	
-	$(document).ready(function () {
-		$('.hasbackground-switch').click(function () {
-			$(this).parent().parent(".background").toggleClass('hasbackground');
-		});
-	});
+	// Toggle de background
+$(document).on('click', '.hasbackground-switch', function () {
+    $(this).closest(".background").toggleClass('hasbackground');
+});
 
-    $(document).ready(function () {
-        $('.shiny-switch').click(function () {
-            $(this).parent().parent(".caught").toggleClass('shiny');
-        });
-    });
+// Toggle de shiny
+$(document).on('click', '.shiny-switch', function () {
+    $(this).closest(".caught").toggleClass('shiny');
+});
 
+// Toggle de shadow
+$(document).on('click', '.shadow-switch', function () {
+    $(this).closest(".caught").toggleClass('shadow');
+});
 
-    $(document).ready(function () {
-        $('.shadow-switch').click(function () {
-            $(this).parent().parent(".caught").toggleClass('shadow');
-        });
-    });
-	
-	
-    $(document).ready(function () {
-        $('.perfect-switch').click(function () {
-            $(this).parent().parent(".caught").toggleClass('perfect');
-        });
-    });
-	
-	
-    $(document).ready(function () {
-        $('.perfectMale-switch').click(function () {
-            $(this).parent().parent(".caught").toggleClass('perfectMale');
-        });
-    });
-	
-    $(document).ready(function () {
-        $('.perfectFemale-switch').click(function () {
-            $(this).parent().parent(".caught").toggleClass('perfectFemale');
-        });
-    });	
-	
-    $(document).ready(function () {
-        $('.shinyMale-switch').click(function () {
-            $(this).parent().parent(".caught").toggleClass('shinyMale');
-        });
-    });
-	
-    $(document).ready(function () {
-        $('.shinyFemale-switch').click(function () {
-            $(this).parent().parent(".caught").toggleClass('shinyFemale');
-        });
-    });	
-	
-	$(document).ready(function () {
-		$('.purified-switch').click(function () {
-			const container = $(this).closest(".caught"); // pega o elemento pai
-			const isPurified = container.hasClass('purified');
+// Toggle de perfect
+$(document).on('click', '.perfect-switch', function () {
+    $(this).closest(".caught").toggleClass('perfect');
+});
 
-			container.toggleClass('purified');
+// Toggle de perfectMale
+$(document).on('click', '.perfectMale-switch', function () {
+    $(this).closest(".caught").toggleClass('perfectMale');
+});
 
-			if (!isPurified) {
-				container.addClass('shadow');
-			}
-		});
-	});
+// Toggle de perfectFemale
+$(document).on('click', '.perfectFemale-switch', function () {
+    $(this).closest(".caught").toggleClass('perfectFemale');
+});
 
-	
-	$(document).ready(function () {
-		$('.shinyPurified-switch').click(function () {
-			const container = $(this).closest(".caught"); // pega o elemento pai
-			const isPurified = container.hasClass('shinyPurified');
+// Toggle de shinyMale
+$(document).on('click', '.shinyMale-switch', function () {
+    $(this).closest(".caught").toggleClass('shinyMale');
+});
 
-			container.toggleClass('shinyPurified');
+// Toggle de shinyFemale
+$(document).on('click', '.shinyFemale-switch', function () {
+    $(this).closest(".caught").toggleClass('shinyFemale');
+});
 
-			if (!isPurified) {
-				container.addClass('purified');
-			}
-		});
-	});
-	
-	$(document).ready(function () {
-		$('.shinyShadow-switch').click(function () {
-			const container = $(this).closest(".caught"); // pega o elemento pai
-			const isPurified = container.hasClass('shinyShadow');
+// Toggle de purified (liga shadow junto)
+$(document).on('click', '.purified-switch', function () {
+    const container = $(this).closest(".caught");
+    const isPurified = container.hasClass('purified');
+    container.toggleClass('purified');
+    if (!isPurified) {
+        container.addClass('shadow');
+    }
+});
 
-			container.toggleClass('shinyShadow');
+// Toggle de shinyPurified (liga purified junto)
+$(document).on('click', '.shinyPurified-switch', function () {
+    const container = $(this).closest(".caught");
+    const isPurified = container.hasClass('shinyPurified');
+    container.toggleClass('shinyPurified');
+    if (!isPurified) {
+        container.addClass('purified');
+    }
+});
 
-			if (!isPurified) {
-				container.addClass('shadow');
-			}
-		});
-	});
+// Toggle de shinyShadow (liga shadow junto)
+$(document).on('click', '.shinyShadow-switch', function () {
+    const container = $(this).closest(".caught");
+    const isShadow = container.hasClass('shinyShadow');
+    container.toggleClass('shinyShadow');
+    if (!isShadow) {
+        container.addClass('shadow');
+    }
+});
 
-	
-	$(document).ready(function () {
-        $('.dynamax-switch').click(function () {
-            $(this).parent().parent(".caught").toggleClass('dynamax');
-        });
-    });
-	
-	$(document).ready(function () {
-        $('.lucky-btn').click(function () {
-            $(this).parent().parent(".caught").toggleClass('lucky');
-        });
-    });
+// Toggle de dynamax
+$(document).on('click', '.dynamax-switch', function () {
+    $(this).closest(".caught").toggleClass('dynamax');
+});
 
-	
-	$(document).ready(function () {
-        $("#show-all").click(function () {
-			$(".user-pokedex").show();
-		
-		});
-    });
-	
-	$(document).ready(function () {
-        $("#show-difference").click(function () {
-			$(".user-pokedex:not('.difference')").hide();
-		
-		});
-    });
-	
-	$(document).ready(function () {
-        $("#show-shiny").click(function () {
-			$(".user-pokedex.not-shiny").hide();
-		
-		});
-    });
-	
-	$(document).ready(function () {
-        $("#show-shadow").click(function () {
-			$(".user-pokedex.not-shadow").hide();
-		
-		});
-    });
-	
-	$(document).ready(function () {
-        $("#show-shinyShadow").click(function () {
-			$(".user-pokedex.not-shinyShadow").hide();
-		
-		});
-    });
-	
-	$(document).ready(function () {
-        $("#show-dynamax").click(function () {
-			$(".user-pokedex.not-dynamax").hide();
-		
-		});
-    });	
-	
-	
-	$(document).ready(function () {
-        $("#missing-lucky").click(function () {
-			$(".user-pokedex.lucky").hide();
-		
-		});
-    });
+// Toggle de lucky
+$(document).on('click', '.lucky-btn', function () {
+    $(this).closest(".caught").toggleClass('lucky');
+});
+
 	
 	$(document).ready(function () {
         $("#missing-background").click(function () {
