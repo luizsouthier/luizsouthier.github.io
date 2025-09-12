@@ -1398,10 +1398,10 @@ Event,Pikachu horizons,difference,TRUE,FALSE,FALSE,25,FALSE
 Event,Pikachu female saree,difference,TRUE,FALSE,FALSE,25,FALSE
 Event,Pikachu hilbert,difference,TRUE,FALSE,FALSE,25,FALSE
 Event,Pikachu hilda,difference,TRUE,FALSE,FALSE,25,FALSE
-Event,Pikachu nate ,difference,TRUE,FALSE,FALSE,25,FALSE
+Event,Pikachu nate,difference,TRUE,FALSE,FALSE,25,FALSE
 Event,Pikachu rosa,difference,TRUE,FALSE,FALSE,25,FALSE
 Event,Pikachu kurta,difference,TRUE,FALSE,FALSE,25,FALSE
-Event,Pikachu go fest 2025 monocle blue ,difference,TRUE,FALSE,FALSE,25,FALSE
+Event,Pikachu go fest 2025 monocle blue,difference,TRUE,FALSE,FALSE,25,FALSE
 Event,Pikachu go fest 2025 monocle red,difference,TRUE,FALSE,FALSE,25,FALSE
 Event,Pikachu go fest 2025 monocle yellow,difference,TRUE,FALSE,FALSE,25,FALSE
 Event,Pikachu go fest 2025 goggles blue,difference,TRUE,FALSE,FALSE,25,FALSE
@@ -1432,7 +1432,7 @@ Event,Jigglypuff ribbon,both,TRUE,FALSE,FALSE,39,FALSE
 Event,Wigglytuff ribbon,both,TRUE,FALSE,FALSE,40,FALSE
 Event,Diglett hat,both,TRUE,FALSE,FALSE,50,FALSE
 Event,Dugtrio hat,both,TRUE,FALSE,FALSE,51,FALSE
-Event,Psyduck|swim ring,both,TRUE,FALSE,FALSE,51,FALSE
+Event,Psyduck swim ring,both,TRUE,FALSE,FALSE,51,FALSE
 Event,Psyduck holiday,both,TRUE,TRUE,FALSE,54,FALSE
 Event,Golduck holiday,both,TRUE,TRUE,FALSE,55,FALSE
 Event,Ponyta candela,both,TRUE,FALSE,FALSE,77,FALSE
@@ -1554,8 +1554,8 @@ Event,Dusknoir cempasúchil,both,TRUE,FALSE,FALSE,477,FALSE
 Event,Blitzle collar,both,TRUE,FALSE,FALSE,522,FALSE
 Event,Cottonee flower,both,TRUE,FALSE,FALSE,546,FALSE
 Event,Whimsicott flower,both,TRUE,FALSE,FALSE,547,FALSE
-Event,Minccino fashion,both,TRUE,FALSE,FALSE,572,FALSE
-Event,Cinccino fashion,both,TRUE,FALSE,FALSE,573,FALSE
+Event,Minccino fashionable,both,TRUE,FALSE,FALSE,572,FALSE
+Event,Cinccino fashionable,both,TRUE,FALSE,FALSE,573,FALSE
 Event,Cubchoo holiday,both,TRUE,FALSE,FALSE,613,FALSE
 Event,Beartic holiday,both,TRUE,FALSE,FALSE,613,FALSE
 Event,Froakie halloween,both,TRUE,FALSE,FALSE,565,FALSE
@@ -1567,21 +1567,21 @@ Event,Sylveon spring2023,both,TRUE,FALSE,FALSE,700,FALSE
 Event,Sylveon explorer,both,TRUE,FALSE,FALSE,700,FALSE
 Event,Dedenne holiday,both,TRUE,FALSE,FALSE,702,FALSE
 Event,Pumpkaboo small halloween,both,TRUE,FALSE,FALSE,710,FALSE
-Event,Pumpkaboo average halloween,both,TRUE,FALSE,FALSE,710,FALSE
+Event,Pumpkaboo  halloween,both,TRUE,FALSE,FALSE,710,FALSE
 Event,Pumpkaboo large halloween,both,TRUE,FALSE,FALSE,710,FALSE
 Event,Pumpkaboo super halloween,both,TRUE,FALSE,FALSE,710,FALSE
 Event,Gourgeist small halloween,both,TRUE,FALSE,FALSE,711,FALSE
-Event,Gourgeist average halloween,both,TRUE,FALSE,FALSE,711,FALSE
+Event,Gourgeist  halloween,both,TRUE,FALSE,FALSE,711,FALSE
 Event,Gourgeist large halloween,both,TRUE,FALSE,FALSE,711,FALSE
 Event,Gourgeist super halloween,both,TRUE,FALSE,FALSE,711,FALSE
 Event,Rowlet halloween,both,TRUE,FALSE,FALSE,722,FALSE
 Event,Dartrix halloween,both,TRUE,FALSE,FALSE,723,FALSE
 Event,Decidueye halloween,both,TRUE,FALSE,FALSE,724,FALSE
-Event,Wooloo halloween,both,TRUE,FALSE,FALSE,831,FALSE
-Event,Dubwool halloween,both,TRUE,FALSE,FALSE,832,FALSE
+Event,Wooloo holiday,both,TRUE,FALSE,FALSE,831,FALSE
+Event,Dubwool holiday,both,TRUE,FALSE,FALSE,832,FALSE
 Event,Falinks train,genderless,TRUE,FALSE,FALSE,870,FALSE
-Event,Floragato hat,both,TRUE,FALSE,FALSE,907,FALSE
-Event,Gimmighoul 9th,genderless,TRUE,FALSE,FALSE,999,FALSE
+Event,Floragato horizons,both,TRUE,FALSE,FALSE,907,FALSE
+Event,Gimmighoul  roaming 9th anniversary coin,genderless,TRUE,FALSE,FALSE,999,FALSE
 Gigantamax,Venusaur gigantamax,genderless,TRUE,FALSE,FALSE,3,FALSE
 Gigantamax,Charizard gigantamax,genderless,TRUE,FALSE,FALSE,6,FALSE
 Gigantamax,Blastoise gigantamax,genderless,TRUE,FALSE,FALSE,9,FALSE
@@ -1858,16 +1858,16 @@ Location,Cresselia,Location Card NYC,,,,,
 Location,Xerneas,Location Card NYC,,,,,
 Location,Yveltal,Location Card NYC,,,,,
 Location,Rayquaza,Location Card NYC,,,,,
-Location,Eevee (Explorer),Location Card Seoul,,,,,
-Location,Eevee (Explorer),Location Card Barcelona,,,,,
-Location,Eevee (Explorer),Location Card Mexico City,,,,,
+Location,Eevee explorer,Location Card Seoul,,,,,
+Location,Eevee explorer,Location Card Barcelona,,,,,
+Location,Eevee explorer,Location Card Mexico City,,,,,
 Location,Dialga,Location Card Los Angeles,,,,,
-Location,Dialga (Origin),Location Card Los Angeles,,,,,
+Location,Dialga origin,Location Card Los Angeles,,,,,
 Location,Palkia,Location Card Los Angeles,,,,,
-Location,Palkia (Origin),Location Card Los Angeles,,,,,
+Location,Palkia origin,Location Card Los Angeles,,,,,
 Location,Latias,Location Card Bali,,,,,
 Location,Latios,Location Card Bali,,,,,
-Location,Eevee (Explorer),Location_Card_Tainan,,,,,
+Location,Eevee explorer,Location_Card_Tainan,,,,,
 Location,Latias,Location Card Surabaya,,,,,
 Location,Latios,Location Card Surabaya,,,,,
 Location,Solgaleo,Location Card Sendai,,,,,
@@ -1894,32 +1894,32 @@ Location,Kartana,Location Card NYC 2024,,,,,
 Location,Guzzlord,Location Card NYC 2024,,,,,
 Location,Necrozma,Location Card NYC 2024,,,,,
 Location,Blacephalon,Location Card NYC 2024,,,,,
-Location,Pikachu (Worlds 2024),Location Background Honolulu,,,,,
+Location,Pikachu worlds 2024,Location Background Honolulu,,,,,
 Location,Latias,Location Card Yogyakarta,,,,,
 Location,Latios,Location Card Yogyakarta,,,,,
 Location,Pikachu,Location Background MLB Marlins,,,,,
 Location,Pikachu,Location Background MLB Mariners,,,,,
 Location,Latias,Location_Background_Jakarta,,,,,
 Location,Latios,Location_Background_Jakarta,,,,,
-Location,Eevee (Explorer),Location_Background_Jakarta,,,,,
+Location,Eevee explorer,Location_Background_Jakarta,,,,,
 Location,Skiddo,Location_Background_Incheon,,,,,
-Location,Dialga (Origin),Location_Background_Fukuoka,,,,,
-Location,Palkia (Origin),Location_Background_Fukuoka,,,,,
-Location,Toxtricity (Amped),Location_Background_Fukuoka,,,,,
-Location,Toxtricity (Low Key),Location_Background_Fukuoka,,,,,
-Location,Eevee (Explorer),Location Background Hong Kong,,,,,
-Location,Eevee (Explorer),Location Background São Paulo,,,,,
+Location,Dialga origin,Location_Background_Fukuoka,,,,,
+Location,Palkia origin,Location_Background_Fukuoka,,,,,
+Location,Toxtricity,Location_Background_Fukuoka,,,,,
+Location,Toxtricity lowkey,Location_Background_Fukuoka,,,,,
+Location,Eevee explorer,Location Background Hong Kong,,,,,
+Location,Eevee explorer,Location Background São Paulo,,,,,
 Location,Reshiram,Location_Background_New Taipei City,,,,,
 Location,Zekrom,Location_Background_New Taipei City,,,,,
 Location,Kyurem,Location_Background_New Taipei City,,,,,
 Location,Reshiram,Location_Background_Los Angeles,,,,,
 Location,Zekrom,Location_Background_Los Angeles,,,,,
 Location,Kyurem,Location_Background_Los Angeles,,,,,
-Location,Eevee (Explorer),Location_Background_Singapore,,,,,
-Location,Eevee (Explorer),Location_Background_Mumbai,,,,,
-Location,Eevee (Explorer),Location_Background_Milan,,,,,
-Location,Eevee (Explorer),Location_Background_Santiago,,,,,
-Location,Pikachu (Spring),Location_Background_SpringBlossom2025,,,,,
+Location,Eevee explorer,Location_Background_Singapore,,,,,
+Location,Eevee explorer,Location_Background_Mumbai,,,,,
+Location,Eevee explorer,Location_Background_Milan,,,,,
+Location,Eevee explorer,Location_Background_Santiago,,,,,
+Location,Pikachu spring,Location_Background_SpringBlossom2025,,,,,
 Location,Deerling,Location_Background_SpringBlossom2025,,,,,
 Location,Bulbasaur,Location_Background_Expo2025 Starters,,,,,
 Location,Charmander,Location_Background_Expo2025 Starters,,,,,
@@ -1937,34 +1937,33 @@ Location,Zacian,Location Background Paris,,,,,
 Location,Zamazenta,Location Background Paris,,,,,
 Location,Pikachu,Location Background Sajik Baseball Stadium,,,,,
 Location,Pikachu,Location Background MLB Mariners,,,,,
-Location,Pikachu (Summer),Location Background Road Trip 2025 Manchester,,,,,
+Location,Pikachu summer,Location Background Road Trip 2025 Manchester,,,,,
 Location,Pikachu,Location Background MLB Marlins,,,,,
-Location,Pikachu (Summer),Location Background Road Trip 2025 London,,,,,
+Location,Pikachu summer,Location Background Road Trip 2025 London,,,,,
 Location,Pikachu,Location Background_MLB_Tampa Bay Rays,,,,,
 Location,Pikachu,Location Background_MLB Milwaukee Brewers,,,,,
-Location,Pikachu (Summer),Location Background Road Trip 2025 Paris,,,,,
-Location,Pikachu (Party Hat),Location Background Jangheung Water Festival,,,,,
-Location,Lapras (Scarf),Location Background Jangheung Water Festival,,,,,
-Location,Deerling (Summer),Location Background Jangheung Water Festival,,,,,
-Location,Pikachu (Summer),Location_Background_Road Trip 2025 Valencia,,,,,
+Location,Pikachu summer,Location Background Road Trip 2025 Paris,,,,,
+Location,Pikachu party hat,Location Background Jangheung Water Festival,,,,,
+Location,Lapras scarf,Location Background Jangheung Water Festival,,,,,
+Location,Deerling summer,Location Background Jangheung Water Festival,,,,,
+Location,Pikachu summer,Location_Background_Road Trip 2025 Valencia,,,,,
 Location,Pikachu,Location Background_MLB_Washington Nationals,,,,,
-Location,Pikachu (Summer),Location Background Road Trip 2025 Berlin,,,,,
+Location,Pikachu summer,Location Background Road Trip 2025 Berlin,,,,,
 Location,Pikachu,Location Background_MLB Arizona Diamondbacks,,,,,
 Location,Pikachu,Location Background_MLB Chicago White Sox,,,,,
 Location,Pikachu,Location Background_MLB Baltimore Orioles,,,,,
 Location,Pikachu,Location Background_MLB Cleveland Guardians,,,,,
-Location,Pikachu (Varsity Jacket),Location Background Anaheim,,,,,
-Location,Pikachu (Summer),Location Background Road Trip 2025 Hague,,,,,
-Location,Pikachu (Summer),Location Background Road Trip 2025 Cologne,,,,,
+Location,Pikachu varsity jacket,Location Background Anaheim,,,,,
+Location,Pikachu summer,Location Background Road Trip 2025 Hague,,,,,
+Location,Pikachu summer,Location Background Road Trip 2025 Cologne,,,,,
 Location,Pikachu,Location Background_MLB New York Mets,,,,,
 Location,Pikachu,Location Background_MLB Boston Red Sox,,,,,
 Location,Pikachu,Location Background_MLB_San Francisco Giants,,,,,
 Location,Pikachu,Location Background_MLB Minnesota Twins,,,,,
 Location,Pikachu,Location Background_MLB_Texas Rangers,,,,,
-Location,Eevee (Explorer),Location Background_City Safari Bangkok,,,,,
-Location,Eevee (Explorer),Location Background_City Safari Amsterdam,,,,,
-Location,Eevee (Explorer),Location Background_City Safari Valencia,,,,,
-Location,Eevee (Explorer),Location Background_City Safari Cancun,,,,,
-Location,Eevee (Explorer),Location Background_City Safari Vancouver,,,,,
-`; 
-
+Location,Eevee explorer,Location Background_City Safari Bangkok,,,,,
+Location,Eevee explorer,Location Background_City Safari Amsterdam,,,,,
+Location,Eevee explorer,Location Background_City Safari Valencia,,,,,
+Location,Eevee explorer,Location Background_City Safari Cancun,,,,,
+Location,Eevee explorer,Location Background_City Safari Vancouver,,,,,
+`;

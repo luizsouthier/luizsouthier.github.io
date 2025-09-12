@@ -388,10 +388,8 @@ h1 {
 	<div id="top">
     <form id="pokemon-form" action="" onsubmit="return false;">
 	<table width="100%"><tr>
-	<td width="100px"><textarea id="code" rows="10"></textarea></td>
 	<td><input type="file" id="myFileInput" style="display:none"/>   
-		<button id="export-code">Export code</button><br>
-		<button id="import-code">Import code</button><br>
+		<button id="export-code">Export file</button><br>
 		<button id="open-file" onclick="document.getElementById('myFileInput').click()">Open file</button></td>
 	<td width="400px"><br><br>
 <img src="https://vignette.wikia.nocookie.net/pokemongo/images/3/31/Shiny_Pok%C3%A9mon.png/revision/latest?cb=20171026223519" height="24px" width="24px" > Shiny 
@@ -481,85 +479,15 @@ function getPokemon() {
 
 function getImageUrl(name) {
 
-	if(name == "Unown F") name = "Unown";
-	if(name == "Castform normal") name = "Castform";
-    if(name == "Deoxys normal") name = "Deoxys";
-	if(name == "Burmy plant") name = "Burmy";
-	if(name == "Wormadam plant") name = "Wormadam";
-	if(name == "Cherrim overcast") name = "Cherrim";
-	if(name == "Shellos west") name = "Shellos";
-	if(name == "Gastrodon west") name = "Gastrodon";
-	if(name == "Rotom regular") name = "Rotom";
-	if(name == "Shaymin land") name = "Shaymin";
-	if(name == "Arceus normal") name = "Arceus";
-	if(name == "Giratina altered") name = "Giratina";
-	if(name == "Basculin red-striped") name = "Basculin";
-	if(name == "Darmanitan standard") name = "Darmanitan";
-	if(name == "Deerling spring") name = "Deerling";
-	if(name == "Sawsbuck spring") name = "Sawsbuck";
-	if(name == "Tornadus incarnate") name = "Tornadus";
-	if(name == "Thundurus incarnate") name = "Thundurus";
-	if(name == "Landorus incarnate") name = "Landorus";
-	if(name == "Kyurem regular") name = "Kyurem";
-	if(name == "Keldeo ordinary") name = "Keldeo";
-	if(name == "Meloetta aria") name = "Meloetta";
-	if(name == "Genesect regular") name = "Genesect";
-	if(name == "Flabébé red") name = "Flabébé";
-	if(name == "Floette red") name = "Floette";
-	if(name == "Florges red") name = "Florges";
-	if(name == "Hoopa confined") name = "Hoopa";
-	if(name == "Oricorio baile") name = "Oricorio";
-	if(name == "Lycanroc midday") name = "Lycanroc";
-	if(name == "Zacian hero") name = "Zacian";
-	if(name == "Zamazenta hero") name = "Zamazenta";
 	if(name == "Pikachu libre") name = "Pikachu female libre";
 	if(name == "Pikachu pop") name = "Pikachu female pop";
 	if(name == "Pikachu rock") name = "Pikachu female rock";
-	if(name == "Pumpkaboo average halloween") name = "Pumpkaboo halloween";
-	if(name == "Gourgeist average halloween") name = "Gourgeist halloween";
-    if(name == "Vivillon_archipelago") name = "Vivillon";
-	
-
-
-	if(name == "Unown F shiny") name = "Unown shiny";
-	if(name == "Castform normal shiny") name = "Castform shiny";
-    if(name == "Deoxys normal shiny") name = "Deoxys shiny";
-	if(name == "Burmy plant shiny") name = "Burmy shiny";
-	if(name == "Wormadam plant shiny") name = "Wormadam shiny";
-	if(name == "Cherrim overcast shiny") name = "Cherrim shiny";
-	if(name == "Shellos west shiny") name = "Shellos shiny";
-	if(name == "Gastrodon west shiny") name = "Gastrodon shiny";
-	if(name == "Rotom regular shiny") name = "Rotom shiny";
-	if(name == "Shaymin land shiny") name = "Shaymin shiny";
-	if(name == "Arceus normal shiny") name = "Arceus shiny";
-	if(name == "Giratina altered shiny") name = "Giratina shiny";
-	if(name == "Basculin red-striped shiny") name = "Basculin shiny";
-	if(name == "Darmanitan standard shiny") name = "Darmanitan shiny";
-	if(name == "Deerling spring shiny") name = "Deerling shiny";
-	if(name == "Sawsbuck spring shiny") name = "Sawsbuck shiny";
-	if(name == "Tornadus incarnate shiny") name = "Tornadus shiny";
-	if(name == "Thundurus incarnate shiny") name = "Thundurus shiny";
-	if(name == "Landorus incarnate shiny") name = "Landorus shiny";
-	if(name == "Kyurem regular shiny") name = "Kyurem shiny";
-	if(name == "Keldeo ordinary shiny") name = "Keldeo shiny";
-	if(name == "Meloetta aria shiny") name = "Meloetta shiny";
-	if(name == "Genesect regular shiny") name = "Genesect shiny";
-	if(name == "Flabébé red shiny") name = "Flabébé shiny";
-	if(name == "Floette red shiny") name = "Floette shiny";
-	if(name == "Florges red shiny") name = "Florges shiny";
-	if(name == "Hoopa confined shiny") name = "Hoopa shiny";
-	if(name == "Oricorio baile shiny") name = "Oricorio shiny";
-	if(name == "Lycanroc midday shiny") name = "Lycanroc shiny";
-	if(name == "Zacian hero shiny") name = "Zacian shiny";
-	if(name == "Zamazenta hero shiny") name = "Zamazenta shiny";
+	if(name == "Pikachu phd") name = "Pikachu female phd";
 	
 	if(name == "Pikachu libre shiny") name = "Pikachu female libre shiny";
 	if(name == "Pikachu pop shiny") name = "Pikachu female pop shiny";
 	if(name == "Pikachu rock shiny") name = "Pikachu female rock shiny";
-	if(name == "Pumpkaboo average halloween shiny") name = "Pumpkaboo halloween shiny";
-	if(name == "Gourgeist average halloween shiny") name = "Gourgeist halloween shiny";
-    if(name == "Vivillon_archipelago shiny") name = "Vivillon shiny";
-
+	if(name == "Pikachu phd shiny") name = "Pikachu female phd shiny";
 	
 	if(name == "Spinda 1") name = "Spinda";
 	if(name == "Spinda 2") name = "Spinda pattern 2";
@@ -604,7 +532,7 @@ function applyCSV(csvText) {
         card.classList.remove(
             "dynamax","lucky","perfectMale","perfectFemale",
             "perfect","shinyMale","shinyFemale","shiny",
-            "shadow","shinyShadow","purified","shinyPurified"
+            "shadow","shinyShadow","purified","shinyPurified","hasbackground"
         );
 
         // Marca classes com base no CSV
@@ -620,6 +548,7 @@ function applyCSV(csvText) {
         if (cols[headers.indexOf("shinyShadow")] === "TRUE") card.classList.add("shinyShadow");
         if (cols[headers.indexOf("purified")] === "TRUE") card.classList.add("purified");
         if (cols[headers.indexOf("shinyPurified")] === "TRUE") card.classList.add("shinyPurified");
+		if (cols[headers.indexOf("hasbackground")] === "TRUE") card.classList.add("hasbackground");
     }
 }
 
@@ -816,34 +745,53 @@ $(document).on('click', '.lucky-btn', function () {
 $(document).ready(function () {
 
     $("#export-code").click(function () {
+	
+	   console.log(list);
 
         // Cria array para armazenar as linhas do CSV
         let csvRows = [];
         // Cabeçalho
         csvRows.push([
             "name","dynamax","lucky","perfectMale","perfectFemale",
-            "perfect","shinyMale","shinyFemale","shiny","shadow","shinyShadow","purified","shinyPurified"
+            "perfect","shinyMale","shinyFemale","shiny","shadow","shinyShadow","purified","shinyPurified","hasbackground"
         ].join(","));
 
         // Percorre cada Pokémon
         for (let i = 0; i < list.length; i++) {
-            let pokemon = document.getElementById(list[i]['name']);
+            let pokemon = document.getElementById(list[i]['name'] + list[i]['gender'])||document.getElementById(list[i]['name']);
+			
+			
+			if(pokemon.classList.contains('background')){
+			
+				nome = list[i]['name']+list[i]['gender'];
+				console.log(nome);
+			
+			}else{
+			
+				nome = list[i]['name'];
+			
+			}
+			
+			
+			
+			let row = [
+					nome,
+					pokemon.classList.contains('dynamax') ? 'TRUE' : '',
+					pokemon.classList.contains('lucky') ? 'TRUE' : '',
+					pokemon.classList.contains('perfectMale') ? 'TRUE' : '',
+					pokemon.classList.contains('perfectFemale') ? 'TRUE' : '',
+					pokemon.classList.contains('perfect') ? 'TRUE' : '',
+					pokemon.classList.contains('shinyMale') ? 'TRUE' : '',
+					pokemon.classList.contains('shinyFemale') ? 'TRUE' : '',
+					pokemon.classList.contains('shiny') ? 'TRUE' : '',
+					pokemon.classList.contains('shadow') ? 'TRUE' : '',
+					pokemon.classList.contains('shinyShadow') ? 'TRUE' : '',
+					pokemon.classList.contains('purified') ? 'TRUE' : '',
+					pokemon.classList.contains('shinyPurified') ? 'TRUE' : '',
+					pokemon.classList.contains('hasbackground') ? 'TRUE' : ''
+				];
             
-            let row = [
-                list[i]['name'],
-                pokemon.classList.contains('dynamax') ? 'TRUE' : '',
-                pokemon.classList.contains('lucky') ? 'TRUE' : '',
-                pokemon.classList.contains('perfectMale') ? 'TRUE' : '',
-                pokemon.classList.contains('perfectFemale') ? 'TRUE' : '',
-                pokemon.classList.contains('perfect') ? 'TRUE' : '',
-				pokemon.classList.contains('shinyMale') ? 'TRUE' : '',
-                pokemon.classList.contains('shinyFemale') ? 'TRUE' : '',
-                pokemon.classList.contains('shiny') ? 'TRUE' : '',
-                pokemon.classList.contains('shadow') ? 'TRUE' : '',
-                pokemon.classList.contains('shinyShadow') ? 'TRUE' : '',
-                pokemon.classList.contains('purified') ? 'TRUE' : '',
-                pokemon.classList.contains('shinyPurified') ? 'TRUE' : ''
-            ];
+            
 
             csvRows.push(row.join(","));
         }
