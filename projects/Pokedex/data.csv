@@ -120,11 +120,11 @@
 1Kanto,Onix,both,TRUE,TRUE,FALSE,95,FALSE
 1Kanto,Drowzee,both,TRUE,TRUE,TRUE,96,FALSE
 1Kanto,Hypno,difference,TRUE,TRUE,TRUE,97,FALSE
-1Kanto,Krabby,both,TRUE,FALSE,FALSE,98,FALSE
+1Kanto,Krabby,both,TRUE,FALSE,FALSE,98,TRUE
 1Kanto,Kingler,both,TRUE,FALSE,FALSE,99,TRUE
 1Kanto,Voltorb,genderless,TRUE,TRUE,FALSE,100,TRUE
 1Kanto,Voltorb hisuian,both,TRUE,FALSE,FALSE,100,FALSE
-1Kanto,Electrode,genderless,TRUE,TRUE,FALSE,101,FALSE
+1Kanto,Electrode,genderless,TRUE,TRUE,FALSE,101,TRUE
 1Kanto,Electrode hisuian,both,TRUE,FALSE,FALSE,101,FALSE
 1Kanto,Exeggcute,both,TRUE,TRUE,TRUE,102,FALSE
 1Kanto,Exeggutor,both,TRUE,TRUE,TRUE,103,FALSE
@@ -1071,8 +1071,8 @@
 8Galar,Thievul,both,FALSE,FALSE,FALSE,828,FALSE
 8Galar,Gossifleur,both,FALSE,FALSE,FALSE,829,FALSE
 8Galar,Eldegoss,both,FALSE,FALSE,FALSE,830,FALSE
-8Galar,Wooloo,both,TRUE,FALSE,FALSE,831,FALSE
-8Galar,Dubwool,both,TRUE,FALSE,FALSE,832,FALSE
+8Galar,Wooloo,both,TRUE,FALSE,FALSE,831,TRUE
+8Galar,Dubwool,both,TRUE,FALSE,FALSE,832,TRUE
 8Galar,Chewtle,both,FALSE,FALSE,FALSE,833,FALSE
 8Galar,Drednaw,both,FALSE,FALSE,FALSE,834,FALSE
 8Galar,Yamper,both,FALSE,FALSE,FALSE,835,FALSE
