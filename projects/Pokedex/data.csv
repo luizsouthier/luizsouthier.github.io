@@ -75,9 +75,9 @@
 1Kanto,Poliwag,both,TRUE,TRUE,TRUE,60,FALSE
 1Kanto,Poliwhirl,both,TRUE,TRUE,TRUE,61,FALSE
 1Kanto,Poliwrath,both,TRUE,TRUE,TRUE,62,FALSE
-1Kanto,Abra,both,TRUE,TRUE,FALSE,63,FALSE
-1Kanto,Kadabra,difference,TRUE,TRUE,FALSE,64,FALSE
-1Kanto,Alakazam,difference,TRUE,TRUE,FALSE,65,FALSE
+1Kanto,Abra,both,TRUE,TRUE,FALSE,63,TRUE
+1Kanto,Kadabra,difference,TRUE,TRUE,FALSE,64,TRUE
+1Kanto,Alakazam,difference,TRUE,TRUE,FALSE,65,TRUE
 1Kanto,Machop,both,TRUE,TRUE,TRUE,66,TRUE
 1Kanto,Machoke,both,TRUE,TRUE,TRUE,67,TRUE
 1Kanto,Machamp,both,TRUE,TRUE,TRUE,68,TRUE
@@ -266,7 +266,7 @@
 2Johto,Unown Z,genderless,FALSE,FALSE,FALSE,201,FALSE
 2Johto,Unown !,genderless,TRUE,FALSE,FALSE,201,FALSE
 2Johto,Unown ?,genderless,TRUE,FALSE,FALSE,201,FALSE
-2Johto,Wobbuffet,difference,TRUE,TRUE,FALSE,202,FALSE
+2Johto,Wobbuffet,difference,TRUE,TRUE,TRUE,202,FALSE
 2Johto,Girafarig,difference,TRUE,TRUE,FALSE,203,FALSE
 2Johto,Pineco,both,TRUE,TRUE,TRUE,204,FALSE
 2Johto,Forretress,both,TRUE,TRUE,TRUE,205,FALSE
@@ -275,7 +275,7 @@
 2Johto,Steelix,difference,TRUE,TRUE,FALSE,208,FALSE
 2Johto,Snubbull,both,TRUE,TRUE,FALSE,209,FALSE
 2Johto,Granbull,both,TRUE,TRUE,FALSE,210,FALSE
-2Johto,Qwilfish,both,TRUE,FALSE,FALSE,211,FALSE
+2Johto,Qwilfish,both,TRUE,TRUE,FALSE,211,FALSE
 2Johto,Qwilfish hisuian,both,TRUE,FALSE,FALSE,211,FALSE
 2Johto,Scizor,difference,TRUE,TRUE,TRUE,212,FALSE
 2Johto,Shuckle,both,TRUE,TRUE,FALSE,213,TRUE
@@ -410,8 +410,8 @@
 3Hoenn,Flygon,both,TRUE,TRUE,TRUE,330,FALSE
 3Hoenn,Cacnea,both,TRUE,TRUE,TRUE,331,FALSE
 3Hoenn,Cacturne,difference,TRUE,TRUE,TRUE,332,FALSE
-3Hoenn,Swablu,both,TRUE,FALSE,FALSE,333,FALSE
-3Hoenn,Altaria,both,TRUE,FALSE,FALSE,334,FALSE
+3Hoenn,Swablu,both,TRUE,TRUE,FALSE,333,FALSE
+3Hoenn,Altaria,both,TRUE,TRUE,FALSE,334,FALSE
 3Hoenn,Zangoose,both,TRUE,FALSE,FALSE,335,FALSE
 3Hoenn,Seviper,both,TRUE,FALSE,FALSE,336,FALSE
 3Hoenn,Lunatone,genderless,TRUE,FALSE,FALSE,337,FALSE
@@ -420,14 +420,14 @@
 3Hoenn,Whiscash,both,TRUE,TRUE,FALSE,340,FALSE
 3Hoenn,Corphish,both,TRUE,TRUE,FALSE,341,FALSE
 3Hoenn,Crawdaunt,both,TRUE,TRUE,FALSE,342,FALSE
-3Hoenn,Baltoy,genderless,TRUE,FALSE,FALSE,343,FALSE
-3Hoenn,Claydol,genderless,TRUE,FALSE,FALSE,344,FALSE
+3Hoenn,Baltoy,genderless,TRUE,TRUE,FALSE,343,FALSE
+3Hoenn,Claydol,genderless,TRUE,TRUE,FALSE,344,FALSE
 3Hoenn,Lileep,both,TRUE,TRUE,TRUE,345,FALSE
 3Hoenn,Cradily,both,TRUE,TRUE,TRUE,346,FALSE
 3Hoenn,Anorith,both,TRUE,TRUE,TRUE,347,FALSE
 3Hoenn,Armaldo,both,TRUE,TRUE,TRUE,348,FALSE
-3Hoenn,Feebas,both,TRUE,FALSE,FALSE,349,FALSE
-3Hoenn,Milotic,difference,TRUE,FALSE,FALSE,350,FALSE
+3Hoenn,Feebas,both,TRUE,TRUE,TRUE,349,FALSE
+3Hoenn,Milotic,difference,TRUE,TRUE,TRUE,350,FALSE
 3Hoenn,Castform,both,TRUE,FALSE,FALSE,351,FALSE
 3Hoenn,Castform sunny,both,TRUE,FALSE,FALSE,351,FALSE
 3Hoenn,Castform rainy,both,TRUE,FALSE,FALSE,351,FALSE
@@ -463,7 +463,7 @@
 3Hoenn,Latias,female,TRUE,TRUE,FALSE,380,TRUE
 3Hoenn,Latios,male,TRUE,TRUE,FALSE,381,TRUE
 3Hoenn,Kyogre,genderless,TRUE,TRUE,TRUE,382,FALSE
-3Hoenn,Groudon,genderless,TRUE,TRUE,FALSE,383,FALSE
+3Hoenn,Groudon,genderless,TRUE,TRUE,TRUE,383,FALSE
 3Hoenn,Rayquaza,genderless,TRUE,FALSE,FALSE,384,FALSE
 3Hoenn,Jirachi,genderless,TRUE,FALSE,FALSE,385,FALSE
 3Hoenn,Deoxys,genderless,TRUE,FALSE,FALSE,386,FALSE
@@ -586,10 +586,10 @@
 4Sinnoh,Regigigas,genderless,TRUE,TRUE,TRUE,486,FALSE
 4Sinnoh,Giratina,genderless,TRUE,TRUE,FALSE,487,FALSE
 4Sinnoh,Giratina origin,genderless,TRUE,FALSE,FALSE,487,FALSE
-4Sinnoh,Cresselia,female,TRUE,TRUE,FALSE,488,FALSE
+4Sinnoh,Cresselia,female,TRUE,TRUE,TRUE,488,FALSE
 4Sinnoh,Phione,genderless,FALSE,FALSE,FALSE,489,FALSE
 4Sinnoh,Manaphy,genderless,FALSE,FALSE,FALSE,490,FALSE
-4Sinnoh,Darkrai,genderless,TRUE,FALSE,FALSE,491,FALSE
+4Sinnoh,Darkrai,genderless,TRUE,TRUE,TRUE,491,FALSE
 4Sinnoh,Shaymin,genderless,TRUE,FALSE,FALSE,492,FALSE
 4Sinnoh,Shaymin sky,genderless,TRUE,FALSE,FALSE,492,FALSE
 4Sinnoh,Arceus,genderless,FALSE,FALSE,FALSE,493,FALSE
@@ -770,15 +770,15 @@
 5Unova,Mandibuzz,female,TRUE,FALSE,FALSE,630,FALSE
 5Unova,Heatmor,both,TRUE,FALSE,FALSE,631,FALSE
 5Unova,Durant,both,TRUE,FALSE,FALSE,632,FALSE
-5Unova,Deino,both,TRUE,FALSE,FALSE,633,FALSE
-5Unova,Zweilous,both,TRUE,FALSE,FALSE,634,FALSE
-5Unova,Hydreigon,both,TRUE,FALSE,FALSE,635,FALSE
+5Unova,Deino,both,TRUE,TRUE,FALSE,633,FALSE
+5Unova,Zweilous,both,TRUE,TRUE,FALSE,634,FALSE
+5Unova,Hydreigon,both,TRUE,TRUE,FALSE,635,FALSE
 5Unova,Larvesta,both,TRUE,FALSE,FALSE,636,FALSE
 5Unova,Volcarona,both,TRUE,FALSE,FALSE,637,FALSE
 5Unova,Cobalion,genderless,TRUE,FALSE,FALSE,638,FALSE
 5Unova,Terrakion,genderless,TRUE,FALSE,FALSE,639,FALSE
 5Unova,Virizion,genderless,TRUE,FALSE,FALSE,640,FALSE
-5Unova,Tornadus,male,TRUE,FALSE,FALSE,641,FALSE
+5Unova,Tornadus,male,TRUE,TRUE,FALSE,641,FALSE
 5Unova,Tornadus therian,male,TRUE,FALSE,FALSE,641,FALSE
 5Unova,Thundurus,male,TRUE,FALSE,FALSE,642,FALSE
 5Unova,Thundurus therian,male,TRUE,FALSE,FALSE,642,FALSE
