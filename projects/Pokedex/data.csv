@@ -124,7 +124,7 @@
 1Kanto,Kingler,both,TRUE,FALSE,FALSE,99,TRUE
 1Kanto,Voltorb,genderless,TRUE,TRUE,FALSE,100,TRUE
 1Kanto,Voltorb hisuian,both,TRUE,FALSE,FALSE,100,FALSE
-1Kanto,Electrode,genderless,TRUE,TRUE,FALSE,101,TRUE
+1Kanto,Electrode,genderless,TRUE,TRUE,FALSE,101,FALSE
 1Kanto,Electrode hisuian,both,TRUE,FALSE,FALSE,101,FALSE
 1Kanto,Exeggcute,both,TRUE,TRUE,TRUE,102,FALSE
 1Kanto,Exeggutor,both,TRUE,TRUE,TRUE,103,FALSE
@@ -460,7 +460,7 @@
 3Hoenn,Regirock,genderless,TRUE,TRUE,TRUE,377,FALSE
 3Hoenn,Regice,genderless,TRUE,TRUE,TRUE,378,FALSE
 3Hoenn,Registeel,genderless,TRUE,TRUE,TRUE,379,FALSE
-3Hoenn,Latias,female,TRUE,TRUE,FALSE,380,TRUE
+3Hoenn,Latias,female,TRUE,TRUE,TRUE,380,TRUE
 3Hoenn,Latios,male,TRUE,TRUE,FALSE,381,TRUE
 3Hoenn,Kyogre,genderless,TRUE,TRUE,TRUE,382,FALSE
 3Hoenn,Groudon,genderless,TRUE,TRUE,TRUE,383,FALSE
@@ -644,8 +644,8 @@
 5Unova,Roggenrola,both,TRUE,TRUE,FALSE,524,FALSE
 5Unova,Boldore,both,TRUE,TRUE,FALSE,525,FALSE
 5Unova,Gigalith,both,TRUE,TRUE,FALSE,526,FALSE
-5Unova,Woobat,both,TRUE,FALSE,FALSE,527,FALSE
-5Unova,Swoobat,both,TRUE,FALSE,FALSE,528,FALSE
+5Unova,Woobat,both,TRUE,FALSE,FALSE,527,TRUE
+5Unova,Swoobat,both,TRUE,FALSE,FALSE,528,TRUE
 5Unova,Drilbur,both,TRUE,TRUE,FALSE,529,TRUE
 5Unova,Excadrill,both,TRUE,TRUE,FALSE,530,TRUE
 5Unova,Audino,both,TRUE,FALSE,FALSE,531,FALSE
@@ -972,7 +972,7 @@
 7Alola,Salazzle,female,TRUE,FALSE,FALSE,758,FALSE
 7Alola,Stufful,both,TRUE,FALSE,FALSE,759,FALSE
 7Alola,Bewear,both,TRUE,FALSE,FALSE,760,FALSE
-7Alola,Bounsweet,female,TRUE,FALSE,FALSE,761,FALSE
+7Alola,Bounsweet,female,TRUE,FALSE,FALSE,761,TRUE
 7Alola,Steenee,female,TRUE,FALSE,FALSE,762,FALSE
 7Alola,Tsareena,female,TRUE,FALSE,FALSE,763,FALSE
 7Alola,Comfey,both,FALSE,FALSE,FALSE,764,FALSE
@@ -1092,7 +1092,7 @@
 8Galar,Barraskewda,both,FALSE,FALSE,FALSE,847,FALSE
 8Galar,Toxel,both,TRUE,FALSE,FALSE,848,FALSE
 8Galar,Toxtricity,both,TRUE,FALSE,FALSE,849,TRUE
-8Galar,Toxtricity low,both,TRUE,FALSE,FALSE,849,TRUE
+8Galar,Toxtricity lowkey,both,TRUE,FALSE,FALSE,849,TRUE
 8Galar,Sizzlipede,both,FALSE,FALSE,FALSE,850,FALSE
 8Galar,Centiskorch,both,FALSE,FALSE,FALSE,851,FALSE
 8Galar,Clobbopus,both,FALSE,FALSE,FALSE,852,FALSE
@@ -1130,7 +1130,8 @@
 8Galar,Stonjourner,both,FALSE,FALSE,FALSE,874,FALSE
 8Galar,Eiscue,both,FALSE,FALSE,FALSE,875,FALSE
 8Galar,Eiscue noice,both,FALSE,FALSE,FALSE,875,FALSE
-8Galar,Indeedee,difference,TRUE,FALSE,FALSE,876,FALSE
+8Galar,Indeedee,male,TRUE,FALSE,FALSE,876,FALSE
+8Galar,Indeedee female,female,TRUE,FALSE,FALSE,876,FALSE
 8Galar,Morpeko,both,FALSE,FALSE,FALSE,877,FALSE
 8Galar,Morpeko hangry,both,FALSE,FALSE,FALSE,877,FALSE
 8Galar,Cufant,both,FALSE,FALSE,FALSE,878,FALSE
@@ -1139,7 +1140,7 @@
 8Galar,Arctozolt,genderless,FALSE,FALSE,FALSE,881,FALSE
 8Galar,Dracovish,genderless,FALSE,FALSE,FALSE,882,FALSE
 8Galar,Arctovish,genderless,FALSE,FALSE,FALSE,883,FALSE
-8Galar,Duraludon,both,FALSE,FALSE,FALSE,884,FALSE
+8Galar,Duraludon,both,TRUE,FALSE,FALSE,884,TRUE
 8Galar,Dreepy,both,FALSE,FALSE,FALSE,885,FALSE
 8Galar,Drakloak,both,FALSE,FALSE,FALSE,886,FALSE
 8Galar,Dragapult,both,FALSE,FALSE,FALSE,887,FALSE
