@@ -164,10 +164,10 @@
 1Kanto,Gyarados,difference,TRUE,TRUE,FALSE,130,FALSE
 1Kanto,Lapras,both,TRUE,TRUE,TRUE,131,FALSE
 1Kanto,Ditto,genderless,TRUE,FALSE,FALSE,132,FALSE
-1Kanto,Eevee,difference,TRUE,FALSE,FALSE,133,FALSE
-1Kanto,Vaporeon,both,TRUE,FALSE,FALSE,134,FALSE
-1Kanto,Jolteon,both,TRUE,FALSE,FALSE,135,FALSE
-1Kanto,Flareon,both,TRUE,FALSE,FALSE,136,FALSE
+1Kanto,Eevee,difference,TRUE,FALSE,FALSE,133,TRUE
+1Kanto,Vaporeon,both,TRUE,FALSE,FALSE,134,TRUE
+1Kanto,Jolteon,both,TRUE,FALSE,FALSE,135,TRUE
+1Kanto,Flareon,both,TRUE,FALSE,FALSE,136,TRUE
 1Kanto,Porygon,genderless,TRUE,TRUE,FALSE,137,FALSE
 1Kanto,Omanyte,both,TRUE,TRUE,TRUE,138,TRUE
 1Kanto,Omastar,both,TRUE,TRUE,TRUE,139,TRUE
@@ -232,8 +232,8 @@
 2Johto,Wooper,difference,TRUE,TRUE,FALSE,194,FALSE
 2Johto,Wooper paldean,both,TRUE,FALSE,FALSE,194,FALSE
 2Johto,Quagsire,difference,TRUE,TRUE,FALSE,195,FALSE
-2Johto,Espeon,both,TRUE,FALSE,FALSE,196,FALSE
-2Johto,Umbreon,both,TRUE,FALSE,FALSE,197,FALSE
+2Johto,Espeon,both,TRUE,FALSE,FALSE,196,TRUE
+2Johto,Umbreon,both,TRUE,FALSE,FALSE,197,TRUE
 2Johto,Murkrow,difference,TRUE,TRUE,TRUE,198,FALSE
 2Johto,Slowking,both,TRUE,TRUE,FALSE,199,FALSE
 2Johto,Slowking galarian,both,TRUE,FALSE,FALSE,199,FALSE
@@ -349,9 +349,9 @@
 3Hoenn,Swellow,both,TRUE,TRUE,FALSE,277,FALSE
 3Hoenn,Wingull,both,TRUE,FALSE,FALSE,278,FALSE
 3Hoenn,Pelipper,both,TRUE,FALSE,FALSE,279,FALSE
-3Hoenn,Ralts,both,TRUE,TRUE,TRUE,280,FALSE
-3Hoenn,Kirlia,both,TRUE,TRUE,TRUE,281,FALSE
-3Hoenn,Gardevoir,female,TRUE,TRUE,TRUE,282,FALSE
+3Hoenn,Ralts,both,TRUE,TRUE,TRUE,280,TRUE
+3Hoenn,Kirlia,both,TRUE,TRUE,TRUE,281,TRUE
+3Hoenn,Gardevoir,female,TRUE,TRUE,TRUE,282,TRUE
 3Hoenn,Surskit,both,TRUE,FALSE,FALSE,283,FALSE
 3Hoenn,Masquerain,both,TRUE,FALSE,FALSE,284,FALSE
 3Hoenn,Shroomish,both,TRUE,FALSE,FALSE,285,FALSE
@@ -461,7 +461,7 @@
 3Hoenn,Regice,genderless,TRUE,TRUE,TRUE,378,FALSE
 3Hoenn,Registeel,genderless,TRUE,TRUE,TRUE,379,FALSE
 3Hoenn,Latias,female,TRUE,TRUE,TRUE,380,TRUE
-3Hoenn,Latios,male,TRUE,TRUE,FALSE,381,TRUE
+3Hoenn,Latios,male,TRUE,TRUE,TRUE,381,TRUE
 3Hoenn,Kyogre,genderless,TRUE,TRUE,TRUE,382,FALSE
 3Hoenn,Groudon,genderless,TRUE,TRUE,TRUE,383,FALSE
 3Hoenn,Rayquaza,genderless,TRUE,FALSE,FALSE,384,FALSE
@@ -560,12 +560,12 @@
 4Sinnoh,Magmortar,both,TRUE,TRUE,FALSE,467,FALSE
 4Sinnoh,Togekiss,both,TRUE,FALSE,FALSE,468,FALSE
 4Sinnoh,Yanmega,both,TRUE,FALSE,FALSE,469,FALSE
-4Sinnoh,Leafeon,both,TRUE,FALSE,FALSE,470,FALSE
-4Sinnoh,Glaceon,both,TRUE,FALSE,FALSE,471,FALSE
+4Sinnoh,Leafeon,both,TRUE,FALSE,FALSE,470,TRUE
+4Sinnoh,Glaceon,both,TRUE,FALSE,FALSE,471,TRUE
 4Sinnoh,Gliscor,both,TRUE,TRUE,TRUE,472,FALSE
 4Sinnoh,Mamoswine,difference,TRUE,TRUE,FALSE,473,FALSE
 4Sinnoh,Porygon-Z,genderless,TRUE,TRUE,FALSE,474,FALSE
-4Sinnoh,Gallade,male,TRUE,TRUE,TRUE,475,FALSE
+4Sinnoh,Gallade,male,TRUE,TRUE,TRUE,475,TRUE
 4Sinnoh,Probopass,both,TRUE,TRUE,FALSE,476,FALSE
 4Sinnoh,Dusknoir,both,TRUE,TRUE,FALSE,477,FALSE
 4Sinnoh,Froslass,female,TRUE,TRUE,FALSE,478,FALSE
@@ -686,9 +686,9 @@
 5Unova,Scraggy,both,TRUE,FALSE,FALSE,559,FALSE
 5Unova,Scrafty,both,TRUE,FALSE,FALSE,560,FALSE
 5Unova,Sigilyph,both,TRUE,FALSE,FALSE,561,FALSE
-5Unova,Yamask,both,TRUE,FALSE,FALSE,562,FALSE
+5Unova,Yamask,both,TRUE,TRUE,FALSE,562,FALSE
 5Unova,Yamask galarian,both,TRUE,FALSE,FALSE,562,FALSE
-5Unova,Cofagrigus,both,TRUE,FALSE,FALSE,563,FALSE
+5Unova,Cofagrigus,both,TRUE,TRUE,FALSE,563,FALSE
 5Unova,Tirtouga,both,TRUE,TRUE,FALSE,564,FALSE
 5Unova,Carracosta,both,TRUE,TRUE,FALSE,565,FALSE
 5Unova,Archen,both,TRUE,TRUE,FALSE,566,FALSE
@@ -878,8 +878,8 @@
 6Kalos,Aromatisse,both,TRUE,FALSE,FALSE,683,FALSE
 6Kalos,Swirlix,both,TRUE,FALSE,FALSE,684,FALSE
 6Kalos,Slurpuff,both,TRUE,FALSE,FALSE,685,FALSE
-6Kalos,Inkay,both,TRUE,TRUE,FALSE,686,FALSE
-6Kalos,Malamar,both,TRUE,TRUE,FALSE,687,FALSE
+6Kalos,Inkay,both,TRUE,TRUE,FALSE,686,TRUE
+6Kalos,Malamar,both,TRUE,TRUE,FALSE,687,TRUE
 6Kalos,Binacle,both,TRUE,FALSE,FALSE,688,FALSE
 6Kalos,Barbaracle,both,TRUE,FALSE,FALSE,689,FALSE
 6Kalos,Skrelp,both,TRUE,FALSE,FALSE,690,FALSE
@@ -892,7 +892,7 @@
 6Kalos,Tyrantrum,both,TRUE,TRUE,FALSE,697,FALSE
 6Kalos,Amaura,both,TRUE,TRUE,FALSE,698,FALSE
 6Kalos,Aurorus,both,TRUE,TRUE,FALSE,699,FALSE
-6Kalos,Sylveon,both,TRUE,FALSE,FALSE,700,FALSE
+6Kalos,Sylveon,both,TRUE,FALSE,FALSE,700,TRUE
 6Kalos,Hawlucha,both,FALSE,FALSE,FALSE,701,FALSE
 6Kalos,Dedenne,both,TRUE,FALSE,FALSE,702,FALSE
 6Kalos,Carbink,genderless,TRUE,FALSE,FALSE,703,FALSE
@@ -902,8 +902,8 @@
 6Kalos,Goodra,both,TRUE,FALSE,FALSE,706,FALSE
 6Kalos,Goodra hisuian,both,FALSE,FALSE,FALSE,706,FALSE
 6Kalos,Klefki,both,FALSE,FALSE,FALSE,707,FALSE
-6Kalos,Phantump,both,TRUE,FALSE,FALSE,708,FALSE
-6Kalos,Trevenant,both,TRUE,FALSE,FALSE,709,FALSE
+6Kalos,Phantump,both,TRUE,TRUE,FALSE,708,FALSE
+6Kalos,Trevenant,both,TRUE,TRUE,FALSE,709,FALSE
 6Kalos,Pumpkaboo,both,TRUE,FALSE,FALSE,710,FALSE
 6Kalos,Pumpkaboo small,both,TRUE,FALSE,FALSE,710,FALSE
 6Kalos,Pumpkaboo large,both,TRUE,FALSE,FALSE,710,FALSE
@@ -1507,6 +1507,8 @@ Event,Umbreon explorer,both,TRUE,FALSE,FALSE,197,FALSE
 Event,Slowking new year,both,TRUE,FALSE,FALSE,199,FALSE
 Event,Wobbuffet party,difference,TRUE,FALSE,FALSE,202,FALSE
 Event,Sneasel sunglasses,difference,TRUE,FALSE,FALSE,215,FALSE
+Event,Teddiursa witch hat ,both,TRUE,FALSE,FALSE,216,FALSE
+Event,Ursaring witch hat,difference,TRUE,FALSE,FALSE,217,FALSE
 Event,Delibird holiday,both,TRUE,FALSE,FALSE,225,FALSE
 Event,Stantler holiday,both,TRUE,FALSE,FALSE,234,FALSE
 Event,Smoochum bow,female,TRUE,FALSE,FALSE,238,FALSE
@@ -1575,11 +1577,14 @@ Event,Gourgeist small halloween,both,TRUE,FALSE,FALSE,711,FALSE
 Event,Gourgeist  halloween,both,TRUE,FALSE,FALSE,711,FALSE
 Event,Gourgeist large halloween,both,TRUE,FALSE,FALSE,711,FALSE
 Event,Gourgeist super halloween,both,TRUE,FALSE,FALSE,711,FALSE
+Event,Noibat headband,both,TRUE,FALSE,FALSE,714,FALSE
+Event,Noivern headband,both,TRUE,FALSE,FALSE,715,FALSE
 Event,Rowlet halloween,both,TRUE,FALSE,FALSE,722,FALSE
 Event,Dartrix halloween,both,TRUE,FALSE,FALSE,723,FALSE
 Event,Decidueye halloween,both,TRUE,FALSE,FALSE,724,FALSE
 Event,Wooloo holiday,both,TRUE,FALSE,FALSE,831,FALSE
 Event,Dubwool holiday,both,TRUE,FALSE,FALSE,832,FALSE
+Event,Ursaluna witch hat,both,TRUE,FALSE,FALSE,901,FALSE
 Event,Falinks train,genderless,TRUE,FALSE,FALSE,870,FALSE
 Event,Floragato horizons,both,TRUE,FALSE,FALSE,907,FALSE
 Event,Gimmighoul  roaming 9th anniversary coin,genderless,TRUE,FALSE,FALSE,999,FALSE
@@ -1842,6 +1847,12 @@ Special,Flabébé yellow,Special_Background_TalesofTransformation,,,,,
 Special,Flabébé orange,Special_Background_TalesofTransformation,,,,,
 Special,Flabébé blue,Special_Background_TalesofTransformation,,,,,
 Special,Flabébé white,Special_Background_TalesofTransformation,,,,,
+Special,Terrakion,Special_Background_TalesofTransformation,,,,,
+Special,Solosis,Special_Background_TalesofTransformation,,,,,
+Special,Chikorita,Special_Background_TalesofTransformation,,,,,
+Special,Totodile,Special_Background_TalesofTransformation,,,,,
+Special,Tepig,Special_Background_TalesofTransformation,,,,,
+Special,Virizion,Special_Background_TalesofTransformation,,,,,
 Special,Psyduck swim ring,Special_Background_Concierge,,,,,
 Location,Kyogre,Location Card Las Vegas,,,,,
 Location,Groudon,Location Card Las Vegas,,,,,
@@ -1967,3 +1978,5 @@ Location,Eevee explorer,Location Background_City Safari Amsterdam,,,,,
 Location,Eevee explorer,Location Background_City Safari Valencia,,,,,
 Location,Eevee explorer,Location Background_City Safari Cancun,,,,,
 Location,Eevee explorer,Location Background_City Safari Vancouver,,,,,
+Location,Pikachu teal,Location_Background_Jeju_Island_Stamp_Rally,,,,,
+Location,Lapras scarf,Location_Background_Taipei_Childrens_Amusement_Park,,,,,
