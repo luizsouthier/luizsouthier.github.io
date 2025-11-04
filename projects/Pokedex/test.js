@@ -75,9 +75,9 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 1Kanto,Poliwag,both,TRUE,TRUE,TRUE,60,FALSE
 1Kanto,Poliwhirl,both,TRUE,TRUE,TRUE,61,FALSE
 1Kanto,Poliwrath,both,TRUE,TRUE,TRUE,62,FALSE
-1Kanto,Abra,both,TRUE,TRUE,FALSE,63,FALSE
-1Kanto,Kadabra,difference,TRUE,TRUE,FALSE,64,FALSE
-1Kanto,Alakazam,difference,TRUE,TRUE,FALSE,65,FALSE
+1Kanto,Abra,both,TRUE,TRUE,FALSE,63,TRUE
+1Kanto,Kadabra,difference,TRUE,TRUE,FALSE,64,TRUE
+1Kanto,Alakazam,difference,TRUE,TRUE,FALSE,65,TRUE
 1Kanto,Machop,both,TRUE,TRUE,TRUE,66,TRUE
 1Kanto,Machoke,both,TRUE,TRUE,TRUE,67,TRUE
 1Kanto,Machamp,both,TRUE,TRUE,TRUE,68,TRUE
@@ -120,7 +120,7 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 1Kanto,Onix,both,TRUE,TRUE,FALSE,95,FALSE
 1Kanto,Drowzee,both,TRUE,TRUE,TRUE,96,FALSE
 1Kanto,Hypno,difference,TRUE,TRUE,TRUE,97,FALSE
-1Kanto,Krabby,both,TRUE,FALSE,FALSE,98,FALSE
+1Kanto,Krabby,both,TRUE,FALSE,FALSE,98,TRUE
 1Kanto,Kingler,both,TRUE,FALSE,FALSE,99,TRUE
 1Kanto,Voltorb,genderless,TRUE,TRUE,FALSE,100,TRUE
 1Kanto,Voltorb hisuian,both,TRUE,FALSE,FALSE,100,FALSE
@@ -164,10 +164,10 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 1Kanto,Gyarados,difference,TRUE,TRUE,FALSE,130,FALSE
 1Kanto,Lapras,both,TRUE,TRUE,TRUE,131,FALSE
 1Kanto,Ditto,genderless,TRUE,FALSE,FALSE,132,FALSE
-1Kanto,Eevee,difference,TRUE,FALSE,FALSE,133,FALSE
-1Kanto,Vaporeon,both,TRUE,FALSE,FALSE,134,FALSE
-1Kanto,Jolteon,both,TRUE,FALSE,FALSE,135,FALSE
-1Kanto,Flareon,both,TRUE,FALSE,FALSE,136,FALSE
+1Kanto,Eevee,difference,TRUE,FALSE,FALSE,133,TRUE
+1Kanto,Vaporeon,both,TRUE,FALSE,FALSE,134,TRUE
+1Kanto,Jolteon,both,TRUE,FALSE,FALSE,135,TRUE
+1Kanto,Flareon,both,TRUE,FALSE,FALSE,136,TRUE
 1Kanto,Porygon,genderless,TRUE,TRUE,FALSE,137,FALSE
 1Kanto,Omanyte,both,TRUE,TRUE,TRUE,138,TRUE
 1Kanto,Omastar,both,TRUE,TRUE,TRUE,139,TRUE
@@ -232,8 +232,8 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 2Johto,Wooper,difference,TRUE,TRUE,FALSE,194,FALSE
 2Johto,Wooper paldean,both,TRUE,FALSE,FALSE,194,FALSE
 2Johto,Quagsire,difference,TRUE,TRUE,FALSE,195,FALSE
-2Johto,Espeon,both,TRUE,FALSE,FALSE,196,FALSE
-2Johto,Umbreon,both,TRUE,FALSE,FALSE,197,FALSE
+2Johto,Espeon,both,TRUE,FALSE,FALSE,196,TRUE
+2Johto,Umbreon,both,TRUE,FALSE,FALSE,197,TRUE
 2Johto,Murkrow,difference,TRUE,TRUE,TRUE,198,FALSE
 2Johto,Slowking,both,TRUE,TRUE,FALSE,199,FALSE
 2Johto,Slowking galarian,both,TRUE,FALSE,FALSE,199,FALSE
@@ -266,7 +266,7 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 2Johto,Unown Z,genderless,FALSE,FALSE,FALSE,201,FALSE
 2Johto,Unown !,genderless,TRUE,FALSE,FALSE,201,FALSE
 2Johto,Unown ?,genderless,TRUE,FALSE,FALSE,201,FALSE
-2Johto,Wobbuffet,difference,TRUE,TRUE,FALSE,202,FALSE
+2Johto,Wobbuffet,difference,TRUE,TRUE,TRUE,202,FALSE
 2Johto,Girafarig,difference,TRUE,TRUE,FALSE,203,FALSE
 2Johto,Pineco,both,TRUE,TRUE,TRUE,204,FALSE
 2Johto,Forretress,both,TRUE,TRUE,TRUE,205,FALSE
@@ -275,7 +275,7 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 2Johto,Steelix,difference,TRUE,TRUE,FALSE,208,FALSE
 2Johto,Snubbull,both,TRUE,TRUE,FALSE,209,FALSE
 2Johto,Granbull,both,TRUE,TRUE,FALSE,210,FALSE
-2Johto,Qwilfish,both,TRUE,FALSE,FALSE,211,FALSE
+2Johto,Qwilfish,both,TRUE,TRUE,FALSE,211,FALSE
 2Johto,Qwilfish hisuian,both,TRUE,FALSE,FALSE,211,FALSE
 2Johto,Scizor,difference,TRUE,TRUE,TRUE,212,FALSE
 2Johto,Shuckle,both,TRUE,TRUE,FALSE,213,TRUE
@@ -349,9 +349,9 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 3Hoenn,Swellow,both,TRUE,TRUE,FALSE,277,FALSE
 3Hoenn,Wingull,both,TRUE,FALSE,FALSE,278,FALSE
 3Hoenn,Pelipper,both,TRUE,FALSE,FALSE,279,FALSE
-3Hoenn,Ralts,both,TRUE,TRUE,TRUE,280,FALSE
-3Hoenn,Kirlia,both,TRUE,TRUE,TRUE,281,FALSE
-3Hoenn,Gardevoir,female,TRUE,TRUE,TRUE,282,FALSE
+3Hoenn,Ralts,both,TRUE,TRUE,TRUE,280,TRUE
+3Hoenn,Kirlia,both,TRUE,TRUE,TRUE,281,TRUE
+3Hoenn,Gardevoir,female,TRUE,TRUE,TRUE,282,TRUE
 3Hoenn,Surskit,both,TRUE,FALSE,FALSE,283,FALSE
 3Hoenn,Masquerain,both,TRUE,FALSE,FALSE,284,FALSE
 3Hoenn,Shroomish,both,TRUE,FALSE,FALSE,285,FALSE
@@ -410,8 +410,8 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 3Hoenn,Flygon,both,TRUE,TRUE,TRUE,330,FALSE
 3Hoenn,Cacnea,both,TRUE,TRUE,TRUE,331,FALSE
 3Hoenn,Cacturne,difference,TRUE,TRUE,TRUE,332,FALSE
-3Hoenn,Swablu,both,TRUE,FALSE,FALSE,333,FALSE
-3Hoenn,Altaria,both,TRUE,FALSE,FALSE,334,FALSE
+3Hoenn,Swablu,both,TRUE,TRUE,FALSE,333,FALSE
+3Hoenn,Altaria,both,TRUE,TRUE,FALSE,334,FALSE
 3Hoenn,Zangoose,both,TRUE,FALSE,FALSE,335,FALSE
 3Hoenn,Seviper,both,TRUE,FALSE,FALSE,336,FALSE
 3Hoenn,Lunatone,genderless,TRUE,FALSE,FALSE,337,FALSE
@@ -420,14 +420,14 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 3Hoenn,Whiscash,both,TRUE,TRUE,FALSE,340,FALSE
 3Hoenn,Corphish,both,TRUE,TRUE,FALSE,341,FALSE
 3Hoenn,Crawdaunt,both,TRUE,TRUE,FALSE,342,FALSE
-3Hoenn,Baltoy,genderless,TRUE,FALSE,FALSE,343,FALSE
-3Hoenn,Claydol,genderless,TRUE,FALSE,FALSE,344,FALSE
+3Hoenn,Baltoy,genderless,TRUE,TRUE,FALSE,343,FALSE
+3Hoenn,Claydol,genderless,TRUE,TRUE,FALSE,344,FALSE
 3Hoenn,Lileep,both,TRUE,TRUE,TRUE,345,FALSE
 3Hoenn,Cradily,both,TRUE,TRUE,TRUE,346,FALSE
 3Hoenn,Anorith,both,TRUE,TRUE,TRUE,347,FALSE
 3Hoenn,Armaldo,both,TRUE,TRUE,TRUE,348,FALSE
-3Hoenn,Feebas,both,TRUE,FALSE,FALSE,349,FALSE
-3Hoenn,Milotic,difference,TRUE,FALSE,FALSE,350,FALSE
+3Hoenn,Feebas,both,TRUE,TRUE,TRUE,349,FALSE
+3Hoenn,Milotic,difference,TRUE,TRUE,TRUE,350,FALSE
 3Hoenn,Castform,both,TRUE,FALSE,FALSE,351,FALSE
 3Hoenn,Castform sunny,both,TRUE,FALSE,FALSE,351,FALSE
 3Hoenn,Castform rainy,both,TRUE,FALSE,FALSE,351,FALSE
@@ -460,10 +460,10 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 3Hoenn,Regirock,genderless,TRUE,TRUE,TRUE,377,FALSE
 3Hoenn,Regice,genderless,TRUE,TRUE,TRUE,378,FALSE
 3Hoenn,Registeel,genderless,TRUE,TRUE,TRUE,379,FALSE
-3Hoenn,Latias,female,TRUE,TRUE,FALSE,380,TRUE
-3Hoenn,Latios,male,TRUE,TRUE,FALSE,381,TRUE
+3Hoenn,Latias,female,TRUE,TRUE,TRUE,380,TRUE
+3Hoenn,Latios,male,TRUE,TRUE,TRUE,381,TRUE
 3Hoenn,Kyogre,genderless,TRUE,TRUE,TRUE,382,FALSE
-3Hoenn,Groudon,genderless,TRUE,TRUE,FALSE,383,FALSE
+3Hoenn,Groudon,genderless,TRUE,TRUE,TRUE,383,FALSE
 3Hoenn,Rayquaza,genderless,TRUE,FALSE,FALSE,384,FALSE
 3Hoenn,Jirachi,genderless,TRUE,FALSE,FALSE,385,FALSE
 3Hoenn,Deoxys,genderless,TRUE,FALSE,FALSE,386,FALSE
@@ -560,12 +560,12 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 4Sinnoh,Magmortar,both,TRUE,TRUE,FALSE,467,FALSE
 4Sinnoh,Togekiss,both,TRUE,FALSE,FALSE,468,FALSE
 4Sinnoh,Yanmega,both,TRUE,FALSE,FALSE,469,FALSE
-4Sinnoh,Leafeon,both,TRUE,FALSE,FALSE,470,FALSE
-4Sinnoh,Glaceon,both,TRUE,FALSE,FALSE,471,FALSE
+4Sinnoh,Leafeon,both,TRUE,FALSE,FALSE,470,TRUE
+4Sinnoh,Glaceon,both,TRUE,FALSE,FALSE,471,TRUE
 4Sinnoh,Gliscor,both,TRUE,TRUE,TRUE,472,FALSE
 4Sinnoh,Mamoswine,difference,TRUE,TRUE,FALSE,473,FALSE
 4Sinnoh,Porygon-Z,genderless,TRUE,TRUE,FALSE,474,FALSE
-4Sinnoh,Gallade,male,TRUE,TRUE,TRUE,475,FALSE
+4Sinnoh,Gallade,male,TRUE,TRUE,TRUE,475,TRUE
 4Sinnoh,Probopass,both,TRUE,TRUE,FALSE,476,FALSE
 4Sinnoh,Dusknoir,both,TRUE,TRUE,FALSE,477,FALSE
 4Sinnoh,Froslass,female,TRUE,TRUE,FALSE,478,FALSE
@@ -586,10 +586,10 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 4Sinnoh,Regigigas,genderless,TRUE,TRUE,TRUE,486,FALSE
 4Sinnoh,Giratina,genderless,TRUE,TRUE,FALSE,487,FALSE
 4Sinnoh,Giratina origin,genderless,TRUE,FALSE,FALSE,487,FALSE
-4Sinnoh,Cresselia,female,TRUE,TRUE,FALSE,488,FALSE
+4Sinnoh,Cresselia,female,TRUE,TRUE,TRUE,488,FALSE
 4Sinnoh,Phione,genderless,FALSE,FALSE,FALSE,489,FALSE
 4Sinnoh,Manaphy,genderless,FALSE,FALSE,FALSE,490,FALSE
-4Sinnoh,Darkrai,genderless,TRUE,FALSE,FALSE,491,FALSE
+4Sinnoh,Darkrai,genderless,TRUE,TRUE,TRUE,491,FALSE
 4Sinnoh,Shaymin,genderless,TRUE,FALSE,FALSE,492,FALSE
 4Sinnoh,Shaymin sky,genderless,TRUE,FALSE,FALSE,492,FALSE
 4Sinnoh,Arceus,genderless,FALSE,FALSE,FALSE,493,FALSE
@@ -644,8 +644,8 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 5Unova,Roggenrola,both,TRUE,TRUE,FALSE,524,FALSE
 5Unova,Boldore,both,TRUE,TRUE,FALSE,525,FALSE
 5Unova,Gigalith,both,TRUE,TRUE,FALSE,526,FALSE
-5Unova,Woobat,both,TRUE,FALSE,FALSE,527,FALSE
-5Unova,Swoobat,both,TRUE,FALSE,FALSE,528,FALSE
+5Unova,Woobat,both,TRUE,FALSE,FALSE,527,TRUE
+5Unova,Swoobat,both,TRUE,FALSE,FALSE,528,TRUE
 5Unova,Drilbur,both,TRUE,TRUE,FALSE,529,TRUE
 5Unova,Excadrill,both,TRUE,TRUE,FALSE,530,TRUE
 5Unova,Audino,both,TRUE,FALSE,FALSE,531,FALSE
@@ -686,9 +686,9 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 5Unova,Scraggy,both,TRUE,FALSE,FALSE,559,FALSE
 5Unova,Scrafty,both,TRUE,FALSE,FALSE,560,FALSE
 5Unova,Sigilyph,both,TRUE,FALSE,FALSE,561,FALSE
-5Unova,Yamask,both,TRUE,FALSE,FALSE,562,FALSE
+5Unova,Yamask,both,TRUE,TRUE,FALSE,562,FALSE
 5Unova,Yamask galarian,both,TRUE,FALSE,FALSE,562,FALSE
-5Unova,Cofagrigus,both,TRUE,FALSE,FALSE,563,FALSE
+5Unova,Cofagrigus,both,TRUE,TRUE,FALSE,563,FALSE
 5Unova,Tirtouga,both,TRUE,TRUE,FALSE,564,FALSE
 5Unova,Carracosta,both,TRUE,TRUE,FALSE,565,FALSE
 5Unova,Archen,both,TRUE,TRUE,FALSE,566,FALSE
@@ -770,15 +770,15 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 5Unova,Mandibuzz,female,TRUE,FALSE,FALSE,630,FALSE
 5Unova,Heatmor,both,TRUE,FALSE,FALSE,631,FALSE
 5Unova,Durant,both,TRUE,FALSE,FALSE,632,FALSE
-5Unova,Deino,both,TRUE,FALSE,FALSE,633,FALSE
-5Unova,Zweilous,both,TRUE,FALSE,FALSE,634,FALSE
-5Unova,Hydreigon,both,TRUE,FALSE,FALSE,635,FALSE
+5Unova,Deino,both,TRUE,TRUE,FALSE,633,FALSE
+5Unova,Zweilous,both,TRUE,TRUE,FALSE,634,FALSE
+5Unova,Hydreigon,both,TRUE,TRUE,FALSE,635,FALSE
 5Unova,Larvesta,both,TRUE,FALSE,FALSE,636,FALSE
 5Unova,Volcarona,both,TRUE,FALSE,FALSE,637,FALSE
 5Unova,Cobalion,genderless,TRUE,FALSE,FALSE,638,FALSE
 5Unova,Terrakion,genderless,TRUE,FALSE,FALSE,639,FALSE
 5Unova,Virizion,genderless,TRUE,FALSE,FALSE,640,FALSE
-5Unova,Tornadus,male,TRUE,FALSE,FALSE,641,FALSE
+5Unova,Tornadus,male,TRUE,TRUE,FALSE,641,FALSE
 5Unova,Tornadus therian,male,TRUE,FALSE,FALSE,641,FALSE
 5Unova,Thundurus,male,TRUE,FALSE,FALSE,642,FALSE
 5Unova,Thundurus therian,male,TRUE,FALSE,FALSE,642,FALSE
@@ -878,8 +878,8 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 6Kalos,Aromatisse,both,TRUE,FALSE,FALSE,683,FALSE
 6Kalos,Swirlix,both,TRUE,FALSE,FALSE,684,FALSE
 6Kalos,Slurpuff,both,TRUE,FALSE,FALSE,685,FALSE
-6Kalos,Inkay,both,TRUE,TRUE,FALSE,686,FALSE
-6Kalos,Malamar,both,TRUE,TRUE,FALSE,687,FALSE
+6Kalos,Inkay,both,TRUE,TRUE,FALSE,686,TRUE
+6Kalos,Malamar,both,TRUE,TRUE,FALSE,687,TRUE
 6Kalos,Binacle,both,TRUE,FALSE,FALSE,688,FALSE
 6Kalos,Barbaracle,both,TRUE,FALSE,FALSE,689,FALSE
 6Kalos,Skrelp,both,TRUE,FALSE,FALSE,690,FALSE
@@ -892,7 +892,7 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 6Kalos,Tyrantrum,both,TRUE,TRUE,FALSE,697,FALSE
 6Kalos,Amaura,both,TRUE,TRUE,FALSE,698,FALSE
 6Kalos,Aurorus,both,TRUE,TRUE,FALSE,699,FALSE
-6Kalos,Sylveon,both,TRUE,FALSE,FALSE,700,FALSE
+6Kalos,Sylveon,both,TRUE,FALSE,FALSE,700,TRUE
 6Kalos,Hawlucha,both,FALSE,FALSE,FALSE,701,FALSE
 6Kalos,Dedenne,both,TRUE,FALSE,FALSE,702,FALSE
 6Kalos,Carbink,genderless,TRUE,FALSE,FALSE,703,FALSE
@@ -902,8 +902,8 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 6Kalos,Goodra,both,TRUE,FALSE,FALSE,706,FALSE
 6Kalos,Goodra hisuian,both,FALSE,FALSE,FALSE,706,FALSE
 6Kalos,Klefki,both,FALSE,FALSE,FALSE,707,FALSE
-6Kalos,Phantump,both,TRUE,FALSE,FALSE,708,FALSE
-6Kalos,Trevenant,both,TRUE,FALSE,FALSE,709,FALSE
+6Kalos,Phantump,both,TRUE,TRUE,FALSE,708,FALSE
+6Kalos,Trevenant,both,TRUE,TRUE,FALSE,709,FALSE
 6Kalos,Pumpkaboo,both,TRUE,FALSE,FALSE,710,FALSE
 6Kalos,Pumpkaboo small,both,TRUE,FALSE,FALSE,710,FALSE
 6Kalos,Pumpkaboo large,both,TRUE,FALSE,FALSE,710,FALSE
@@ -972,7 +972,7 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 7Alola,Salazzle,female,TRUE,FALSE,FALSE,758,FALSE
 7Alola,Stufful,both,TRUE,FALSE,FALSE,759,FALSE
 7Alola,Bewear,both,TRUE,FALSE,FALSE,760,FALSE
-7Alola,Bounsweet,female,TRUE,FALSE,FALSE,761,FALSE
+7Alola,Bounsweet,female,TRUE,FALSE,FALSE,761,TRUE
 7Alola,Steenee,female,TRUE,FALSE,FALSE,762,FALSE
 7Alola,Tsareena,female,TRUE,FALSE,FALSE,763,FALSE
 7Alola,Comfey,both,FALSE,FALSE,FALSE,764,FALSE
@@ -1071,8 +1071,8 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 8Galar,Thievul,both,FALSE,FALSE,FALSE,828,FALSE
 8Galar,Gossifleur,both,FALSE,FALSE,FALSE,829,FALSE
 8Galar,Eldegoss,both,FALSE,FALSE,FALSE,830,FALSE
-8Galar,Wooloo,both,TRUE,FALSE,FALSE,831,FALSE
-8Galar,Dubwool,both,TRUE,FALSE,FALSE,832,FALSE
+8Galar,Wooloo,both,TRUE,FALSE,FALSE,831,TRUE
+8Galar,Dubwool,both,TRUE,FALSE,FALSE,832,TRUE
 8Galar,Chewtle,both,FALSE,FALSE,FALSE,833,FALSE
 8Galar,Drednaw,both,FALSE,FALSE,FALSE,834,FALSE
 8Galar,Yamper,both,FALSE,FALSE,FALSE,835,FALSE
@@ -1092,7 +1092,7 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 8Galar,Barraskewda,both,FALSE,FALSE,FALSE,847,FALSE
 8Galar,Toxel,both,TRUE,FALSE,FALSE,848,FALSE
 8Galar,Toxtricity,both,TRUE,FALSE,FALSE,849,TRUE
-8Galar,Toxtricity low,both,TRUE,FALSE,FALSE,849,TRUE
+8Galar,Toxtricity lowkey,both,TRUE,FALSE,FALSE,849,TRUE
 8Galar,Sizzlipede,both,FALSE,FALSE,FALSE,850,FALSE
 8Galar,Centiskorch,both,FALSE,FALSE,FALSE,851,FALSE
 8Galar,Clobbopus,both,FALSE,FALSE,FALSE,852,FALSE
@@ -1130,7 +1130,8 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 8Galar,Stonjourner,both,FALSE,FALSE,FALSE,874,FALSE
 8Galar,Eiscue,both,FALSE,FALSE,FALSE,875,FALSE
 8Galar,Eiscue noice,both,FALSE,FALSE,FALSE,875,FALSE
-8Galar,Indeedee,difference,TRUE,FALSE,FALSE,876,FALSE
+8Galar,Indeedee,male,TRUE,FALSE,FALSE,876,FALSE
+8Galar,Indeedee female,female,TRUE,FALSE,FALSE,876,FALSE
 8Galar,Morpeko,both,FALSE,FALSE,FALSE,877,FALSE
 8Galar,Morpeko hangry,both,FALSE,FALSE,FALSE,877,FALSE
 8Galar,Cufant,both,FALSE,FALSE,FALSE,878,FALSE
@@ -1139,7 +1140,7 @@ window.csvString = `region,name,gender,shiny,shadow,shadowshiny,n,dynamax
 8Galar,Arctozolt,genderless,FALSE,FALSE,FALSE,881,FALSE
 8Galar,Dracovish,genderless,FALSE,FALSE,FALSE,882,FALSE
 8Galar,Arctovish,genderless,FALSE,FALSE,FALSE,883,FALSE
-8Galar,Duraludon,both,FALSE,FALSE,FALSE,884,FALSE
+8Galar,Duraludon,both,TRUE,FALSE,FALSE,884,TRUE
 8Galar,Dreepy,both,FALSE,FALSE,FALSE,885,FALSE
 8Galar,Drakloak,both,FALSE,FALSE,FALSE,886,FALSE
 8Galar,Dragapult,both,FALSE,FALSE,FALSE,887,FALSE
@@ -1506,6 +1507,8 @@ Event,Umbreon explorer,both,TRUE,FALSE,FALSE,197,FALSE
 Event,Slowking new year,both,TRUE,FALSE,FALSE,199,FALSE
 Event,Wobbuffet party,difference,TRUE,FALSE,FALSE,202,FALSE
 Event,Sneasel sunglasses,difference,TRUE,FALSE,FALSE,215,FALSE
+Event,Teddiursa witch hat ,both,TRUE,FALSE,FALSE,216,FALSE
+Event,Ursaring witch hat,difference,TRUE,FALSE,FALSE,217,FALSE
 Event,Delibird holiday,both,TRUE,FALSE,FALSE,225,FALSE
 Event,Stantler holiday,both,TRUE,FALSE,FALSE,234,FALSE
 Event,Smoochum bow,female,TRUE,FALSE,FALSE,238,FALSE
@@ -1574,11 +1577,14 @@ Event,Gourgeist small halloween,both,TRUE,FALSE,FALSE,711,FALSE
 Event,Gourgeist  halloween,both,TRUE,FALSE,FALSE,711,FALSE
 Event,Gourgeist large halloween,both,TRUE,FALSE,FALSE,711,FALSE
 Event,Gourgeist super halloween,both,TRUE,FALSE,FALSE,711,FALSE
+Event,Noibat headband,both,TRUE,FALSE,FALSE,714,FALSE
+Event,Noivern headband,both,TRUE,FALSE,FALSE,715,FALSE
 Event,Rowlet halloween,both,TRUE,FALSE,FALSE,722,FALSE
 Event,Dartrix halloween,both,TRUE,FALSE,FALSE,723,FALSE
 Event,Decidueye halloween,both,TRUE,FALSE,FALSE,724,FALSE
 Event,Wooloo holiday,both,TRUE,FALSE,FALSE,831,FALSE
 Event,Dubwool holiday,both,TRUE,FALSE,FALSE,832,FALSE
+Event,Ursaluna witch hat,both,TRUE,FALSE,FALSE,901,FALSE
 Event,Falinks train,genderless,TRUE,FALSE,FALSE,870,FALSE
 Event,Floragato horizons,both,TRUE,FALSE,FALSE,907,FALSE
 Event,Gimmighoul  roaming 9th anniversary coin,genderless,TRUE,FALSE,FALSE,999,FALSE
@@ -1665,305 +1671,317 @@ Mega,Abomasnow mega,genderless,TRUE,FALSE,FALSE,460,FALSE
 Mega,Gallade mega,genderless,TRUE,FALSE,FALSE,475,FALSE
 Mega,Audino mega,genderless,TRUE,FALSE,FALSE,531,FALSE
 Mega,Diancie mega,genderless,TRUE,FALSE,FALSE,719,FALSE
-Special,Nihilego,Special Background GoFest2024 Wormhole,,,,,
-Special,Buzzwole,Special Background GoFest2024 Wormhole,,,,,
-Special,Pheromosa,Special Background GoFest2024 Wormhole,,,,,
-Special,Xurkitree,Special Background GoFest2024 Wormhole,,,,,
-Special,Celesteela,Special Background GoFest2024 Wormhole,,,,,
-Special,Kartana,Special Background GoFest2024 Wormhole,,,,,
-Special,Guzzlord,Special Background GoFest2024 Wormhole,,,,,
-Special,Stakataka,Special Background GoFest2024 Wormhole,,,,,
-Special,Blacephalon,Special Background GoFest2024 Wormhole,,,,,
-Special,Solgaleo,Special Background GoFest2024 Radiance,,,,,
-Special,Lunala,Special Background GoFest2024 Umbra,,,,,
-Special,Necrozma dusk mane,Special Background GoFest2024 Wormhole Sun,,,,,
-Special,Necrozma dawn wings,Special Background GoFest2024 Wormhole Moon,,,,,
-Special,Ponyta candela,Special Background Valor,,,,,
-Special,Elekid spark,Special Background Instinct,,,,,
-Special,Lapras blanche,Special Background Mystic,,,,,
-Special,Kyogre,Special_Background_GoWildArea2024,,,,,
-Special,Groudon,Special_Background_GoWildArea2024,,,,,
-Special,Dialga origin,Special_Background_GoWildArea2024,,,,,
-Special,Palkia origin,Special_Background_GoWildArea2024,,,,,
-Special,Toxtricity,Special_Background_GoWildArea2024,,,,,
-Special,Toxtricity lowkey,Special_Background_GoWildArea2024,,,,,
-Special,Toxtricity gigantamax,Special_Background_GoWildArea2024,,,,,
-Special,Mankey,Special_Background_DecCD2024,,,,,
-Special,Bellsprout,Special_Background_DecCD2024,,,,,
-Special,Ponyta,Special_Background_DecCD2024,,,,,
-Special,Ponyta galarian,Special_Background_DecCD2024,,,,,
-Special,Chansey,Special_Background_DecCD2024,,,,,
-Special,Porygon,Special_Background_DecCD2024,,,,,
-Special,Cyndaquil,Special_Background_DecCD2024,,,,,
-Special,Bagon,Special_Background_DecCD2024,,,,,
-Special,Beldum,Special_Background_DecCD2024,,,,,
-Special,Sewaddle,Special_Background_DecCD2024,,,,,
-Special,Tynamo,Special_Background_DecCD2024,,,,,
-Special,Goomy,Special_Background_DecCD2024,,,,,
-Special,Rowlet,Special_Background_DecCD2024,,,,,
-Special,Litten,Special_Background_DecCD2024,,,,,
-Special,Popplio,Special_Background_DecCD2024,,,,,
-Special,Bounsweet,Special_Background_DecCD2024,,,,,
-Special,Sprigatito,Special_Background_DualDestiny,,,,,
-Special,Ralts,Special_Background_DualDestiny,,,,,
-Special,Karrablast,Special_Background_DualDestiny,,,,,
-Special,Shelmet,Special_Background_DualDestiny,,,,,
-Special,Purrloin,Special Background Engima,,,,,
-Special,Pidove,Special Background Engima,,,,,
-Special,Boldore,Special Background Engima,,,,,
-Special,Woobat,Special Background Engima,,,,,
-Special,Timburr,Special Background Engima,,,,,
-Special,Tympole,Special Background Engima,,,,,
-Special,Sandile,Special Background Engima,,,,,
-Special,Darumaka,Special Background Engima,,,,,
-Special,Darmanitan,Special Background Engima,,,,,
-Special,Scraggy,Special Background Engima,,,,,
-Special,Sigilyph,Special Background Engima,,,,,
-Special,Zorua,Special Background Engima,,,,,
-Special,Joltik,Special Background Engima,,,,,
-Special,Ferroseed,Special Background Engima,,,,,
-Special,Klink,Special Background Engima,,,,,
-Special,Cobalion,Special_Background_BlackVersion,,,,,
-Special,Terrakion,Special_Background_BlackVersion,,,,,
-Special,Virizion,Special_Background_BlackVersion,,,,,
-Special,Tornadus therian,Special_Background_BlackVersion,,,,,
-Special,Reshiram,Special_Background_BlackVersion,,,,,
-Special,Landorus therian,Special_Background_BlackVersion,,,,,
-Special,Genesect,Special_Background_BlackVersion,,,,,
-Special,Genesect shock,Special_Background_BlackVersion,,,,,
-Special,Genesect burn,Special_Background_BlackVersion,,,,,
-Special,Genesect chill,Special_Background_BlackVersion,,,,,
-Special,Genesect douse,Special_Background_BlackVersion,,,,,
-Special,Snivy,Special_Background_BlackVersion,,,,,
-Special,Tepig,Special_Background_BlackVersion,,,,,
-Special,Oshawott,Special_Background_BlackVersion,,,,,
-Special,Kyurem,Special_Background_BlackVersion,,,,,
-Special,Cobalion,Special_Background_WhiteVersion,,,,,
-Special,Terrakion,Special_Background_WhiteVersion,,,,,
-Special,Virizion,Special_Background_WhiteVersion,,,,,
-Special,Thundurus therian,Special_Background_WhiteVersion,,,,,
-Special,Landorus therian,Special_Background_WhiteVersion,,,,,
-Special,Genesect,Special_Background_WhiteVersion,,,,,
-Special,Genesect shock,Special_Background_WhiteVersion,,,,,
-Special,Genesect burn,Special_Background_WhiteVersion,,,,,
-Special,Genesect chill,Special_Background_WhiteVersion,,,,,
-Special,Genesect douse,Special_Background_WhiteVersion,,,,,
-Special,Snivy,Special_Background_WhiteVersion,,,,,
-Special,Tepig,Special_Background_WhiteVersion,,,,,
-Special,Oshawott,Special_Background_WhiteVersion,,,,,
-Special,Zekrom,Special_Background_WhiteVersion,,,,,
-Special,Kyurem,Special_Background_WhiteVersion,,,,,
-Special,Kyurem white,Special Background GreyVersion,,,,,
-Special,Kyurem black,Special Background GreyVersion,,,,,
-Special,Fuecoco,Special_Background_MightAndMastery,,,,,
-Special,Totodile,Special_Background_MightAndMastery,,,,,
-Special,Vanillite,Special_Background_MightAndMastery,,,,,
-Special,Pawmi,Special_Background_MightAndMastery,,,,,
-Special,Meditite,Special_Background_MightAndMastery,,,,,
-Special,Stunky,Special_Background_MightAndMastery,,,,,
-Special,Mareanie,Special_Background_MightAndMastery,,,,,
-Special,Charcadet,Special_Background_MightAndMastery,,,,,
-Special,Machop,Special_Background_MightAndMastery,,,,,
-Special,Articuno,Special Background DelightfulDays,,,,,
-Special,Jangmo-o,Special Background DelightfulDays,,,,,
-Special,Zapdos,Special Background DelightfulDays,,,,,
-Special,Eevee,Special Background DelightfulDays,,,,,
-Special,Lapras scarf,Special Background DelightfulDays,,,,,
-Special,Quaxly,Special Background DelightfulDays,,,,,
-Special,Rillaboom gigantamax,Special Background DelightfulDays,,,,,
-Special,Cinderace gigantamax,Special Background DelightfulDays,,,,,
-Special,Inteleon gigantamax,Special Background DelightfulDays,,,,,
-Special,Moltres,Special Background DelightfulDays,,,,,
-Special,Rookidee,Special Background DelightfulDays,,,,,
-Special,Regirock,Special_Background_GOFest_2025,,,,,
-Special,Regice,Special_Background_GOFest_2025,,,,,
-Special,Registeel,Special_Background_GOFest_2025,,,,,
-Special,Regigigas,Special_Background_GOFest_2025,,,,,
-Special,Regieleki,Special_Background_GOFest_2025,,,,,
-Special,Regidrago,Special_Background_GOFest_2025,,,,,
-Special,Zacian,Special_Background_GOFest_2025_Sword,,,,,
-Special,Zamazenta,Special_Background_GOFest_2025_Shield,,,,,
-Special,Gimmighoul roaming 9th anniversary coin,Special Background 9th Anniversary,,,,,
-Special,Bulbasaur,Special Background Max Finale,,,,,
-Special,Charmander,Special Background Max Finale,,,,,
-Special,Squirtle,Special Background Max Finale,,,,,
-Special,Caterpie,Special Background Max Finale,,,,,
-Special,Machop,Special Background Max Finale,,,,,
-Special,Gastly,Special Background Max Finale,,,,,
-Special,Krabby,Special Background Max Finale,,,,,
-Special,Chansey,Special Background Max Finale,,,,,
-Special,Omanyte,Special Background Max Finale,,,,,
-Special,Kabuto,Special Background Max Finale,,,,,
-Special,Articuno,Special Background Max Finale,,,,,
-Special,Zapdos,Special Background Max Finale,,,,,
-Special,Moltres,Special Background Max Finale,,,,,
-Special,Shuckle,Special Background Max Finale,,,,,
-Special,Raikou,Special Background Max Finale,,,,,
-Special,Entei,Special Background Max Finale,,,,,
-Special,Suicune,Special Background Max Finale,,,,,
-Special,Sableye,Special Background Max Finale,,,,,
-Special,Wailmer,Special Background Max Finale,,,,,
-Special,Beldum,Special Background Max Finale,,,,,
-Special,Latias,Special Background Max Finale,,,,,
-Special,Latios,Special Background Max Finale,,,,,
-Special,Pidove,Special Background Max Finale,,,,,
-Special,Drilbur,Special Background Max Finale,,,,,
-Special,Darumaka,Special Background Max Finale,,,,,
-Special,Trubbish,Special Background Max Finale,,,,,
-Special,Cryogonal,Special Background Max Finale,,,,,
-Special,Passimian,Special Background Max Finale,,,,,
-Special,Grookey,Special Background Max Finale,,,,,
-Special,Scorbunny,Special Background Max Finale,,,,,
-Special,Sobble,Special Background Max Finale,,,,,
-Special,Skwovet,Special Background Max Finale,,,,,
-Special,Rookidee,Special Background Max Finale,,,,,
-Special,Wooloo,Special Background Max Finale,,,,,
-Special,Toxtricity,Special Background Max Finale,,,,,
-Special,Toxtricity lowkey,Special Background Max Finale,,,,,
-Special,Hatenna,Special Background Max Finale,,,,,
-Special,Falinks,Special Background Max Finale,,,,,
-Special,Venusaur gigantamax,Special Background Max Finale,,,,,
-Special,Charizard gigantamax,Special Background Max Finale,,,,,
-Special,Blastoise gigantamax,Special Background Max Finale,,,,,
-Special,Butterfree gigantamax,Special Background Max Finale,,,,,
-Special,Machamp gigantamax,Special Background Max Finale,,,,,
-Special,Gengar gigantamax,Special Background Max Finale,,,,,
-Special,Kingler gigantamax,Special Background Max Finale,,,,,
-Special,Lapras gigantamax,Special Background Max Finale,,,,,
-Special,Snorlax gigantamax,Special Background Max Finale,,,,,
-Special,Rillaboom gigantamax,Special Background Max Finale,,,,,
-Special,Cinderace gigantamax,Special Background Max Finale,,,,,
-Special,Inteleon gigantamax,Special Background Max Finale,,,,,
-Special,Toxtricity gigantamax,Special Background Max Finale,,,,,
-Special,Cobalion,Special_Background_TalesofTransformation,,,,,
-Special,Flabébé,Special_Background_TalesofTransformation,,,,,
-Special,Flabébé yellow,Special_Background_TalesofTransformation,,,,,
-Special,Flabébé orange,Special_Background_TalesofTransformation,,,,,
-Special,Flabébé blue,Special_Background_TalesofTransformation,,,,,
-Special,Flabébé white,Special_Background_TalesofTransformation,,,,,
-Special,Psyduck swim ring,Special_Background_Concierge,,,,,
-Location,Kyogre,Location Card Las Vegas,,,,,
-Location,Groudon,Location Card Las Vegas,,,,,
-Location,Latias,Location Card Jeju,,,,,
-Location,Latios,Location Card Jeju,,,,,
-Location,Cresselia,Location Card Osaka,,,,,
-Location,Xerneas,Location Card Osaka,,,,,
-Location,Yveltal,Location Card Osaka,,,,,
-Location,Rayquaza,Location Card Osaka,,,,,
-Location,Cresselia,Location Card London,,,,,
-Location,Xerneas,Location Card London,,,,,
-Location,Yveltal,Location Card London,,,,,
-Location,Rayquaza,Location Card London,,,,,
-Location,Cresselia,Location Card NYC,,,,,
-Location,Xerneas,Location Card NYC,,,,,
-Location,Yveltal,Location Card NYC,,,,,
-Location,Rayquaza,Location Card NYC,,,,,
-Location,Eevee explorer,Location Card Seoul,,,,,
-Location,Eevee explorer,Location Card Barcelona,,,,,
-Location,Eevee explorer,Location Card Mexico City,,,,,
-Location,Dialga,Location Card Los Angeles,,,,,
-Location,Dialga origin,Location Card Los Angeles,,,,,
-Location,Palkia,Location Card Los Angeles,,,,,
-Location,Palkia origin,Location Card Los Angeles,,,,,
-Location,Latias,Location Card Bali,,,,,
-Location,Latios,Location Card Bali,,,,,
-Location,Eevee explorer,Location_Card_Tainan,,,,,
-Location,Latias,Location Card Surabaya,,,,,
-Location,Latios,Location Card Surabaya,,,,,
-Location,Solgaleo,Location Card Sendai,,,,,
-Location,Lunala,Location Card Sendai,,,,,
-Location,Nihilego,Location Card Sendai,,,,,
-Location,Xurkitree,Location Card Sendai,,,,,
-Location,Kartana,Location Card Sendai,,,,,
-Location,Guzzlord,Location Card Sendai,,,,,
-Location,Necrozma,Location Card Sendai,,,,,
-Location,Stakataka,Location Card Sendai,,,,,
-Location,Solgaleo,Location Card Madrid,,,,,
-Location,Lunala,Location Card Madrid,,,,,
-Location,Nihilego,Location Card Madrid,,,,,
-Location,Pheromosa,Location Card Madrid,,,,,
-Location,Kartana,Location Card Madrid,,,,,
-Location,Guzzlord,Location Card Madrid,,,,,
-Location,Necrozma,Location Card Madrid,,,,,
-Location,Blacephalon,Location Card Madrid,,,,,
-Location,Solgaleo,Location Card NYC 2024,,,,,
-Location,Lunala,Location Card NYC 2024,,,,,
-Location,Nihilego,Location Card NYC 2024,,,,,
-Location,Buzzwole,Location Card NYC 2024,,,,,
-Location,Kartana,Location Card NYC 2024,,,,,
-Location,Guzzlord,Location Card NYC 2024,,,,,
-Location,Necrozma,Location Card NYC 2024,,,,,
-Location,Blacephalon,Location Card NYC 2024,,,,,
-Location,Pikachu worlds 2024,Location Background Honolulu,,,,,
-Location,Latias,Location Card Yogyakarta,,,,,
-Location,Latios,Location Card Yogyakarta,,,,,
-Location,Pikachu,Location Background MLB Marlins,,,,,
-Location,Pikachu,Location Background MLB Mariners,,,,,
-Location,Latias,Location_Background_Jakarta,,,,,
-Location,Latios,Location_Background_Jakarta,,,,,
-Location,Eevee explorer,Location_Background_Jakarta,,,,,
-Location,Skiddo,Location_Background_Incheon,,,,,
-Location,Dialga origin,Location_Background_Fukuoka,,,,,
-Location,Palkia origin,Location_Background_Fukuoka,,,,,
-Location,Toxtricity,Location_Background_Fukuoka,,,,,
-Location,Toxtricity lowkey,Location_Background_Fukuoka,,,,,
-Location,Eevee explorer,Location Background Hong Kong,,,,,
-Location,Eevee explorer,Location Background São Paulo,,,,,
-Location,Reshiram,Location_Background_New Taipei City,,,,,
-Location,Zekrom,Location_Background_New Taipei City,,,,,
-Location,Kyurem,Location_Background_New Taipei City,,,,,
-Location,Reshiram,Location_Background_Los Angeles,,,,,
-Location,Zekrom,Location_Background_Los Angeles,,,,,
-Location,Kyurem,Location_Background_Los Angeles,,,,,
-Location,Eevee explorer,Location_Background_Singapore,,,,,
-Location,Eevee explorer,Location_Background_Mumbai,,,,,
-Location,Eevee explorer,Location_Background_Milan,,,,,
-Location,Eevee explorer,Location_Background_Santiago,,,,,
-Location,Pikachu spring,Location_Background_SpringBlossom2025,,,,,
-Location,Deerling,Location_Background_SpringBlossom2025,,,,,
-Location,Bulbasaur,Location_Background_Expo2025 Starters,,,,,
-Location,Charmander,Location_Background_Expo2025 Starters,,,,,
-Location,Squirtle,Location_Background_Expo2025 Starters,,,,,
-Location,Pikachu,Location_Background_Expo2025 Pikachu,,,,,
-Location,Pikachu,Location Background Osaka_2025,,,,,
-Location,Rillaboom,Location Background Osaka_GOFest_2025,,,,,
-Location,Zacian,Location Background Osaka_GOFest_2025,,,,,
-Location,Zamazenta,Location Background Osaka_GOFest_2025,,,,,
-Location,Cinderace,Location Background Jersey_City,,,,,
-Location,Zacian,Location Background Jersey_City,,,,,
-Location,Zamazenta,Location Background Jersey_City,,,,,
-Location,Inteleon,Location Background Paris,,,,,
-Location,Zacian,Location Background Paris,,,,,
-Location,Zamazenta,Location Background Paris,,,,,
-Location,Pikachu,Location Background Sajik Baseball Stadium,,,,,
-Location,Pikachu,Location Background MLB Mariners,,,,,
-Location,Pikachu summer,Location Background Road Trip 2025 Manchester,,,,,
-Location,Pikachu,Location Background MLB Marlins,,,,,
-Location,Pikachu summer,Location Background Road Trip 2025 London,,,,,
-Location,Pikachu,Location Background_MLB_Tampa Bay Rays,,,,,
-Location,Pikachu,Location Background_MLB Milwaukee Brewers,,,,,
-Location,Pikachu summer,Location Background Road Trip 2025 Paris,,,,,
-Location,Pikachu party hat,Location Background Jangheung Water Festival,,,,,
-Location,Lapras scarf,Location Background Jangheung Water Festival,,,,,
-Location,Deerling summer,Location Background Jangheung Water Festival,,,,,
-Location,Pikachu summer,Location_Background_Road Trip 2025 Valencia,,,,,
-Location,Pikachu,Location Background_MLB_Washington Nationals,,,,,
-Location,Pikachu summer,Location Background Road Trip 2025 Berlin,,,,,
-Location,Pikachu,Location Background_MLB Arizona Diamondbacks,,,,,
-Location,Pikachu,Location Background_MLB Chicago White Sox,,,,,
-Location,Pikachu,Location Background_MLB Baltimore Orioles,,,,,
-Location,Pikachu,Location Background_MLB Cleveland Guardians,,,,,
-Location,Pikachu varsity jacket,Location Background Anaheim,,,,,
-Location,Pikachu summer,Location Background Road Trip 2025 Hague,,,,,
-Location,Pikachu summer,Location Background Road Trip 2025 Cologne,,,,,
-Location,Pikachu,Location Background_MLB New York Mets,,,,,
-Location,Pikachu,Location Background_MLB Boston Red Sox,,,,,
-Location,Pikachu,Location Background_MLB_San Francisco Giants,,,,,
-Location,Pikachu,Location Background_MLB Minnesota Twins,,,,,
-Location,Pikachu,Location Background_MLB_Texas Rangers,,,,,
-Location,Eevee explorer,Location Background_City Safari Bangkok,,,,,
-Location,Eevee explorer,Location Background_City Safari Amsterdam,,,,,
-Location,Eevee explorer,Location Background_City Safari Valencia,,,,,
-Location,Eevee explorer,Location Background_City Safari Cancun,,,,,
-Location,Eevee explorer,Location Background_City Safari Vancouver,,,,,
+Special,Nihilego,Special Background GoFest2024 Wormhole,,,,793,
+Special,Buzzwole,Special Background GoFest2024 Wormhole,,,,794,
+Special,Pheromosa,Special Background GoFest2024 Wormhole,,,,795,
+Special,Xurkitree,Special Background GoFest2024 Wormhole,,,,796,
+Special,Celesteela,Special Background GoFest2024 Wormhole,,,,797,
+Special,Kartana,Special Background GoFest2024 Wormhole,,,,798,
+Special,Guzzlord,Special Background GoFest2024 Wormhole,,,,799,
+Special,Stakataka,Special Background GoFest2024 Wormhole,,,,805,
+Special,Blacephalon,Special Background GoFest2024 Wormhole,,,,806,
+Special,Solgaleo,Special Background GoFest2024 Radiance,,,,791,
+Special,Lunala,Special Background GoFest2024 Umbra,,,,792,
+Special,Necrozma dusk mane,Special Background GoFest2024 Wormhole Sun,,,,800,
+Special,Necrozma dawn wings,Special Background GoFest2024 Wormhole Moon,,,,800,
+Special,Ponyta candela,Special Background Valor,,,,77,
+Special,Elekid spark,Special Background Instinct,,,,239,
+Special,Lapras blanche,Special Background Mystic,,,,131,
+Special,Kyogre,Special_Background_GoWildArea2024,,,,382,
+Special,Groudon,Special_Background_GoWildArea2024,,,,383,
+Special,Dialga origin,Special_Background_GoWildArea2024,,,,483,
+Special,Palkia origin,Special_Background_GoWildArea2024,,,,484,
+Special,Toxtricity,Special_Background_GoWildArea2024,,,,849,
+Special,Toxtricity lowkey,Special_Background_GoWildArea2024,,,,849,
+Special,Toxtricity gigantamax,Special_Background_GoWildArea2024,,,,849,
+Special,Mankey,Special_Background_DecCD2024,,,,56,
+Special,Bellsprout,Special_Background_DecCD2024,,,,69,
+Special,Ponyta,Special_Background_DecCD2024,,,,77,
+Special,Ponyta galarian,Special_Background_DecCD2024,,,,77,
+Special,Chansey,Special_Background_DecCD2024,,,,113,
+Special,Porygon,Special_Background_DecCD2024,,,,137,
+Special,Cyndaquil,Special_Background_DecCD2024,,,,155,
+Special,Bagon,Special_Background_DecCD2024,,,,371,
+Special,Beldum,Special_Background_DecCD2024,,,,374,
+Special,Sewaddle,Special_Background_DecCD2024,,,,540,
+Special,Tynamo,Special_Background_DecCD2024,,,,602,
+Special,Goomy,Special_Background_DecCD2024,,,,704,
+Special,Rowlet,Special_Background_DecCD2024,,,,722,
+Special,Litten,Special_Background_DecCD2024,,,,725,
+Special,Popplio,Special_Background_DecCD2024,,,,728,
+Special,Bounsweet,Special_Background_DecCD2024,,,,761,
+Special,Sprigatito,Special_Background_DualDestiny,,,,906,
+Special,Ralts,Special_Background_DualDestiny,,,,280,
+Special,Karrablast,Special_Background_DualDestiny,,,,588,
+Special,Shelmet,Special_Background_DualDestiny,,,,616,
+Special,Purrloin,Special Background Engima,,,,509,
+Special,Pidove,Special Background Engima,,,,519,
+Special,Boldore,Special Background Engima,,,,525,
+Special,Woobat,Special Background Engima,,,,527,
+Special,Timburr,Special Background Engima,,,,532,
+Special,Tympole,Special Background Engima,,,,535,
+Special,Sandile,Special Background Engima,,,,551,
+Special,Darumaka,Special Background Engima,,,,554,
+Special,Darmanitan,Special Background Engima,,,,555,
+Special,Scraggy,Special Background Engima,,,,559,
+Special,Sigilyph,Special Background Engima,,,,561,
+Special,Zorua,Special Background Engima,,,,570,
+Special,Joltik,Special Background Engima,,,,595,
+Special,Ferroseed,Special Background Engima,,,,597,
+Special,Klink,Special Background Engima,,,,599,
+Special,Cobalion,Special_Background_BlackVersion,,,,638,
+Special,Terrakion,Special_Background_BlackVersion,,,,639,
+Special,Virizion,Special_Background_BlackVersion,,,,640,
+Special,Tornadus therian,Special_Background_BlackVersion,,,,641,
+Special,Reshiram,Special_Background_BlackVersion,,,,643,
+Special,Landorus therian,Special_Background_BlackVersion,,,,645,
+Special,Genesect,Special_Background_BlackVersion,,,,649,
+Special,Genesect shock,Special_Background_BlackVersion,,,,649,
+Special,Genesect burn,Special_Background_BlackVersion,,,,649,
+Special,Genesect chill,Special_Background_BlackVersion,,,,649,
+Special,Genesect douse,Special_Background_BlackVersion,,,,649,
+Special,Snivy,Special_Background_BlackVersion,,,,495,
+Special,Tepig,Special_Background_BlackVersion,,,,498,
+Special,Oshawott,Special_Background_BlackVersion,,,,501,
+Special,Kyurem,Special_Background_BlackVersion,,,,646,
+Special,Cobalion,Special_Background_WhiteVersion,,,,638,
+Special,Terrakion,Special_Background_WhiteVersion,,,,639,
+Special,Virizion,Special_Background_WhiteVersion,,,,640,
+Special,Thundurus therian,Special_Background_WhiteVersion,,,,642,
+Special,Landorus therian,Special_Background_WhiteVersion,,,,645,
+Special,Genesect,Special_Background_WhiteVersion,,,,649,
+Special,Genesect shock,Special_Background_WhiteVersion,,,,649,
+Special,Genesect burn,Special_Background_WhiteVersion,,,,649,
+Special,Genesect chill,Special_Background_WhiteVersion,,,,649,
+Special,Genesect douse,Special_Background_WhiteVersion,,,,649,
+Special,Snivy,Special_Background_WhiteVersion,,,,495,
+Special,Tepig,Special_Background_WhiteVersion,,,,498,
+Special,Oshawott,Special_Background_WhiteVersion,,,,501,
+Special,Zekrom,Special_Background_WhiteVersion,,,,644,
+Special,Kyurem,Special_Background_WhiteVersion,,,,646,
+Special,Kyurem white,Special Background GreyVersion,,,,646,
+Special,Kyurem black,Special Background GreyVersion,,,,646,
+Special,Fuecoco,Special_Background_MightAndMastery,,,,909,
+Special,Totodile,Special_Background_MightAndMastery,,,,158,
+Special,Vanillite,Special_Background_MightAndMastery,,,,582,
+Special,Pawmi,Special_Background_MightAndMastery,,,,921,
+Special,Meditite,Special_Background_MightAndMastery,,,,307,
+Special,Stunky,Special_Background_MightAndMastery,,,,434,
+Special,Mareanie,Special_Background_MightAndMastery,,,,747,
+Special,Charcadet,Special_Background_MightAndMastery,,,,935,
+Special,Machop,Special_Background_MightAndMastery,,,,66,
+Special,Articuno,Special Background DelightfulDays,,,,144,
+Special,Jangmo-o,Special Background DelightfulDays,,,,782,
+Special,Zapdos,Special Background DelightfulDays,,,,145,
+Special,Eevee,Special Background DelightfulDays,,,,133,
+Special,Lapras scarf,Special Background DelightfulDays,,,,131,
+Special,Quaxly,Special Background DelightfulDays,,,,912,
+Special,Rillaboom gigantamax,Special Background DelightfulDays,,,,812,
+Special,Cinderace gigantamax,Special Background DelightfulDays,,,,815,
+Special,Inteleon gigantamax,Special Background DelightfulDays,,,,818,
+Special,Moltres,Special Background DelightfulDays,,,,146,
+Special,Rookidee,Special Background DelightfulDays,,,,821,
+Special,Regirock,Special_Background_GOFest_2025,,,,377,
+Special,Regice,Special_Background_GOFest_2025,,,,378,
+Special,Registeel,Special_Background_GOFest_2025,,,,379,
+Special,Regigigas,Special_Background_GOFest_2025,,,,486,
+Special,Regieleki,Special_Background_GOFest_2025,,,,894,
+Special,Regidrago,Special_Background_GOFest_2025,,,,895,
+Special,Zacian,Special_Background_GOFest_2025_Sword,,,,888,
+Special,Zamazenta,Special_Background_GOFest_2025_Shield,,,,889,
+Special,Gimmighoul roaming 9th anniversary coin,Special Background 9th Anniversary,,,,999,
+Special,Bulbasaur,Special Background Max Finale,,,,1,
+Special,Charmander,Special Background Max Finale,,,,4,
+Special,Squirtle,Special Background Max Finale,,,,7,
+Special,Caterpie,Special Background Max Finale,,,,10,
+Special,Machop,Special Background Max Finale,,,,66,
+Special,Gastly,Special Background Max Finale,,,,92,
+Special,Krabby,Special Background Max Finale,,,,98,
+Special,Chansey,Special Background Max Finale,,,,113,
+Special,Omanyte,Special Background Max Finale,,,,138,
+Special,Kabuto,Special Background Max Finale,,,,140,
+Special,Articuno,Special Background Max Finale,,,,144,
+Special,Zapdos,Special Background Max Finale,,,,145,
+Special,Moltres,Special Background Max Finale,,,,146,
+Special,Shuckle,Special Background Max Finale,,,,213,
+Special,Raikou,Special Background Max Finale,,,,243,
+Special,Entei,Special Background Max Finale,,,,244,
+Special,Suicune,Special Background Max Finale,,,,245,
+Special,Sableye,Special Background Max Finale,,,,302,
+Special,Wailmer,Special Background Max Finale,,,,320,
+Special,Beldum,Special Background Max Finale,,,,374,
+Special,Latias,Special Background Max Finale,,,,380,
+Special,Latios,Special Background Max Finale,,,,381,
+Special,Pidove,Special Background Max Finale,,,,519,
+Special,Drilbur,Special Background Max Finale,,,,529,
+Special,Darumaka,Special Background Max Finale,,,,554,
+Special,Trubbish,Special Background Max Finale,,,,568,
+Special,Cryogonal,Special Background Max Finale,,,,615,
+Special,Passimian,Special Background Max Finale,,,,766,
+Special,Grookey,Special Background Max Finale,,,,810,
+Special,Scorbunny,Special Background Max Finale,,,,813,
+Special,Sobble,Special Background Max Finale,,,,816,
+Special,Skwovet,Special Background Max Finale,,,,819,
+Special,Rookidee,Special Background Max Finale,,,,821,
+Special,Wooloo,Special Background Max Finale,,,,831,
+Special,Toxtricity,Special Background Max Finale,,,,849,
+Special,Toxtricity lowkey,Special Background Max Finale,,,,849,
+Special,Hatenna,Special Background Max Finale,,,,856,
+Special,Falinks,Special Background Max Finale,,,,870,
+Special,Venusaur gigantamax,Special Background Max Finale,,,,3,
+Special,Charizard gigantamax,Special Background Max Finale,,,,6,
+Special,Blastoise gigantamax,Special Background Max Finale,,,,9,
+Special,Butterfree gigantamax,Special Background Max Finale,,,,12,
+Special,Machamp gigantamax,Special Background Max Finale,,,,68,
+Special,Gengar gigantamax,Special Background Max Finale,,,,94,
+Special,Kingler gigantamax,Special Background Max Finale,,,,99,
+Special,Lapras gigantamax,Special Background Max Finale,,,,131,
+Special,Snorlax gigantamax,Special Background Max Finale,,,,143,
+Special,Rillaboom gigantamax,Special Background Max Finale,,,,812,
+Special,Cinderace gigantamax,Special Background Max Finale,,,,815,
+Special,Inteleon gigantamax,Special Background Max Finale,,,,818,
+Special,Toxtricity gigantamax,Special Background Max Finale,,,,849,
+Special,Cobalion,Special_Background_TalesofTransformation,,,,638,
+Special,Flabébé,Special_Background_TalesofTransformation,,,,669,
+Special,Flabébé yellow,Special_Background_TalesofTransformation,,,,669,
+Special,Flabébé orange,Special_Background_TalesofTransformation,,,,669,
+Special,Flabébé blue,Special_Background_TalesofTransformation,,,,669,
+Special,Flabébé white,Special_Background_TalesofTransformation,,,,669,
+Special,Terrakion,Special_Background_TalesofTransformation,,,,639,
+Special,Solosis,Special_Background_TalesofTransformation,,,,577,
+Special,Chikorita,Special_Background_TalesofTransformation,,,,152,
+Special,Totodile,Special_Background_TalesofTransformation,,,,158,
+Special,Tepig,Special_Background_TalesofTransformation,,,,498,
+Special,Virizion,Special_Background_TalesofTransformation,,,,640,
+Special,Psyduck swim ring,Special_Background_Concierge,,,,54,
+Location,Kyogre,Location Card Las Vegas,,,,382,
+Location,Groudon,Location Card Las Vegas,,,,383,
+Location,Latias,Location Card Jeju,,,,380,
+Location,Latios,Location Card Jeju,,,,381,
+Location,Cresselia,Location Card Osaka,,,,488,
+Location,Xerneas,Location Card Osaka,,,,716,
+Location,Yveltal,Location Card Osaka,,,,717,
+Location,Rayquaza,Location Card Osaka,,,,384,
+Location,Cresselia,Location Card London,,,,488,
+Location,Xerneas,Location Card London,,,,716,
+Location,Yveltal,Location Card London,,,,717,
+Location,Rayquaza,Location Card London,,,,384,
+Location,Cresselia,Location Card NYC,,,,488,
+Location,Xerneas,Location Card NYC,,,,716,
+Location,Yveltal,Location Card NYC,,,,717,
+Location,Rayquaza,Location Card NYC,,,,384,
+Location,Eevee explorer,Location Card Seoul,,,,133,
+Location,Eevee explorer,Location Card Barcelona,,,,133,
+Location,Eevee explorer,Location Card Mexico City,,,,133,
+Location,Dialga,Location Card Los Angeles,,,,483,
+Location,Dialga origin,Location Card Los Angeles,,,,483,
+Location,Palkia,Location Card Los Angeles,,,,484,
+Location,Palkia origin,Location Card Los Angeles,,,,484,
+Location,Latias,Location Card Bali,,,,380,
+Location,Latios,Location Card Bali,,,,381,
+Location,Eevee explorer,Location_Card_Tainan,,,,133,
+Location,Latias,Location Card Surabaya,,,,380,
+Location,Latios,Location Card Surabaya,,,,381,
+Location,Solgaleo,Location Card Sendai,,,,791,
+Location,Lunala,Location Card Sendai,,,,792,
+Location,Nihilego,Location Card Sendai,,,,793,
+Location,Xurkitree,Location Card Sendai,,,,796,
+Location,Kartana,Location Card Sendai,,,,798,
+Location,Guzzlord,Location Card Sendai,,,,799,
+Location,Necrozma,Location Card Sendai,,,,800,
+Location,Stakataka,Location Card Sendai,,,,805,
+Location,Solgaleo,Location Card Madrid,,,,791,
+Location,Lunala,Location Card Madrid,,,,792,
+Location,Nihilego,Location Card Madrid,,,,793,
+Location,Pheromosa,Location Card Madrid,,,,795,
+Location,Kartana,Location Card Madrid,,,,798,
+Location,Guzzlord,Location Card Madrid,,,,799,
+Location,Necrozma,Location Card Madrid,,,,800,
+Location,Blacephalon,Location Card Madrid,,,,806,
+Location,Solgaleo,Location Card NYC 2024,,,,791,
+Location,Lunala,Location Card NYC 2024,,,,792,
+Location,Nihilego,Location Card NYC 2024,,,,793,
+Location,Buzzwole,Location Card NYC 2024,,,,794,
+Location,Kartana,Location Card NYC 2024,,,,798,
+Location,Guzzlord,Location Card NYC 2024,,,,799,
+Location,Necrozma,Location Card NYC 2024,,,,800,
+Location,Blacephalon,Location Card NYC 2024,,,,806,
+Location,Pikachu worlds 2024,Location Background Honolulu,,,,25,
+Location,Latias,Location Card Yogyakarta,,,,380,
+Location,Latios,Location Card Yogyakarta,,,,381,
+Location,Pikachu,Location Background MLB Marlins,,,,25,
+Location,Pikachu,Location Background MLB Mariners,,,,25,
+Location,Latias,Location_Background_Jakarta,,,,380,
+Location,Latios,Location_Background_Jakarta,,,,381,
+Location,Eevee explorer,Location_Background_Jakarta,,,,133,
+Location,Skiddo,Location_Background_Incheon,,,,672,
+Location,Dialga origin,Location_Background_Fukuoka,,,,483,
+Location,Palkia origin,Location_Background_Fukuoka,,,,484,
+Location,Toxtricity,Location_Background_Fukuoka,,,,849,
+Location,Toxtricity lowkey,Location_Background_Fukuoka,,,,849,
+Location,Eevee explorer,Location Background Hong Kong,,,,133,
+Location,Eevee explorer,Location Background São Paulo,,,,133,
+Location,Reshiram,Location_Background_New Taipei City,,,,643,
+Location,Zekrom,Location_Background_New Taipei City,,,,644,
+Location,Kyurem,Location_Background_New Taipei City,,,,646,
+Location,Reshiram,Location_Background_Los Angeles,,,,643,
+Location,Zekrom,Location_Background_Los Angeles,,,,644,
+Location,Kyurem,Location_Background_Los Angeles,,,,646,
+Location,Eevee explorer,Location_Background_Singapore,,,,133,
+Location,Eevee explorer,Location_Background_Mumbai,,,,133,
+Location,Eevee explorer,Location_Background_Milan,,,,133,
+Location,Eevee explorer,Location_Background_Santiago,,,,133,
+Location,Pikachu spring,Location_Background_SpringBlossom2025,,,,25,
+Location,Deerling,Location_Background_SpringBlossom2025,,,,585,
+Location,Bulbasaur,Location_Background_Expo2025 Starters,,,,1,
+Location,Charmander,Location_Background_Expo2025 Starters,,,,4,
+Location,Squirtle,Location_Background_Expo2025 Starters,,,,7,
+Location,Pikachu,Location_Background_Expo2025 Pikachu,,,,25,
+Location,Pikachu,Location Background Osaka_2025,,,,25,
+Location,Rillaboom,Location Background Osaka_GOFest_2025,,,,812,
+Location,Zacian,Location Background Osaka_GOFest_2025,,,,888,
+Location,Zamazenta,Location Background Osaka_GOFest_2025,,,,889,
+Location,Cinderace,Location Background Jersey_City,,,,815,
+Location,Zacian,Location Background Jersey_City,,,,888,
+Location,Zamazenta,Location Background Jersey_City,,,,889,
+Location,Inteleon,Location Background Paris,,,,818,
+Location,Zacian,Location Background Paris,,,,888,
+Location,Zamazenta,Location Background Paris,,,,889,
+Location,Pikachu,Location Background Sajik Baseball Stadium,,,,25,
+Location,Pikachu,Location Background MLB Mariners,,,,25,
+Location,Pikachu summer,Location Background Road Trip 2025 Manchester,,,,25,
+Location,Pikachu,Location Background MLB Marlins,,,,25,
+Location,Pikachu summer,Location Background Road Trip 2025 London,,,,25,
+Location,Pikachu,Location Background_MLB_Tampa Bay Rays,,,,25,
+Location,Pikachu,Location Background_MLB Milwaukee Brewers,,,,25,
+Location,Pikachu summer,Location Background Road Trip 2025 Paris,,,,25,
+Location,Pikachu party hat,Location Background Jangheung Water Festival,,,,25,
+Location,Lapras scarf,Location Background Jangheung Water Festival,,,,131,
+Location,Deerling summer,Location Background Jangheung Water Festival,,,,585,
+Location,Pikachu summer,Location_Background_Road Trip 2025 Valencia,,,,25,
+Location,Pikachu,Location Background_MLB_Washington Nationals,,,,25,
+Location,Pikachu summer,Location Background Road Trip 2025 Berlin,,,,25,
+Location,Pikachu,Location Background_MLB Arizona Diamondbacks,,,,25,
+Location,Pikachu,Location Background_MLB Chicago White Sox,,,,25,
+Location,Pikachu,Location Background_MLB Baltimore Orioles,,,,25,
+Location,Pikachu,Location Background_MLB Cleveland Guardians,,,,25,
+Location,Pikachu varsity jacket,Location Background Anaheim,,,,25,
+Location,Pikachu summer,Location Background Road Trip 2025 Hague,,,,25,
+Location,Pikachu summer,Location Background Road Trip 2025 Cologne,,,,25,
+Location,Pikachu,Location Background_MLB New York Mets,,,,25,
+Location,Pikachu,Location Background_MLB Boston Red Sox,,,,25,
+Location,Pikachu,Location Background_MLB_San Francisco Giants,,,,25,
+Location,Pikachu,Location Background_MLB Minnesota Twins,,,,25,
+Location,Pikachu,Location Background_MLB_Texas Rangers,,,,25,
+Location,Charmander,Location_Background_Paris,,,,4,
+Location,Charmander,Location_Background_Paris 2025,,,,4,
+Location,Charmander,Location_Background_Paris_2025_2,,,,4,
+Location,Eevee explorer,Location Background_City Safari Bangkok,,,,133,
+Location,Eevee explorer,Location Background_City Safari Amsterdam,,,,133,
+Location,Eevee explorer,Location Background_City Safari Valencia,,,,133,
+Location,Eevee explorer,Location Background_City Safari Cancun,,,,133,
+Location,Eevee explorer,Location Background_City Safari Vancouver,,,,133,
+Location,Pikachu teal,Location_Background_Jeju_Island_Stamp_Rally,,,,25,
+Location,Lapras scarf,Location_Background_Taipei_Childrens_Amusement_Park,,,,131,
+Location,Clefairy,Special_Background_Observatory_Exhibition_Tour.png,,,,35,
 `;

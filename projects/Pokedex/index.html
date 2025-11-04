@@ -473,26 +473,49 @@ function getPokemon() {
             // conseguiu carregar do servidor
             var data = $.csv.toObjects(serverCsv, { separator: ',' });
 			
-            data.sort(function(a, b) {
+             // 🔽 Ordena apenas as regiões "Location" e "Special"
+            var sorted = data.map(function(p) { return p; }); // copia o array
+
+            // Filtra os que precisam ser ordenados
+            var specialGroups = sorted.filter(p => p.region === "Location" || p.region === "Special");
+            var others = sorted.filter(p => p.region !== "Location" && p.region !== "Special");
+
+            // Ordena os "Location" e "Special" por n e depois por name
+            specialGroups.sort(function(a, b) {
+                var nA = parseInt(a.n);
+                var nB = parseInt(b.n);
+                if (nA !== nB) return nA - nB;
                 var nameA = a.name.toLowerCase();
                 var nameB = b.name.toLowerCase();
                 if (nameA < nameB) return -1;
                 if (nameA > nameB) return 1;
-                return parseInt(a.n) - parseInt(b.n);
+                return 0;
             });
+
+            // Junta de volta mantendo os outros na ordem original
+            data = others.concat(specialGroups);
             createPokemon(data);
         },
         error: function() {
             // se não conseguiu, usa a variável global csvString
             if (typeof csvString !== "undefined" && csvString) {
                 var data = $.csv.toObjects(csvString, { separator: ',' });
-				data.sort(function(a, b) {
-                var nameA = a.name.toLowerCase();
-                var nameB = b.name.toLowerCase();
-                if (nameA < nameB) return -1;
-                if (nameA > nameB) return 1;
-                return parseInt(a.n) - parseInt(b.n);
-            });
+				// 🔽 Mesmo comportamento no fallback
+                var specialGroups = data.filter(p => p.region === "Location" || p.region === "Special");
+                var others = data.filter(p => p.region !== "Location" && p.region !== "Special");
+
+                specialGroups.sort(function(a, b) {
+                    var nA = parseInt(a.n);
+                    var nB = parseInt(b.n);
+                    if (nA !== nB) return nA - nB;
+                    var nameA = a.name.toLowerCase();
+                    var nameB = b.name.toLowerCase();
+                    if (nameA < nameB) return -1;
+                    if (nameA > nameB) return 1;
+                    return 0;
+                });
+
+                data = others.concat(specialGroups);
                 createPokemon(data);
             } else {
                 console.error("Nenhum CSV disponível (nem servidor, nem variável global).");
