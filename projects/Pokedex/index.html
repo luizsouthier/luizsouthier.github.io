@@ -472,12 +472,27 @@ function getPokemon() {
         success: function(serverCsv) {
             // conseguiu carregar do servidor
             var data = $.csv.toObjects(serverCsv, { separator: ',' });
+			
+            data.sort(function(a, b) {
+                var nameA = a.name.toLowerCase();
+                var nameB = b.name.toLowerCase();
+                if (nameA < nameB) return -1;
+                if (nameA > nameB) return 1;
+                return parseInt(a.n) - parseInt(b.n);
+            });
             createPokemon(data);
         },
         error: function() {
             // se não conseguiu, usa a variável global csvString
             if (typeof csvString !== "undefined" && csvString) {
                 var data = $.csv.toObjects(csvString, { separator: ',' });
+				data.sort(function(a, b) {
+                var nameA = a.name.toLowerCase();
+                var nameB = b.name.toLowerCase();
+                if (nameA < nameB) return -1;
+                if (nameA > nameB) return 1;
+                return parseInt(a.n) - parseInt(b.n);
+            });
                 createPokemon(data);
             } else {
                 console.error("Nenhum CSV disponível (nem servidor, nem variável global).");
