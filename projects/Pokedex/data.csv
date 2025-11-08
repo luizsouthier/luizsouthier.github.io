@@ -1225,9 +1225,9 @@
 9Paldea,Rabsca,both,FALSE,FALSE,FALSE,954,FALSE
 9Paldea,Flittle,both,FALSE,FALSE,FALSE,955,FALSE
 9Paldea,Espathra,both,FALSE,FALSE,FALSE,956,FALSE
-9Paldea,Tinkatink,both,FALSE,FALSE,FALSE,957,FALSE
-9Paldea,Tinkatuff,both,FALSE,FALSE,FALSE,958,FALSE
-9Paldea,Tinkaton,both,FALSE,FALSE,FALSE,959,FALSE
+9Paldea,Tinkatink,both,TRUE,FALSE,FALSE,957,FALSE
+9Paldea,Tinkatuff,both,TRUE,FALSE,FALSE,958,FALSE
+9Paldea,Tinkaton,both,TRUE,FALSE,FALSE,959,FALSE
 9Paldea,Wiglett,both,TRUE,FALSE,FALSE,960,FALSE
 9Paldea,Wugtrio,both,TRUE,FALSE,FALSE,961,FALSE
 9Paldea,Bombirdier,both,TRUE,FALSE,FALSE,962,FALSE
@@ -1582,6 +1582,7 @@ Event,Noivern headband,both,TRUE,FALSE,FALSE,715,FALSE
 Event,Rowlet halloween,both,TRUE,FALSE,FALSE,722,FALSE
 Event,Dartrix halloween,both,TRUE,FALSE,FALSE,723,FALSE
 Event,Decidueye halloween,both,TRUE,FALSE,FALSE,724,FALSE
+Event,Bewear wilderness cape,both,TRUE,FALSE,FALSE,760,FALSE
 Event,Wooloo holiday,both,TRUE,FALSE,FALSE,831,FALSE
 Event,Dubwool holiday,both,TRUE,FALSE,FALSE,832,FALSE
 Event,Ursaluna witch hat,both,TRUE,FALSE,FALSE,901,FALSE
@@ -1984,3 +1985,13 @@ Location,Eevee explorer,Location Background_City Safari Vancouver,,,,133,
 Location,Pikachu teal,Location_Background_Jeju_Island_Stamp_Rally,,,,25,
 Location,Lapras scarf,Location_Background_Taipei_Childrens_Amusement_Park,,,,131,
 Location,Clefairy,Special_Background_Observatory_Exhibition_Tour.png,,,,35,
+Location,Pikachu,Location Background Pokelid Saga,,,,25,
+Location,Pikachu,Location Background Pokelid Okinawa,,,,25,
+Location,Pikachu,Location Background Pokelid Fukuoka,,,,25,
+Location,Pikachu,Location Background Pokelid Kagoshima,,,,25,
+Location,Pikachu,Location Background Pokelid Miyazaki,,,,25,
+Location,Pikachu,Location Background Pokelid Nagasaki,,,,25,
+Location,Cresselia,Location_Background_Wild_Area_Nagasaki,,,,488,
+Location,Darkrai,Location_Background_Wild_Area_Nagasaki,,,,491,
+Location,Bewear wilderness cape,Location_Background_Wild_Area_Nagasaki,,,,760,
+Location,Grimmsnarl,Location_Background_Wild_Area_Nagasaki,,,,861,
