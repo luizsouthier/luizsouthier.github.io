@@ -654,21 +654,39 @@ function createPokemon(list) {
 	
 
 	$(document).ready(function () {
-		$('.hasbackground-switch').click(function () {
+    $('.hasbackground-switch').click(function () {
 
-			const item = $(this).closest('.background');
-			const bgType = item.data('bg'); // Tipo de background
-			const isOn = item.hasClass('hasbackground');
+        const item = $(this).closest('.background');
+        const regionName = item.closest('[id]').attr('id'); // pega o nome da região (Special ou Location)
+        const bgType = item.data('bg');                     // tipo de background
+        const isOn = item.hasClass('hasbackground');
 
-			if (!isOn) {
-				// Primeiro clique → marca TODOS do mesmo tipo
-				$('.background[data-bg="' + bgType + '"]').addClass('hasbackground');
-			} else {
-				// Segundo clique → desmarca só o clicado
-				item.removeClass('hasbackground');
-			}
-		});
-	});
+        // ----------------------------------------
+        // 1) Região SPECIAL → comportamento antigo
+        // ----------------------------------------
+        if (regionName === "Special") {
+            item.toggleClass('hasbackground');
+            return;
+        }
+
+        // ----------------------------------------
+        // 2) Região LOCATION → comportamento novo
+        // ----------------------------------------
+        if (regionName === "Location") {
+
+            if (!isOn) {
+                // Primeiro clique: marca TODOS do mesmo background
+                $('.background[data-bg="' + bgType + '"]').addClass('hasbackground');
+            } else {
+                // Segundo clique: desmarca apenas o clicado
+                item.removeClass('hasbackground');
+            }
+
+            return;
+        }
+    });
+});
+
 
     $(document).ready(function () {
         $('.shiny-switch').click(function () {
