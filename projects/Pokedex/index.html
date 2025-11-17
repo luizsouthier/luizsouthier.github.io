@@ -654,37 +654,40 @@ function createPokemon(list) {
 	
 
 	$(document).ready(function () {
-    $('.hasbackground-switch').click(function () {
+// handler robusto com delegation - funciona mesmo se você recriar os elementos
+$(document).on('click', '.hasbackground-switch', function () {
+    const item = $(this).closest('.background');
+    // procura especificamente o ancestor #Special ou #Location
+    const regionContainer = item.closest('#Special, #Location');
+    const regionName = regionContainer.length ? regionContainer.attr('id') : null;
+    const bgType = item.data('bg'); // tipo de background (o que você guardou em data-bg)
+    const isOn = item.hasClass('hasbackground');
 
-        const item = $(this).closest('.background');
-        const regionName = item.closest('[id]').attr('id'); // pega o nome da região (Special ou Location)
-        const bgType = item.data('bg');                     // tipo de background
-        const isOn = item.hasClass('hasbackground');
+    // Se não achou o container Special/Location, cair fora
+    if (!regionName) {
+        console.warn('Region container not found for background item:', item);
+        return;
+    }
 
-        // ----------------------------------------
-        // 1) Região SPECIAL → comportamento antigo
-        // ----------------------------------------
-        if (regionName === "Special") {
-            item.toggleClass('hasbackground');
-            return;
+    // 1) Região SPECIAL → comportamento antigo (toggle só nele)
+    if (regionName === "Special") {
+        item.toggleClass('hasbackground');
+        return;
+    }
+
+    // 2) Região LOCATION → comportamento novo
+    if (regionName === "Location") {
+        if (!isOn) {
+            // Primeiro clique: marca TODOS do mesmo tipo (Location)
+            $('.background[data-bg="' + bgType + '"]').addClass('hasbackground');
+        } else {
+            // Segundo clique: desmarca apenas o clicado
+            item.removeClass('hasbackground');
         }
+        return;
+    }
+});
 
-        // ----------------------------------------
-        // 2) Região LOCATION → comportamento novo
-        // ----------------------------------------
-        if (regionName === "Location") {
-
-            if (!isOn) {
-                // Primeiro clique: marca TODOS do mesmo background
-                $('.background[data-bg="' + bgType + '"]').addClass('hasbackground');
-            } else {
-                // Segundo clique: desmarca apenas o clicado
-                item.removeClass('hasbackground');
-            }
-
-            return;
-        }
-    });
 });
 
 
