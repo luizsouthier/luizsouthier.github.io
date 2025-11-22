@@ -1,0 +1,591 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>User Pokédex Generator</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="jquery.csv.js"></script>
+	<script type="text/javascript" src="a.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.12.0/js/md5.min.js"></script>
+	<script src="test.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <style>
+body {
+	font-family: Roboto !important;
+}
+h1 {
+  margin: auto;
+  font-weight: 300;
+  color: #7758ec;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 5px solid #7758ec;
+  width: 100%;
+  font-size: 30pt;
+  line-height: 26pt;
+}
+
+#pokemon-form {
+  width: 100%;
+  margin: 5px auto;
+  text-align: center;
+}
+
+#top {
+  width: 100%;
+  position: fixed; top: 0px; left: 0px; 
+  background: white;
+  z-index: 999
+}
+
+#data {
+  width: 100%;
+}
+
+#pokemon-form textarea {
+  text-align: left;
+  padding: 5px;
+  margin: 5px auto;
+  width: 99%;
+  border: 0px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#pokemon-form textarea:focus {
+  outline: none !important;
+  border: 0px solid #98a4ef;
+}
+
+#pokemon-form button {
+  display: inline-block;
+  margin: 5px auto;
+  background: #cabcff;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-weight: 300;
+  font-size: 12pt;
+  padding: 10px;
+  trasition: 0.5s;
+}
+
+#pokemon-form button:hover {
+  cursor: pointer;
+}
+
+#pokemon-form button:focus {
+  outline: none !important;
+  background: #755bd8;
+  trasition: 0.5s;
+}
+
+.user-pokedex {
+  background: #cabcff;
+  text-align: center;
+  border-radius: 50px;
+  width: 120px;
+  height: 220px !important;
+  color: white;
+  font-weight: 300;
+  padding: 10px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.user-pokedex.background {
+  background: #cabcff;
+  text-align: center;
+  border-radius: 20px;
+  width: 120px;
+  height: 200px !important;
+  color: white;
+  font-weight: 300;
+  padding: 10px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.user-pokedex .name {
+	font-size: 100%;
+	margin: 5px auto;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 119px;
+}
+
+.user-pokedex .image-regular,
+.user-pokedex .image-shiny {
+  height: 102px;
+  max-height: 102px;
+  text-align: center;
+}
+
+.user-pokedex img {
+  margin: auto;
+}
+
+.user-pokedex .image-shiny {
+  display: none;
+}
+
+.user-pokedex.shiny .image-regular,
+.user-pokedex.shinyFemale .image-regular,
+.user-pokedex.shinyMale .image-regular {
+  display: none;
+}
+
+.user-pokedex.shiny .image-shiny,
+.user-pokedex.shinyFemale .image-shiny,
+.user-pokedex.shinyMale .image-shiny {
+  display: block;
+}
+
+.user-pokedex .lucky-btn {
+  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/8/8c/Pokedex_lucky.png/revision/latest?cb=20210920120825);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.lucky .lucky-btn {
+  filter: grayscale(0%);
+}
+
+.user-pokedex .shiny-switch {
+  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/3/31/Shiny_Pok%C3%A9mon.png/revision/latest?cb=20171026223519);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.shiny .shiny-switch {
+  filter: grayscale(0%);
+}
+
+.user-pokedex .dynamax-switch {
+  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/f/f3/Pokedex_gmax.png);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.dynamax .dynamax-switch {
+  filter: grayscale(0%);
+}
+
+.user-pokedex .shadow-switch {
+  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/7/76/Icon_Shadow_Pokémon.png/revision/latest/?cb=20190715225723);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.shadow .shadow-switch {
+  filter: grayscale(0%);
+}
+
+.user-pokedex .purified-switch {
+  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/5/52/Icon_Purified_Pokémon.png/revision/latest/?cb=20190715225729);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.purified .purified-switch {
+  filter: grayscale(0%);
+}
+
+.user-pokedex .perfect-switch {
+  background-image: url(https://vignette.wikia.nocookie.net/pokemongo/images/6/6a/Appraisal_Rating_4.png/revision/latest?cb=20190716115838);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.perfect .perfect-switch {
+  filter: grayscale(0%);
+}
+
+.user-pokedex .shinyShadow-switch {
+  background-image: url(shinyShadow.png);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.shinyShadow .shinyShadow-switch {
+  filter: grayscale(0%);
+}
+
+.user-pokedex .shinyPurified-switch {
+  background-image: url(shinyPurified.png);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.shinyPurified .shinyPurified-switch {
+  filter: grayscale(0%);
+}
+
+.user-pokedex .perfectMale-switch {
+  background-image: url(male4.png);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.perfectMale .perfectMale-switch {
+  filter: grayscale(0%);
+}
+
+.user-pokedex .perfectFemale-switch {
+  background-image: url(female4.png);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.perfectFemale .perfectFemale-switch {
+  filter: grayscale(0%);
+}
+
+
+.user-pokedex .shinyMale-switch {
+  background-image: url(maleS.png);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.shinyMale .shinyMale-switch {
+  filter: grayscale(0%);
+}
+
+.user-pokedex .shinyFemale-switch {
+  background-image: url(femaleS.png);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.shinyFemale .shinyFemale-switch {
+  filter: grayscale(0%);
+}
+
+
+.optional-switch {
+  min-height: 30px;
+}
+
+
+.user-pokedex.lucky {
+  background: linear-gradient(to top, #403a96 0%, #cabcff 100%) !important;
+}
+
+.user-pokedex.dynamax {
+  background: linear-gradient(to top, #cabcff 0%, #cabcff 70%, #933d68 100%) !important;
+}
+
+.user-pokedex.dynamax.lucky {
+  background: linear-gradient(to top, #403a96 0%, #cabcff 70%, #933d68 100%) !important;
+}
+
+
+.user-pokedex.shadow .image-regular,
+.user-pokedex.shadow .image-shiny {
+  background: url("https://vignette.wikia.nocookie.net/pokemongo/images/e/e1/Shadow_effect.png/revision/latest?cb=20230523105016") center 0 no-repeat !important;
+}
+
+.user-pokedex.purified .image-regular,
+.user-pokedex.purified .image-shiny {
+  background: url("light.png") center 0 no-repeat !important;
+}
+
+.user-pokedex.difference .perfect-switch {
+  display: none;
+}
+
+.user-pokedex.background {
+  height: 150px !important;
+}
+
+.user-pokedex.background .image-regular{
+  filter: grayscale(90%);
+}
+
+.user-pokedex .hasbackground-switch {
+  background-image: url(background.png);
+  background-size: 24px 24px;
+  margin: 3px auto;
+  width: 24px;
+  height: 24px;
+  filter: grayscale(100%);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.user-pokedex.hasbackground .hasbackground-switch,
+.user-pokedex.background.hasbackground .image-regular{
+  filter: grayscale(0%);
+}
+
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2655301318011533"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="top">
+    <form id="pokemon-form" action="" onsubmit="return false;">
+	<table width="100%"><tr>
+	<td><input type="file" id="myFileInput" style="display:none"/>   
+		<button id="export-code">Export file</button><br>
+		<button id="open-file" onclick="document.getElementById('myFileInput').click()">Open file</button></td>
+	<td>
+	<i>The filters are used with a AND operator. Clear one filter if you want to filter only by another</i><br>
+	<button id="show-all">Show all</button>
+	<button id="show-available">Show available</button>
+
+	</td>
+	</tr></table>
+        
+    </form>
+	</div>
+	<div id="data">
+	<h1>Special Background</h1>
+    <div id="Special" style="text-align: center; margin: auto;"></div>
+	<h1>Location Background</h1>
+    <div id="Location" style="text-align: center; margin: auto;"></div>
+	</div>	
+	<script>
+	getPokemon();
+
+$('#data').css('margin-top', function() {
+    return $('#top').height();
+});
+
+function getPokemon() {
+    $.ajax({
+        url: "data.csv",
+        dataType: "text",
+        success: function(serverCsv) {
+
+            var data = $.csv.toObjects(serverCsv, { separator: ',' });
+
+            // Mantém somente SPECIAL e LOCATION
+            data = data.filter(p => p.region === "Special" || p.region === "Location");
+
+            // Ordenação
+            data.sort((a, b) => {
+                let A = parseInt(a.n), B = parseInt(b.n);
+                if (A !== B) return A - B;
+                return a.name.localeCompare(b.name);
+            });
+
+            createPokemon(data);
+        }
+    });
+}
+
+
+function getImageUrl(name) {
+
+	if(name == "Pikachu libre") name = "Pikachu female libre";
+	if(name == "Pikachu pop") name = "Pikachu female pop";
+	if(name == "Pikachu rock") name = "Pikachu female rock";
+	if(name == "Pikachu phd") name = "Pikachu female phd";
+	
+	if(name == "Pikachu libre shiny") name = "Pikachu female libre shiny";
+	if(name == "Pikachu pop shiny") name = "Pikachu female pop shiny";
+	if(name == "Pikachu rock shiny") name = "Pikachu female rock shiny";
+	if(name == "Pikachu phd shiny") name = "Pikachu female phd shiny";
+	
+	if(name == "Spinda 1") name = "Spinda";
+	if(name == "Spinda 2") name = "Spinda pattern 2";
+	if(name == "Spinda 3") name = "Spinda pattern 3";
+	if(name == "Spinda 4") name = "Spinda pattern 4";
+	if(name == "Spinda 5") name = "Spinda pattern 5";
+	if(name == "Spinda 6") name = "Spinda pattern 6";
+	if(name == "Spinda 7") name = "Spinda pattern 7";
+	if(name == "Spinda 8") name = "Spinda pattern 8";
+	if(name == "Spinda 9") name = "Spinda pattern 9";
+
+	if(name == "Spinda 1 shiny") name = "Spinda shiny";
+	if(name == "Spinda 2 shiny") name = "Spinda pattern 2 shiny";
+	if(name == "Spinda 3 shiny") name = "Spinda pattern 3 shiny";
+	if(name == "Spinda 4 shiny") name = "Spinda pattern 4 shiny";
+	if(name == "Spinda 5 shiny") name = "Spinda pattern 5 shiny";
+	if(name == "Spinda 6 shiny") name = "Spinda pattern 6 shiny";
+	if(name == "Spinda 7 shiny") name = "Spinda pattern 7 shiny";
+	if(name == "Spinda 8 shiny") name = "Spinda pattern 8 shiny";
+	if(name == "Spinda 9 shiny") name = "Spinda pattern 9 shiny";
+	
+    let baseUrl = 'https://vignette.wikia.nocookie.net/pokemongo/images',
+        filename = `${name}.png`.replace(/ /g, '_'),
+        digest = md5(filename),
+        filepath = `${digest[0]}/${digest[0]}${digest[1]}/${encodeURIComponent(filename)}`;
+    return `${baseUrl}/${filepath}`;
+}
+
+function applyCSV(csvText) {
+    const rows = csvText.split("\n").filter(r => r.trim() !== "");
+    if (rows.length < 2) return;
+
+    const headers = rows[0].split(",").map(h => h.trim()); // remove espaços extras
+
+    for (let i = 1; i < rows.length; i++) {
+        const cols = rows[i].split(",").map(c => c.trim()); // remove \r e espaços
+        const pokemonId = cols[0];
+        const card = document.getElementById(pokemonId);
+        if (!card) continue;
+
+        // Limpa todas as classes que podem ser importadas
+        card.classList.remove("hasbackground");
+		if (cols[headers.indexOf("hasbackground")] === "TRUE") card.classList.add("hasbackground");
+    }
+}
+
+function createPokemon(list) {
+
+    const groups = ["Special", "Location"];
+
+    groups.forEach(region => {
+        const container = document.getElementById(region);
+        let html = "";
+
+        list.forEach(p => {
+            if (p.region !== region) return;
+
+            html += `
+                <div id="${p.name}${p.gender}" 
+                     class="user-pokedex background" 
+                     data-bg="${p.gender}">
+
+                    <div class="image-regular" 
+                        style="background:url('${getImageUrl(p.gender)}') center/cover no-repeat;">
+                        
+                        <img class="toggle-img" 
+                             src="${getImageUrl(p.name)}"
+                             width="100" height="100">
+                    </div>
+
+                    <div class="name">
+                        ${('0000'+p.n).slice(-4)} ${p.name}
+                    </div>
+                </div>
+            `;
+        });
+
+        container.innerHTML = html;
+    });
+}	
+
+$(document).on("click", ".toggle-img", function () {
+    const card = $(this).closest(".user-pokedex");
+    card.toggleClass("hasbackground");
+});
+
+$("#show-all").click(function () {
+    $(".user-pokedex").show();
+});
+
+$("#show-available").click(function () {
+    $(".user-pokedex").hide();
+    $(".hasbackground").show();
+});
+
+
+	
+$(document).ready(function () {
+
+    $("#export-code").click(function () {
+
+    let list = [];
+    $(".user-pokedex").each(function () {
+        list.push({
+            id: this.id,
+            has: $(this).hasClass("hasbackground") ? "TRUE" : ""
+        });
+    });
+
+    let csv = "name,hasbackground\n";
+    list.forEach(p => {
+        csv += `${p.id},${p.has}\n`;
+    });
+
+    const blob = new Blob([csv], { type: "text/csv" });
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "myDex.csv";
+    a.click();
+    URL.revokeObjectURL(url);
+});
+
+    // Importação do CSV
+    $(document).ready(function () {
+        $("#myFileInput").on('change', function(event) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                applyCSV(e.target.result);
+            }
+            reader.readAsText(event.target.files[0]);
+        });
+    });
+
+});
+</script>
+	
+</body>
+</html>
