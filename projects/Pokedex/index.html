@@ -1066,27 +1066,41 @@ $(document).on('click', '#btn-relatorio-location', function () {
         'gap': '12px'
     });
 
-    imagens.forEach(src => {
-        const $box = $('<div></div>').css({
-            'width': '140px',
-            'padding': '8px',
-            'border-radius': '10px',
-            'background': 'white',
-            'box-shadow': '0 4px 10px rgba(0,0,0,0.12)',
-            'text-align': 'center'
-        });
-
-        const $img = $('<img>').attr('src', src).css({
-            'width': '120px',
-            'height': '80px',
-            'object-fit': 'cover',
-            'display': 'block',
-            'margin': '0 auto'
-        });
-
-        $box.append($img);
-        $grid.append($box);
+imagens.forEach(src => {
+    const $box = $('<div></div>').css({
+        'width': '140px',
+        'padding': '8px',
+        'border-radius': '10px',
+        'background': 'white',
+        'box-shadow': '0 4px 10px rgba(0,0,0,0.12)',
+        'text-align': 'center'
     });
+
+    const $img = $('<img>').attr('src', src).css({
+        'width': '120px',
+        'height': '80px',
+        'object-fit': 'cover',
+        'display': 'block',
+        'margin': '0 auto'
+    });
+
+    // Extrair nome limpo
+    let nome = src.split('/').pop();               // pega só o arquivo
+    nome = nome.replace('Location_Background_', ''); // remove prefixo
+    nome = nome.replace('.png', '');               // remove extensão
+
+    const $label = $('<div></div>').text(nome).css({
+        'margin-top': '6px',
+        'font-size': '12px',
+        'font-weight': '600',
+        'color': '#333'
+    });
+
+    $box.append($img);
+    $box.append($label);
+    $grid.append($box);
+});
+
 
     $cont.append($grid);
     $('body').append($cont);
