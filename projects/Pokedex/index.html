@@ -974,7 +974,130 @@ $(document).ready(function () {
 });
 
 }
+
+
+
 </script>
-	
+<script>
+// ---------------------------------------------------------
+//  BOTÃO FIXO NO TOPO PARA GERAR O RELATÓRIO
+// ---------------------------------------------------------
+$(document).ready(function () {
+    if ($('#btn-relatorio-location').length === 0) {
+        $('body').prepend(`
+            <button id="btn-relatorio-location" 
+                style="
+                    position: fixed;
+                    top: 10px;
+                    right: 10px;
+                    z-index: 99999;
+                    padding: 10px 14px;
+                    background: #7758ec;
+                    color: white;
+                    border: none;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    font-size: 14px;
+                ">
+                Gerar Relatório Location
+            </button>
+        `);
+    }
+});
+
+// ---------------------------------------------------------
+//  RELATÓRIO DE BACKGROUNDS FALTANDO — APENAS LOCATION
+// ---------------------------------------------------------
+$(document).on('click', '#btn-relatorio-location', function () {
+
+    const imagens = new Set();
+
+    // SOMENTE OS CARDS DENTRO DE #Location
+    const cards = $('#Location .user-pokedex, #Location .pokedex-card, #Location .location-card');
+
+    cards.each(function () {
+        const $card = $(this);
+
+        // se tem background confirmado, pula
+        if ($card.hasClass('hasbackground')) return;
+
+        // tenta obter a imagem de fundo
+        let bg = $card.find('.image-regular').css('background-image');
+
+        // fallback para estilo inline
+        if ((!bg || bg === 'none') && $card.find('.image-regular').attr('style')) {
+            const s = $card.find('.image-regular').attr('style');
+            const m = s.match(/url\((['"]?)(.*?)\1\)/);
+            if (m) bg = `url("${m[2]}")`;
+        }
+
+        if (bg && bg !== 'none') {
+            const m = bg.match(/url\((['"]?)(.*?)\1\)/);
+            if (m && m[2]) imagens.add(m[2]);
+        }
+    });
+
+    // remove relatório antigo
+    $('#relatorio-location').remove();
+
+    // monta o container
+    const $cont = $('<div id="relatorio-location"></div>').css({
+        'text-align': 'center',
+        'margin': '40px auto',
+        'padding': '16px',
+        'border': '3px solid #7758ec',
+        'border-radius': '12px',
+        'background': '#f7f5ff',
+        'max-width': '1000px'
+    });
+
+    $cont.append('<h2 style="color:#7758ec;margin-top:0">Location Backgrounds Faltando (Únicos)</h2>');
+
+    if (imagens.size === 0) {
+        $cont.append('<p><b>✔ Nenhum background faltando em Location.</b></p>');
+        $('body').append($cont);
+        return;
+    }
+
+    const $grid = $('<div></div>').css({
+        'display': 'flex',
+        'flex-wrap': 'wrap',
+        'justify-content': 'center',
+        'gap': '12px'
+    });
+
+    imagens.forEach(src => {
+        const $box = $('<div></div>').css({
+            'width': '140px',
+            'padding': '8px',
+            'border-radius': '10px',
+            'background': 'white',
+            'box-shadow': '0 4px 10px rgba(0,0,0,0.12)',
+            'text-align': 'center'
+        });
+
+        const $img = $('<img>').attr('src', src).css({
+            'width': '120px',
+            'height': '80px',
+            'object-fit': 'cover',
+            'display': 'block',
+            'margin': '0 auto'
+        });
+
+        $box.append($img);
+        $grid.append($box);
+    });
+
+    $cont.append($grid);
+    $('body').append($cont);
+
+    // rolar até o relatório
+    $('html, body').animate({
+        scrollTop: $('#relatorio-location').offset().top - 30
+    }, 400);
+});
+</script>
+
+
 </body>
 </html>
