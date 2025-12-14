@@ -789,8 +789,8 @@
 5Unova,Kyurem,genderless,TRUE,FALSE,FALSE,646,FALSE
 5Unova,Kyurem white,genderless,TRUE,FALSE,FALSE,646,FALSE
 5Unova,Kyurem black,genderless,TRUE,FALSE,FALSE,646,FALSE
-5Unova,Keldeo,genderless,FALSE,FALSE,FALSE,647,FALSE
-5Unova,Keldeo resolute,genderless,FALSE,FALSE,FALSE,647,FALSE
+5Unova,Keldeo,genderless,TRUE,FALSE,FALSE,647,FALSE
+5Unova,Keldeo resolute,genderless,TRUE,FALSE,FALSE,647,FALSE
 5Unova,Meloetta,genderless,TRUE,FALSE,FALSE,648,FALSE
 5Unova,Meloetta pirouette,genderless,FALSE,FALSE,FALSE,648,FALSE
 5Unova,Genesect,genderless,TRUE,FALSE,FALSE,649,FALSE
@@ -936,9 +936,9 @@
 7Alola,Popplio,both,TRUE,FALSE,FALSE,728,FALSE
 7Alola,Brionne,both,TRUE,FALSE,FALSE,729,FALSE
 7Alola,Primarina,both,TRUE,FALSE,FALSE,730,FALSE
-7Alola,Pikipek,both,FALSE,TRUE,FALSE,731,FALSE
-7Alola,Trumbeak,both,FALSE,TRUE,FALSE,732,FALSE
-7Alola,Toucannon,both,FALSE,TRUE,FALSE,733,FALSE
+7Alola,Pikipek,both,TRUE,TRUE,FALSE,731,FALSE
+7Alola,Trumbeak,both,TRUE,TRUE,FALSE,732,FALSE
+7Alola,Toucannon,both,TRUE,TRUE,FALSE,733,FALSE
 7Alola,Yungoos,both,TRUE,FALSE,FALSE,734,FALSE
 7Alola,Gumshoos,both,TRUE,FALSE,FALSE,735,FALSE
 7Alola,Grubbin,both,TRUE,TRUE,FALSE,736,FALSE
@@ -1132,8 +1132,8 @@
 8Galar,Eiscue noice,both,FALSE,FALSE,FALSE,875,FALSE
 8Galar,Indeedee,male,TRUE,FALSE,FALSE,876,FALSE
 8Galar,Indeedee female,female,TRUE,FALSE,FALSE,876,FALSE
-8Galar,Morpeko,both,FALSE,FALSE,FALSE,877,FALSE
-8Galar,Morpeko hangry,both,FALSE,FALSE,FALSE,877,FALSE
+8Galar,Morpeko,both,TRUE,FALSE,FALSE,877,FALSE
+8Galar,Morpeko hangry,both,TRUE,FALSE,FALSE,877,FALSE
 8Galar,Cufant,both,FALSE,FALSE,FALSE,878,FALSE
 8Galar,Copperajah,both,FALSE,FALSE,FALSE,879,FALSE
 8Galar,Dracozolt,genderless,FALSE,FALSE,FALSE,880,FALSE
@@ -1492,6 +1492,7 @@ Event,Pichu new year,both,TRUE,FALSE,FALSE,172,FALSE
 Event,Pichu spring2023,both,TRUE,FALSE,FALSE,172,FALSE
 Event,Togepi flower,both,TRUE,FALSE,FALSE,175,FALSE
 Event,Togetic flower,both,TRUE,FALSE,FALSE,176,FALSE
+Event,Sudowoodo holiday,difference,TRUE,FALSE,FALSE,185,FALSE
 Event,Wooper hat,difference,TRUE,FALSE,FALSE,194,FALSE
 Event,Quagsire hat,difference,TRUE,FALSE,FALSE,195,FALSE
 Event,Espeon day,both,TRUE,FALSE,FALSE,196,FALSE
@@ -1582,6 +1583,8 @@ Event,Noivern headband,both,TRUE,FALSE,FALSE,715,FALSE
 Event,Rowlet halloween,both,TRUE,FALSE,FALSE,722,FALSE
 Event,Dartrix halloween,both,TRUE,FALSE,FALSE,723,FALSE
 Event,Decidueye halloween,both,TRUE,FALSE,FALSE,724,FALSE
+Event,Charjabug holiday,both,TRUE,FALSE,FALSE,737,FALSE
+Event,Vikavolt holiday,both,TRUE,FALSE,FALSE,738,FALSE
 Event,Bewear wilderness cape,both,TRUE,FALSE,FALSE,760,FALSE
 Event,Wooloo holiday,both,TRUE,FALSE,FALSE,831,FALSE
 Event,Dubwool holiday,both,TRUE,FALSE,FALSE,832,FALSE
@@ -2024,6 +2027,9 @@ Location,Pikachu,Location Background Pokelid Miyazaki,,,,25,
 Location,Pikachu,Location Background Pokelid Nagasaki,,,,25,
 Location,Pikachu,Location Background Pokelid Okinawa,,,,25,
 Location,Pikachu,Location Background Pokelid Saga,,,,25,
+Location,Eevee explorer,Location Background_City Safari Sydney,,,,133,
+Location,Eevee explorer,Location Background_City Safari Buenos Aires,,,,133,
+Location,Eevee explorer,Location Background_City Safari Miami,,,,133,
 Location,Pikachu,Location Background Pokelid Aichi,,,,25,
 Location,Pikachu,Location Background Pokelid Akita,,,,25,
 Location,Pikachu,Location Background Pokelid Aomori,,,,25,
