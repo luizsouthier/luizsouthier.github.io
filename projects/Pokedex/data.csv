@@ -443,9 +443,9 @@
 3Hoenn,Wynaut,both,TRUE,FALSE,FALSE,360,FALSE
 3Hoenn,Snorunt,both,TRUE,TRUE,FALSE,361,FALSE
 3Hoenn,Glalie,both,TRUE,TRUE,FALSE,362,FALSE
-3Hoenn,Spheal,both,TRUE,TRUE,FALSE,363,FALSE
-3Hoenn,Sealeo,both,TRUE,TRUE,FALSE,364,FALSE
-3Hoenn,Walrein,both,TRUE,TRUE,FALSE,365,FALSE
+3Hoenn,Spheal,both,TRUE,TRUE,FALSE,363,TRUE
+3Hoenn,Sealeo,both,TRUE,TRUE,FALSE,364,TRUE
+3Hoenn,Walrein,both,TRUE,TRUE,FALSE,365,TRUE
 3Hoenn,Clamperl,both,TRUE,FALSE,FALSE,366,FALSE
 3Hoenn,Huntail,both,TRUE,FALSE,FALSE,367,FALSE
 3Hoenn,Gorebyss,both,TRUE,FALSE,FALSE,368,FALSE
@@ -2057,3 +2057,4 @@ Location,Pikachu,Location Background Pokelid Tokyo,,,,25,
 Location,Pikachu,Location Background Pokelid Toyama,,,,25,
 Location,Pikachu,Location Background Pokelid Wakayama,,,,25,
 Location,Pikachu,Location Background Pokelid Yamagata,,,,25,
+Location,Pikachu,Location_Background_NFL_Cardinals,,,,25,
