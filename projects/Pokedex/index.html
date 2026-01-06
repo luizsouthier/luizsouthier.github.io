@@ -952,7 +952,6 @@ $(document).on('click', '#btn-relatorio-location', function () {
         'border': '3px solid #7758ec',
         'border-radius': '12px',
         'background': '#f7f5ff',
-        'max-width': '1000px'
     });
 
     $cont.append('<h2 style="color:#7758ec;margin-top:0">Looking For</h2>');
@@ -1020,7 +1019,126 @@ imagens.forEach(src => {
     $('html, body').animate({
         scrollTop: $('#relatorio-location').offset().top - 30
     }, 400);
+	
+    // ---------------------------------------------------------
+    //  RELATÓRIO DE BACKGROUNDS FALTANDO — SPECIAL (AUTOMÁTICO)
+    // ---------------------------------------------------------
+
+    // remove relatório antigo de special
+    $('#relatorio-special').remove();
+
+    const cardsSpecial = $('#Special .user-pokedex');
+
+    const $contSpecial = $('<div id="relatorio-special"></div>').css({
+        'text-align': 'center',
+        'margin': '40px auto',
+        'padding': '16px',
+        'border': '3px solid #7758ec',
+        'border-radius': '12px',
+        'background': '#f7f5ff',    });
+
+    $contSpecial.append('<h2 style="color:#7758ec;margin-top:0">Looking For — Special</h2>');
+
+    const $gridSpecial = $('<div></div>').css({
+        'display': 'flex',
+        'flex-wrap': 'wrap',
+        'justify-content': 'center',
+        'gap': '12px'
+    });
+
+    let countSpecial = 0;
+
+    cardsSpecial.each(function () {
+        const $card = $(this);
+
+        // se já tem background, ignora
+        if ($card.hasClass('hasbackground')) return;
+
+        // tenta obter imagem de fundo
+        let bg = $card.find('.image-regular').css('background-image');
+
+        if ((!bg || bg === 'none') && $card.find('.image-regular').attr('style')) {
+            const s = $card.find('.image-regular').attr('style');
+            const m = s.match(/url\((['"]?)(.*?)\1\)/);
+            if (m) bg = `url("${m[2]}")`;
+        }
+
+        if (!bg || bg === 'none') return;
+
+        const m = bg.match(/url\((['"]?)(.*?)\1\)/);
+        if (!m || !m[2]) return;
+
+        countSpecial++;
+
+        const src = m[2];
+        const nomePokemon = $card.find('.name').text();
+
+      const $box = $('<div></div>').css({
+            'width': '160px',
+            'padding': '8px',
+            'border-radius': '10px',
+            'background': 'white',
+            'box-shadow': '0 4px 10px rgba(0,0,0,0.12)',
+            'text-align': 'center'
+        });
+
+        // container visual (fundo + pokemon)
+        const $visual = $('<div></div>').css({
+            'width': '140px',
+            'height': '100px',
+            'margin': '0 auto',
+            'border-radius': '8px',
+            'background-image': `url(${src})`,
+            'background-size': 'cover',
+            'background-position': 'center',
+            'position': 'relative',
+            'overflow': 'hidden'
+        });
+
+        // imagem do Pokémon (por cima do fundo)
+        const $pokemonImg = $('<img>').attr(
+            'src',
+            $card.find('img').attr('src') // usa a mesma imagem do card original
+        ).css({
+            'width': '80px',
+            'height': '80px',
+            'position': 'absolute',
+            'bottom': '0',
+            'left': '50%',
+            'transform': 'translateX(-50%)'
+        });
+
+        const $label = $('<div></div>').text(nomePokemon).css({
+            'margin-top': '6px',
+            'font-size': '12px',
+            'font-weight': '600',
+            'color': '#333'
+        });
+
+        $visual.append($pokemonImg);
+        $box.append($visual);
+        $box.append($label);
+        $gridSpecial.append($box);
+    });
+
+    if (countSpecial === 0) {
+        $contSpecial.append('<p><b>✔ Nenhum background faltando em Special.</b></p>');
+    } else {
+        $contSpecial.append($gridSpecial);
+    }
+
+    // adiciona logo abaixo do relatório de Location
+    $('#relatorio-location').after($contSpecial);	
+	
+	
+	
+	
+	
 });
+
+
+
+
 </script>
 
 
